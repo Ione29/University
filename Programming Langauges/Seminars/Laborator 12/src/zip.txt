@@ -1,0 +1,1087 @@
+00401,Pleasantville               ,NY,914,0471317392381,Westchester              ,Eastern ,201  ,2.65  ,863200         
+00501,Holtsville                  ,NY,516,0470380145536,Suffolk                  ,Eastern ,25   ,3.07  ,1312000         
+00544,Holtsville                  ,NY,516,0470380145536,Suffolk                  ,Eastern ,25   ,3.07  ,1312000       
+01001,Agawam                      ,MA,413,0472206711542,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01002,Amherst                     ,MA,413,0472235915433,Hampshire                ,Eastern ,140  ,2.57  ,141500          
+01003,Amherst                     ,MA,413,0472235725112,Hampshire                ,Eastern ,140  ,2.57  ,141500          
+01004,Amherst                     ,MA,413,0472235723068,Hampshire                ,Eastern ,140  ,2.57  ,141500          
+01005,Barre                       ,MA,508,0472241200695,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01007,Belchertown                 ,MA,413,0472224706185,Hampshire                ,Eastern ,140  ,2.57  ,141500          
+01008,Blandford                   ,MA,413,0472219841403,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01009,Bondsville                  ,MA,413,0472223142558,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01010,Brimfield                   ,MA,413,0472212103278,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01011,Chester                     ,MA,413,0472229881625,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01012,Chesterfield                ,MA,413,0472238931817,Hampshire                ,Eastern ,140  ,2.57  ,141500          
+01013,Chicopee                    ,MA,413,0472216602642,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01014,Chicopee                    ,MA,413,0472216408863,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01020,Chicopee                    ,MA,413,0472215777023,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01021,Chicopee                    ,MA,413,0472216408863,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01022,Chicopee                    ,MA,413,0472215946438,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01026,Cummington                  ,MA,413,0472249602994,Hampshire                ,Eastern ,140  ,2.57  ,141500          
+01027,Easthampton                 ,MA,413,0472226674066,Hampshire                ,Eastern ,140  ,2.57  ,141500          
+01028,East Longmeadow             ,MA,413,0472205616136,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01029,East Otis                   ,MA,413,0472310733530,Berkshire                ,Eastern ,1039 ,2.58  ,141300          
+01030,Feeding Hills               ,MA,413,0472206689055,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01031,Gilbertville                ,MA,413,0472231192914,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01032,Goshen                      ,MA,413,0472248400413,Hampshire                ,Eastern ,140  ,2.57  ,141500          
+01033,Granby                      ,MA,413,0472225514795,Hampshire                ,Eastern ,140  ,2.57  ,141500          
+01034,Granville                   ,MA,413,0472208675133,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01035,Hadley                      ,MA,413,0472235488784,Hampshire                ,Eastern ,140  ,2.57  ,141500          
+01036,Hampden                     ,MA,413,0472204612288,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01037,Hardwick                    ,MA,413,0472232500000,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01038,Hatfield                    ,MA,413,0472236701509,Hampshire                ,Eastern ,140  ,2.57  ,141500          
+01039,Haydenville                 ,MA,413,0472237705800,Hampshire                ,Eastern ,140  ,2.57  ,141500          
+01040,Holyoke                     ,MA,413,0472226013936,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01041,Holyoke                     ,MA,413,0472226014627,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01050,Huntington                  ,MA,413,0472228382196,Hampshire                ,Eastern ,140  ,2.57  ,141500          
+01053,Leeds                       ,MA,413,0472236590873,Hampshire                ,Eastern ,140  ,2.57  ,141500          
+01054,Leverett                    ,MA,413,0472244484905,Franklin                 ,Eastern ,250  ,2.56  ,66000           
+01056,Ludlow                      ,MA,413,0472214962012,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01057,Monson                      ,MA,413,0472203919565,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01059,Amherst                     ,MA,413,0472235723068,Hampshire                ,Eastern ,140  ,2.57  ,141500          
+01060,Northampton                 ,MA,413,0472236253874,Hampshire                ,Eastern ,140  ,2.57  ,141500          
+01061,Northampton                 ,MA,413,0472236245107,Hampshire                ,Eastern ,140  ,2.57  ,141500          
+01063,Northampton                 ,MA,413,0472236245107,Hampshire                ,Eastern ,140  ,2.57  ,141500          
+01066,North Hatfield              ,MA,413,0472246121218,Hampshire                ,Eastern ,140  ,2.57  ,141500          
+01068,Oakham                      ,MA,508,0472230544601,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01069,Palmer                      ,MA,413,0472213526966,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01070,Plainfield                  ,MA,413,0472259127317,Hampshire                ,Eastern ,140  ,2.57  ,141500          
+01071,Russell                     ,MA,413,0472218866155,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01072,Shutesbury                  ,MA,413,0472244514636,Franklin                 ,Eastern ,250  ,2.56  ,66000           
+01073,Southampton                 ,MA,413,0472227239791,Hampshire                ,Eastern ,140  ,2.57  ,141500          
+01074,South Barre                 ,MA,508,0472230895538,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01075,South Hadley                ,MA,413,0472225568953,Hampshire                ,Eastern ,140  ,2.57  ,141500          
+01077,Southwick                   ,MA,413,0472207574084,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01079,Thorndike                   ,MA,413,0472213837651,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01080,Three Rivers                ,MA,413,0472213863311,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01081,Wales                       ,MA,413,0472202618907,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01082,Ware                        ,MA,413,0472222539983,Hampshire                ,Eastern ,140  ,2.57  ,141500          
+01083,Warren                      ,MA,413,0472221192157,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01084,West Chesterfield           ,MA,413,0472248072684,Hampshire                ,Eastern ,140  ,2.57  ,141500          
+01085,Westfield                   ,MA,413,0472217252056,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01086,Westfield                   ,MA,413,0472217255000,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01088,West Hatfield               ,MA,413,0472236633976,Hampshire                ,Eastern ,140  ,2.57  ,141500          
+01089,West Springfield            ,MA,413,0472216041546,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01090,West Springfield            ,MA,413,0472216026098,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01092,West Warren                 ,MA,413,0472222132553,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01093,Whately                     ,MA,413,0472246339573,Franklin                 ,Eastern ,250  ,2.56  ,66000           
+01094,Wheelwright                 ,MA,413,0472231541093,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01095,Wilbraham                   ,MA,413,0472214231581,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01096,Williamsburg                ,MA,413,0472237921758,Hampshire                ,Eastern ,140  ,2.57  ,141500          
+01097,Woronoco                    ,MA,413,0472218633090,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01098,Worthington                 ,MA,413,0472239944512,Hampshire                ,Eastern ,140  ,2.57  ,141500          
+01101,Springfield                 ,MA,413,0472215091043,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01102,Springfield                 ,MA,413,0472215091043,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01103,Springfield                 ,MA,413,0472215092013,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01104,Springfield                 ,MA,413,0472215370325,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01105,Springfield                 ,MA,413,0472215071911,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01106,East Longmeadow             ,MA,413,0472205488333,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01107,Springfield                 ,MA,413,0472216108694,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01108,Springfield                 ,MA,413,0472205868511,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01109,Springfield                 ,MA,413,0472215157133,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01111,Springfield                 ,MA,413,0472215091043,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01114,Springfield                 ,MA,413,0472215091043,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01115,Springfield                 ,MA,413,0472215091043,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01116,East Longmeadow             ,MA,413,0472205614341,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01118,Springfield                 ,MA,413,0472205924936,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01119,Springfield                 ,MA,413,0472215215161,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01128,Springfield                 ,MA,413,0472204985778,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01129,Springfield                 ,MA,413,0472215302199,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01133,Springfield                 ,MA,413,0472215091043,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01138,Springfield                 ,MA,413,0472215091043,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01139,Springfield                 ,MA,413,0472215091043,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01144,Springfield                 ,MA,413,0472215093128,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01151,Springfield                 ,MA,413,0472215505447,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01152,Springfield                 ,MA,413,0472215092281,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01199,Springfield                 ,MA,413,0472215091043,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01201,Pittsfield                  ,MA,413,0472342455493,Berkshire                ,Eastern ,1039 ,2.58  ,141300          
+01202,Pittsfield                  ,MA,413,0472342540508,Berkshire                ,Eastern ,1039 ,2.58  ,141300          
+01203,Pittsfield                  ,MA,413,0472342540508,Berkshire                ,Eastern ,1039 ,2.58  ,141300          
+01220,Adams                       ,MA,413,0472361214764,Berkshire                ,Eastern ,1039 ,2.58  ,141300          
+01222,Ashley Falls                ,MA,413,0472303535955,Berkshire                ,Eastern ,1039 ,2.58  ,141300          
+01223,Becket                      ,MA,413,0472330390480,Berkshire                ,Eastern ,1039 ,2.58  ,141300          
+01224,Berkshire                   ,MA,413,0472351192353,Berkshire                ,Eastern ,1039 ,2.58  ,141300          
+01225,Cheshire                    ,MA,413,0472351650730,Berkshire                ,Eastern ,1039 ,2.58  ,141300          
+01226,Dalton                      ,MA,413,0472341755951,Berkshire                ,Eastern ,1039 ,2.58  ,141300          
+01227,Dalton                      ,MA,413,0472341763667,Berkshire                ,Eastern ,1039 ,2.58  ,141300          
+01229,Glendale                    ,MA,413,0472323843434,Berkshire                ,Eastern ,1039 ,2.58  ,141300          
+01230,Great Barrington            ,MA,413,0472313832907,Berkshire                ,Eastern ,1039 ,2.58  ,141300          
+01235,Hinsdale                    ,MA,413,0472340365146,Berkshire                ,Eastern ,1039 ,2.58  ,141300          
+01236,Housatonic                  ,MA,413,0472323565545,Berkshire                ,Eastern ,1039 ,2.58  ,141300          
+01237,Lanesboro                   ,MA,413,0472352139063,Berkshire                ,Eastern ,1039 ,2.58  ,141300          
+01238,Lee                         ,MA,413,0472332025469,Berkshire                ,Eastern ,1039 ,2.58  ,141300          
+01240,Lenox                       ,MA,413,0472332682055,Berkshire                ,Eastern ,1039 ,2.58  ,141300          
+01242,Lenox Dale                  ,MA,413,0472332346518,Berkshire                ,Eastern ,1039 ,2.58  ,141300          
+01243,Middlefield                 ,MA,413,0472330418536,Hampshire                ,Eastern ,140  ,2.57  ,141500          
+01244,Mill River                  ,MA,413,0472312163891,Berkshire                ,Eastern ,1039 ,2.58  ,141300          
+01245,Monterey                    ,MA,413,0472312825015,Berkshire                ,Eastern ,1039 ,2.58  ,141300          
+01247,North Adams                 ,MA,413,0472361909896,Berkshire                ,Eastern ,1039 ,2.58  ,141300          
+01252,North Egremont              ,MA,413,0472314936873,Berkshire                ,Eastern ,1039 ,2.58  ,141300          
+01253,Otis                        ,MA,413,0472310991056,Berkshire                ,Eastern ,1039 ,2.58  ,141300          
+01254,Richmond                    ,MA,413,0472333770880,Berkshire                ,Eastern ,1039 ,2.58  ,141300          
+01255,Sandisfield                 ,MA,413,0472311130261,Berkshire                ,Eastern ,1039 ,2.58  ,141300          
+01256,Savoy                       ,MA,413,0472350625986,Berkshire                ,Eastern ,1039 ,2.58  ,141300          
+01257,Sheffield                   ,MA,413,0472313058250,Berkshire                ,Eastern ,1039 ,2.58  ,141300          
+01258,South Egremont              ,MA,413,0472314517669,Berkshire                ,Eastern ,1039 ,2.58  ,141300          
+01259,Southfield                  ,MA,413,0472312035382,Berkshire                ,Eastern ,1039 ,2.58  ,141300          
+01260,South Lee                   ,MA,413,0472322777788,Berkshire                ,Eastern ,1039 ,2.58  ,141300          
+01262,Stockbridge                 ,MA,413,0472323827058,Berkshire                ,Eastern ,1039 ,2.58  ,141300          
+01263,Stockbridge                 ,MA,413,0472323827058,Berkshire                ,Eastern ,1039 ,2.58  ,141300          
+01264,Tyringham                   ,MA,413,0472322405482,Berkshire                ,Eastern ,1039 ,2.58  ,141300          
+01266,West Stockbridge            ,MA,413,0472333465687,Berkshire                ,Eastern ,1039 ,2.58  ,141300          
+01267,Williamstown                ,MA,413,0472371191919,Berkshire                ,Eastern ,1039 ,2.58  ,141300          
+01270,Windsor                     ,MA,413,0472350150294,Berkshire                ,Eastern ,1039 ,2.58  ,141300          
+01301,Greenfield                  ,MA,413,0472255891276,Franklin                 ,Eastern ,250  ,2.56  ,66000           
+01302,Greenfield                  ,MA,413,0472256807050,Franklin                 ,Eastern ,250  ,2.56  ,66000           
+01330,Ashfield                    ,MA,413,0472257167983,Franklin                 ,Eastern ,250  ,2.56  ,66000           
+01331,Athol                       ,MA,508,0472252923736,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01337,Bernardston                 ,MA,413,0472265750442,Franklin                 ,Eastern ,250  ,2.56  ,66000           
+01338,Buckland                    ,MA,413,0472257992083,Franklin                 ,Eastern ,250  ,2.56  ,66000           
+01339,Charlemont                  ,MA,413,0472268168408,Franklin                 ,Eastern ,250  ,2.56  ,66000           
+01340,Colrain                     ,MA,413,0472267706332,Franklin                 ,Eastern ,250  ,2.56  ,66000           
+01341,Conway                      ,MA,413,0472257008127,Franklin                 ,Eastern ,250  ,2.56  ,66000           
+01342,Deerfield                   ,MA,413,0472256302942,Franklin                 ,Eastern ,250  ,2.56  ,66000           
+01343,Drury                       ,MA,413,0472269592821,Berkshire                ,Eastern ,1039 ,2.58  ,141300          
+01344,Erving                      ,MA,413,0472264032498,Franklin                 ,Eastern ,250  ,2.56  ,66000           
+01346,Heath                       ,MA,413,0472266565172,Franklin                 ,Eastern ,250  ,2.56  ,66000           
+01347,Lake Pleasant               ,MA,413,0472255516846,Franklin                 ,Eastern ,250  ,2.56  ,66000           
+01349,Turners Falls               ,MA,413,0472254882959,Franklin                 ,Eastern ,250  ,2.56  ,66000           
+01350,Monroe Bridge               ,MA,413,0472279242127,Franklin                 ,Eastern ,250  ,2.56  ,66000           
+01351,Montague                    ,MA,413,0472255334651,Franklin                 ,Eastern ,250  ,2.56  ,66000           
+01354,Mount Hermon                ,MA,413,0472264788762,Franklin                 ,Eastern ,250  ,2.56  ,66000           
+01355,New Salem                   ,MA,508,0472253032299,Franklin                 ,Eastern ,250  ,2.56  ,66000           
+01360,Northfield                  ,MA,413,0472264943728,Franklin                 ,Eastern ,250  ,2.56  ,66000           
+01364,Orange                      ,MA,508,0472253512218,Franklin                 ,Eastern ,250  ,2.56  ,66000           
+01366,Petersham                   ,MA,508,0472241887317,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01367,Rowe                        ,MA,413,0472269902729,Franklin                 ,Eastern ,250  ,2.56  ,66000           
+01368,Royalston                   ,MA,508,0472261787853,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01369,Shattuckville               ,MA,413,0472267327993,Franklin                 ,Eastern ,250  ,2.56  ,66000           
+01370,Shelburne Falls             ,MA,413,0472257919271,Franklin                 ,Eastern ,250  ,2.56  ,66000           
+01373,South Deerfield             ,MA,413,0472246707646,Franklin                 ,Eastern ,250  ,2.56  ,66000           
+01375,Sunderland                  ,MA,413,0472245685004,Franklin                 ,Eastern ,250  ,2.56  ,66000           
+01376,Turners Falls               ,MA,413,0472265316030,Franklin                 ,Eastern ,250  ,2.56  ,66000           
+01378,Warwick                     ,MA,413,0472263831994,Franklin                 ,Eastern ,250  ,2.56  ,66000           
+01379,Wendell                     ,MA,413,0472253497649,Franklin                 ,Eastern ,250  ,2.56  ,66000           
+01380,Wendell Depot               ,MA,508,0472253958670,Franklin                 ,Eastern ,250  ,2.56  ,66000           
+01420,Fitchburg                   ,MA,508,0472158800175,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01430,Ashburnham                  ,MA,508,0472169529993,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01431,Ashby                       ,MA,508,0472168721570,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01432,Ayer                        ,MA,508,0472155678030,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01433,Ft Devens                   ,MA,508,0472156414188,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01436,Baldwinville                ,MA,508,0472260076462,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01438,East Templeton              ,MA,508,0472250633715,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01440,Gardner                     ,MA,508,0472159765825,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01441,Gardner                     ,MA,508,0472159795806,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01450,Groton                      ,MA,508,0472165171442,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01451,Harvard                     ,MA,508,0472145988289,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01452,Hubbardston                 ,MA,508,0472240709865,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01453,Leominster                  ,MA,508,0472157257747,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01460,Littleton                   ,MA,508,0472155317078,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01462,Lunenburg                   ,MA,508,0472157924775,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01463,Pepperell                   ,MA,508,0472165675746,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01464,Shirley                     ,MA,508,0472156745797,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01466,Ashburnham                  ,MA,508,0472169311424,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01467,Still River                 ,MA,508,0472146911871,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01468,Templeton                   ,MA,508,0472250568480,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01469,Townsend                    ,MA,508,0472166693821,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01470,Groton                      ,MA,508,0472165171510,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01471,Groton                      ,MA,508,0472165171510,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01472,West Groton                 ,MA,508,0472166024728,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01473,Westminster                 ,MA,508,0472159417289,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01474,Townsend                    ,MA,508,0472167742239,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01475,Winchendon                  ,MA,508,0472260750010,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01477,Winchendon Springs          ,MA,508,0472260914543,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01501,Auburn                      ,MA,508,0472128035800,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01503,Berlin                      ,MA,508,0472136830916,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01504,Blackstone                  ,MA,508,0472105227883,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01505,Boylston                    ,MA,508,0472137520316,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01506,Brookfield                  ,MA,508,0472220193869,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01507,Charlton                    ,MA,508,0472119279398,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01508,Charlton City               ,MA,508,0472119485889,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01509,Charlton Depot              ,MA,508,0472119773912,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01510,Clinton                     ,MA,508,0472146282547,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01515,East Brookfield             ,MA,508,0472220235628,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01516,East Douglas                ,MA,508,0472107545724,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01517,East Princeton              ,MA,508,0472148732984,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01518,Fiskdale                    ,MA,508,0472211118141,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01519,Grafton                     ,MA,508,0472126082228,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01520,Holden                      ,MA,508,0472138551777,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01521,Holland                     ,MA,508,0472201838066,Hampden                  ,Eastern ,70   ,2.64  ,444900          
+01522,Jefferson                   ,MA,508,0472138683264,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01523,Lancaster                   ,MA,508,0472146582234,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01524,Leicester                   ,MA,508,0472129319222,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01525,Linwood                     ,MA,508,0472106947523,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01526,Manchaug                    ,MA,508,0472107944841,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01527,Millbury                    ,MA,508,0472117965119,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01529,Millville                   ,MA,508,0472105287184,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01531,New Braintree               ,MA,413,0472231128960,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01532,Northborough                ,MA,508,0472136149742,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01534,Northbridge                 ,MA,508,0472116344584,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01535,North Brookfield            ,MA,508,0472220689131,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01536,North Grafton               ,MA,508,0472127312616,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01537,North Oxford                ,MA,508,0472118761936,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01538,North Uxbridge              ,MA,508,0472106847157,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01539,Oakdale                     ,MA,508,0472137796181,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01540,Oxford                      ,MA,508,0472118168252,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01541,Princeton                   ,MA,508,0472148486086,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01542,Rochdale                    ,MA,508,0472119807466,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01543,Rutland                     ,MA,508,0472139766427,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01545,Shrewsbury                  ,MA,508,0472127814967,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01546,Shrewsbury                  ,MA,508,0472127915383,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01549,Berlin                      ,MA,508,0472136536112,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01550,Southbridge                 ,MA,508,0472200744791,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01560,South Grafton               ,MA,508,0472116788057,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01561,South Lancaster             ,MA,508,0472146484745,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01562,Spencer                     ,MA,508,0472129496102,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01564,Sterling                    ,MA,508,0472147366771,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01566,Sturbridge                  ,MA,508,0472210084003,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01568,West Upton                  ,MA,508,0472116713893,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01569,Uxbridge                    ,MA,508,0472106733549,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01570,Webster                     ,MA,508,0472109433230,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01571,Dudley                      ,MA,508,0472109435006,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01580,Westborough                 ,MA,508,0472126619647,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01581,Westborough                 ,MA,508,0472126609261,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01582,Westborough                 ,MA,508,0472126619647,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01583,West Boylston               ,MA,508,0472137589501,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01585,West Brookfield             ,MA,413,0472221333426,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01586,Millbury                    ,MA,508,0472118705269,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01587,West Upton                  ,MA,508,0472116727276,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01588,Whitinsville                ,MA,508,0472116184055,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01590,Wilkinsonville              ,MA,508,0472117821254,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01600,Worcester                   ,MA,508,0472128602258,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01601,Worcester                   ,MA,508,0472128602258,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01602,Worcester                   ,MA,508,0472128729901,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01603,Worcester                   ,MA,508,0472128433891,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01604,Worcester                   ,MA,508,0472127573208,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01605,Worcester                   ,MA,508,0472127775006,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01606,Worcester                   ,MA,508,0472137192771,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01607,Worcester                   ,MA,508,0472127298414,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01608,Worcester                   ,MA,508,0472128602268,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01609,Worcester                   ,MA,508,0472128606232,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01610,Worcester                   ,MA,508,0472128407979,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01611,Worcester                   ,MA,508,0472128472541,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01612,Worcester                   ,MA,508,0472139122987,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01613,Worcester                   ,MA,508,0472128602258,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01614,Worcester                   ,MA,508,0472128602258,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01615,Worcester                   ,MA,508,0472128602258,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01653,Worcester                   ,MA,508,0472128602258,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01654,Worcester                   ,MA,508,0472128602258,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01655,Worcester                   ,MA,508,0472128602258,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01701,Framingham                  ,MA,508,0472134300233,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01718,Village Of Nagog Woods      ,MA,508,0472154056125,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01719,Boxboro                     ,MA,508,0472144776765,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01720,Acton                       ,MA,508,0472144835442,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01721,Ashland                     ,MA,508,0472124661346,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01730,Bedford                     ,MA,617,0472142971684,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01731,Bedford                     ,MA,617,0472142970637,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01740,Bolton                      ,MA,508,0472146302875,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01741,Carlisle                    ,MA,508,0472153258080,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01742,Concord                     ,MA,508,0472143654103,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01745,Southborough                ,MA,508,0472125904477,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01746,Holliston                   ,MA,508,0472114938580,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01747,Hopedale                    ,MA,508,0472115244547,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01748,Hopkinton                   ,MA,508,0472125228143,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01749,Hudson                      ,MA,508,0472135878537,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01752,Marlborough                 ,MA,508,0472135445843,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01754,Maynard                     ,MA,508,0472144353030,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01756,Mendon                      ,MA,508,0472115052418,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01757,Milford                     ,MA,508,0472115420421,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01760,Natick                      ,MA,508,0472123859387,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01770,Sherborn                    ,MA,508,0472123472015,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01772,Southborough                ,MA,508,0472135030125,Worcester                ,Eastern ,475  ,2.66  ,661100          
+01773,Lincoln                     ,MA,508,0472143300340,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01775,Stow                        ,MA,508,0472145308469,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01776,Sudbury                     ,MA,508,0472134814275,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01778,Wayland                     ,MA,508,0472133662037,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01784,Woodville                   ,MA,508,0472125367255,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01801,Woburn                      ,MA,617,0472141842803,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01803,Burlington                  ,MA,617,0472151095575,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01805,Burlington                  ,MA,617,0472151094671,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01806,Woburn                      ,MA,617,0472141759228,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01807,Woburn                      ,MA,617,0472141759228,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01808,Woburn                      ,MA,617,0472141759228,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01810,Andover                     ,MA,508,0472161459933,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01812,Andover                     ,MA,508,0472161538735,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01813,Woburn                      ,MA,617,0472141759228,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01814,Woburn                      ,MA,617,0472141759228,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01815,Woburn                      ,MA,617,0472141759228,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01821,Billerica                   ,MA,508,0472152569829,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01822,Billerica                   ,MA,508,0472152568934,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01824,Chelmsford                  ,MA,508,0472153949818,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01826,Dracut                      ,MA,508,0472163609239,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01827,Dunstable                   ,MA,508,0472164785303,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01830,Haverhill                   ,MA,508,0472170775762,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01831,Haverhill                   ,MA,508,0472170776718,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01832,Haverhill                   ,MA,508,0472170787829,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01833,Georgetown                  ,MA,508,0472079295008,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01834,Groveland                   ,MA,508,0472170536083,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01835,Haverhill                   ,MA,508,0472170684050,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01840,Lawrence                    ,MA,508,0472171067330,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01841,Lawrence                    ,MA,508,0472171067363,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01842,Lawrence                    ,MA,508,0472171066680,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01843,Lawrence                    ,MA,508,0472161960145,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01844,Methuen                     ,MA,508,0472171295254,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01845,North Andover               ,MA,508,0472161818602,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01850,Lowell                      ,MA,508,0472163505582,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01851,Lowell                      ,MA,508,0472163239603,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01852,Lowell                      ,MA,508,0472162394733,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01853,Lowell                      ,MA,508,0472163413030,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01854,Lowell                      ,MA,508,0472163438883,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01860,Merrimac                    ,MA,508,0472180316114,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01862,North Billerica             ,MA,508,0472152781959,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01863,North Chelmsford            ,MA,508,0472163387373,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01864,North Reading               ,MA,508,0472150776316,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01865,Nutting Lake                ,MA,508,0472152368819,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01866,Pinehurst                   ,MA,508,0472152320746,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01867,Reading                     ,MA,617,0472151208394,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01876,Tewksbury                   ,MA,508,0472162131251,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01879,Tyngsboro                   ,MA,508,0472164728400,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01880,Wakefield                   ,MA,617,0472150061932,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01885,West Boxford                ,MA,508,0472170067567,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01886,Westford                    ,MA,508,0472154836908,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01887,Wilmington                  ,MA,508,0472151477348,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01888,Woburn                      ,MA,617,0472141850144,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01889,Woburn                      ,MA,617,0472141759228,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01890,Winchester                  ,MA,617,0472141531514,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+01899,Andover                     ,MA,508,0472161538735,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01901,Lynn                        ,MA,617,0472049642514,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01902,Lynn                        ,MA,617,0472049741148,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01903,Lynn                        ,MA,617,0472049643799,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01904,Lynn                        ,MA,617,0472049868457,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01905,Lynn                        ,MA,617,0472049659095,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01906,Saugus                      ,MA,617,0472140614191,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01907,Swampscott                  ,MA,617,0472049704880,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01908,Nahant                      ,MA,617,0472049215870,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01910,Lynn                        ,MA,617,0472049656070,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01913,Amesbury                    ,MA,508,0472089535016,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01915,Beverly                     ,MA,508,0472058507925,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01921,Boxford                     ,MA,508,0472069690893,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01922,Byfield                     ,MA,508,0472079652380,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01923,Danvers                     ,MA,508,0472059639905,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01929,Essex                       ,MA,508,0472067372815,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01930,Gloucester                  ,MA,508,0472066164444,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01931,Gloucester                  ,MA,508,0472066165285,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01936,Hamilton                    ,MA,508,0472068250787,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01937,Hathorne                    ,MA,508,0472059883518,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01938,Ipswich                     ,MA,508,0472068749060,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01940,Lynnfield                   ,MA,617,0472150207010,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01944,Manchester                  ,MA,508,0472057774527,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01945,Marblehead                  ,MA,617,0472048968564,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01947,Marblehead                  ,MA,617,0472058050803,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01949,Middleton                   ,MA,508,0472150914529,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01950,Newburyport                 ,MA,508,0472088466423,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01951,Newburyport                 ,MA,508,0472088173576,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01952,Salisbury                   ,MA,508,0472088170582,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01960,Peabody                     ,MA,508,0472059583113,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01961,Peabody                     ,MA,508,0472059227982,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01964,Peabody                     ,MA,508,0472059227982,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01965,Prides Crossing             ,MA,508,0472058529500,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01966,Rockport                    ,MA,508,0472066726902,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01969,Rowley                      ,MA,508,0472078176779,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01970,Salem                       ,MA,508,0472058197888,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01971,Salem                       ,MA,508,0472058199742,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01982,South Hamilton              ,MA,508,0472068175366,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01983,Topsfield                   ,MA,508,0472069357018,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01984,Wenham                      ,MA,508,0472068085942,Essex                    ,Eastern ,9    ,2.62  ,649400          
+01985,West Newbury                ,MA,508,0472089081650,Essex                    ,Eastern ,9    ,2.62  ,649400          
+02018,Accord                      ,MA,617,0472018784442,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02019,Bellingham                  ,MA,508,0472104872595,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02020,Brant Rock                  ,MA,617,0472006846117,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02021,Canton                      ,MA,617,0472111545608,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02025,Cohasset                    ,MA,617,0472028309015,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02026,Dedham                      ,MA,617,0472121477274,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02030,Dover                       ,MA,508,0472122486323,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02031,East Mansfield              ,MA,508,0472101273718,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02032,East Walpole                ,MA,508,0472112612544,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02035,Foxboro                     ,MA,508,0472102641184,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02038,Franklin                    ,MA,508,0472104806133,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02040,Greenbush                   ,MA,617,0472017759020,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02041,Green Harbor                ,MA,617,0472006757080,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02043,Hingham                     ,MA,617,0472028073888,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02045,Hull                        ,MA,617,0472039005695,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02047,Humarock                    ,MA,617,0472016396016,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02048,Mansfield                   ,MA,508,0472102046340,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02050,Marshfield                  ,MA,617,0472007919549,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02051,Marshfield Hills            ,MA,617,0472017445083,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02052,Medfield                    ,MA,508,0472113804605,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02053,Medway                      ,MA,508,0472113496974,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02054,Millis                      ,MA,508,0472113763030,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02055,Minot                       ,MA,617,0472027460235,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02056,Norfolk                     ,MA,508,0472113126835,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02059,North Marshfield            ,MA,617,0472017473018,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02060,North Scituate              ,MA,617,0472027188691,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02061,Norwell                     ,MA,617,0472017691370,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02062,Norwood                     ,MA,617,0472112903090,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02065,Marshfield                  ,MA,617,0472007901671,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02066,Scituate                    ,MA,617,0472017836057,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02067,Sharon                      ,MA,617,0472111273759,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02070,Sheldonville                ,MA,508,0472103298736,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02071,South Walpole               ,MA,508,0472112055794,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02072,Stoughton                   ,MA,617,0472111204379,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02081,Walpole                     ,MA,508,0472112455024,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02090,Westwood                    ,MA,617,0472121292455,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02093,Wrentham                    ,MA,508,0472103720403,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02100,Boston                      ,MA,617,0472130568033,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02101,Boston                      ,MA,617,0472130568033,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02102,Boston                      ,MA,617,0472130568033,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02103,Boston                      ,MA,617,0472130568033,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02104,Boston                      ,MA,617,0472130568033,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02105,Boston                      ,MA,617,0472130568033,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02106,Boston                      ,MA,617,0472130568033,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02107,Boston                      ,MA,617,0472130568033,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02108,Boston                      ,MA,617,0472130567120,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02109,Boston                      ,MA,617,0472130757174,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02110,Boston                      ,MA,617,0472130555537,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02111,Boston                      ,MA,617,0472130561146,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02112,Boston                      ,MA,617,0472130568033,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02113,Boston                      ,MA,617,0472130655507,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02114,Boston                      ,MA,617,0472130663724,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02115,Boston                      ,MA,617,0472130492478,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02116,Boston                      ,MA,617,0472130479561,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02117,Boston                      ,MA,617,0472130568033,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02118,Roxbury                     ,MA,617,0472130377367,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02119,Roxbury                     ,MA,617,0472130283571,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02120,Roxbury                     ,MA,617,0472130392783,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02121,Dorchester                  ,MA,617,0472130087244,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02122,Dorchester                  ,MA,617,0472120956599,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02123,Boston                      ,MA,617,0472130568033,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02124,Dorchester                  ,MA,617,0472130073114,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02125,Dorchester                  ,MA,617,0472130265879,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02126,Mattapan                    ,MA,617,0472120793266,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02127,Boston                      ,MA,617,0472130553506,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02128,Boston                      ,MA,617,0472130728874,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02129,Charlestown                 ,MA,617,0472130768478,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02130,Jamaica Plain               ,MA,617,0472131110264,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02131,Roslindale                  ,MA,617,0472131020106,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02132,West Roxbury                ,MA,617,0472131204933,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02133,Boston                      ,MA,617,0472130577905,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02134,Allston                     ,MA,617,0472131731234,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02135,Brighton                    ,MA,617,0472131550321,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02136,Hyde Park                   ,MA,617,0472121718977,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02137,Hyde Park                   ,MA,617,0472120997650,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02138,Cambridge                   ,MA,617,0472131830008,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02139,Cambridge                   ,MA,617,0472131604367,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02140,Cambridge                   ,MA,617,0472141030188,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02141,Cambridge                   ,MA,617,0472130688307,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02142,Cambridge                   ,MA,617,0472130681980,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02143,Somerville                  ,MA,617,0472130892827,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02144,Somerville                  ,MA,617,0472141022112,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02145,Somerville                  ,MA,617,0472130899431,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02146,Brookline                   ,MA,617,0472131321177,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02147,Brookline Village           ,MA,617,0472131323384,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02148,Malden                      ,MA,617,0472140265687,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02149,Everett                     ,MA,617,0472140058376,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02150,Chelsea                     ,MA,617,0472130933363,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02151,Revere                      ,MA,617,0472140214273,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02152,Winthrop                    ,MA,617,0472039785303,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02153,Medford                     ,MA,617,0472141108637,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02154,Waltham                     ,MA,617,0472142024559,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02155,Medford                     ,MA,617,0472141108938,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02156,West Medford                ,MA,617,0472141229812,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02157,Babson Park                 ,MA,617,0472122968060,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02158,Newton                      ,MA,617,0472131584739,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02159,Newton                      ,MA,617,0472131392432,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02160,Newton                      ,MA,617,0472132502703,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02161,Newton                      ,MA,617,0472131271993,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02162,Newton                      ,MA,617,0472132228570,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02163,Boston                      ,MA,617,0472131636224,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02164,Newton                      ,MA,617,0472132123034,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02165,Newton                      ,MA,617,0472132701114,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02166,Newton                      ,MA,617,0472132512936,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02167,Chestnut Hill               ,MA,617,0472131169144,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02168,Newton                      ,MA,617,0472132300036,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02169,Quincy                      ,MA,617,0472029591946,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02170,Quincy                      ,MA,617,0472120729430,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02171,Quincy                      ,MA,617,0472130020735,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02172,Watertown                   ,MA,617,0472131771938,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02173,Lexington                   ,MA,617,0472142427553,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02174,Arlington                   ,MA,617,0472141166506,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02175,Arlington Heights           ,MA,617,0472141248967,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02176,Melrose                     ,MA,617,0472140566314,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02177,Melrose                     ,MA,617,0472140568637,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02178,Belmont                     ,MA,617,0472131985066,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02179,Waverley                    ,MA,617,0472142200118,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02180,Stoneham                    ,MA,617,0472140799959,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02181,Wellesley                   ,MA,617,0472122996254,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02184,Braintree                   ,MA,617,0472120202088,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02186,Milton                      ,MA,617,0472120841982,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02187,Milton Village              ,MA,617,0472120779821,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02188,Weymouth                    ,MA,617,0472029069054,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02189,Weymouth                    ,MA,617,0472029131354,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02190,Weymouth                    ,MA,617,0472019755286,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02191,Weymouth                    ,MA,617,0472029553038,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02192,Needham                     ,MA,617,0472122831245,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02193,Weston                      ,MA,617,0472133606375,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02194,Needham                     ,MA,617,0472132030109,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02195,Newton                      ,MA,617,0472132306997,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02199,Boston                      ,MA,617,0472130663940,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02201,Boston                      ,MA,617,0472130568033,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02202,Boston                      ,MA,617,0472130568033,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02203,Boston                      ,MA,617,0472130661000,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02204,Boston                      ,MA,617,0472130568033,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02205,Boston                      ,MA,617,0472130652945,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02206,Boston                      ,MA,617,0472130568033,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02207,Boston                      ,MA,617,0472130568033,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02208,Boston                      ,MA,617,0472130568033,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02209,Boston                      ,MA,617,0472130568033,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02210,Boston                      ,MA,617,0472130555920,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02211,Boston                      ,MA,617,0472130568033,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02212,Boston                      ,MA,617,0472130555393,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02215,Boston                      ,MA,617,0472130594931,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02216,Boston                      ,MA,617,0472130568033,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02217,Boston                      ,MA,617,0472130568033,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02222,Boston                      ,MA,617,0472130662398,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02238,Cambridge                   ,MA,617,0472131606070,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02239,Cambridge                   ,MA,617,0472131606070,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02241,Boston                      ,MA,617,0472130568033,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02254,Waltham                     ,MA,617,0472132736641,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02258,Newton                      ,MA,617,0472132306997,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02266,Boston                      ,MA,617,0472130568033,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02269,Quincy                      ,MA,617,0472120502288,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02272,Watertown                   ,MA,617,0472131780383,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02277,Watertown                   ,MA,617,0472131780383,Middlesex                ,Eastern ,40   ,2.63  ,1367000         
+02293,Boston                      ,MA,617,0472130568033,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02294,Boston                      ,MA,617,0472130568033,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02295,Boston                      ,MA,617,0472130568033,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02297,Boston                      ,MA,617,0472130568033,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02299,Boston                      ,MA,617,0472130568033,Suffolk                  ,Eastern ,20   ,2.29  ,661400          
+02322,Avon                        ,MA,617,0472110249157,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02324,Bridgewater                 ,MA,508,0471099971700,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02325,Bridgewater                 ,MA,508,0471099970536,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02327,Bryantville                 ,MA,617,0472008442587,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02330,Carver                      ,MA,508,0471087867655,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02331,Duxbury                     ,MA,617,0472006471278,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02332,Duxbury                     ,MA,617,0472007500097,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02333,East Bridgewater            ,MA,508,0472009342591,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02334,Easton                      ,MA,508,0472101227729,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02337,Elmwood                     ,MA,508,0472009165476,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02338,Halifax                     ,MA,617,0471098961446,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02339,Hanover                     ,MA,617,0472018450147,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02341,Hanson                      ,MA,617,0472008569813,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02343,Holbrook                    ,MA,617,0472110408904,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02345,Manomet                     ,MA,508,0471085947284,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02346,Middleboro                  ,MA,508,0471089914417,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02347,Lakeville                   ,MA,508,0471089912800,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02348,Middleboro                  ,MA,508,0471089913117,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02349,Middleboro                  ,MA,508,0471089913117,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02350,Monponsett                  ,MA,617,0472008147856,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02351,Abington                    ,MA,617,0472019253348,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02355,North Carver                ,MA,508,0471097291814,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02356,North Easton                ,MA,508,0472101519681,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02357,North Easton                ,MA,508,0472101606472,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02358,North Pembroke              ,MA,617,0472017072339,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02359,Pembroke                    ,MA,617,0472008604247,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02360,Plymouth                    ,MA,508,0471096798982,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02361,Plymouth                    ,MA,508,0471096568738,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02362,Plymouth                    ,MA,508,0471096568738,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02363,Plymouth                    ,MA,508,0471096568738,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02364,Kingston                    ,MA,617,0471097925816,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02366,South Carver                ,MA,508,0471087442689,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02367,Plympton                    ,MA,617,0471098513598,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02368,Randolph                    ,MA,617,0472110863138,Norfolk                  ,Eastern ,120  ,2.72  ,602500          
+02370,Rockland                    ,MA,617,0472019311303,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02371,Rockland                    ,MA,617,0472019310667,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02375,South Easton                ,MA,508,0472100378095,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02379,West Bridgewater            ,MA,508,0472100104341,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02381,White Horse Beach           ,MA,508,0471095361482,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02382,Whitman                     ,MA,617,0472009830535,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02401,Brockton                    ,MA,508,0472100739638,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02402,Brockton                    ,MA,508,0472100807227,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02403,Brockton                    ,MA,508,0472100813839,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02404,Brockton                    ,MA,508,0472100813839,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02405,Brockton                    ,MA,508,0472100813839,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02532,Buzzards Bay                ,MA,508,0471075387160,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02534,Cataumet                    ,MA,508,0471066629448,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02535,Chilmark                    ,MA,508,0471037541665,Dukes                    ,Eastern ,17   ,2.23  ,10900           
+02536,East Falmouth               ,MA,508,0471055768163,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02537,East Sandwich               ,MA,508,0471074452258,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02538,East Wareham                ,MA,508,0471076579406,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02539,Edgartown                   ,MA,508,0471035814298,Dukes                    ,Eastern ,17   ,2.23  ,10900           
+02540,Falmouth                    ,MA,508,0471056607262,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02541,Falmouth                    ,MA,508,0471056511543,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02542,Buzzards Bay                ,MA,508,0471065820602,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02543,Woods Hole                  ,MA,508,0471056274395,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02552,Menemsha                    ,MA,508,0471037654178,Dukes                    ,Eastern ,17   ,2.23  ,10900           
+02553,Monument Beach              ,MA,508,0471076202716,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02554,Nantucket                   ,MA,508,0471022900915,Nantucket                ,Eastern ,30   ,2.34  ,6000            
+02556,North Falmouth              ,MA,508,0471066523014,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02557,Oak Bluffs                  ,MA,508,0471045563486,Dukes                    ,Eastern ,17   ,2.23  ,10900           
+02558,Onset                       ,MA,508,0471076464020,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02559,Pocasset                    ,MA,508,0471066920206,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02561,Sagamore                    ,MA,508,0471075737419,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02562,Sagamore Beach              ,MA,508,0471075937467,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02563,Sandwich                    ,MA,508,0471074483666,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02564,Nantucket                   ,MA,508,0461929662617,Nantucket                ,Eastern ,30   ,2.34  ,6000            
+02565,North Falmouth              ,MA,508,0471066430387,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02568,Vineyard Haven              ,MA,508,0471046419402,Dukes                    ,Eastern ,17   ,2.23  ,10900           
+02571,Wareham                     ,MA,508,0471077615134,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02573,Vineyard Haven              ,MA,508,0471046706275,Dukes                    ,Eastern ,17   ,2.23  ,10900           
+02574,West Falmouth               ,MA,508,0471066045577,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02575,West Tisbury                ,MA,508,0471036872520,Dukes                    ,Eastern ,17   ,2.23  ,10900           
+02576,West Wareham                ,MA,508,0471077953318,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02584,Nantucket                   ,MA,508,0471021803030,Nantucket                ,Eastern ,30   ,2.34  ,6000            
+02601,Hyannis                     ,MA,508,0471062486613,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02630,Barnstable                  ,MA,508,0471063912030,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02631,Brewster                    ,MA,508,0471070585017,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02632,Centerville                 ,MA,508,0471063449933,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02633,Chatham                     ,MA,508,0461969862160,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02634,Centerville                 ,MA,508,0471063448866,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02635,Cotuit                      ,MA,508,0471064248379,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02636,Centerville                 ,MA,508,0471063337145,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02637,Cummaquid                   ,MA,508,0471072171276,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02638,Dennis                      ,MA,508,0471071394386,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02639,Dennis Port                 ,MA,508,0471061620781,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02641,East Dennis                 ,MA,508,0471071464163,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02642,Eastham                     ,MA,508,0461989378565,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02643,East Orleans                ,MA,508,0461979956638,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02644,Forestdale                  ,MA,508,0471065904020,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02645,Harwich                     ,MA,508,0471060976459,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02646,Harwich Port                ,MA,508,0471060677858,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02647,Hyannis Port                ,MA,508,0471063307080,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02648,Marstons Mills              ,MA,508,0471064517520,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02649,Mashpee                     ,MA,508,0471064488100,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02650,North Chatham               ,MA,508,0461979064275,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02651,North Eastham               ,MA,508,0471080407491,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02652,North Truro                 ,MA,508,0472000384496,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02653,Orleans                     ,MA,508,0461979899180,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02655,Osterville                  ,MA,508,0471063285731,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02657,Provincetown                ,MA,508,0472001498134,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02659,South Chatham               ,MA,508,0471060833016,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02660,South Dennis                ,MA,508,0471061950355,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02661,South Harwich               ,MA,508,0471070021176,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02662,South Orleans               ,MA,508,0461979596346,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02663,South Wellfleet             ,MA,508,0461999199760,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02664,South Yarmouth              ,MA,508,0471062504874,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02666,Truro                       ,MA,508,0471090930155,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02667,Wellfleet                   ,MA,508,0471090335834,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02668,West Barnstable             ,MA,508,0471073171468,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02669,West Chatham                ,MA,508,0461969880559,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02670,West Dennis                 ,MA,508,0471061674684,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02671,West Harwich                ,MA,508,0471061710607,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02672,West Hyannisport            ,MA,508,0471063524110,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02673,West Yarmouth               ,MA,508,0471062522964,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02675,Yarmouth Port               ,MA,508,0471062929506,Barnstable               ,Eastern ,37   ,2.38  ,170600          
+02702,Assonet                     ,MA,508,0471170960525,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02703,Attleboro                   ,MA,508,0471192494006,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02712,Chartley                    ,MA,508,0471192428664,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02713,Cuttyhunk                   ,MA,508,0471049220987,Dukes                    ,Eastern ,17   ,2.23  ,10900           
+02714,Dartmouth                   ,MA,508,0471150716045,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02715,Dighton                     ,MA,508,0471181228141,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02717,East Freetown               ,MA,508,0471079766078,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02718,East Taunton                ,MA,508,0471180833133,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02719,Fairhaven                   ,MA,508,0471069400741,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02720,Fall River                  ,MA,508,0471171044905,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02721,Fall River                  ,MA,508,0471161855384,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02722,Fall River                  ,MA,508,0471171051546,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02723,Fall River                  ,MA,508,0471161946571,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02724,Fall River                  ,MA,508,0471161876419,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02725,Somerset                    ,MA,508,0471171273742,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02726,Somerset                    ,MA,508,0471171364267,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02738,Marion                      ,MA,508,0471077064626,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02739,Mattapoisett                ,MA,508,0471068519617,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02740,New Bedford                 ,MA,508,0471069337096,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02741,New Bedford                 ,MA,508,0471069336417,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02742,New Bedford                 ,MA,508,0471069336417,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02743,Acushnet                    ,MA,508,0471069810030,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02744,New Bedford                 ,MA,508,0471069017568,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02745,New Bedford                 ,MA,508,0471069728164,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02746,New Bedford                 ,MA,508,0471069538461,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02747,North Dartmouth             ,MA,508,0471069379652,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02748,South Dartmouth             ,MA,508,0471059944253,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02754,North Dighton               ,MA,508,0471181623590,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02760,North Attleboro             ,MA,508,0471193738311,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02761,North Attleboro             ,MA,508,0471193833333,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02762,Plainville                  ,MA,508,0472103049269,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02763,North Attleboro             ,MA,508,0471193710344,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02764,North Dighton               ,MA,508,0471181137874,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02766,Norton                      ,MA,508,0471191687428,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02767,Raynham                     ,MA,508,0471190479335,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02768,Raynham Center              ,MA,508,0471190253268,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02769,Rehoboth                    ,MA,508,0471182448267,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02770,Rochester                   ,MA,508,0471078314925,Plymouth                 ,Eastern ,50   ,2.84  ,424400          
+02771,Seekonk                     ,MA,508,0471183037576,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02777,Swansea                     ,MA,508,0471172308768,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02779,Berkley                     ,MA,508,0471180999714,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02780,Taunton                     ,MA,508,0471180999423,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02790,Westport                    ,MA,508,0471150981722,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02791,Westport Point              ,MA,508,0471150272520,Bristol                  ,Eastern ,30   ,2.67  ,484900          
+02801,Adamsville                  ,RI,401,0471151534147,Newport                  ,Eastern ,96   ,2.61  ,84800           
+02802,Albion                      ,RI,401,0471194551510,Providence               ,Eastern ,11   ,2.53  ,581700          
+02804,Ashaway                     ,RI,401,0471147283634,Washington               ,Eastern ,90   ,2.69  ,101300          
+02806,Barrington                  ,RI,401,0471173416526,Bristol                  ,Eastern ,30   ,2.82  ,47700           
+02807,Block Island                ,RI,401,0471115761137,Newport                  ,Eastern ,96   ,2.61  ,84800           
+02808,Bradford                    ,RI,401,0471137948761,Washington               ,Eastern ,90   ,2.69  ,101300          
+02809,Bristol                     ,RI,401,0471162871054,Bristol                  ,Eastern ,30   ,2.82  ,47700           
+02812,Carolina                    ,RI,401,0471146568356,Washington               ,Eastern ,90   ,2.69  ,101300          
+02813,Charlestown                 ,RI,401,0471136735275,Washington               ,Eastern ,90   ,2.69  ,101300          
+02814,Chepachet                   ,RI,401,0471196175231,Providence               ,Eastern ,11   ,2.53  ,581700          
+02815,Clayville                   ,RI,401,0471176778614,Providence               ,Eastern ,11   ,2.53  ,581700          
+02816,Coventry                    ,RI,401,0471165956353,Kent                     ,Eastern ,61   ,2.70  ,159500          
+02817,West Greenwich              ,RI,401,0471165858137,Kent                     ,Eastern ,61   ,2.70  ,159500          
+02818,East Greenwich              ,RI,401,0471164650055,Kent                     ,Eastern ,61   ,2.70  ,159500          
+02821,Escoheag                    ,RI,401,0471157969273,Washington               ,Eastern ,90   ,2.69  ,101300          
+02822,Exeter                      ,RI,401,0471155737794,Washington               ,Eastern ,90   ,2.69  ,101300          
+02823,Fiskeville                  ,RI,401,0471175344826,Providence               ,Eastern ,11   ,2.53  ,581700          
+02824,Forestdale                  ,RI,401,0471197405083,Providence               ,Eastern ,11   ,2.53  ,581700          
+02825,Foster                      ,RI,401,0471187452447,Providence               ,Eastern ,11   ,2.53  ,581700          
+02826,Glendale                    ,RI,401,0471196736311,Providence               ,Eastern ,11   ,2.53  ,581700          
+02827,Greene                      ,RI,401,0471167941949,Kent                     ,Eastern ,61   ,2.70  ,159500          
+02828,Greenville                  ,RI,401,0471185757212,Providence               ,Eastern ,11   ,2.53  ,581700          
+02829,Harmony                     ,RI,401,0471185897782,Providence               ,Eastern ,11   ,2.53  ,581700          
+02830,Harrisville                 ,RI,401,0471196780056,Providence               ,Eastern ,11   ,2.53  ,581700          
+02831,Hope                        ,RI,401,0471175365302,Providence               ,Eastern ,11   ,2.53  ,581700          
+02832,Hope Valley                 ,RI,401,0471157012871,Washington               ,Eastern ,90   ,2.69  ,101300          
+02833,Hopkinton                   ,RI,401,0471147671941,Washington               ,Eastern ,90   ,2.69  ,101300          
+02835,Jamestown                   ,RI,401,0471143975292,Newport                  ,Eastern ,96   ,2.61  ,84800           
+02836,Kenyon                      ,RI,401,0471146523664,Washington               ,Eastern ,90   ,2.69  ,101300          
+02837,Little Compton              ,RI,401,0471151079082,Newport                  ,Eastern ,96   ,2.61  ,84800           
+02838,Manville                    ,RI,401,0471194676257,Providence               ,Eastern ,11   ,2.53  ,581700          
+02839,Mapleville                  ,RI,401,0471196448912,Providence               ,Eastern ,11   ,2.53  ,581700          
+02840,Newport                     ,RI,401,0471143719743,Newport                  ,Eastern ,96   ,2.61  ,84800           
+02841,Newport                     ,RI,401,0471143910303,Newport                  ,Eastern ,96   ,2.61  ,84800           
+02852,North Kingstown             ,RI,401,0471154751521,Washington               ,Eastern ,90   ,2.69  ,101300          
+02854,North Kingstown             ,RI,401,0471164285098,Washington               ,Eastern ,90   ,2.69  ,101300          
+02857,North Scituate              ,RI,401,0471185384311,Providence               ,Eastern ,11   ,2.53  ,581700          
+02858,Harrisville                 ,RI,401,0471196652025,Providence               ,Eastern ,11   ,2.53  ,581700          
+02859,Pascoag                     ,RI,401,0471197505219,Providence               ,Eastern ,11   ,2.53  ,581700          
+02860,Pawtucket                   ,RI,401,0471183793241,Providence               ,Eastern ,11   ,2.53  ,581700          
+02861,Pawtucket                   ,RI,401,0471183759428,Providence               ,Eastern ,11   ,2.53  ,581700          
+02862,Pawtucket                   ,RI,401,0471183788361,Providence               ,Eastern ,11   ,2.53  ,581700          
+02863,Central Falls               ,RI,401,0471183990335,Providence               ,Eastern ,11   ,2.53  ,581700          
+02864,Cumberland                  ,RI,401,0471194625373,Providence               ,Eastern ,11   ,2.53  ,581700          
+02865,Lincoln                     ,RI,401,0471194221203,Providence               ,Eastern ,11   ,2.53  ,581700          
+02871,Portsmouth                  ,RI,401,0471162046996,Newport                  ,Eastern ,96   ,2.61  ,84800           
+02872,Prudence Island             ,RI,401,0471163035414,Bristol                  ,Eastern ,30   ,2.82  ,47700           
+02873,Rockville                   ,RI,401,0471157262263,Washington               ,Eastern ,90   ,2.69  ,101300          
+02874,Saunderstown                ,RI,401,0471154028510,Washington               ,Eastern ,90   ,2.69  ,101300          
+02875,Shannock                    ,RI,401,0471146438732,Washington               ,Eastern ,90   ,2.69  ,101300          
+02876,Slatersville                ,RI,401,0472105083518,Providence               ,Eastern ,11   ,2.53  ,581700          
+02877,Slocum                      ,RI,401,0471155311519,Washington               ,Eastern ,90   ,2.69  ,101300          
+02878,Tiverton                    ,RI,401,0471162312199,Newport                  ,Eastern ,96   ,2.61  ,84800           
+02879,Wakefield                   ,RI,401,0471144399379,Washington               ,Eastern ,90   ,2.69  ,101300          
+02880,Wakefield                   ,RI,401,0471145307129,Washington               ,Eastern ,90   ,2.69  ,101300          
+02881,Kingston                    ,RI,401,0471145820312,Washington               ,Eastern ,90   ,2.69  ,101300          
+02882,Narragansett                ,RI,401,0471144351899,Washington               ,Eastern ,90   ,2.69  ,101300          
+02883,Peace Dale                  ,RI,401,0471144591842,Washington               ,Eastern ,90   ,2.69  ,101300          
+02885,Warren                      ,RI,401,0471172382263,Bristol                  ,Eastern ,30   ,2.82  ,47700           
+02886,Warwick                     ,RI,401,0471174042425,Kent                     ,Eastern ,61   ,2.70  ,159500          
+02887,Warwick                     ,RI,401,0471163971992,Kent                     ,Eastern ,61   ,2.70  ,159500          
+02888,Warwick                     ,RI,401,0471173277605,Kent                     ,Eastern ,61   ,2.70  ,159500          
+02889,Warwick                     ,RI,401,0471173088739,Kent                     ,Eastern ,61   ,2.70  ,159500          
+02891,Westerly                    ,RI,401,0471138619990,Washington               ,Eastern ,90   ,2.69  ,101300          
+02892,West Kingston               ,RI,401,0471145852541,Washington               ,Eastern ,90   ,2.69  ,101300          
+02893,West Warwick                ,RI,401,0471175025679,Kent                     ,Eastern ,61   ,2.70  ,159500          
+02894,Wood River Junction         ,RI,401,0471146593076,Washington               ,Eastern ,90   ,2.69  ,101300          
+02895,Woonsocket                  ,RI,401,0472105212009,Providence               ,Eastern ,11   ,2.53  ,581700          
+02898,Wyoming                     ,RI,401,0471157105139,Washington               ,Eastern ,90   ,2.69  ,101300          
+02900,Providence                  ,RI,401,0471184213393,Providence               ,Eastern ,11   ,2.53  ,581700          
+02901,Providence                  ,RI,401,0471184213393,Providence               ,Eastern ,11   ,2.53  ,581700          
+02902,Providence                  ,RI,401,0471184213393,Providence               ,Eastern ,11   ,2.53  ,581700          
+02903,Providence                  ,RI,401,0471184207312,Providence               ,Eastern ,11   ,2.53  ,581700          
+02904,Providence                  ,RI,401,0471184631841,Providence               ,Eastern ,11   ,2.53  ,581700          
+02905,Providence                  ,RI,401,0471174808575,Providence               ,Eastern ,11   ,2.53  ,581700          
+02906,Providence                  ,RI,401,0471184209042,Providence               ,Eastern ,11   ,2.53  ,581700          
+02907,Providence                  ,RI,401,0471184021356,Providence               ,Eastern ,11   ,2.53  ,581700          
+02908,Providence                  ,RI,401,0471184338851,Providence               ,Eastern ,11   ,2.53  ,581700          
+02909,Providence                  ,RI,401,0471184146726,Providence               ,Eastern ,11   ,2.53  ,581700          
+02910,Cranston                    ,RI,401,0471174736719,Providence               ,Eastern ,11   ,2.53  ,581700          
+02911,North Providence            ,RI,401,0471184573212,Providence               ,Eastern ,11   ,2.53  ,581700          
+02912,Providence                  ,RI,401,0471184213393,Providence               ,Eastern ,11   ,2.53  ,581700          
+02914,East Providence             ,RI,401,0471183163619,Providence               ,Eastern ,11   ,2.53  ,581700          
+02915,Riverside                   ,RI,401,0471173752844,Providence               ,Eastern ,11   ,2.53  ,581700          
+02916,Rumford                     ,RI,401,0471183452574,Providence               ,Eastern ,11   ,2.53  ,581700          
+02917,Smithfield                  ,RI,401,0471184785333,Providence               ,Eastern ,11   ,2.53  ,581700          
+02918,Providence                  ,RI,401,0471184213393,Providence               ,Eastern ,11   ,2.53  ,581700          
+02919,Johnston                    ,RI,401,0471184399506,Providence               ,Eastern ,11   ,2.53  ,581700          
+02920,Cranston                    ,RI,401,0471174761806,Providence               ,Eastern ,11   ,2.53  ,581700          
+02921,Cranston                    ,RI,401,0471174741851,Providence               ,Eastern ,11   ,2.53  ,581700          
+02940,Providence                  ,RI,401,0471184213393,Providence               ,Eastern ,11   ,2.53  ,581700          
+03031,Amherst                     ,NH,603,0472186621956,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03032,Auburn                      ,NH,603,0473103043708,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03033,Brookline                   ,NH,603,0472176364206,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03034,Candia                      ,NH,603,0473102776944,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03036,Chester                     ,NH,603,0472192557752,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03037,Deerfield                   ,NH,603,0473112413591,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03038,Derry                       ,NH,603,0472183821516,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03040,East Candia                 ,NH,603,0473102448912,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03041,East Derry                  ,NH,603,0472182994147,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03042,Epping                      ,NH,603,0473100375480,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03043,Francestown                 ,NH,603,0472198817517,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03044,Fremont                     ,NH,603,0472191930278,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03045,Goffstown                   ,NH,603,0473106200014,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03047,Greenfield                  ,NH,603,0472198570634,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03048,Greenville                  ,NH,603,0472178616194,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03049,Hollis                      ,NH,603,0472175491366,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03051,Hudson                      ,NH,603,0472174634903,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03053,Londonderry                 ,NH,603,0472183675407,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03054,Merrimack                   ,NH,603,0472185519604,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03055,Milford                     ,NH,603,0472186346907,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03057,Mont Vernon                 ,NH,603,0472186973704,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03060,Nashua                      ,NH,603,0472174563699,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03061,Nashua                      ,NH,603,0472174665831,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03062,Nashua                      ,NH,603,0472174297359,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03063,Nashua                      ,NH,603,0472175617262,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03070,New Boston                  ,NH,603,0472196795252,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03071,New Ipswich                 ,NH,603,0472178458027,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03073,North Salem                 ,NH,603,0472182326191,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03076,Pelham                      ,NH,603,0472173324570,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03077,Raymond                     ,NH,603,0473101386346,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03079,Salem                       ,NH,603,0472172809027,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03082,Lyndeborough                ,NH,603,0472187798037,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03084,Temple                      ,NH,603,0472188159501,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03086,Wilton                      ,NH,603,0472187433730,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03087,Windham                     ,NH,603,0472183006015,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03100,Manchester                  ,NH,603,0472194955563,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03101,Manchester                  ,NH,603,0472194953668,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03102,Manchester                  ,NH,603,0473104090100,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03103,Manchester                  ,NH,603,0472194730759,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03104,Manchester                  ,NH,603,0473104050391,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03105,Manchester                  ,NH,603,0472194955563,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03106,Hooksett                    ,NH,603,0473104966778,Merrimack                ,Eastern ,288  ,2.60  ,109700          
+03107,Manchester                  ,NH,603,0472194955563,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03108,Manchester                  ,NH,603,0472194955563,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03109,Manchester                  ,NH,603,0472194892455,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03110,Bedford                     ,NH,603,0472195928407,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03215,Waterville Valley           ,NH,603,0473195500000,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03216,Andover                     ,NH,603,0473148326386,Merrimack                ,Eastern ,288  ,2.60  ,109700          
+03217,Ashland                     ,NH,603,0473166935124,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03218,Barnstead                   ,NH,603,0473132392401,Belknap                  ,Eastern ,507  ,2.57  ,47100           
+03220,Belmont                     ,NH,603,0473144483050,Belknap                  ,Eastern ,507  ,2.57  ,47100           
+03221,Bradford                    ,NH,603,0473129669228,Merrimack                ,Eastern ,288  ,2.60  ,109700          
+03222,Bristol                     ,NH,603,0473157931748,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03223,Campton                     ,NH,603,0473186645641,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03224,Canterbury                  ,NH,603,0473135365612,Merrimack                ,Eastern ,288  ,2.60  ,109700          
+03225,Center Barnstead            ,NH,603,0473132368080,Belknap                  ,Eastern ,507  ,2.57  ,47100           
+03226,Center Harbor               ,NH,603,0473174065415,Belknap                  ,Eastern ,507  ,2.57  ,47100           
+03227,Center Sandwich             ,NH,603,0473184037812,Carroll                  ,Eastern ,581  ,2.46  ,31700           
+03229,Contoocook                  ,NH,603,0473127114735,Merrimack                ,Eastern ,288  ,2.60  ,109700          
+03230,Danbury                     ,NH,603,0473158265238,Merrimack                ,Eastern ,288  ,2.60  ,109700          
+03231,East Andover                ,NH,603,0473147548998,Merrimack                ,Eastern ,288  ,2.60  ,109700          
+03232,East Hebron                 ,NH,603,0473167974018,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03233,Elkins                      ,NH,603,0473149148076,Merrimack                ,Eastern ,288  ,2.60  ,109700          
+03234,Epsom                       ,NH,603,0473123230163,Merrimack                ,Eastern ,288  ,2.60  ,109700          
+03235,Franklin                    ,NH,603,0473146464069,Merrimack                ,Eastern ,288  ,2.60  ,109700          
+03237,Gilmanton                   ,NH,603,0473144212492,Belknap                  ,Eastern ,507  ,2.57  ,47100           
+03238,Glencliff                   ,NH,603,0473198892389,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03240,Grafton                     ,NH,603,0473159549437,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03241,Hebron                      ,NH,603,0473168902782,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03242,Henniker                    ,NH,603,0473118820379,Merrimack                ,Eastern ,288  ,2.60  ,109700          
+03243,Hill                        ,NH,603,0473157206439,Merrimack                ,Eastern ,288  ,2.60  ,109700          
+03244,Hillsboro                   ,NH,603,0473118194934,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03245,Holderness                  ,NH,603,0473175287974,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03246,Laconia                     ,NH,603,0473154527489,Belknap                  ,Eastern ,507  ,2.57  ,47100           
+03247,Laconia                     ,NH,603,0473154277088,Belknap                  ,Eastern ,507  ,2.57  ,47100           
+03251,Lincoln                     ,NH,603,0474106474053,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03252,Lochmere                    ,NH,603,0473145731016,Belknap                  ,Eastern ,507  ,2.57  ,47100           
+03253,Meredith                    ,NH,603,0473165506231,Belknap                  ,Eastern ,507  ,2.57  ,47100           
+03254,Moultonborough              ,NH,603,0473171564913,Carroll                  ,Eastern ,581  ,2.46  ,31700           
+03255,Newbury                     ,NH,603,0473230231644,Merrimack                ,Eastern ,288  ,2.60  ,109700          
+03256,New Hampton                 ,NH,603,0473166056410,Belknap                  ,Eastern ,507  ,2.57  ,47100           
+03257,New London                  ,NH,603,0473149182886,Merrimack                ,Eastern ,288  ,2.60  ,109700          
+03259,North Sandwich              ,NH,603,0473183399652,Carroll                  ,Eastern ,581  ,2.46  ,31700           
+03260,North Sutton                ,NH,603,0473139643090,Merrimack                ,Eastern ,288  ,2.60  ,109700          
+03261,Northwood                   ,NH,603,0473111954067,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03262,North Woodstock             ,NH,603,0474106289832,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03263,Pittsfield                  ,NH,603,0473133025645,Merrimack                ,Eastern ,288  ,2.60  ,109700          
+03264,Plymouth                    ,NH,603,0473176587865,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03265,Andover                     ,NH,603,0473148355926,Merrimack                ,Eastern ,288  ,2.60  ,109700          
+03266,Rumney                      ,NH,603,0473188014439,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03268,Salisbury                   ,NH,603,0473137718936,Merrimack                ,Eastern ,288  ,2.60  ,109700          
+03269,Sanbornton                  ,NH,603,0473156417293,Belknap                  ,Eastern ,507  ,2.57  ,47100           
+03272,South Newbury               ,NH,603,0473129995762,Merrimack                ,Eastern ,288  ,2.60  ,109700          
+03273,South Sutton                ,NH,603,0473139230407,Merrimack                ,Eastern ,288  ,2.60  ,109700          
+03274,Stinson Lake                ,NH,603,0473188601819,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03275,Suncook                     ,NH,603,0473114350243,Merrimack                ,Eastern ,288  ,2.60  ,109700          
+03276,Tilton                      ,NH,603,0473145493164,Belknap                  ,Eastern ,507  ,2.57  ,47100           
+03278,Warner                      ,NH,603,0473128719954,Merrimack                ,Eastern ,288  ,2.60  ,109700          
+03279,Warren                      ,NH,603,0473198294299,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03280,Washington                  ,NH,603,0473210795782,Sullivan                 ,Eastern ,797  ,2.65  ,37800           
+03281,Weare                       ,NH,603,0473107934086,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03282,Wentworth                   ,NH,603,0473189710204,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03284,West Springfield            ,NH,603,0473240958863,Sullivan                 ,Eastern ,797  ,2.65  ,37800           
+03285,West Thornton               ,NH,603,0473196385881,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03287,Wilmot Flat                 ,NH,603,0473148197826,Merrimack                ,Eastern ,288  ,2.60  ,109700          
+03289,Winnisquam                  ,NH,603,0473155011245,Belknap                  ,Eastern ,507  ,2.57  ,47100           
+03290,Nottingham                  ,NH,603,0473110193805,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03291,West Nottingham             ,NH,603,0473111731887,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03293,Woodstock                   ,NH,603,0473196787556,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03300,Concord                     ,NH,603,0473125038811,Merrimack                ,Eastern ,288  ,2.60  ,109700          
+03301,Concord                     ,NH,603,0473125036710,Merrimack                ,Eastern ,288  ,2.60  ,109700          
+03302,Concord                     ,NH,603,0473125038811,Merrimack                ,Eastern ,288  ,2.60  ,109700          
+03303,Concord                     ,NH,603,0473136125185,Merrimack                ,Eastern ,288  ,2.60  ,109700          
+03304,Bow                         ,NH,603,0473115837305,Merrimack                ,Eastern ,288  ,2.60  ,109700          
+03305,Concord                     ,NH,603,0473125038811,Merrimack                ,Eastern ,288  ,2.60  ,109700          
+03306,Concord                     ,NH,603,0473125038811,Merrimack                ,Eastern ,288  ,2.60  ,109700          
+03431,Keene                       ,NH,603,0472292373953,Cheshire                 ,Eastern ,487  ,2.59  ,66900           
+03440,Antrim                      ,NH,603,0473109249360,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03441,Ashuelot                    ,NH,603,0472274716534,Cheshire                 ,Eastern ,487  ,2.59  ,66900           
+03442,Bennington                  ,NH,603,0473109023510,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03443,Chesterfield                ,NH,603,0472284875231,Cheshire                 ,Eastern ,487  ,2.59  ,66900           
+03444,Dublin                      ,NH,603,0472290067351,Cheshire                 ,Eastern ,487  ,2.59  ,66900           
+03445,East Sullivan               ,NH,603,0472291992505,Cheshire                 ,Eastern ,487  ,2.59  ,66900           
+03446,East Swanzey                ,NH,603,0472282459593,Cheshire                 ,Eastern ,487  ,2.59  ,66900           
+03447,Fitzwilliam                 ,NH,603,0472271654047,Cheshire                 ,Eastern ,487  ,2.59  ,66900           
+03448,Gilsum                      ,NH,603,0473202468389,Cheshire                 ,Eastern ,487  ,2.59  ,66900           
+03449,Hancock                     ,NH,603,0472199782517,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03450,Harrisville                 ,NH,603,0472290495609,Cheshire                 ,Eastern ,487  ,2.59  ,66900           
+03451,Hinsdale                    ,NH,603,0472274886549,Cheshire                 ,Eastern ,487  ,2.59  ,66900           
+03452,Jaffrey                     ,NH,603,0472280124443,Cheshire                 ,Eastern ,487  ,2.59  ,66900           
+03454,Jaffrey                     ,NH,603,0472280123396,Cheshire                 ,Eastern ,487  ,2.59  ,66900           
+03455,Marlborough                 ,NH,603,0472292004863,Cheshire                 ,Eastern ,487  ,2.59  ,66900           
+03456,Marlow                      ,NH,603,0473211194769,Cheshire                 ,Eastern ,487  ,2.59  ,66900           
+03457,Munsonville                 ,NH,603,0473201142799,Cheshire                 ,Eastern ,487  ,2.59  ,66900           
+03458,Peterborough                ,NH,603,0472189753063,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03460,Peterborough                ,NH,603,0472189750262,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03461,Rindge                      ,NH,603,0472270511054,Cheshire                 ,Eastern ,487  ,2.59  ,66900           
+03462,Spofford                    ,NH,603,0472294015912,Cheshire                 ,Eastern ,487  ,2.59  ,66900           
+03464,Stoddard                    ,NH,603,0473201718550,Cheshire                 ,Eastern ,487  ,2.59  ,66900           
+03465,Troy                        ,NH,603,0472281283265,Cheshire                 ,Eastern ,487  ,2.59  ,66900           
+03466,West Chesterfield           ,NH,603,0472295012694,Cheshire                 ,Eastern ,487  ,2.59  ,66900           
+03467,Westmoreland                ,NH,603,0472294640417,Cheshire                 ,Eastern ,487  ,2.59  ,66900           
+03468,West Peterborough           ,NH,603,0472189887528,Hillsborough             ,Eastern ,169  ,2.71  ,314300          
+03469,West Swanzey                ,NH,603,0472283624957,Cheshire                 ,Eastern ,487  ,2.59  ,66900           
+03470,Winchester                  ,NH,603,0472273782355,Cheshire                 ,Eastern ,487  ,2.59  ,66900           
+03561,Littleton                   ,NH,603,0474137076141,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03570,Berlin                      ,NH,603,0474141689435,Coos                     ,Eastern ,887  ,2.56  ,34000           
+03574,Bethlehem                   ,NH,603,0474126880825,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03575,Bretton Woods               ,NH,603,0474124548117,Coos                     ,Eastern ,887  ,2.56  ,34000           
+03576,Colebrook                   ,NH,603,0474184993794,Coos                     ,Eastern ,887  ,2.56  ,34000           
+03579,Errol                       ,NH,603,0474171738205,Coos                     ,Eastern ,887  ,2.56  ,34000           
+03580,Franconia                   ,NH,603,0474127255098,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03581,Gorham                      ,NH,603,0474131877325,Coos                     ,Eastern ,887  ,2.56  ,34000           
+03582,Groveton                    ,NH,603,0474155917364,Coos                     ,Eastern ,887  ,2.56  ,34000           
+03583,Jefferson                   ,NH,603,0474144176412,Coos                     ,Eastern ,887  ,2.56  ,34000           
+03584,Lancaster                   ,NH,603,0474145867980,Coos                     ,Eastern ,887  ,2.56  ,34000           
+03585,Lisbon                      ,NH,603,0474129111442,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03587,Meadows                     ,NH,603,0474134662450,Coos                     ,Eastern ,887  ,2.56  ,34000           
+03588,Milan                       ,NH,603,0474151781366,Coos                     ,Eastern ,887  ,2.56  ,34000           
+03589,Mount Washington            ,NH,603,0474122891988,Coos                     ,Eastern ,887  ,2.56  ,34000           
+03590,North Stratford             ,NH,603,0474176521878,Coos                     ,Eastern ,887  ,2.56  ,34000           
+03592,Pittsburg                   ,NH,603,0475103591148,Coos                     ,Eastern ,887  ,2.56  ,34000           
+03595,Twin Mountain               ,NH,603,0474125732924,Coos                     ,Eastern ,887  ,2.56  ,34000           
+03597,West Stewartstown           ,NH,603,0474195935137,Coos                     ,Eastern ,887  ,2.56  ,34000           
+03598,Whitefield                  ,NH,603,0474136714093,Coos                     ,Eastern ,887  ,2.56  ,34000           
+03601,Acworth                     ,NH,603,0473222195261,Sullivan                 ,Eastern ,797  ,2.65  ,37800           
+03602,Alstead                     ,NH,603,0473213550732,Cheshire                 ,Eastern ,487  ,2.59  ,66900           
+03603,Charlestown                 ,NH,603,0473224328452,Sullivan                 ,Eastern ,797  ,2.65  ,37800           
+03604,Drewsville                  ,NH,603,0473213298215,Cheshire                 ,Eastern ,487  ,2.59  ,66900           
+03605,East Lempster               ,NH,603,0473221273730,Sullivan                 ,Eastern ,797  ,2.65  ,37800           
+03606,Lempster                    ,NH,603,0473222305987,Sullivan                 ,Eastern ,797  ,2.65  ,37800           
+03607,South Acworth               ,NH,603,0473212823145,Cheshire                 ,Eastern ,487  ,2.59  ,66900           
+03608,Walpole                     ,NH,603,0473204729675,Cheshire                 ,Eastern ,487  ,2.59  ,66900           
+03609,North Walpole               ,NH,603,0473204821759,Cheshire                 ,Eastern ,487  ,2.59  ,66900           
+03740,Bath                        ,NH,603,0474119676285,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03741,Canaan                      ,NH,603,0473260417093,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03743,Claremont                   ,NH,603,0473233745643,Sullivan                 ,Eastern ,797  ,2.65  ,37800           
+03745,Cornish                     ,NH,603,0473242975455,Sullivan                 ,Eastern ,797  ,2.65  ,37800           
+03746,Cornish Flat                ,NH,603,0473242987020,Sullivan                 ,Eastern ,797  ,2.65  ,37800           
+03748,Enfield                     ,NH,603,0473261441417,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03749,Enfield Center              ,NH,603,0473251910104,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03750,Etna                        ,NH,603,0473262922023,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03751,Georges Mills               ,NH,603,0473240361778,Sullivan                 ,Eastern ,797  ,2.65  ,37800           
+03752,Goshen                      ,NH,603,0473221826590,Sullivan                 ,Eastern ,797  ,2.65  ,37800           
+03753,Grantham                    ,NH,603,0473241838794,Sullivan                 ,Eastern ,797  ,2.65  ,37800           
+03754,Guild                       ,NH,603,0473231736876,Sullivan                 ,Eastern ,797  ,2.65  ,37800           
+03755,Hanover                     ,NH,603,0473272082982,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03756,Lebanon                     ,NH,603,0473262452222,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03765,Haverhill                   ,NH,603,0474200363194,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03766,Lebanon                     ,NH,603,0473262451093,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03768,Lyme                        ,NH,603,0473281058499,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03769,Lyme Center                 ,NH,603,0473271929323,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03770,Meriden                     ,NH,603,0473252452185,Sullivan                 ,Eastern ,797  ,2.65  ,37800           
+03771,Monroe                      ,NH,603,0474220546662,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03772,Mount Sunapee               ,NH,603,0473230470164,Merrimack                ,Eastern ,288  ,2.60  ,109700          
+03773,Newport                     ,NH,603,0473231674230,Sullivan                 ,Eastern ,797  ,2.65  ,37800           
+03774,North Haverhill             ,NH,603,0474200920315,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03777,Orford                      ,NH,603,0473291034730,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03779,Piermont                    ,NH,603,0473290770977,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03780,Pike                        ,NH,603,0474200206923,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03781,Plainfield                  ,NH,603,0473253354667,Sullivan                 ,Eastern ,797  ,2.65  ,37800           
+03782,Sunapee                     ,NH,603,0473230886893,Sullivan                 ,Eastern ,797  ,2.65  ,37800           
+03784,West Lebanon                ,NH,603,0473263407916,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03785,Woodsville                  ,NH,603,0474210439742,Grafton                  ,Eastern ,157  ,2.50  ,69600           
+03801,Portsmouth                  ,NH,603,0473007760357,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03802,Portsmouth                  ,NH,603,0473007761371,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03803,Portsmouth                  ,NH,603,0473007761371,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03804,Portsmouth                  ,NH,603,0473007761371,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03805,Rollinsford                 ,NH,603,0473028326018,Strafford                ,Eastern ,     ,2.63  ,94000           
+03809,Alton                       ,NH,603,0473142513969,Belknap                  ,Eastern ,507  ,2.57  ,47100           
+03810,Alton Bay                   ,NH,603,0473142636209,Belknap                  ,Eastern ,507  ,2.57  ,47100           
+03811,Atkinson                    ,NH,603,0472181347858,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03812,Bartlett                    ,NH,603,0474102787146,Carroll                  ,Eastern ,581  ,2.46  ,31700           
+03813,Center Conway               ,NH,603,0473190954704,Carroll                  ,Eastern ,581  ,2.46  ,31700           
+03814,Center Ossipee              ,NH,603,0473171555307,Carroll                  ,Eastern ,581  ,2.46  ,31700           
+03815,Center Strafford            ,NH,603,0473121627251,Strafford                ,Eastern ,     ,2.63  ,94000           
+03816,Center Tuftonboro           ,NH,603,0473162542819,Carroll                  ,Eastern ,581  ,2.46  ,31700           
+03817,Chocorua                    ,NH,603,0473182717885,Carroll                  ,Eastern ,581  ,2.46  ,31700           
+03818,Conway                      ,NH,603,0473191810946,Carroll                  ,Eastern ,581  ,2.46  ,31700           
+03819,Danville                    ,NH,603,0472191122197,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03820,Dover                       ,NH,603,0473018971749,Strafford                ,Eastern ,     ,2.63  ,94000           
+03822,Dover                       ,NH,603,0473018977482,Strafford                ,Eastern ,     ,2.63  ,94000           
+03824,Durham                      ,NH,603,0473019323766,Strafford                ,Eastern ,     ,2.63  ,94000           
+03825,Barrington                  ,NH,603,0473120145115,Strafford                ,Eastern ,     ,2.63  ,94000           
+03826,East Hampstead              ,NH,603,0472181931845,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03827,East Kingston               ,NH,603,0472190215131,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03830,East Wakefield              ,NH,603,0473160202593,Carroll                  ,Eastern ,581  ,2.46  ,31700           
+03832,Eaton Center                ,NH,603,0473190089422,Carroll                  ,Eastern ,581  ,2.46  ,31700           
+03833,Exeter                      ,NH,603,0472099840873,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03835,Farmington                  ,NH,603,0473130868621,Strafford                ,Eastern ,     ,2.63  ,94000           
+03836,Freedom                     ,NH,603,0473180131399,Carroll                  ,Eastern ,581  ,2.46  ,31700           
+03837,Gilmanton Iron Works        ,NH,603,0473142192111,Belknap                  ,Eastern ,507  ,2.57  ,47100           
+03838,Glen                        ,NH,603,0474111180007,Carroll                  ,Eastern ,581  ,2.46  ,31700           
+03839,Gonic                       ,NH,603,0473039167329,Strafford                ,Eastern ,     ,2.63  ,94000           
+03840,Greenland                   ,NH,603,0473008333295,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03841,Hampstead                   ,NH,603,0472181784078,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03842,Hampton                     ,NH,603,0472098014248,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03844,Hampton Falls               ,NH,603,0472098164476,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03845,Intervale                   ,NH,603,0474101733788,Carroll                  ,Eastern ,581  ,2.46  ,31700           
+03846,Jackson                     ,NH,603,0474111484067,Carroll                  ,Eastern ,581  ,2.46  ,31700           
+03847,Kearsarge                   ,NH,603,0474101715831,Carroll                  ,Eastern ,581  ,2.46  ,31700           
+03848,Kingston                    ,NH,603,0472190356258,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03849,Madison                     ,NH,603,0473181947699,Carroll                  ,Eastern ,581  ,2.46  ,31700           
+03850,Melvin Village              ,NH,603,0473163808497,Carroll                  ,Eastern ,581  ,2.46  ,31700           
+03851,Milton                      ,NH,603,0473049089879,Strafford                ,Eastern ,     ,2.63  ,94000           
+03852,Milton Mills                ,NH,603,0473059061348,Strafford                ,Eastern ,     ,2.63  ,94000           
+03853,Mirror Lake                 ,NH,603,0473162272617,Carroll                  ,Eastern ,581  ,2.46  ,31700           
+03854,New Castle                  ,NH,603,0473007712627,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03855,New Durham                  ,NH,603,0473141363937,Strafford                ,Eastern ,     ,2.63  ,94000           
+03856,Newfields                   ,NH,603,0473009336899,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03857,Newmarket                   ,NH,603,0473009739770,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03858,Newton                      ,NH,603,0472180730157,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03859,Newton Junction             ,NH,603,0472180667624,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03860,North Conway                ,NH,603,0474101522768,Carroll                  ,Eastern ,581  ,2.46  ,31700           
+03862,North Hampton               ,NH,603,0472098730140,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03864,Ossipee                     ,NH,603,0473161816609,Carroll                  ,Eastern ,581  ,2.46  ,31700           
+03865,Plaistow                    ,NH,603,0472180396552,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03866,Conway                      ,NH,603,0473191729028,Carroll                  ,Eastern ,581  ,2.46  ,31700           
+03867,Rochester                   ,NH,603,0473039074565,Strafford                ,Eastern ,     ,2.63  ,94000           
+03868,East Rochester              ,NH,603,0473039167329,Strafford                ,Eastern ,     ,2.63  ,94000           
+03869,Rollinsford                 ,NH,603,0473028326142,Strafford                ,Eastern ,     ,2.63  ,94000           
+03870,Rye                         ,NH,603,0473007170185,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03871,Rye Beach                   ,NH,603,0472097766671,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03872,Sanbornville                ,NH,603,0473150533087,Carroll                  ,Eastern ,581  ,2.46  ,31700           
+03873,Sandown                     ,NH,603,0472191380705,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03874,Seabrook                    ,NH,603,0472088974107,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03875,Silver Lake                 ,NH,603,0473181876712,Carroll                  ,Eastern ,581  ,2.46  ,31700           
+03878,Somersworth                 ,NH,603,0473028660602,Strafford                ,Eastern ,     ,2.63  ,94000           
+03882,South Effingham             ,NH,603,0473079180151,Carroll                  ,Eastern ,581  ,2.46  ,31700           
+03883,South Tamworth              ,NH,603,0473183203120,Carroll                  ,Eastern ,581  ,2.46  ,31700           
+03884,Strafford                   ,NH,603,0473131285214,Strafford                ,Eastern ,     ,2.63  ,94000           
+03885,Stratham                    ,NH,603,0473009212289,Rockingham               ,Eastern ,58   ,2.68  ,221800          
+03886,Tamworth                    ,NH,603,0473182664706,Carroll                  ,Eastern ,581  ,2.46  ,31700           
+03887,Union                       ,NH,603,0473140927755,Strafford                ,Eastern ,     ,2.63  ,94000           
+03890,West Ossipee                ,NH,603,0473182203227,Carroll                  ,Eastern ,581  ,2.46  ,31700           
+03894,Wolfeboro                   ,NH,603,0473152804841,Carroll                  ,Eastern ,581  ,2.46  ,31700           
+03896,Wolfeboro Falls             ,NH,603,0473152901691,Carroll                  ,Eastern ,581  ,2.46  ,31700           
+03897,Wonalancet                  ,NH,603,0473193057121,Carroll                  ,Eastern ,581  ,2.46  ,31700           
+03901,Berwick                     ,ME,207,0473028664568,York                     ,Eastern ,266  ,2.62  ,158800          
+03902,Cape Neddick                ,ME,207,0473016914996,York                     ,Eastern ,266  ,2.62  ,158800          
+03903,Eliot                       ,ME,207,0473017282953,York                     ,Eastern ,266  ,2.62  ,158800          
+03904,Kittery                     ,ME,207,0473007838897,York                     ,Eastern ,266  ,2.62  ,158800          
+03905,Kittery Point               ,ME,207,0473006897725,York                     ,Eastern ,266  ,2.62  ,158800          
+03906,North Berwick               ,ME,207,0473037034533,York                     ,Eastern ,266  ,2.62  ,158800          
+03907,Ogunquit                    ,ME,207,0473026405037,York                     ,Eastern ,266  ,2.62  ,158800          
+03908,South Berwick               ,ME,207,0473028313197,York                     ,Eastern ,266  ,2.62  ,158800          
+03909,York                        ,ME,207,0473016520821,York                     ,Eastern ,266  ,2.62  ,158800          
+03910,York Beach                  ,ME,207,0473016701944,York                     ,Eastern ,266  ,2.62  ,158800          
+03911,York Harbor                 ,ME,207,0473016346671,York                     ,Eastern ,266  ,2.62  ,158800          

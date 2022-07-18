@@ -1,0 +1,41 @@
+companie1
+adresa1
+numar1
+email1
+companie2
+adresa2
+numar2
+email2
+companie3
+adresa3
+numar3
+email3
+companie4
+adresa4
+numar4
+email4
+--------
+Mirinda
+sugar water aroma
+9854
+2000
+2020-03-15
+2023-09-25
+Pepsi
+sugar water aroma coffe
+1234
+100
+2020-06-15
+2023-12-25
+Apple Juice
+apples water sugar aroma
+5436
+250
+2020-11-06
+2021-02-29
+Water
+water
+9023
+100000
+2020-04-18
+2025-07-11
