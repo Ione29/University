@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+
+	<select id="game">
+		<option value="0">paper</option>
+		<option value="1">rock</option>
+		<option value="2">scissors</option>
+	</select>
+	<button id="start">Select</button>
+	
+	<div id="displayText"></div>
+	<div id="displayImage"></div>
+
+	
+	<script>
+		let displayText = document.getElementById("displayText"),
+			displayImage = document.getElementById("displayImage"),
+			start = document.getElementById("start");
+
+		function compare(choice1, choice2) {
+			if(choice1 === choice2){
+				return "The result is a tie!";
+			} else if(choice1 === "rock"){
+				if(choice2 === "scissors"){
+					return "rock wins";
+				} else {
+					return "paper wins";
+				}
+			} else if(choice1 === "paper"){
+				if(choice2 === "rock"){
+					return "paper wins";    
+				} else {
+					return "scissors wins";
+				}
+			} else if(choice1 === "scissors"){
+				if(choice2 === "paper"){
+					return "scissors wins";    
+				} else  {
+					return "rock wins";
+				}
+			}
+		}	
+
+		function show_image(src) {
+			let img = "<img src ='images/" + src +".png'>";
+			displayImage.innerHTML += img;
+		}	
+
+		function displayChoice(value) {
+			let choice = ['paper', 'rock', 'scissors'],
+				image = "",
+				textChoice = "";
+			
+			show_image(choice[value]);
+			textChoice = choice[value];
+
+			return textChoice;
+		}
+
+		function game() {
+			let	value = document.getElementById("game").value,
+				computer = Math.floor(Math.random() * 3),
+				computerChoice = "",
+				myChoice = "";
+
+			displayImage.innerHTML = "";
+			myChoice = displayChoice(value);
+			computerChoice = displayChoice(computer);
+			displayText.innerHTML = compare(myChoice, computerChoice);
+		}
+		
+		start.addEventListener('click', game);
+	</script>
+	
+</body>
+</html>

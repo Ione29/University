@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example</title>
+</head>
+<body>
+
+	<h1 id="text">My heading 1</h1>
+
+	<script>
+		let text = document.getElementById('text');
+		
+		function change()
+		{
+			text.innerHTML = "I learn JS";
+			text.style.color = "orange";
+			text.style.fontStyle = "italic";
+		}
+
+		text.addEventListener('click', change);
+
+	</script>
+
+</body>
+</html>

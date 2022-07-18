@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+
+	<style type="text/css">
+		.content{
+			width: 400px;
+			margin: 0 auto;
+		}
+
+		button{
+			background-color: #8600b3;
+			color: #ffffff;
+			width: 80px;
+			padding: 5px;
+			border: 0;
+		}
+
+		button:hover{
+			background-color:#e699ff; 
+			color: #8600b3;
+		}
+
+		input{
+			background-color: #ccccff;
+			color:  #000033;
+			width: 200px;
+			padding: 5px;
+			border: 0;
+		}
+
+		p{
+			color: #39004d;
+			font-size: 20px;
+			font-family: "Lucida Console", Monospace;
+		}	
+		
+		ul li {
+			color: #8600b3;
+			font-weight: bold;
+			margin-bottom: 12px;
+		}
+		
+		ul li button {
+			margin-left: 12px;
+		}
+	</style>
+	
+</head>
+<body>
+
+<div class="content">
+	<h1>Guess the number 1-100</h1>
+	
+	<input type="text" id="myNumber"/>
+	<button id="btnGuess">Guess</button><br /><br /> 
+	<button id="btnShowNumber">I give up</button>
+	<button id="btnGenerateNumber">New Game</button>
+	
+	<p id="displayMsg"></p>
+</div>
+
+<script>
+	let randomNumber;
+	let	displayMsg = document.getElementById("displayMsg");
+	let	myNumber = document.getElementById('myNumber');
+	let	btnGuess = document.getElementById('btnGuess');
+	let	btnShowNumber = document.getElementById('btnShowNumber');
+	let	btnGenerateNumber = document.getElementById('btnGenerateNumber');
+	
+	function generateNumber() {
+		displayMsg.innerHTML = "New number generated";
+		randomNumber = Math.floor(Math.random() * 100 + 1);
+		console.log(randomNumber);
+	}
+	
+	function guess() {
+		let message = "";
+
+		if(myNumber.value == randomNumber)
+			message = "Correct!";
+		else if (myNumber.value < randomNumber)
+			message = "Too low!";
+		else 
+			message = "Too high!";
+
+		displayMsg.innerHTML = message;
+	}
+	
+	function showNumber(){
+		displayMsg.innerHTML = "The random number is " + randomNumber;
+		displayMsg.innerHTML += '<br> Press "New Game"';
+	}
+
+	generateNumber();
+
+	btnGuess.addEventListener('click', guess);
+	btnGenerateNumber.addEventListener('click', generateNumber);
+	btnShowNumber.addEventListener('click', showNumber);
+</script>
+

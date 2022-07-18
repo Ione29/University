@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Example</title>
+
+	<style type="text/css">
+		img {
+			width: 200px;
+		}
+	</style>	
+</head>
+<body>
+	
+	<img id="bulb" src="images/bulb.jpg" alt="" />
+	
+	<script>
+		
+		let bulb = document.getElementById('bulb');
+		
+		function on()
+		{
+			bulb.src = "images/light-bulb.jpg";
+		}
+
+		function off()
+		{
+			bulb.src = "images/bulb.jpg";
+		}
+		
+		function hide()
+		{
+			bulb.style.display = "none";
+		}
+
+		bulb.addEventListener('mouseover', on);
+		bulb.addEventListener('mouseout', off);
+		bulb.addEventListener('click', hide);
+
+	</script>
+</body>
+</html>

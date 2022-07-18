@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Example</title>
+
+	<style type="text/css">
+		img {
+			width: 200px;
+		}
+	</style>	
+</head>
+<body>
+	
+	<img id="bulb" src="images/bulb.jpg" alt="" />
+	
+	<script>
+		let bulb = document.getElementById('bulb');
+		let state = true;
+		let counter = 5;
+
+		function on() {
+			bulb.src = "images/light-bulb.jpg";
+
+		}
+
+		function off() {
+			bulb.src = "images/bulb.jpg";
+		}
+
+		function auto()
+		{
+			if(state === false)
+			{
+				on();
+				state = true;
+			}
+			else
+			{
+				off();
+				state = false;
+			}
+
+			counter--;
+
+			if(counter === 0)
+			{
+				bulb.src = "images/bulb-explode.jpg";
+				bulb.style.width = "400px";
+				clearInterval(autoLight);
+			}
+		}
+		let autoLight = setInterval(auto, 1000);
+	</script>
+</body>
+</html>

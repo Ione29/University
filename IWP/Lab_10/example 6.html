@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Example</title>
+
+    <style>
+        span {
+            cursor: pointer;
+            font-size: 22px;
+        }
+    </style>
+</head>
+<body>
+
+    <input type="text" id="nr">
+    <button id="add">Add</button>
+    <button id="max">Max</button>
+    
+    <p id="displayMax"></p>
+    <p id="display"></p>
+
+    <script>
+        let numbers = [];
+        let display = document.getElementById('display');
+        let displayMax = document.getElementById('displayMax');
+        let nr = document.getElementById('nr');
+        let btnAdd = document.getElementById('add');
+        let btnMax = document.getElementById('max');
+
+        function add() {
+            display.innerHTML = "";
+            numbers.push(nr.value);
+            displayArr(numbers);
+
+
+        }
+
+        function displayArr(arr)
+        {
+            let text = "";
+
+            for(let i = 0; i < arr.length; i++)
+            {
+                text = text + "<span id ='" + i +"'onclick ='del(this)'>"  + arr[i] + ", </span>";
+            }
+
+            display.innerHTML = text;
+        }
+
+        function del(element) {
+            display.innerHTML = "";
+            let id = element.id;
+            numbers.splice(id, 1);
+            displayArr(numbers);
+            
+        }
+
+        function max() {
+            let max = 0;
+
+            for (let i = 0; i < numbers.length; i++) {
+                if (max < parseInt(numbers[i])) {
+                    max = numbers[i];
+                }
+            }
+
+            displayMax.innerHTML = "Max is: " + max;
+        }
+
+        btnMax.addEventListener('click', max);
+        btnAdd.addEventListener('click', add);
+    </script>
+
+</body>
+</html>

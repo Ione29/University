@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	
+	<style type="text/css">
+		input[type="text"],
+		select {
+			display: block;
+			margin-bottom: 12px;
+			width: 200px;
+		}
+	</style>
+</head>
+<body>
+
+	<input type="text" id="name" placeholder="name">
+	<input type="text" id="telephone" placeholder="telephone">
+	<select name="pizzaType" id="pizzaType">
+		<option value="0" selected="selected"></option>
+		<option value="25">Quattro Stagioni</option>
+		<option value="24">Quattro Formaggi</option>
+		<option value="22">Hawai</option>
+		<option value="26">Calzone</option>
+		<option value="20">Margherita</option>
+	</select>
+
+	Fungi<input type="checkbox" name="topping" id="topping" value="2">
+	Feta<input type="checkbox" name="topping" id="topping" value="2">
+	Bacon<input type="checkbox" name="topping" id="topping" value="3"><br>
+
+	20 cm<input type="radio" name="size" id="size" value="1" checked="checked">
+	26 cm<input type="radio" name="size" id="size" value="2">
+	30 cm<input type="radio" name="size" id="size" value="3">
+
+	<input type="text" id="quantity" placeholder="quantity">
+	
+	<input type="submit" value="Place Order" onclick="order()">
+
+	
+	<div id="displayOrder"></div>
+	
+	
+	<script type="text/javascript">
+		function order() {
+			var name = document.getElementById('name').value,
+				telephone = document.getElementById('telephone').value;
+			
+			var	pizzaType = document.getElementById('pizzaType').selectedIndex;
+			pizzaTypePrice = document.getElementsByTagName("option")[pizzaType].value;
+			
+			var topping = document.getElementsByName('topping');
+			var toppingPrice = 0;
+			for (var i = 0; i < topping.length; i++) {
+				if(topping[i].checked) {
+					toppingPrice += parseInt(topping[i].value);
+				}
+			}
+			
+			var size = document.getElementsByName('size');
+			var sizeMultiplicity = 1;
+			console.log(size.length);
+			for (var i = 0; i < size.length; i++) {
+				if(size[i].checked) {
+					sizeMultiplicity = parseInt(size[i].value);
+				}
+			}
+			
+			var quantity = document.getElementById('quantity').value;
+			
+			var totalPrice = (pizzaTypePrice * sizeMultiplicity + toppingPrice) * quantity + ' RON'
+			
+			var result = "Hello, " + name + "<br>" + "Telephone: "  + telephone;
+			result += "<br> Pizza Price: " + pizzaTypePrice;
+			result += "<br> Topping Price: " + toppingPrice;
+			result += "<br> Size: " + sizeMultiplicity;
+			result += "<br> Quantity: " + quantity;
+			result += "<br> Total Price: " + totalPrice;
+			
+			document.getElementById('displayOrder').innerHTML = result;	
+		}				
+	</script>
+	
+</body>
+</html>

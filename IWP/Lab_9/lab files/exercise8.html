@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id = "output"></div>
+    
+    <script>
+        
+        function display(str, id)
+        {
+            let output = document.getElementById(id),
+                count1 = 0;
+                count2 = 0;
+
+            for(let i = 0; i < str.length; i++)
+                if(str.charAt(i) === 't')
+                    count1++;
+                else if(str.charAt(i) === 'T')
+                    count2++;
+            
+            output.innerHTML = count1 - count2;
+        }
+
+        display('tesTtttttiT', 'output');
+
+    </script>
+
+</body>
+</html>

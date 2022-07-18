@@ -1,0 +1,83 @@
+body {
+	background-color: #35203B;
+	color: #88A825;
+}
+
+input,
+select {
+	background-color: #ED8C2B;
+	border: 1px solid #911146;
+	padding: 4px;
+	border-radius: 4px;
+}
+
+input[type="submit"] {
+	border: 0;
+	width: 100px;
+	color: #CF4A30;
+}	
+
+input[type="submit"]:hover {
+	background-color: #CF4A30;
+	color: #88A825;
+}
+
+::-webkit-input-placeholder {
+   color: #911146;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #911146;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #911146;  
+}
+
+:-ms-input-placeholder {  
+   color: #911146;  
+}
+
+.pizza input[type="text"],
+.pizza select {
+	display: block;
+	margin-bottom: 12px;
+	width: 200px;
+	
+}
+
+.pizza input[type="checkbox"],
+.pizza input[type="radio"] {
+	margin-bottom: 12px;
+}
+
+.container {
+	width: 200px;
+	margin: 0 auto;
+}
+
+.container2 {
+	width: 600px;
+	margin: 0 auto;
+	text-align: justify;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background-color: orange;
+}
+
+.login input {
+	margin-bottom: 8px;
+}
+
+a {
+	color: #CF4A30;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #911146;
+}

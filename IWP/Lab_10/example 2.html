@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		label {
+			display: block;
+		}
+
+        .invalid {
+            color: red;            
+        }
+	</style>
+</head>
+<body>
+
+<form onsubmit="return validateForm()" action="validate.html" method="post">
+	<p>
+		<label for="username">Username:</label>
+		<input type="text" name="username" id="username">
+        <p class="invalid" id="msgUsername"></p>
+	</p>
+ 	<p>
+		<label for="password">Password:</label>
+		<input type="text" name="password" id="password">
+        <p class="invalid" id="msgPassword"></p>
+	</p>
+	<p>
+		<label for="rePassword">Retype Password:</label>
+		<input type="text" name="rePassword" id="rePassword">
+        <p class="invalid" id="msgRePassoword"></p>
+	</p>
+	<p>
+		<input type="submit" value="Create New Account">
+	</p>
+</form>
+
+<script>
+    function validateForm() {
+        let username = document.getElementById('username').value,
+            msgUsername = document.getElementById('msgUsername'),
+        	password = document.getElementById('password').value,
+            msgPassword = document.getElementById('msgPassword'),
+        	rePassword = document.getElementById('rePassword').value,
+            msgRePassoword = document.getElementById('msgRePassoword'),
+        	valid = true;
+
+			if(username.length < 3)
+			{
+				msgUsername.innerHTML = 'Username must have minimun 3 letters';
+				valid = false;
+			}
+			else msgUsername.innerHTML = '';
+				
+			if(password.length < 6)
+			{
+				msgPassword.innerHTML = 'Password is too short';
+				valid = false;
+			}	
+			else msgPassword.innerHTML = '';
+			
+			if(password !== rePassword)
+			{
+				valid = false;
+				msgRePassoword.innerHTML = "Password doesn't match";
+			}
+			else msgRePassoword.innerHTML = '';
+			
+        if (valid == true) {
+            return true;
+        }
+
+        return false;
+    }
+</script>
+
+</body>
+</html>

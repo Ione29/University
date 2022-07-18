@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Example</title>
+  
+  <style type="text/css">
+  	input {
+  		display: block;
+  		margin-bottom: 10px;
+  		width: 100px;
+  	}
+  	
+  	button {
+  		width: 23px;
+  	}
+
+    button:hover {
+      color: orange;
+      background-color: black;    
+      border-color: orange;
+    }
+  	
+  	#display {
+  		color: navy;
+  		font-size: 24px;
+  		margin-top: 10px;
+  	}
+  </style>
+</head>
+<body>
+
+  <input type="text" id="nr1" placeholder="nr 1">
+  <input type="text" id="nr2" placeholder="nr 2">
+
+  <button id="add">+</button>
+  <button id="sub">-</button>
+  <button id="mul">X</button>
+  <button id="div">/</button>
+
+  <div id="display"></div>
+
+  <script>
+    let nr1 = document.getElementById('nr1');
+    let nr2 = document.getElementById('nr2');
+    let display = document.getElementById('display');
+    let add = document.getElementById('add');
+    let sub = document.getElementById('sub');
+    let mul = document.getElementById('mul');
+    let div = document.getElementById('div');
+
+    function addition() {
+        let result = parseInt(nr1.value) + parseInt(nr2.value);
+        display.innerHTML = result;
+    }
+
+    function substraction() {
+        let result = nr1.value - nr2.value;
+        display.innerHTML = result;
+    }
+
+    function multiplication() {
+        let result = nr1.value * nr2.value;
+        display.innerHTML = result;
+    }
+
+    function division() {
+        let result = nr1.value / nr2.value;
+        display.innerHTML = result;
+    }
+
+    add.addEventListener('click', addition);
+    sub.addEventListener('click', substraction);
+    mul.addEventListener('click', multiplication);
+    div.addEventListener('click', division);
+
+  </script>
+
+</body>
+</html>

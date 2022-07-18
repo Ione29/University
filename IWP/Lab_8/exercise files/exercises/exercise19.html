@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        function longestName(tab) 
+        {
+            
+            let max = tab[0].length, pos = 0;
+
+            for(let i = 1; i < 4; i++)
+                if(tab[i].length > max)
+                {
+                    pos = i;
+                    max = tab[i].length;
+                }
+
+            return arr[pos];
+        
+        }
+        
+        let arr = ["Albert", "Christophe", "John", "Bernard"];
+        
+        console.log(longestName(arr));
+
+    </script>
+
+</body>
+</html>

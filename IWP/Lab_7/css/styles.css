@@ -1,0 +1,153 @@
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.navigation li{
+    display: inline-block;
+    height: 100px;
+    align-items: center;
+    padding-top:35px;
+    padding-left: 5px;
+}
+
+
+.btn{
+    background-color: white;
+    color: rgb(9, 151, 151);
+    border-radius: 40px;
+    height: 50px;
+    width: 150px;
+    border-color: rgb(9, 151, 151);
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.btn-1{
+    border-color: rgb(9, 151, 151);
+    background-color: white;
+    color: rgb(9, 151, 151);
+    border-radius: 40px;
+    height: 50px;
+    width: 100px;
+    font-weight: bold;
+}
+
+.btn-2{
+    background-color: rgb(106, 106, 240);
+    color: white;
+    border-radius: 40px;
+    height: 50px;
+    width: 100px;
+    font-weight: bold;
+}
+
+.btn-3{
+    background-color: rgb(106, 106, 240);
+    color: white;
+    border-radius: 20px;
+    height: 75px;
+    width: 350px;
+    font-weight: bold;
+}
+
+.btn-4{
+    background-color: rgb(106, 106, 240);
+    color: white;
+    border-radius: 40px;
+    height: 75px;
+    width: 500px;
+    font-weight: bold;
+}
+
+
+.row .col-md-3 img{
+    width: 300px;
+    height: auto;
+}
+
+.top .row{
+    background-color: white;
+
+}
+
+.logo{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width:100px;
+    height: 75px;
+}
+
+.page{
+    text-align: center;
+    background-color: cadetblue;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color:white;
+}
+
+.page p{
+    font-size:30px;
+}
+
+.icon {
+    background-color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.icon .title {
+    background:white;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.icon .img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.page2{
+    background-color: rgb(66, 66, 253);
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.page2 .title{
+    width: 300px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    padding-left: 0px;
+}
+
+.page2 .title a{
+    color: white;
+}
+
+.signup{
+    text-align: center;
+    background-color:rgba(227, 227, 227, 0.992);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.signup h1{
+    text-align: center;
+}
+
+.footer{
+    list-style: none;
+    text-align: left;
+}
+
+.footer li
+{
+    display: inline-block;
+    padding-left: 0px;
+}

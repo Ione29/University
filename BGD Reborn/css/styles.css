@@ -1,0 +1,245 @@
+.top
+{
+    display: block;
+    position: fixed;
+    top:0;
+    width: 100%;
+    align-items: center; 
+    background: rgb(0,217,255);
+    background: linear-gradient(90deg, rgba(9,50,121,1), rgba(0,217,255,1), rgba(9,50,121,1));
+    padding: 15px;
+    text-align: center;
+    border-bottom: 3px solid black;
+    z-index: 1;
+}
+
+.logo
+{
+    padding-top: 6px;
+    width: 75px;
+}
+
+#navigation{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 35px;
+    padding-right: 75px;
+}
+
+#navigation a{
+    display: inline-block;
+    text-decoration-style: solid;
+    padding-top:15px;
+    font-size: 25px;
+    margin: 0 10px;
+    color: black;
+}
+
+#navigation a:link{
+    text-decoration: none;
+    color: black;
+}
+
+#navigation a:hover{
+    color: rgb(65, 65, 65);
+    text-decoration: none;
+}
+
+#navigation ul
+{
+    list-style: none;
+    padding-top:15px;
+}
+
+#navigation li
+{
+    display: inline-block;
+}
+
+.search_box
+{
+    border-radius:40px;
+}
+
+.carousel
+{
+    height:400px;
+    width:100%;
+    opacity:0.75;
+}
+
+
+.slideshow{
+    display: flex;
+    margin-top: 122px;
+    margin-bottom: 3px solid black;
+}
+
+.center_box{
+    position: absolute;
+    top: 247px;
+    left:39.5%;
+    width: 380px;
+    background-color: rgb(88, 143, 247);
+    padding:10px;
+    border-radius: 20px;
+    height:150px;
+}
+
+.center_box_text p
+{
+    text-align: center;
+    font-size: 17px;
+}
+
+.recruitment
+{
+    padding-left: 850px;
+    background: rgb(0,217,255);
+    background: linear-gradient(90deg, rgba(9,50,121,1), rgba(0,217,255,1), rgba(9,50,121,1));
+}
+
+.recruitment p
+{
+    padding-top: 105px;
+}
+
+.recruitment form
+{
+    height:200px;
+    
+}
+
+.btn
+{
+    position: absolute;
+    right:48.5%;
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+    width: 100px;
+    height: 100px;
+}
+
+.footer
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height:75px;
+    background-color: rgb(122, 122, 122);
+    border-top: 3px solid black;
+}
+
+.social{
+    list-style: none;
+    align-items: center;
+}
+
+.social li{
+    display:inline-block;
+    align-items: center;
+}
+
+.social img
+{   
+    margin-top:12.5px;
+    margin-left:50px;
+    width:50px;
+}
+
+.about
+{
+    list-style: none;
+    width:300px;
+    margin-left: 112.5px;
+    padding:0;
+}
+
+.about li
+{
+    text-align: center;
+}
+
+.backToTop{
+    display: inline;
+    border-radius: 10px;
+    height: 50px;
+    margin-left: 25px;
+    background-color: rgb(255, 255, 255);
+}
+
+#btn
+{
+    margin-top:12.5px;
+    padding-right:0px;
+    padding-left:70px;
+}
+
+.signup
+{
+    margin-top: 133px;    
+}
+
+.login
+{
+    margin-top: 122px;
+    height: 735px;
+    background: rgb(0,217,255);
+    background: linear-gradient(90deg, rgba(9,50,121,1), rgba(0,217,255,1), rgba(9,50,121,1));
+}
+
+.login form
+{
+    display: inline-block;
+    width: 693px;
+    margin-left: 613.5px;
+    margin-top: 330px;
+    text-align: center;
+}
+
+.center
+{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.center table
+{
+    border: 3px solid black;
+}
+
+.center td{
+    padding:5px;
+}
+
+.invalid{
+    color: red;
+}
+
+.addGames{
+    margin-left: 819px;
+}
+
+.addGames form  
+{ 
+    display: table;      
+}
+.addGames p
+{ 
+    display: table-row;  
+}
+.addGames label 
+{ 
+    display: table-cell; 
+}
+.addGames input 
+{ 
+    display: table-cell; 
+}
+
+#table table{
+    margin-top: 25px;
+    margin-left: 155px;;
+}

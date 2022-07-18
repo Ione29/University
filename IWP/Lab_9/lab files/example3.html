@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+	<p id="number1">5</p>
+	<p id="number2">7</p>
+	<p id="number3">8</p>
+	<p id="number4">3</p>
+	<p id="number5">2</p>
+
+	<div id="display"></div>
+
+	<script>
+		let display = document.getElementById('display');
+
+		function sum()
+		{
+			let sum = 0;
+
+			for(let i = 1; i < 6; i++)
+			{
+				let id = "number" + i;
+				let element = document.getElementById(id);
+				sum += parseInt(element.innerHTML);
+			}	
+				
+			display.innerHTML = "Sum = " + sum;
+		}
+
+		sum();
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	
+	<p>Price: <span id="price">20</span></p>
+	<input type="text" placeholder="quantity" id="quantity" /><br /><br />
+	<input type="radio" name="size" value="1" id="small" />SMALL
+	<input type="radio" name="size" value="2" id="big" />BIG
+	
+	<button id="btn">Order</button>	
+		
+	<div id="result"></div>	
+	
+	
+	<script>
+		let price = document.getElementById('price');
+		let result = document.getElementById('result');
+		let quantity = document.getElementById('quantity');
+		let btn = document.getElementById('btn');
+		let big = document.getElementById('big');
+		let small = document.getElementById('small');
+	
+		function order() 
+		{	
+			let total = 0;
+			
+			if(small.checked)
+				total = price.innerHTML * quantity.value * small.value;
+			
+			if(big.checked)
+				total = price.innerHTML * quantity.value * big.value;
+
+			result.innerHTML = total;
+		}	
+
+		btn.addEventListener('click', order);
+	</script>
+	
+</body>
+</html>

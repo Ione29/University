@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	
+	<style>
+		div	{
+			color: navy;
+			background-color: skyblue;
+			margin: 0 auto;
+			width: 600px;
+			padding-top: 2px;
+			text-align: center;
+			font-size: 22px;
+		}
+		
+		a {
+			color:navy;
+			cursor: pointer;
+			user-select: none;
+		}
+		
+		a:hover {
+			color: red;
+		}
+		
+		form {
+			margin-left:100px;
+		}
+	</style>
+
+</head>
+<body>
+
+	<div>
+		<h4>JS SlideShow</h4> 
+		<img src="images/slide-dimension.png" id="slide" width="600" height="400"><br> 
+		<a id="back">&larr; Prev</a> | 
+		<a id="next">Next &rarr;</a> 
+	</div>	
+	
+	<script>
+		let images = ["slide-dimension.png", "slide-android.gif", "slide-lorem.jpg", "slide-phone.jpg", 			  "slide-rocket.jpg"]; 
+		let index = 0; 
+		let btnNext = document.getElementById('next');
+		let btnBack = document.getElementById('back');
+		let slide = document.getElementById('slide');
+		
+		function back() { 
+			if(index > 0)
+			{
+				index--;
+				slide.src = "images/" + images[index];
+			}
+		} 
+		
+		function next() { 
+			if(index < images.length - 1)
+			{
+				index++;
+				slide.src = "images/" + images[index];
+			}
+		} 
+		
+		btnNext.addEventListener('click', next);
+		btnBack.addEventListener('click', back);
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>FILS</title>
+<body>
+	
+	<input type="text" id="n" placeholder="n = ">
+	<input type="text" id="k" placeholder="k = ">
+	<button id="btn">Calculate</button>
+	<div id="display"></div>
+
+	<script>
+		let btn = document.getElementById('btn');
+		let display = document.getElementById('display');
+		let n = document.getElementById('n');
+		let k = document.getElementById('k');
+
+		function factorial(n) {
+			let factorial = 1;
+
+			for (let i = 1; i <= n; i++) {
+				factorial *= i;
+			}
+
+			return factorial;
+		}
+
+		function arrangements(n, k) {
+			return factorial(n) / factorial(n - k);
+		}
+
+		function calc() {
+			let result = arrangements(n.value, k.value);
+			display.innerHTML = result;
+		}
+
+		btn.addEventListener('click', calc); 
+	
+	</script>
+
+</body>
+</html>
