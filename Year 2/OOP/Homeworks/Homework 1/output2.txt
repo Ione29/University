@@ -1,0 +1,4 @@
+Loan ID:5; Person: Name: Mary; Surname: Loe; CNP: 3; Ammount: 500.0
+Loan ID:6; Person: Name: Mary; Surname: Loe; CNP: 3; Ammount: 600.0
+Loan ID:8; Person: Name: Roxy; Surname: Joe; CNP: 4; Ammount: 800.0
+Loan ID:9; Person: Name: Roxy; Surname: Joe; CNP: 4; Ammount: 900.0
