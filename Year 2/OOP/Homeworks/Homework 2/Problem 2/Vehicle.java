@@ -1,4 +1,4 @@
-public abstract class Vehicle implements Taxable, Comparable{
+public abstract class Vehicle implements Taxable{
     protected double basePrice;
     protected String name, country;
 
@@ -9,6 +9,10 @@ public abstract class Vehicle implements Taxable, Comparable{
     }
 
     public Vehicle(){}
+
+    public double getBasePrice(){
+        return basePrice;
+    }
 
     public String toString(){
         String text = "Car Name: " + this.name + " | Base price: " + this.basePrice + " | Country of Origin: " + this.country;
@@ -29,19 +33,5 @@ public abstract class Vehicle implements Taxable, Comparable{
 
     public double computeTotalTax(){
         return this.computeVAT() + this.computeCustomTax() + this.computeRoadTax();
-    }
-
-    //Problem 3 only
-    public int compareTo(Object aThat) {
-        final int BEFORE = -1;
-        final int EQUAL = 0;
-        final int AFTER = 1;
-
-        if(this.computeTotalTax() == ((Vehicle)aThat).computeTotalTax()) 
-            return EQUAL;
-        if(this.computeTotalTax() < ((Vehicle)aThat).computeTotalTax())
-            return BEFORE;
-        else 
-            return AFTER;    
     }
 }

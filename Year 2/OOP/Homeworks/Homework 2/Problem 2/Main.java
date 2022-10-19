@@ -31,12 +31,55 @@ public class Main {
 
 
         ///Problem 3, no need to do another folder
-        Vehicle vehicles[] = {minibus, bus, truck };
+        Vehicle vehicles[] = {truck, bus, minibus};
 
         ///ascending based on totalTaxes
+        System.out.println("\nDescending sort based on total tax cost:");
+        for (int i = 0; i < vehicles.length - 1; i++)
+        {
+            boolean swapped = false;
+            for (int j = 0; j < vehicles.length - i - 1; j++)
+            {
+                if(vehicles[j].computeTotalTax() < vehicles[j+1].computeTotalTax())
+                {
+                Vehicle temp;
+                temp = vehicles[j];
+                vehicles[j] = vehicles[j + 1];
+                vehicles[j + 1] = temp;
+                swapped = true;
+                }
+            }
         
+            if (swapped == false)
+                break;
+        }
 
-
+        for(int i = 0; i < vehicles.length; i++)
+            System.out.println(vehicles[i].toString() + " | Total Taxes: " + vehicles[i].computeTotalTax()); 
+        
         //descending based on basePrice
+        System.out.println("\nDescending sort based on base price: ");
+        for (int i = 0; i < vehicles.length - 1; i++)
+        {
+            boolean swapped = false;
+            for (int j = 0; j < vehicles.length - i - 1; j++)
+            {
+                if(vehicles[j].getBasePrice() > vehicles[j+1].getBasePrice())
+                {
+                Vehicle temp;
+                temp = vehicles[j];
+                vehicles[j] = vehicles[j + 1];
+                vehicles[j + 1] = temp;
+                swapped = true;
+                }
+            }
+        
+            if (swapped == false)
+                break;
+        }
+
+        for(int i = 0; i < vehicles.length; i++)
+            System.out.println(vehicles[i].toString()); 
+        
     }
 }
