@@ -31,6 +31,12 @@ public class Main {
 
 
         ///Problem 3, no need to do another folder
+        Vehicle vehicles[] = {minibus, bus, truck };
 
+        ///ascending based on totalTaxes
+        
+
+
+        //descending based on basePrice
     }
 }
