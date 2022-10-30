@@ -1,0 +1,4 @@
+Course name: OOP | Stream: ENGLISH | Type: DISCIPLINE | No. of Credit Points: 5
+Course name: Physical Education | Stream: GERMAN | Type: FOUNDAMENTAL | No. of Credit Points: 3
+Course name: Spanish | Stream: ENGLISH | Type: SPECIALIZATION | No. of Credit Points: 5
+Course name: Math | Stream: FRENCH | Type: FOUNDAMENTAL | No. of Credit Points: 4
