@@ -23,11 +23,15 @@ public class Main {
         
         //remove test
         System.out.println("\nRemove Test:");
-        contract.removeCourse("OOP", Course.Type.DISCIPLINE, Course.Stream.ENGLISH, 5);
+        if(contract.removeCourse("OOP", Course.Type.DISCIPLINE, Course.Stream.ENGLISH, 5))
+            System.out.println("Course removed.");
+        else
+            System.out.println("Course not found.");
+
         contract.display();
         
         //sort exception test should crash program
-        System.out.println("\nSort Exception Test, should crash program and show nothing:");
+        System.out.println("\nSort Exception Test, should crash program:");
         contract.addCourse(dupe); // same as c4
         contract.sort();
 

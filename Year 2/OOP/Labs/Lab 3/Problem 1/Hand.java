@@ -17,8 +17,16 @@ public class Hand implements Storable{
     }
 
     public boolean deleteCard(Card.Rank vRank, Card.Suit vSuit){
-        Card c = new Card(vRank, vSuit);
-        return cards.remove(c);
+        
+        for(Card card : cards){
+            if(card.getRank() == vRank && card.getSuit() == vSuit){
+                cards.remove(card);
+                return true;
+            }
+        }
+
+        return false;
+
     }
 
     public void sort(){

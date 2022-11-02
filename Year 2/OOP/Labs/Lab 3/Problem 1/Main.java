@@ -25,7 +25,7 @@ public class Main {
         
         //remove test
         System.out.println("\nRemove Test:");
-        if(hand.deleteCard(Card.Rank.ACE, Card.Suit.CLUBS))
+        if(hand.deleteCard(Card.Rank.ACE, Card.Suit.CLUBS) == true)
             System.out.println("Card removed succesfully!");
         else 
             System.out.println("Specified card could not be removed!");

@@ -17,9 +17,13 @@ public class Contract implements Storable{
 
     public boolean removeCourse(String vName, Course.Type vType, Course.Stream vStream, int vCreditPoints){
         
-        Course c = new Course(vName, vType, vStream, vCreditPoints);
-        return courses.remove(c);
-        
+        for(Course course : courses)
+            if(course.getName().equals(vName) && course.getType().equals(vType) && course.getStream().equals(vStream) && course.getCreditPoints() == vCreditPoints){
+                courses.remove(course);
+                return true;
+            }
+
+        return false;
     }
 
     public void display(){
