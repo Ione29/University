@@ -41,4 +41,17 @@ public class Deck {
                 });
     }
 
+    public void addToBottom(PlayingCard card){
+        cards.add(0, card);
+    }
+
+    public PlayingCard getTopCard(){
+        return cards.remove(cards.size() - 1);
+    }
+
+    public int getSize(){
+        return cards.size();
+    }
+
+    
 }
