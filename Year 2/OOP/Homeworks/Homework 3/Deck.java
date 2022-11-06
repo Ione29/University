@@ -53,5 +53,15 @@ public class Deck {
         return cards.size();
     }
 
-    
+    public void clearDeck(){
+        cards.clear();
+    }
+
+    public void resetDeck(){
+        cards.clear();
+
+        for(PlayingCard.Suit suit : PlayingCard.Suit.values())
+            for(PlayingCard.Rank rank : PlayingCard.Rank.values())
+                cards.add(new PlayingCard(rank, suit));
+    }
 }
