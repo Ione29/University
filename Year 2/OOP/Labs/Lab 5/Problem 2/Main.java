@@ -1,6 +1,6 @@
 import java.util.HashMap;
 import java.util.Map;
-import java.util.jar.Attributes.Name;
+import java.time.LocalDate;
 
 public class Main {
     
@@ -17,9 +17,19 @@ public class Main {
     Employee e9 = new Employee("Emanuel Doe", "12345983240123", LocalDate.of(2018, 1, 1), "Trainee", 1000.1);
     Employee e10 = new Employee("Sorin Doe", "1234567890123", LocalDate.of(2018, 1, 1), "Trainee", 1000.1);
     
-    Map<Name, Employee> empMap = new HashMap<>();
+    Map<String, Employee> empMap = new HashMap<>();
 
-    //NOT FINISHED
+    empMap.put(e1.getName(), e1);
+    empMap.put(e2.getName(), e2);
+    empMap.put(e3.getName(), e3);
+    empMap.put(e4.getName(), e4);
+    empMap.put(e5.getName(), e5);
+    empMap.put(e6.getName(), e6);
+    empMap.put(e7.getName(), e7);
+    empMap.put(e8.getName(), e8);
+    empMap.put(e9.getName(), e9);
+    empMap.put(e10.getName(), e10);
+
 
     }   
 }

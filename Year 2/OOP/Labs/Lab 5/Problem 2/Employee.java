@@ -14,4 +14,8 @@ public class Employee {
         this.specialization = vSpecalization;
         this.salary = vSalary;
     }
+
+    public String getName(){
+        return this.name;
+    }
 }

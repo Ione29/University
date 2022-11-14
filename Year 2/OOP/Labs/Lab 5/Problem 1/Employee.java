@@ -5,7 +5,7 @@ public class Employee implements Comparable{
     private String CNP;
     private LocalDate hiringDate;
     private String specialization;
-    private Double salary;
+    private Double salary; 
     
     public Employee(String vName, String vCNP, LocalDate vHiringDate, String vSpecalization, Double vSalary){
         this.name = vName;
@@ -14,7 +14,7 @@ public class Employee implements Comparable{
         this.specialization = vSpecalization;
         this.salary = vSalary;
     }
-
+    
     public String toString(){
         String text = "Name: " + this.name + " | CNP: " + this.CNP + " | Hiring Date: " + this.hiringDate + " | Specialization: " + this.specialization + " | Salary: " + this.salary;
         return text;
