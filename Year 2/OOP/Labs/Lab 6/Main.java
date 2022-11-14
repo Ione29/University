@@ -12,7 +12,7 @@ public class Main {
         private TextField name = new TextField(20);
         private Label l2 = new Label("Gender");
         private Label l3 = new Label("Job Description");
-        private TextArea jobDescription = new TextArea(10, 10);
+        private TextArea jobDescription = new TextArea(4, 10);
         private Label l4 = new Label("Experience (in years)");
         private TextField experience = new TextField(2);
         private Label l5 = new Label("Location");
@@ -127,38 +127,49 @@ public class Main {
         WindowListener fListener = new Terminator();
 
         private final int WIDTH = 250;
-        private final int HEIGHT = 700;
+        private final int HEIGHT = 500;
 
         public MyFrame(){
             this.addWindowListener(fListener);
             setTitle("Job Application");
-            setLayout(new FlowLayout());
+            setLayout(new GridLayout(6,1));
             setSize(WIDTH, HEIGHT);
-            add(l1);
-            add(name);
-            add(l2);
-            add(male);
-            add(female);
-            add(l3);
-            add(jobDescription);
-            add(l4);
-            add(experience);
-            add(hsb);
+            Panel p1 = new Panel();
+            p1.add(l1);
+            p1.add(name);
+            add(p1);
+            Panel p2 = new Panel();
+            p2.add(l2);
+            p2.add(male);
+            p2.add(female);
+            add(p2);
+            Panel p3 = new Panel();
+            p3.add(l3);
+            p3.add(jobDescription);
+            add(p3);
+            Panel p4 = new Panel();
+            p4.add(l4);
+            p4.add(experience);
+            p4.add(hsb);
             hsb.addAdjustmentListener(sController);
-            add(l5);
+            add(p4);
+            Panel p5 = new Panel();
+            p5.add(l5);
             locationChooser.add("Bucharest");
             locationChooser.add("Iasi");
             locationChooser.add("Cluj-Napoca");
             locationChooser.add("Budapest");
             locationChooser.add("Berlin");
-            add(locationChooser);
-            
+            p5.add(locationChooser);
+            add(p5);
+            Panel p6 = new Panel();
             button1.addActionListener(button1Event);
             button2.addActionListener(button2Event);
             button3.addActionListener(button3Event);
-            add(button1);
-            add(button2);
-            add(button3);
+            p6.add(button1);
+            p6.add(button2);
+            p6.add(button3);
+            add(p6);
         }
     }
 
