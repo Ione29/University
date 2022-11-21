@@ -29,16 +29,5 @@ public class Main {
     empMap.put(e8.getName(), e8);
     empMap.put(e9.getName(), e9);
     empMap.put(e10.getName(), e10);
-
-    la primul map este lista pentru ca sunt mai multe limbaje
-    de programare pe care un user le stie
-
-    la al doua mapa este o lista cu toti userii care stiu
-    limbajul ala de programare
-    
-    chiar nu are nici un motiv sa fie o lista de limbaje la 
-    
-    un challenge ca nu are nici un sens, un challenge poate sa fie 
-    doar intr.un singur limbaj
     }   
 }
