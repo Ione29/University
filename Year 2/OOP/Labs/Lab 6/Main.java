@@ -65,7 +65,7 @@ public class Main {
                 class Terminator implements WindowListener{
                     public void windowClosing(WindowEvent event){
                         System.exit(0);
-                    }
+                    } 
                     public void windowOpened(WindowEvent e) {}
                     public void windowClosed(WindowEvent e) {}
                     public void windowIconified(WindowEvent e) {}
