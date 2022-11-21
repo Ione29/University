@@ -3,6 +3,7 @@ import java.util.HashMap;
 import java.util.Set;
 import java.util.HashSet;
 import java.util.List;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -73,11 +74,43 @@ public class Main {
 
     public static void main(String[] args) {
         
+        Photo p1 = new Photo("family1.jpeg", LocalDate.of(2002, 9, 20), 4);
+        Photo p2 = new Photo("family2.jpeg", LocalDate.of(2002, 9, 21), 5);
+        Photo p3 = new Photo("family3.jpeg", LocalDate.of(2002, 10, 1), 2);
+        Photo p4 = new Photo("work1.jpeg", LocalDate.of(2002, 3, 30), 1);
+        Photo p5 = new Photo("work2.jpeg", LocalDate.of(2002, 3, 30), 3);
+        Photo p6 = new Photo("work3.jpeg", LocalDate.of(2002, 3, 30), 2);
+        Photo p7 = new Photo("holiday1.jpeg", LocalDate.of(2002, 6, 10), 5);
+        Photo p8 = new Photo("holiday2.jpeg", LocalDate.of(2002, 6, 11), 2);
+        Photo p9 = new Photo("holiday3.jpeg", LocalDate.of(2002, 12, 24), 3);
 
+        Folder f1 = new Folder("School Opening Day");
+        f1.addPhoto(p1);
+        f1.addPhoto(p2);
+        Folder f2 = new Folder("My Birthday");
+        f2.addPhoto(p3);
+
+        Folder f3 = new Folder("Corporate TeamBuilding");
+        f3.addPhoto(p4);
+        f3.addPhoto(p5);
+        f3.addPhoto(p6);
+        
+        Folder f4 = new Folder("Thasos holiday");
+        f4.addPhoto(p7);
+        f4.addPhoto(p8);
+        Folder f5 = new Folder("Sinaia holiday");
+        f5.addPhoto(p5);
 
         Album a1 = new Album("family");
+        a1.addFolder(f1);
+        a1.addFolder(f2);
         Album a2 = new Album("work");
+        a2.addFolder(f3);
         Album a3 = new Album("holiday");
+        a3.addFolder(f4);
+        a3.addFolder(f5);
+
+        a1.toString();
 
         Map<Integer, Set<Photo>> scoreMap1 = new HashMap<Integer,Set<Photo>>();
         Map<Integer, Set<Photo>> scoreMap2 = new HashMap<Integer,Set<Photo>>();

@@ -22,6 +22,10 @@ public class Album{
         }
     }
 
+    public void addFolder(Folder vFolder){
+        folders.add(vFolder);
+    }
+
     public String getName(){
         return this.name;
     }
