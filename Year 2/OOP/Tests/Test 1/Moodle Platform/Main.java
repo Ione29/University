@@ -18,8 +18,5 @@ public class Main {
         Map<Student, Integer> studentMap = new HashMap<Student,Integer>();
 
         studentMap = classroom.toMap();
-        
-
-
     }    
 }
