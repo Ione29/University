@@ -29,7 +29,10 @@ public class Student implements Comparable{
     }
 
     public void addCourse(Course vCourse){
-        courses.add(vCourse);
+        if(courses.contains(vCourse))
+            System.out.println("The student already takes this course");
+        else
+            courses.add(vCourse);
     }
 
     public ArrayList<Course> getCourseList(){
