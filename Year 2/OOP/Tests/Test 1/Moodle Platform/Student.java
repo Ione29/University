@@ -28,6 +28,10 @@ public class Student implements Comparable{
         return average;
     }
 
+    public String getName(){
+        return this.name;
+    }
+
     public void addCourse(Course vCourse){
         if(courses.contains(vCourse))
             System.out.println("The student already takes this course");

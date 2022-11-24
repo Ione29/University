@@ -24,8 +24,6 @@ public class Course {
 
     public boolean equals(Object vOther){
         Course other = (Course) vOther;
-
         return (name == null || name.equals(other.name));
-        
     }
 }

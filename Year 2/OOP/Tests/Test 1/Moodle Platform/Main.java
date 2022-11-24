@@ -16,7 +16,9 @@ public class Main {
         
 
         Map<Student, Integer> studentMap = new HashMap<Student,Integer>();
-
         studentMap = classroom.toMap();
+
+        for(Map.Entry<Student, Integer> studentClassesPair : studentMap.entrySet())
+            System.out.println("Student " + studentClassesPair.getKey().getName() + " attends to " + studentClassesPair.getValue());
     }    
 }

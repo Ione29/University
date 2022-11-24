@@ -36,6 +36,7 @@ public class Main {
         Map<String, Double> gradeMap = database.toMap();
 
         for(Map.Entry<String,Double> breedGradePair: gradeMap.entrySet()){
+            System.out.println("unu");
             System.out.println("Breed " + breedGradePair.getKey() + " has an average score of " + breedGradePair.getValue() + ".");
         }
 
