@@ -18,7 +18,7 @@ public class Consumer extends Thread{
                 try{
                     System.out.println("Candidate " + candidate.getName() + " passed...");
 
-                    FileWriter writer = new FileWriter(candidate.getName());
+                    FileWriter writer = new FileWriter(candidate.getName() + ".txt");
                     writer.write(candidate.toString());
                     writer.close();
 
