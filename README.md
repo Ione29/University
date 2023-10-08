@@ -1,4 +1,4 @@
 # University
 Work from Uni
 
-Year 1 may not be complete / have fully correct solutions
+Everything might not be complete / have fully correct solutions
