@@ -2,10 +2,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <iostream>
+#include <GLFW/glfw3.h>
 
-// Include GLFW
-#include "dependente/glfw/glfw3.h"
-
+/* Run Command:
+g++ -std=c++23 -o firstLabGlfw firstLabGlfw.cpp -lGL -lGLU -lX11 -lXxf86vm -lXrandr -lpthread -lXi -lglfw
+*/
 //variables
 GLFWwindow* window;
 const int width = 1024, height = 768;
@@ -55,17 +56,17 @@ int main()
 		// Swap buffers
 		glfwSwapBuffers(window);
 
-		//if (i > 1.0f)
-		//{
-		//	i = 0.0f;
-		//}
+		if (i > 1.0f)
+		{
+			i = 0.0f;
+		}
 
-		//if (j > 1.0f)
-		//{
-		//	j = 0.0f;
-		//}
+		if (j > 1.0f)
+		{
+			j = 0.0f;
+		}
 
-		//glClearColor(i += 0.1f, 0.0f, j += 0.05f , 0.0f);
+		glClearColor(i += 0.1f, 0.0f, j += 0.05f , 0.0f);
 
 
 		// Clear the screen
