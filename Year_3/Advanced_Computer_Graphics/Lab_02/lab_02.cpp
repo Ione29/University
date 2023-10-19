@@ -4,7 +4,6 @@
 #include <iostream>
 #include "dependente/glew/glew.h"
 #include "dependente/glfw/glfw3.h"
-#include "dependente/glm/glm.hpp"
 #include "dependente/freeglut/freeglut.h"
 // Include GLEW
 
