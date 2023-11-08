@@ -1,0 +1,32 @@
+EMU8086 GENERATED LISTING. MACHINE CODE <- SOURCE.
+ 
+lab_05.bin -- emu8086 assembler version: 4.08  
+ 
+[ 11/3/2023  --  12:29:42 PM ] 
+ 
+===================================================================================================
+[LINE]     LOC: MACHINE CODE                          SOURCE
+===================================================================================================
+ 
+[   1]        :                                       ; Program to show use of interrupts
+[   2]        :                                       ; Also, Hello World program !
+[   3]    0000: 48 65 6C 6C 6F 20 57 6F 72 6C 64      hello: DB "Hello World" ; store string
+[   4]        :                                       
+[   5]        :                                       ; actual entry point of the program, must be present
+[   6]    000B:                                       start:
+[   7]    000B: B4 13                                 MOV AH, 0x13            ; move BIOS interrupt number in AH
+[   8]    000D: B9 0B 00                              MOV CX, 11              ; move length of string in cx
+[   9]    0010: BB 00 00                              MOV BX, 0               ; mov 0 to bx, so we can move it to es
+[  10]    0013: 8E C3                                 MOV ES, BX              ; move segment start of string to es, 0
+[  11]    0015: BD 00 00                              MOV BP, OFFSET hello    ; move start offset of string in bp
+[  12]    0018: B2 00                                 MOV DL, 0               ; start writing from col 0
+[  13]    001A: CD 10                                 int 0x10                ; BIOS interrupt
+[  14]        :                                       
+ 
+===================================================================================================
+ 
+
+
+
+
+===================================================================================================
