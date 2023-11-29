@@ -12,6 +12,25 @@ def ex1():
         print(re.findall(r'(<p>\s*\w*\s*(?:\w+\s*)*<\/p>)', content))
 
 def ex2():
+    html_tags = [
+        "<p, p>",
+        "<id=“>",
+        "<p></p>",
+        "“<p>",
+        "<body></title>",
+        "<a href='https://example.com'>Link to the website</a>",
+        "<div></p>",
+    ]
+
+    pattern = re.compile(r'<(\w+)(\s[^>]*)?>(.*?)</\1>|<(\w+)(\s[^>]*)?/>')
+    for tag in html_tags:
+        if pattern.fullmatch(tag):
+            print(f"GOOD : '{tag}'")
+        else:
+            print(f"BAD : '{tag}'")
+
+
+def ex3():
     wb = openpyxl.Workbook()
     sheet_counter = len(wb)
 
@@ -27,8 +46,6 @@ def ex2():
                 wb.save('result.xlsx')   
         
         wb.save('result.xlsx')
-
-
 
 dfa = {
         0: {'a': 1, 'b': 2},
@@ -46,19 +63,11 @@ def checking(transitions, start, final, string):
             state = transitions[state][x]
         
         if state in final:
-            return "True";
+            return "True"
         else:
-            return "False";
+            return "False"
     except:
-        return "False But with error";
+        return "False But with error"
 
 
-
-def main():
-    #ex1();
-    print(checking(dfa, 0, {4}, "aabba"))
-
-
-
-if __name__ == "__main__":
-    main()
+ex2()
