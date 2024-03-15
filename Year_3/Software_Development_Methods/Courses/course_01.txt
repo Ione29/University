@@ -1,0 +1,70 @@
+Chapter 1: software engineering
+
+There are 4 engineering fields:
+
+Software engineering < Hardware engineering < Data engineering < Systems Engineering
+
+for software development, you need a methodology
+    methodology = a body of practices, procedures and rules
+    is implemented as a set of well-defined steps or phases, each of which ends with a clear, measurable set of exit cirteria
+
+    methodology key characteristics:
+        process-oriented
+        adaptive / flexible
+        collaborative
+        documentable & documentation - driven
+        manage complexity
+        reduces risk & uncertainty
+        enchances consistency & quality
+        focus on quality
+
+    a methodology consists of two components:
+        a standard process
+        a standard notation
+
+    methodology elements:
+        phases: each phase has specific goals and deliverables
+        activities: in each phase, specific activities are defined, detailing tasks, tools, and techniques
+        roles & responsibilities: each team member hass a defined tole in order to ensure clear ownership & communication
+        artifacts: deliverables and documentation produced throughout the process (ex: documents, design models, test cases, etc.)
+
+    there is no standard methodology for any project developemnt process, but there is one concept in common: the process is iterative
+
+classical software methodologies:
+    structured methodology
+    information engineering methodology
+    object-oriented methodology
+
+choosing a methodology for the project:
+    there are several factors that influence the decision, including:
+        project siez
+        complexity
+        requirements stability
+        budget
+        team size and expirience
+        desired level of flexibility
+
+    the ideal methodology depends on several factors:
+        project complexitty
+        team expirience
+
+Chapter 2: Introduction to Systems Engineering
+
+Systems engineering = an interdisciplinary field of engineering focusing on how complex engineering projects should be designed and managed over their life cycles
+    in systems engineering, a system is more than just a collection of parts; the concentration is on the analysis and design of the whole thing, not focusing on individual components / parts.
+    systems engineering points towards analysis and synthesis models for problems that affect multiple aspects of the real world
+    it integrates all disciplines and specialty groups
+
+    characteristics:
+        plans, designs and develops complex systems
+        integrates various engineering disciplines, to create a unified system
+        manages the entire system lifecycle, from concept to retirement, to ensure performance, cost-effectiveness, and safety
+        considers the system in its broader context, including its impact on environment & society
+
+    focuses on:
+        syustem as a whole
+        life cycle management
+        stakeholders
+        optimization in organizations
+
+system = an assembly of components, interoperating between themselves

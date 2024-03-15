@@ -1,0 +1,4 @@
+[debug] [hello-world] Classpath dependencies List()
+[debug] [hello-world] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'hello-world' to '/home/ione/Documents/University/Year_3/Functional_Programming/Labs/test_project/hello-world/.bloop/hello-world.json'
+[success] Generated .bloop/hello-world.json

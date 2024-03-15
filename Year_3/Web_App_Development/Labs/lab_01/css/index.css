@@ -1,0 +1,28 @@
+#header {
+    align-items: center;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#image{
+    display: flex;
+}
+
+.form-inline{
+    display: grid;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.other-links{
+    justify-content:safe;
+    align-items: center;
+    margin: 20px 0;
+}
+
+body{
+    max-width: 560px;
+    margin: 0 auto;
+}

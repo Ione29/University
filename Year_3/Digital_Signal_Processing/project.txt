@@ -1,0 +1,64 @@
+ALL PROJECTS ARE SOLO!
+
+-----------Mandatory Project - NN-----------------
+
+Pick up a data set, and make a project about it:
+    create a presentation
+    write report
+
+-----------Bonus Projects - DSP-------------------
+
+You Choose one of the following:
+    Easy: flash
+        available grades: 7, 8, 9, 10
+        -5 for failure
+        grade multiplier: 0.1
+
+    Medium: delta, sigma
+        available grades: 8, 9, 10
+        -3 for failure
+        grade multiplier: 0.2
+
+    Hard: a/d pipelined
+        available grades: 9, 10
+        -2.3 for failure
+        grade multiplier: 0.3
+
+The grade you get on the project * the grade multiplier = how much you get for the final grade
+    Ex: you choose the pipeline as a project and you get 9, the bonus for the final grade is 9 * 0.3 = 2.7p extra (out of 10)
+
+---------------------Lab Tests---------------------
+DSP:
+    10 minutes
+    2 students at a timedeci
+    design 1 filter
+    if failure rate <50%, he will do something in week 14, no guarantee
+
+NN:
+    Matlab -> change an existing assignment
+    translating from Python to Matlab
+    around weeks 9-11
+    still withing a time limit, not provided
+
+--------------------Scheduling---------------------
+Monday:
+    DSP Lab (if SDM Course IS Wednesday)
+
+Wednesday:
+    DSP + NN Courses
+    DSP Lab (if SDM course IS NOT on Wednesday)
+
+Friday:
+    NN Lab
+
+The labs are weekly, not biweekly: 2 hours/week for NN, 2 hours/week for DSP
+The DSP Project hour is supposed to be considered as a lab
+
+--------------------Miscellaneous------------------
+Bring your own computer:
+    must have python (preferably Anaconda)
+    "compiled" alternatives are allowed: pycharm, google collabs, etc.
+    if we are good enough we get to do Matlab, so make sure you have it installed just in case
+
+Regarding cheating:
+    something copy pasted form the net == cheating => failure

@@ -1,0 +1,26 @@
+create table addresses(
+id int not null auto_increment,
+country varchar(45) not null,
+city varchar(45) not null,
+street varchar(45) null,
+primary key (id));
+
+create table persons(
+id int not null auto_increment, 
+name varchar(50) not null, 
+address int null, 
+birthDate Date null, 
+job varchar(30) null, 
+primary key (id), 
+constraint fk_address 
+foreign key (address) references addresses (id));
+
+create table creditCard(
+id mediumint unsigned not null auto_increment primary key,
+iban varchar(35) not null,
+amount double(10, 2) null,
+owner_id int not null,
+constraint fk_persons
+foreign key (owner_id) references persons(id)
+on delete cascade 
+on update restrict);

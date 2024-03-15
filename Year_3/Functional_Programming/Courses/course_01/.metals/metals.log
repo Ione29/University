@@ -1,0 +1,1460 @@
+2024.03.12 14:23:52 INFO  Started: Metals version 1.2.2 in folders '/home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01' for client Visual Studio Code 1.87.1.[0m
+14:23:53.176 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- Flyway Community Edition 9.22.3 by Redgate
+14:23:53.180 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- See release notes here: https://rd.gt/416ObMi
+14:23:53.180 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- 
+14:23:53.185 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+14:23:53.186 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@4f2410ac ...
+14:23:53.186 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+14:23:53.186 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+14:23:53.186 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@4f2410ac ...
+14:23:53.188 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/home/ione/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+14:23:53.200 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+14:23:53.200 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+14:23:53.200 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+14:23:53.201 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+14:23:53.201 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+14:23:53.201 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+14:23:53.207 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+14:23:53.208 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+14:23:53.209 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+14:23:53.210 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+14:23:53.210 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+14:23:53.311 [pool-1-thread-1] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:/home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/metals (H2 2.2)
+14:23:53.311 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+14:23:53.311 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+14:23:53.313 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+14:23:53.313 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+14:23:53.320 [pool-1-thread-1] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+14:23:53.322 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+14:23:53.323 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+14:23:53.335 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+14:23:53.342 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+14:23:53.361 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+14:23:53.362 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+14:23:53.362 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+14:23:53.362 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+14:23:53.362 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+14:23:53.363 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+14:23:53.364 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+14:23:53.364 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+14:23:53.364 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+14:23:53.365 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+14:23:53.367 [pool-1-thread-1] INFO org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+14:23:53.373 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.036s)
+14:23:53.376 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+14:23:53.381 [pool-1-thread-1] INFO org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+14:23:53.385 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing  ...
+14:23:53.400 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 1: CREATE TABLE IF NOT EXISTS "PUBLIC"."flyway_schema_history" (
+    "installed_rank" INT NOT NULL,
+    "version" VARCHAR(50),
+    "description" VARCHAR(200) NOT NULL,
+    "type" VARCHAR(20) NOT NULL,
+    "script" VARCHAR(1000) NOT NULL,
+    "checksum" INT,
+    "installed_by" VARCHAR(100) NOT NULL,
+    "installed_on" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "execution_time" INT NOT NULL,
+    "success" BOOLEAN NOT NULL,
+    CONSTRAINT "flyway_schema_history_pk" PRIMARY KEY ("installed_rank")
+) AS SELECT -1, NULL, '<< Flyway Schema History table created >>', 'TABLE', '', NULL, 'SA', CURRENT_TIMESTAMP, 0, TRUE
+14:23:53.401 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 14: CREATE INDEX "PUBLIC"."flyway_schema_history_s_idx" ON "PUBLIC"."flyway_schema_history" ("success")
+14:23:53.401 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE TABLE IF NOT EXISTS "PUBLIC"."flyway_schema_history" (
+    "installed_rank" INT NOT NULL,
+    "version" VARCHAR(50),
+    "description" VARCHAR(200) NOT NULL,
+    "type" VARCHAR(20) NOT NULL,
+    "script" VARCHAR(1000) NOT NULL,
+    "checksum" INT,
+    "installed_by" VARCHAR(100) NOT NULL,
+    "installed_on" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "execution_time" INT NOT NULL,
+    "success" BOOLEAN NOT NULL,
+    CONSTRAINT "flyway_schema_history_pk" PRIMARY KEY ("installed_rank")
+) AS SELECT -1, NULL, '<< Flyway Schema History table created >>', 'TABLE', '', NULL, 'SA', CURRENT_TIMESTAMP, 0, TRUE
+14:23:53.408 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:23:53.408 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE INDEX "PUBLIC"."flyway_schema_history_s_idx" ON "PUBLIC"."flyway_schema_history" ("success")
+14:23:53.412 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:23:53.413 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Created Schema History table "PUBLIC"."flyway_schema_history"
+14:23:53.423 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": << Empty Schema >>
+14:23:53.424 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V1__Create_tables.sql ...
+14:23:53.426 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 4: -- The relationship between library dependency sources under .metals/readonly/**
+-- and build targets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table dependency_source(
+  text_document_uri varchar primary key,
+  build_target_uri varchar not null
+)
+14:23:53.428 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 12: -- The relationship between library dependency sources under .metals/readonly/**
+-- and worksheets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table worksheet_dependency_source(
+  text_document_uri varchar primary key,
+  worksheet_uri varchar not null
+)
+14:23:53.429 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 19: -- The relationship between what library dependency sources under .metals/readonly/**
+-- map to which build targets.
+create table sbt_digest(
+  md5 varchar,
+  status tinyint not null,
+  when_recorded timestamp
+)
+14:23:53.431 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 27: -- Which window/showMessage and window/showMessageRequest dialogues have been dismissed
+-- by the user via "Don't show again" or closed by clicking on "x".
+create table dismissed_notification(
+  id int,
+  when_dismissed timestamp,
+  when_expires timestamp
+)
+14:23:53.431 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 34: -- The choice of build tool when multiple build tool files are found in a workspace
+create table chosen_build_tool(
+  build_tool varchar primary key
+)
+14:23:53.434 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "1 - Create tables" ...
+14:23:53.435 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "1 - Create tables"
+14:23:53.436 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The relationship between library dependency sources under .metals/readonly/**
+-- and build targets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table dependency_source(
+  text_document_uri varchar primary key,
+  build_target_uri varchar not null
+)
+14:23:53.439 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:23:53.439 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The relationship between library dependency sources under .metals/readonly/**
+-- and worksheets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table worksheet_dependency_source(
+  text_document_uri varchar primary key,
+  worksheet_uri varchar not null
+)
+14:23:53.441 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:23:53.441 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The relationship between what library dependency sources under .metals/readonly/**
+-- map to which build targets.
+create table sbt_digest(
+  md5 varchar,
+  status tinyint not null,
+  when_recorded timestamp
+)
+14:23:53.443 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:23:53.443 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Which window/showMessage and window/showMessageRequest dialogues have been dismissed
+-- by the user via "Don't show again" or closed by clicking on "x".
+create table dismissed_notification(
+  id int,
+  when_dismissed timestamp,
+  when_expires timestamp
+)
+14:23:53.444 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:23:53.444 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The choice of build tool when multiple build tool files are found in a workspace
+create table chosen_build_tool(
+  build_tool varchar primary key
+)
+14:23:53.446 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:23:53.447 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "1 - Create tables"
+14:23:53.450 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+14:23:53.456 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V2__Server_discovery.sql ...
+14:23:53.459 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 4: -- For each unique combination of installed build servers we select one server.
+-- The md5 checksum is computed from the names of the installed build servers, and
+-- the selected server is the server which the user chose for this workspace.
+create table chosen_build_server(
+  md5 varchar primary key,
+  selected_server varchar,
+  when_recorded timestamp
+)
+14:23:53.459 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "2 - Server discovery" ...
+14:23:53.460 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "2 - Server discovery"
+14:23:53.460 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- For each unique combination of installed build servers we select one server.
+-- The md5 checksum is computed from the names of the installed build servers, and
+-- the selected server is the server which the user chose for this workspace.
+create table chosen_build_server(
+  md5 varchar primary key,
+  selected_server varchar,
+  when_recorded timestamp
+)
+14:23:53.461 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:23:53.462 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "2 - Server discovery"
+14:23:53.463 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+14:23:53.466 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V3__Jar_symbols.sql ...
+14:23:53.468 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 2: -- Indexed jars, the MD5 digest of path, modified time and size as key
+create table indexed_jar(
+  id int auto_increment unique,
+  md5 varchar primary key
+)
+14:23:53.469 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 7: -- Top Level Symbols per jar, allow for multiple jars with same symbols and paths
+create table toplevel_symbol(
+  symbol varchar not null,
+  path varchar not null,
+  jar int,
+  foreign key (jar) references indexed_jar (id) on delete cascade,
+  primary key (jar, path, symbol)
+)
+14:23:53.470 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 15: -- Create index to speedup lookup of jar symbols
+create index toplevel_symbol_jar on toplevel_symbol(jar)
+14:23:53.471 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "3 - Jar symbols" ...
+14:23:53.471 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "3 - Jar symbols"
+14:23:53.472 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Indexed jars, the MD5 digest of path, modified time and size as key
+create table indexed_jar(
+  id int auto_increment unique,
+  md5 varchar primary key
+)
+14:23:53.479 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:23:53.479 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Top Level Symbols per jar, allow for multiple jars with same symbols and paths
+create table toplevel_symbol(
+  symbol varchar not null,
+  path varchar not null,
+  jar int,
+  foreign key (jar) references indexed_jar (id) on delete cascade,
+  primary key (jar, path, symbol)
+)
+14:23:53.487 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:23:53.487 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Create index to speedup lookup of jar symbols
+create index toplevel_symbol_jar on toplevel_symbol(jar)
+14:23:53.488 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:23:53.489 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "3 - Jar symbols"
+14:23:53.491 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+14:23:53.495 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V4__Fingerprints.sql ...
+14:23:53.496 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 2: -- Fingerprints saved between invocations
+create table fingerprints(
+  path varchar not null,
+  text varchar not null,
+  md5 varchar not null,
+  id int auto_increment unique
+)
+14:23:53.497 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "4 - Fingerprints" ...
+14:23:53.497 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "4 - Fingerprints"
+14:23:53.498 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Fingerprints saved between invocations
+create table fingerprints(
+  path varchar not null,
+  text varchar not null,
+  md5 varchar not null,
+  id int auto_increment unique
+)
+14:23:53.500 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:23:53.500 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "4 - Fingerprints"
+14:23:53.502 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+14:23:53.510 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.036s)
+14:23:53.528 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 37 of 100M
+2024.03.12 14:23:53 WARN  Build server is not auto-connectable.[0m
+2024.03.12 14:23:59 INFO  no build target found for /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.1[0m
+Mar 12, 2024 2:24:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Mar 12, 2024 2:24:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+Mar 12, 2024 2:24:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+Mar 12, 2024 2:24:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Mar 12, 2024 2:24:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2024.03.12 14:24:00 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/src/main/scala/Main.scala[0m
+Mar 12, 2024 2:24:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+Mar 12, 2024 2:24:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+Mar 12, 2024 2:24:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+2024.03.12 14:24:02 INFO  time: code lens generation in 2.57s[0m
+2024.03.12 14:24:02 INFO  time: code lens generation in 2.67s[0m
+2024.03.12 14:24:02 INFO  time: code lens generation in 2.65s[0m
+2024.03.12 14:24:10 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/src/main/scala/Main.worksheet.sc[0m
+2024.03.12 14:24:11 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/src/main/scala/Main.worksheet.sc[0m
+2024.03.12 14:24:18 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 8.67s[0m
+2024.03.12 14:24:20 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 1.3s[0m
+2024.03.12 14:24:21 INFO  no build target found for /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/src/main/scala/Main.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2024.03.12 14:24:28 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/src/main/scala/Main.worksheet.sc[0m
+2024.03.12 14:24:29 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 1.24s[0m
+Mar 12, 2024 2:24:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 116
+2024.03.12 14:25:09 ERROR Failed to tokenize input for semantic tokens for /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/src/main/scala/Main.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:13: error: unclosed string literal
+  "matei" +"
+           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+[0m
+Mar 12, 2024 2:25:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 311
+Mar 12, 2024 2:25:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 328
+Mar 12, 2024 2:25:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 329
+2024.03.12 14:25:12 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/src/main/scala/Main.worksheet.sc[0m
+2024.03.12 14:25:13 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 1.02s[0m
+2024.03.12 14:25:14 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/src/main/scala/Main.worksheet.sc[0m
+2024.03.12 14:25:15 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.87s[0m
+2024.03.12 14:25:19 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/src/main/scala/Main.worksheet.sc[0m
+2024.03.12 14:25:20 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.88s[0m
+2024.03.12 14:25:55 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/src/main/scala/Main.worksheet.sc[0m
+2024.03.12 14:25:56 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/src/main/scala/Main.worksheet.sc[0m
+[33mwarning[39m: src/main/scala/Main.worksheet.sc:15:12: 
+A pure expression does nothing in statement position; you may be omitting necessary parentheses
+if(1 == 2) true //this is not a nice expression
+           ^^^^
+2024.03.12 14:25:56 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.84s[0m
+[33mwarning[39m: src/main/scala/Main.worksheet.sc:15:12: 
+A pure expression does nothing in statement position; you may be omitting necessary parentheses
+if(1 == 2) true //this is not a nice expression
+           ^^^^
+2024.03.12 14:25:57 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.92s[0m
+2024.03.12 14:25:57 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/src/main/scala/Main.worksheet.sc[0m
+[33mwarning[39m: src/main/scala/Main.worksheet.sc:15:12: 
+A pure expression does nothing in statement position; you may be omitting necessary parentheses
+if(1 == 2) true //this is not a nice expression
+           ^^^^
+2024.03.12 14:25:58 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.56s[0m
+2024.03.12 14:26:11 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/src/main/scala/Main.worksheet.sc[0m
+[33mwarning[39m: src/main/scala/Main.worksheet.sc:15:12: 
+A pure expression does nothing in statement position; you may be omitting necessary parentheses
+if(1 == 2) true //this is not a nice expression
+           ^^^^
+2024.03.12 14:26:12 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.63s[0m
+2024.03.12 14:26:12 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/src/main/scala/Main.worksheet.sc[0m
+[33mwarning[39m: src/main/scala/Main.worksheet.sc:15:12: 
+A pure expression does nothing in statement position; you may be omitting necessary parentheses
+if(1 == 2) true //this is not a nice expression
+           ^^^^
+2024.03.12 14:26:12 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.53s[0m
+2024.03.12 14:26:39 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/src/main/scala/Main.worksheet.sc[0m
+[33mwarning[39m: src/main/scala/Main.worksheet.sc:15:12: 
+A pure expression does nothing in statement position; you may be omitting necessary parentheses
+if(1 == 2) true //this is not a nice expression
+           ^^^^
+2024.03.12 14:26:39 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.6s[0m
+Mar 12, 2024 2:26:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 648
+2024.03.12 14:26:51 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/src/main/scala/Main.worksheet.sc[0m
+[33mwarning[39m: src/main/scala/Main.worksheet.sc:15:12: 
+A pure expression does nothing in statement position; you may be omitting necessary parentheses
+if(1 == 2) true //this is not a nice expression
+           ^^^^
+2024.03.12 14:26:51 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.5s[0m
+2024.03.12 14:26:59 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/src/main/scala/Main.worksheet.sc[0m
+[31merror[39m: src/main/scala/Main.worksheet.sc:18:5: 
+Double definition:
+val n: Int in class MdocApp at line 7 and
+val n: Int in class MdocApp at line 52
+
+val n = 5
+    ^
+[33mwarning[39m: src/main/scala/Main.worksheet.sc:15:12: 
+A pure expression does nothing in statement position; you may be omitting necessary parentheses
+if(1 == 2) true //this is not a nice expression
+           ^^^^
+2024.03.12 14:27:00 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.32s[0m
+2024.03.12 14:27:02 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/src/main/scala/Main.worksheet.sc[0m
+[31merror[39m: src/main/scala/Main.worksheet.sc:18:5: 
+Double definition:
+val n: Int in class MdocApp at line 7 and
+val n: Int in class MdocApp at line 52
+
+val n = 5
+    ^
+[33mwarning[39m: src/main/scala/Main.worksheet.sc:15:12: 
+A pure expression does nothing in statement position; you may be omitting necessary parentheses
+if(1 == 2) true //this is not a nice expression
+           ^^^^
+2024.03.12 14:27:02 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.25s[0m
+2024.03.12 14:27:10 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/src/main/scala/Main.worksheet.sc[0m
+[33mwarning[39m: src/main/scala/Main.worksheet.sc:15:12: 
+A pure expression does nothing in statement position; you may be omitting necessary parentheses
+if(1 == 2) true //this is not a nice expression
+           ^^^^
+2024.03.12 14:27:10 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.54s[0m
+2024.03.12 14:27:22 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/src/main/scala/Main.worksheet.sc[0m
+[33mwarning[39m: src/main/scala/Main.worksheet.sc:15:12: 
+A pure expression does nothing in statement position; you may be omitting necessary parentheses
+if(1 == 2) true //this is not a nice expression
+           ^^^^
+2024.03.12 14:27:22 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.6s[0m
+2024.03.12 14:27:32 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/src/main/scala/Main.worksheet.sc[0m
+[33mwarning[39m: src/main/scala/Main.worksheet.sc:15:12: 
+A pure expression does nothing in statement position; you may be omitting necessary parentheses
+if(1 == 2) true //this is not a nice expression
+           ^^^^
+2024.03.12 14:27:33 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.48s[0m
+Mar 12, 2024 2:27:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 868
+2024.03.12 14:29:17 INFO  Shutting down server[0m
+2024.03.12 14:29:17 INFO  shutting down Metals[0m
+2024.03.12 14:29:17 INFO  Exiting server[0m
+2024.03.12 14:29:41 INFO  Started: Metals version 1.2.2 in folders '/home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01' for client Visual Studio Code 1.87.1.[0m
+14:29:41.843 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- Flyway Community Edition 9.22.3 by Redgate
+14:29:41.846 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- See release notes here: https://rd.gt/416ObMi
+14:29:41.846 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- 
+14:29:41.849 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+14:29:41.850 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@4f2410ac ...
+14:29:41.850 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+14:29:41.850 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+14:29:41.850 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@4f2410ac ...
+14:29:41.851 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/home/ione/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+14:29:41.855 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+14:29:41.856 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+14:29:41.856 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+14:29:41.856 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+14:29:41.856 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+14:29:41.856 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+14:29:41.860 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+14:29:41.861 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+14:29:41.862 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+14:29:41.862 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+14:29:41.862 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+14:29:41.967 [pool-1-thread-1] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:/home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/metals (H2 2.2)
+14:29:41.968 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+14:29:41.968 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+14:29:41.970 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+14:29:41.971 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+14:29:41.983 [pool-1-thread-1] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+14:29:41.986 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+14:29:41.986 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+14:29:42.000 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+14:29:42.008 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+14:29:42.023 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+14:29:42.023 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+14:29:42.023 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+14:29:42.023 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+14:29:42.023 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+14:29:42.025 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+14:29:42.026 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+14:29:42.026 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+14:29:42.026 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+14:29:42.026 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+14:29:42.050 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.048s)
+14:29:42.054 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+14:29:42.070 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": 4
+14:29:42.081 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Schema "PUBLIC" is up to date. No migration necessary.
+14:29:42.314 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 36 of 100M
+2024.03.12 14:29:42 WARN  Build server is not auto-connectable.[0m
+2024.03.12 14:29:42 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/src/main/scala/Main.worksheet.sc[0m
+2024.03.12 14:29:52 INFO  no build target found for /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/src/main/scala/Main.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2024.03.12 14:29:57 INFO  time: code lens generation in 14s[0m
+2024.03.12 14:29:57 INFO  time: code lens generation in 14s[0m
+[33mwarning[39m: src/main/scala/Main.worksheet.sc:15:12: 
+A pure expression does nothing in statement position; you may be omitting necessary parentheses
+if(1 == 2) true //this is not a nice expression
+           ^^^^
+2024.03.12 14:29:59 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 16s[0m
+2024.03.12 14:30:01 INFO  no build target found for /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/src/main/scala/Main.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2024.03.12 14:31:08 INFO  running '/usr/lib/jvm/java-21-openjdk/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals2593578624745933341/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2024.03.12 14:31:09 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/project/metals.sbt[0m
+2024.03.12 14:31:09 INFO  skipping build import with status 'Started'[0m
+2024.03.12 14:31:10 INFO  [info] welcome to sbt 1.9.8 (N/A Java 21.0.2)[0m
+2024.03.12 14:31:17 INFO  [info] loading settings for project course_01-build-build from metals.sbt ...[0m
+2024.03.12 14:31:20 INFO  [info] loading project definition from /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/project/project[0m
+2024.03.12 14:31:23 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/src/main/scala/Main.worksheet.sc[0m
+2024.03.12 14:31:25 INFO  [info] loading settings for project course_01-build from metals.sbt ...[0m
+2024.03.12 14:31:25 INFO  [info] loading project definition from /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/project[0m
+2024.03.12 14:31:26 INFO  time: code lens generation in 3.58s[0m
+2024.03.12 14:31:26 INFO  time: code lens generation in 2.35s[0m
+[33mwarning[39m: src/main/scala/Main.worksheet.sc:15:12: 
+A pure expression does nothing in statement position; you may be omitting necessary parentheses
+if(1 == 2) true //this is not a nice expression
+           ^^^^
+2024.03.12 14:31:27 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 3.98s[0m
+2024.03.12 14:31:30 INFO  [success] Generated .bloop/course_01-build.json[0m
+2024.03.12 14:31:30 INFO  [success] Total time: 4 s, completed Mar 12, 2024, 2:31:30 PM[0m
+2024.03.12 14:31:33 INFO  [info] loading settings for project course_01 from build.sbt ...[0m
+2024.03.12 14:31:33 INFO  [info] set current project to hello-world (in build file:/home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/)[0m
+2024.03.12 14:31:33 INFO  [success] Generated .bloop/course_01.json[0m
+2024.03.12 14:31:33 INFO  [success] Generated .bloop/course_01-test.json[0m
+2024.03.12 14:31:33 INFO  [success] Total time: 0 s, completed Mar 12, 2024, 2:31:34 PM[0m
+2024.03.12 14:31:34 INFO  time: ran 'sbt bloopInstall' in 25s[0m
+2024.03.12 14:31:34 INFO  Attempting to connect to the build server...[0m
+2024.03.12 14:31:34 INFO  Bloop uses /usr/lib/jvm/java-21-openjdk defined at /home/ione/.bloop/bloop.json[0m
+2024.03.12 14:31:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/bsp.trace.json or /home/ione/.cache/metals/bsp.trace.json[0m
+2024.03.12 14:31:36 INFO  Attempting to connect to the build server...[0m
+2024.03.12 14:31:36 INFO  Bloop uses /usr/lib/jvm/java-21-openjdk defined at /home/ione/.bloop/bloop.json[0m
+2024.03.12 14:31:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/project/.metals/bsp.trace.json or /home/ione/.cache/metals/bsp.trace.json[0m
+2024.03.12 14:31:36 INFO  time: Connected to build server in 2.54s[0m
+2024.03.12 14:31:36 INFO  Connected to Build server: Bloop v1.5.15[0m
+2024.03.12 14:31:37 INFO  time: Imported build in 0.17s[0m
+2024.03.12 14:31:39 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk/src.zip, /usr/lib/jvm/java-21-openjdk/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk/src.zip, /usr/lib/jvm/java-21-openjdk/lib/src.zip. Java symbols will not be available.[0m
+2024.03.12 14:31:43 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk/src.zip, /usr/lib/jvm/java-21-openjdk/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk/src.zip, /usr/lib/jvm/java-21-openjdk/lib/src.zip. Java symbols will not be available.[0m
+2024.03.12 14:31:43 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk/src.zip, /usr/lib/jvm/java-21-openjdk/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk/src.zip, /usr/lib/jvm/java-21-openjdk/lib/src.zip. Java symbols will not be available.[0m
+2024.03.12 14:31:43 INFO  time: indexed workspace in 6.27s[0m
+2024.03.12 14:31:53 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 9.46s[0m
+2024.03.12 14:31:54 INFO  time: code lens generation in 10s[0m
+Mar 12, 2024 2:34:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-34-20-855.md
+Mar 12, 2024 2:34:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 113
+Mar 12, 2024 2:34:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-34-38-710.md
+Mar 12, 2024 2:34:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-34-41-968.md
+Mar 12, 2024 2:34:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-34-43-434.md
+Mar 12, 2024 2:34:45 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-34-45-920.md
+Mar 12, 2024 2:34:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 193
+Mar 12, 2024 2:34:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 194
+Mar 12, 2024 2:34:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-34-50-809.md
+Mar 12, 2024 2:34:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-34-51-692.md
+Mar 12, 2024 2:34:53 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-34-53-290.md
+Mar 12, 2024 2:34:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-34-54-239.md
+Mar 12, 2024 2:34:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-34-54-531.md
+Mar 12, 2024 2:34:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-34-55-075.md
+Mar 12, 2024 2:34:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-34-55-950.md
+[31merror[39m: src/main/scala/Main.worksheet.sc:29:38: type mismatch;
+ found   : Unit
+ required: Int
+def checkPrime(a: Int, b:Int): Int = {
+                                     ^
+2024.03.12 14:37:28 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 1.25s[0m
+[31merror[39m: src/main/scala/Main.worksheet.sc:29:38: type mismatch;
+ found   : Unit
+ required: Int
+def checkPrime(a: Int, b:Int): Int = {
+                                     ^
+2024.03.12 14:37:35 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.49s[0m
+[31merror[39m: src/main/scala/Main.worksheet.sc:29:38: type mismatch;
+ found   : Unit
+ required: Int
+def checkPrime(a: Int, b:Int): Int = {
+                                     ^
+2024.03.12 14:37:37 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.53s[0m
+[31merror[39m: src/main/scala/Main.worksheet.sc:29:38: type mismatch;
+ found   : Unit
+ required: Int
+def checkPrime(a: Int, b:Int): Int = {
+                                     ^
+2024.03.12 14:37:53 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.37s[0m
+Mar 12, 2024 2:37:56 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-37-56-619.md
+Mar 12, 2024 2:37:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-37-57-644.md
+Mar 12, 2024 2:37:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-37-59-720.md
+Mar 12, 2024 2:38:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-38-00-211.md
+Mar 12, 2024 2:38:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-38-07-465.md
+Mar 12, 2024 2:38:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-38-11-835.md
+[31merror[39m: src/main/scala/Main.worksheet.sc:32:1: type mismatch;
+ found   : Unit
+ required: Int
+}
+^
+2024.03.12 14:39:03 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.34s[0m
+Mar 12, 2024 2:39:24 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-39-24-117.md
+Mar 12, 2024 2:39:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-39-26-683.md
+Mar 12, 2024 2:39:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-39-34-929.md
+Mar 12, 2024 2:39:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-39-40-888.md
+Mar 12, 2024 2:39:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-39-41-752.md
+Mar 12, 2024 2:39:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-39-43-837.md
+Mar 12, 2024 2:39:45 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-39-45-385.md
+Mar 12, 2024 2:39:45 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-39-45-906.md
+[31merror[39m: src/main/scala/Main.worksheet.sc:31:38: type mismatch;
+ found   : Unit
+ required: Int
+def checkPrime(a: Int, b:Int): Int = {
+                                     ^
+2024.03.12 14:40:06 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.38s[0m
+Mar 12, 2024 2:40:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 821
+Mar 12, 2024 2:40:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-40-25-815.md
+Mar 12, 2024 2:40:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-40-27-709.md
+Mar 12, 2024 2:40:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-40-29-426.md
+Mar 12, 2024 2:40:31 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-40-31-317.md
+Mar 12, 2024 2:41:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-41-03-100.md
+Mar 12, 2024 2:41:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-41-06-544.md
+Mar 12, 2024 2:41:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-41-07-295.md
+Mar 12, 2024 2:41:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-41-08-347.md
+Mar 12, 2024 2:41:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-41-09-107.md
+Mar 12, 2024 2:41:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-41-09-958.md
+Mar 12, 2024 2:41:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-41-11-599.md
+Mar 12, 2024 2:41:12 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-41-12-327.md
+Mar 12, 2024 2:41:13 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-41-13-477.md
+Mar 12, 2024 2:41:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-41-15-751.md
+Mar 12, 2024 2:41:24 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-41-24-092.md
+Mar 12, 2024 2:41:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-41-25-404.md
+Mar 12, 2024 2:41:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-41-28-323.md
+Mar 12, 2024 2:41:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-41-29-462.md
+Mar 12, 2024 2:41:30 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-41-30-421.md
+Mar 12, 2024 2:41:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-41-33-437.md
+Mar 12, 2024 2:41:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1042
+Mar 12, 2024 2:41:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1043
+Mar 12, 2024 2:41:35 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-41-35-514.md
+Mar 12, 2024 2:41:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-41-36-314.md
+Mar 12, 2024 2:41:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-41-37-653.md
+Mar 12, 2024 2:41:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-41-38-439.md
+Mar 12, 2024 2:41:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-41-40-940.md
+Mar 12, 2024 2:41:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-41-41-855.md
+Mar 12, 2024 2:41:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-41-43-378.md
+Mar 12, 2024 2:41:44 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-41-44-517.md
+Mar 12, 2024 2:41:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-41-46-033.md
+Mar 12, 2024 2:41:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-41-46-587.md
+Mar 12, 2024 2:41:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-41-49-089.md
+Mar 12, 2024 2:41:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-41-55-919.md
+Mar 12, 2024 2:42:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-42-05-672.md
+Mar 12, 2024 2:42:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-42-06-713.md
+Mar 12, 2024 2:42:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-42-08-060.md
+Mar 12, 2024 2:42:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-42-09-960.md
+[31merror[39m: src/main/scala/Main.worksheet.sc:32:16: type mismatch;
+ found   : Boolean(false)
+ required: Int
+    if (a > b) false
+               ^^^^^
+[31merror[39m: src/main/scala/Main.worksheet.sc:33:17: not found: value isPrime
+        else if(isPrime(i)) true
+                ^^^^^^^
+[31merror[39m: src/main/scala/Main.worksheet.sc:33:29: type mismatch;
+ found   : Boolean(true)
+ required: Int
+        else if(isPrime(i)) true
+                            ^^^^
+2024.03.12 14:42:28 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 1.95s[0m
+Mar 12, 2024 2:42:34 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+Mar 12, 2024 2:42:34 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+Mar 12, 2024 2:42:34 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+Mar 12, 2024 2:42:34 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+Mar 12, 2024 2:42:34 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+Mar 12, 2024 2:42:34 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+[31merror[39m: src/main/scala/Main.worksheet.sc:33:17: not found: value isPrime
+        else if(isPrime(i)) true
+                ^^^^^^^
+2024.03.12 14:42:36 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.75s[0m
+[31merror[39m: src/main/scala/Main.worksheet.sc:33:17: not found: value isPrime
+        else if(isPrime(i)) true
+                ^^^^^^^
+2024.03.12 14:42:37 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.48s[0m
+Mar 12, 2024 2:43:24 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-43-24-555.md
+Mar 12, 2024 2:43:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-43-27-911.md
+Mar 12, 2024 2:43:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-43-29-035.md
+[31merror[39m: src/main/scala/Main.worksheet.sc:31:1: ) expected but def found
+def checkPrime(a: Int, b:Int): Boolean = {
+^^^
+Mar 12, 2024 2:43:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-43-29-532.md
+2024.03.12 14:43:29 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.8s[0m
+2024.03.12 14:43:39 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.88s[0m
+2024.03.12 14:43:41 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.68s[0m
+Mar 12, 2024 2:43:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-43-46-857.md
+Mar 12, 2024 2:43:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-43-48-028.md
+Mar 12, 2024 2:43:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-43-51-122.md
+2024.03.12 14:43:54 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.62s[0m
+2024.03.12 14:44:00 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.52s[0m
+2024.03.12 14:44:02 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.43s[0m
+[31merror[39m: src/main/scala/Main.worksheet.sc:29:32: value unary_! is not a member of Unit
+def isPrime(n: Int): Boolean = ! ()
+                               ^^^^
+2024.03.12 14:45:29 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.53s[0m
+[31merror[39m: src/main/scala/Main.worksheet.sc:29:32: value unary_! is not a member of Unit
+def isPrime(n: Int): Boolean = ! ()
+                               ^^^^
+2024.03.12 14:45:30 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.24s[0m
+2024.03.12 14:45:33 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.7s[0m
+2024.03.12 14:45:35 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.55s[0m
+Mar 12, 2024 2:45:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-45-43-371.md
+2024.03.12 14:45:45 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.42s[0m
+2024.03.12 14:45:47 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.39s[0m
+2024.03.12 14:45:51 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.37s[0m
+2024.03.12 14:45:53 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.41s[0m
+[31merror[39m: src/main/scala/Main.worksheet.sc:31:17: not found: value isPrime
+        else if(isPrime(a)) true
+                ^^^^^^^
+2024.03.12 14:45:59 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.21s[0m
+[31merror[39m: src/main/scala/Main.worksheet.sc:30:16: not found: value falses
+    if (a > b) falses
+               ^^^^^^
+[31merror[39m: src/main/scala/Main.worksheet.sc:31:17: not found: value isPrime
+        else if(isPrime(a)) true
+                ^^^^^^^
+2024.03.12 14:47:18 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.2s[0m
+[31merror[39m: src/main/scala/Main.worksheet.sc:30:16: not found: value falses
+    if (a > b) falses
+               ^^^^^^
+[31merror[39m: src/main/scala/Main.worksheet.sc:31:17: not found: value isPrime
+        else if(isPrime(a)) true
+                ^^^^^^^
+2024.03.12 14:47:20 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.22s[0m
+[31merror[39m: src/main/scala/Main.worksheet.sc:31:17: not found: value isPrime
+        else if(isPrime(a)) true
+                ^^^^^^^
+2024.03.12 14:47:21 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.35s[0m
+[31merror[39m: src/main/scala/Main.worksheet.sc:31:17: not found: value isPrime
+        else if(isPrime(a)) true
+                ^^^^^^^
+2024.03.12 14:47:22 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.21s[0m
+Mar 12, 2024 2:47:53 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-47-53-261.md
+Mar 12, 2024 2:48:35 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-48-35-428.md
+Mar 12, 2024 2:48:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-48-41-503.md
+[31merror[39m: src/main/scala/Main.worksheet.sc:31:35: type mismatch;
+ found   : Unit
+ required: Boolean
+    def isPrime(n: Int): Boolean ={
+                                  ^
+2024.03.12 14:48:50 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.22s[0m
+Mar 12, 2024 2:50:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-50-14-022.md
+Mar 12, 2024 2:50:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-50-15-019.md
+Mar 12, 2024 2:50:16 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-50-16-284.md
+Mar 12, 2024 2:50:18 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-50-18-402.md
+Mar 12, 2024 2:50:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-50-22-371.md
+Mar 12, 2024 2:50:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-50-51-439.md
+Mar 12, 2024 2:50:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-50-52-825.md
+[31merror[39m: src/main/scala/Main.worksheet.sc:32:14: not enough arguments for method isPrime: (n: Int): Boolean.
+Unspecified value parameter n.
+        else isPrime()
+             ^^^^^^^^^
+2024.03.12 14:51:13 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.2s[0m
+Mar 12, 2024 2:51:19 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-51-19-899.md
+Mar 12, 2024 2:51:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-51-20-568.md
+Mar 12, 2024 2:51:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-51-21-844.md
+Mar 12, 2024 2:51:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-51-22-813.md
+[31merror[39m: src/main/scala/Main.worksheet.sc:30:18: : expected but , found
+    def isPrime(i, Int, n: Int): Boolean ={
+                 ^
+Mar 12, 2024 2:51:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-51-22-912.md
+2024.03.12 14:51:22 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.16s[0m
+Mar 12, 2024 2:51:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-51-23-294.md
+[31merror[39m: src/main/scala/Main.worksheet.sc:32:14: not enough arguments for method isPrime: (i: Int, n: Int): Boolean.
+Unspecified value parameters i, n.
+        else isPrime()
+             ^^^^^^^^^
+[31merror[39m: src/main/scala/Main.worksheet.sc:36:13: not enough arguments for method isPrime: (i: Int, n: Int): Boolean.
+Unspecified value parameter n.
+    else if(isPrime(a)) true
+            ^^^^^^^^^^
+2024.03.12 14:51:26 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.22s[0m
+Mar 12, 2024 2:51:45 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-51-45-137.md
+Mar 12, 2024 2:52:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2454
+Mar 12, 2024 2:52:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-52-29-230.md
+Mar 12, 2024 2:52:30 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-52-30-071.md
+Mar 12, 2024 2:52:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2512
+Mar 12, 2024 2:52:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2541
+Mar 12, 2024 2:52:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2543
+Mar 12, 2024 2:52:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-52-49-445.md
+2024.03.12 14:53:06 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 1m20s[0m
+2024.03.12 14:53:06 WARN  thread interrupt: Evaluating Worksheet Main.worksheet.sc[0m
+2024.03.12 14:53:07 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.39s[0m
+2024.03.12 14:53:07 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.35s[0m
+2024.03.12 14:53:07 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.36s[0m
+2024.03.12 14:53:08 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.27s[0m
+2024.03.12 14:53:08 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.29s[0m
+2024.03.12 14:53:08 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.31s[0m
+2024.03.12 14:53:08 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.28s[0m
+2024.03.12 14:53:08 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.5s[0m
+2024.03.12 14:53:10 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.41s[0m
+2024.03.12 14:53:10 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.27s[0m
+2024.03.12 14:53:10 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.39s[0m
+Mar 12, 2024 2:53:13 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-53-13-210.md
+2024.03.12 14:53:15 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.26s[0m
+2024.03.12 14:53:17 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.21s[0m
+2024.03.12 14:53:26 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.43s[0m
+2024.03.12 14:53:27 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.27s[0m
+Mar 12, 2024 2:53:30 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-53-30-261.md
+2024.03.12 14:53:34 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.27s[0m
+2024.03.12 14:53:36 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.22s[0m
+2024.03.12 14:53:48 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.24s[0m
+2024.03.12 14:53:49 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.24s[0m
+Mar 12, 2024 2:53:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2827
+Mar 12, 2024 2:53:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-53-52-210.md
+Mar 12, 2024 2:54:12 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-54-12-580.md
+[31merror[39m: src/main/scala/Main.worksheet.sc:42:1: illegal start of simple expression
+var b = 21
+^^^
+Mar 12, 2024 2:54:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-54-14-639.md
+2024.03.12 14:54:14 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.11s[0m
+Mar 12, 2024 2:54:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-54-15-001.md
+2024.03.12 14:54:17 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.4s[0m
+2024.03.12 14:54:22 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.24s[0m
+Mar 12, 2024 2:54:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-54-42-016.md
+2024.03.12 14:54:43 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.29s[0m
+2024.03.12 14:54:44 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.23s[0m
+2024.03.12 14:54:45 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.25s[0m
+2024.03.12 14:54:46 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.24s[0m
+2024.03.12 14:54:52 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.31s[0m
+2024.03.12 14:54:53 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.24s[0m
+2024.03.12 14:54:56 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.24s[0m
+2024.03.12 14:54:57 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.23s[0m
+2024.03.12 14:54:59 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.23s[0m
+2024.03.12 14:55:01 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.23s[0m
+2024.03.12 14:55:06 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.18s[0m
+2024.03.12 14:55:32 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.35s[0m
+2024.03.12 14:55:41 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.23s[0m
+2024.03.12 14:55:48 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.21s[0m
+2024.03.12 14:55:52 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.27s[0m
+2024.03.12 14:55:54 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.21s[0m
+2024.03.12 14:55:56 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.21s[0m
+2024.03.12 14:55:59 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.2s[0m
+2024.03.12 14:56:01 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.24s[0m
+2024.03.12 14:56:03 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.39s[0m
+2024.03.12 14:56:06 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.22s[0m
+2024.03.12 14:56:13 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.2s[0m
+2024.03.12 14:56:16 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.19s[0m
+2024.03.12 14:56:22 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.19s[0m
+2024.03.12 14:56:27 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.18s[0m
+Mar 12, 2024 2:57:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-57-08-218.md
+Mar 12, 2024 2:57:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-57-11-512.md
+Mar 12, 2024 2:57:13 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-57-13-598.md
+Mar 12, 2024 2:57:17 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-57-17-201.md
+Mar 12, 2024 2:57:19 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-57-19-814.md
+Mar 12, 2024 2:57:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-57-26-891.md
+[31merror[39m: src/main/scala/Main.worksheet.sc:49:37: type mismatch;
+ found   : Unit
+ required: Int
+def findFibo(i: Int, n: Int): Int = {
+                                    ^
+2024.03.12 14:57:28 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.19s[0m
+Mar 12, 2024 2:57:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3446
+Mar 12, 2024 2:57:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-57-36-246.md
+Mar 12, 2024 2:57:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-57-37-899.md
+Mar 12, 2024 2:57:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-57-38-813.md
+Mar 12, 2024 2:57:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-57-39-907.md
+Mar 12, 2024 2:57:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-57-41-788.md
+Mar 12, 2024 2:57:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3506
+Mar 12, 2024 2:57:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3507
+Mar 12, 2024 2:57:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3509
+Mar 12, 2024 2:57:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-57-46-442.md
+Mar 12, 2024 2:57:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-57-48-987.md
+Mar 12, 2024 2:57:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-57-49-474.md
+Mar 12, 2024 2:57:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-57-50-989.md
+Mar 12, 2024 2:57:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-57-52-294.md
+[31merror[39m: src/main/scala/Main.worksheet.sc:51:1: illegal start of simple expression
+}
+^
+2024.03.12 14:57:52 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.12s[0m
+Mar 12, 2024 2:57:53 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-57-53-057.md
+Mar 12, 2024 2:57:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3572
+Mar 12, 2024 2:57:53 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-57-53-674.md
+Mar 12, 2024 2:57:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-57-54-020.md
+[31merror[39m: src/main/scala/Main.worksheet.sc:52:1: illegal start of simple expression
+}
+^
+Mar 12, 2024 2:57:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-57-54-637.md
+2024.03.12 14:57:54 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.15s[0m
+Mar 12, 2024 2:57:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-57-54-957.md
+Mar 12, 2024 2:57:56 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-57-56-940.md
+[31merror[39m: src/main/scala/Main.worksheet.sc:50:5: type mismatch;
+ found   : Unit
+ required: Int
+    if(i == n) sum
+    ^^
+2024.03.12 14:57:58 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.25s[0m
+Mar 12, 2024 2:58:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-58-01-717.md
+Mar 12, 2024 2:58:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-58-05-891.md
+Mar 12, 2024 2:58:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-58-07-248.md
+Mar 12, 2024 2:58:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-58-07-942.md
+Mar 12, 2024 2:58:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-58-09-575.md
+Mar 12, 2024 2:58:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-58-10-095.md
+Mar 12, 2024 2:58:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-58-10-746.md
+[31merror[39m: src/main/scala/Main.worksheet.sc:52:1: illegal start of simple expression
+}
+^
+2024.03.12 14:58:10 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.11s[0m
+Mar 12, 2024 2:58:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-58-11-145.md
+Mar 12, 2024 2:58:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-58-11-975.md
+Mar 12, 2024 2:58:12 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-58-12-339.md
+Mar 12, 2024 2:58:12 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-58-12-880.md
+Mar 12, 2024 2:58:13 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-58-13-676.md
+Mar 12, 2024 2:58:17 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-58-17-199.md
+Mar 12, 2024 2:58:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-58-21-426.md
+Mar 12, 2024 2:58:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-58-25-419.md
+Mar 12, 2024 2:58:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-58-26-514.md
+Mar 12, 2024 2:58:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-58-27-800.md
+Mar 12, 2024 2:58:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-58-28-723.md
+Mar 12, 2024 2:58:30 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-58-30-197.md
+Mar 12, 2024 2:58:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3829
+Mar 12, 2024 2:58:31 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-58-31-578.md
+[31merror[39m: src/main/scala/Main.worksheet.sc:52:1: illegal start of simple expression
+}
+^
+Mar 12, 2024 2:58:31 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-58-31-836.md
+2024.03.12 14:58:31 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.11s[0m
+Mar 12, 2024 2:58:32 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-58-32-178.md
+Mar 12, 2024 2:58:45 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-58-45-605.md
+2024.03.12 14:58:48 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.36s[0m
+2024.03.12 14:58:49 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.23s[0m
+Mar 12, 2024 2:58:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_14-58-52-408.md
+2024.03.12 14:58:53 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.26s[0m
+2024.03.12 15:00:20 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.21s[0m
+Mar 12, 2024 3:00:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-00-37-769.md
+[31merror[39m: src/main/scala/Main.worksheet.sc:50:15: not found: value sum
+    if(i > n) sum
+              ^^^
+2024.03.12 15:00:44 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.15s[0m
+2024.03.12 15:00:47 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.38s[0m
+Mar 12, 2024 3:00:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4074
+2024.03.12 15:00:48 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.22s[0m
+2024.03.12 15:01:30 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.24s[0m
+2024.03.12 15:01:41 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.22s[0m
+Mar 12, 2024 3:01:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-01-46-542.md
+2024.03.12 15:01:47 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.23s[0m
+2024.03.12 15:01:50 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.31s[0m
+2024.03.12 15:01:53 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.24s[0m
+2024.03.12 15:02:02 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.2s[0m
+2024.03.12 15:02:55 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.21s[0m
+2024.03.12 15:03:06 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.21s[0m
+2024.03.12 15:03:28 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.26s[0m
+2024.03.12 15:03:49 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.2s[0m
+2024.03.12 15:03:57 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.3s[0m
+2024.03.12 15:04:15 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.26s[0m
+2024.03.12 15:05:40 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.19s[0m
+Mar 12, 2024 3:06:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4272
+Mar 12, 2024 3:06:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4277
+2024.03.12 15:06:14 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.29s[0m
+2024.03.12 15:06:15 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.21s[0m
+2024.03.12 15:06:19 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.21s[0m
+2024.03.12 15:06:20 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.19s[0m
+2024.03.12 15:06:24 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.2s[0m
+Mar 12, 2024 3:06:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-06-26-522.md
+2024.03.12 15:06:27 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.26s[0m
+2024.03.12 15:06:29 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.23s[0m
+2024.03.12 15:06:30 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.21s[0m
+2024.03.12 15:06:31 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.18s[0m
+2024.03.12 15:06:32 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.2s[0m
+[31merror[39m: src/main/scala/Main.worksheet.sc:42:12: illegal start of simple expression
+checkPrime(, 10)
+           ^
+Mar 12, 2024 3:06:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-06-40-946.md
+2024.03.12 15:06:41 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.14s[0m
+Mar 12, 2024 3:06:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-06-41-334.md
+2024.03.12 15:06:46 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.22s[0m
+2024.03.12 15:07:01 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.19s[0m
+Mar 12, 2024 3:07:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4468
+2024.03.12 15:07:05 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.22s[0m
+2024.03.12 15:07:21 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.22s[0m
+2024.03.12 15:07:21 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.18s[0m
+[31merror[39m: src/main/scala/Main.worksheet.sc:31:44: type mismatch;
+ found   : Unit
+ required: Boolean
+    def isPrime(i: Int, n: Int): Boolean = {
+                                           ^
+2024.03.12 15:07:25 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.15s[0m
+Mar 12, 2024 3:07:45 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-07-45-220.md
+Mar 12, 2024 3:07:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-07-46-104.md
+Mar 12, 2024 3:07:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-07-46-956.md
+Mar 12, 2024 3:07:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-07-48-641.md
+Mar 12, 2024 3:07:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-07-50-345.md
+Mar 12, 2024 3:07:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-07-51-429.md
+Mar 12, 2024 3:07:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-07-59-622.md
+Mar 12, 2024 3:08:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-08-01-729.md
+Mar 12, 2024 3:08:02 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-08-02-758.md
+Mar 12, 2024 3:08:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-08-03-174.md
+Mar 12, 2024 3:08:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-08-03-764.md
+Mar 12, 2024 3:08:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-08-04-831.md
+Mar 12, 2024 3:08:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-08-06-093.md
+Mar 12, 2024 3:08:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4762
+Mar 12, 2024 3:08:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-08-22-863.md
+2024.03.12 15:08:24 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.22s[0m
+2024.03.12 15:08:37 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.27s[0m
+2024.03.12 15:08:38 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.21s[0m
+2024.03.12 15:08:40 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.23s[0m
+Mar 12, 2024 3:08:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-08-43-654.md
+2024.03.12 15:08:44 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.23s[0m
+2024.03.12 15:08:45 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.19s[0m
+Mar 12, 2024 3:08:47 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-08-47-017.md
+2024.03.12 15:08:47 ERROR Failed to tokenize input for semantic tokens for /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/src/main/scala/Main.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:44: error: unclosed quoted identifier
+`
+^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getBackquotedIdent(LegacyScanner.scala:489)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:337)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+[0m
+2024.03.12 15:08:48 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.25s[0m
+2024.03.12 15:17:49 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.26s[0m
+2024.03.12 15:17:54 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.19s[0m
+Mar 12, 2024 3:18:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-18-06-365.md
+[31merror[39m: src/main/scala/Main.worksheet.sc:49:29: too many arguments (found 3, expected 2) for method findFibo: (n: Int, res: Int): Int
+    else findFibo(i + 1, n, res + i)
+                            ^^^^^^^
+[31merror[39m: src/main/scala/Main.worksheet.sc:52:16: too many arguments (found 3, expected 2) for method findFibo: (n: Int, res: Int): Int
+findFibo(1, 9, 0)
+               ^
+2024.03.12 15:18:06 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.16s[0m
+Mar 12, 2024 3:18:18 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-18-18-475.md
+Mar 12, 2024 3:18:19 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-18-19-445.md
+Mar 12, 2024 3:18:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-18-20-755.md
+Mar 12, 2024 3:18:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-18-29-920.md
+Mar 12, 2024 3:18:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-18-33-665.md
+[31merror[39m: src/main/scala/Main.worksheet.sc:49:9: not found: value check
+    if (check(n)) 0
+        ^^^^^
+[31merror[39m: src/main/scala/Main.worksheet.sc:51:29: too many arguments (found 3, expected 2) for method findFibo: (n: Int, res: Int): Int
+    else findFibo(i + 1, n, res + i)
+                            ^^^^^^^
+[31merror[39m: src/main/scala/Main.worksheet.sc:54:16: too many arguments (found 3, expected 2) for method findFibo: (n: Int, res: Int): Int
+findFibo(1, 9, 0)
+               ^
+2024.03.12 15:18:34 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.22s[0m
+Mar 12, 2024 3:18:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-18-48-719.md
+Mar 12, 2024 3:18:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-18-51-878.md
+Mar 12, 2024 3:18:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-18-57-384.md
+[31merror[39m: src/main/scala/Main.worksheet.sc:50:29: too many arguments (found 3, expected 2) for method findFibo: (n: Int, res: Int): Int
+    else findFibo(i + 1, n, res + i)
+                            ^^^^^^^
+[31merror[39m: src/main/scala/Main.worksheet.sc:53:16: too many arguments (found 3, expected 2) for method findFibo: (n: Int, res: Int): Int
+findFibo(1, 9, 0)
+               ^
+2024.03.12 15:19:01 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.19s[0m
+[31merror[39m: src/main/scala/Main.worksheet.sc:50:29: too many arguments (found 3, expected 2) for method findFibo: (n: Int, res: Int): Int
+    else findFibo(i + 1, n, res + i)
+                            ^^^^^^^
+[31merror[39m: src/main/scala/Main.worksheet.sc:53:16: too many arguments (found 3, expected 2) for method findFibo: (n: Int, res: Int): Int
+findFibo(1, 9, 0)
+               ^
+2024.03.12 15:19:06 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.15s[0m
+Mar 12, 2024 3:19:16 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-19-16-713.md
+[31merror[39m: src/main/scala/Main.worksheet.sc:53:16: too many arguments (found 3, expected 2) for method findFibo: (n: Int, res: Int): Int
+findFibo(1, 9, 0)
+               ^
+2024.03.12 15:19:29 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.16s[0m
+[31merror[39m: src/main/scala/Main.worksheet.sc:53:16: too many arguments (found 3, expected 2) for method findFibo: (n: Int, res: Int): Int
+findFibo(1, 9, 0)
+               ^
+2024.03.12 15:19:34 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.17s[0m
+[31merror[39m: src/main/scala/Main.worksheet.sc:53:16: too many arguments (found 3, expected 2) for method findFibo: (n: Int, res: Int): Int
+findFibo(1, 9, 0)
+               ^
+2024.03.12 15:19:47 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.14s[0m
+[31merror[39m: src/main/scala/Main.worksheet.sc:53:16: too many arguments (found 3, expected 2) for method findFibo: (n: Int, res: Int): Int
+findFibo(1, 9, 0)
+               ^
+2024.03.12 15:19:51 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.14s[0m
+2024.03.12 15:19:54 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.38s[0m
+2024.03.12 15:19:55 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.2s[0m
+2024.03.12 15:20:21 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.19s[0m
+2024.03.12 15:20:27 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.16s[0m
+2024.03.12 15:20:36 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.25s[0m
+2024.03.12 15:20:40 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.2s[0m
+2024.03.12 15:20:41 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.2s[0m
+2024.03.12 15:22:08 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.24s[0m
+2024.03.12 15:22:16 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.2s[0m
+2024.03.12 15:22:20 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.19s[0m
+2024.03.12 15:22:21 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.2s[0m
+2024.03.12 15:22:22 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.21s[0m
+2024.03.12 15:22:23 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.25s[0m
+2024.03.12 15:22:25 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.3s[0m
+2024.03.12 15:22:26 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.21s[0m
+2024.03.12 15:22:27 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.2s[0m
+[31merror[39m: src/main/scala/Main.worksheet.sc:50:26: type mismatch;
+ found   : res.type (with underlying type Int)
+ required: ?{def +(x$1: ? >: Float): ?}
+Note that implicit conversions are not applicable because they are ambiguous:
+ both method int2float in object Int of type (x: Int): Float
+ and method int2long in object Int of type (x: Int): Long
+ are possible conversion functions from res.type to ?{def +(x$1: ? >: Float): ?}
+    else findFibo(n - 1, res + n)
+                         ^^^
+[31merror[39m: src/main/scala/Main.worksheet.sc:50:26: overloaded method + with alternatives:
+  (x: Int)Int <and>
+  (x: Char)Int <and>
+  (x: Short)Int <and>
+  (x: Byte)Int
+ cannot be applied to (Float)
+    else findFibo(n - 1, res + n)
+                         ^^^^^
+2024.03.12 15:22:31 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.19s[0m
+Mar 12, 2024 3:22:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-22-34-767.md
+2024.03.12 15:22:42 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.31s[0m
+Mar 12, 2024 3:22:47 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-22-47-758.md
+Mar 12, 2024 3:22:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-22-49-802.md
+Mar 12, 2024 3:22:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-22-51-237.md
+2024.03.12 15:22:52 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.22s[0m
+2024.03.12 15:22:55 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.22s[0m
+2024.03.12 15:23:01 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.19s[0m
+Mar 12, 2024 3:32:31 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-32-31-057.md
+Mar 12, 2024 3:32:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-32-34-078.md
+2024.03.12 15:32:35 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.2s[0m
+Mar 12, 2024 3:32:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-32-41-469.md
+2024.03.12 15:32:42 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.37s[0m
+2024.03.12 15:32:46 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.2s[0m
+2024.03.12 15:32:48 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.19s[0m
+Mar 12, 2024 3:32:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-12/r_compiler-error_(course_01)_15-32-52-372.md
+2024.03.12 15:32:58 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.19s[0m
+2024.03.12 15:33:00 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.17s[0m
+2024.03.13 09:27:18 INFO  Started: Metals version 1.2.2 in folders '/home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01' for client Visual Studio Code 1.87.1.[0m
+09:27:19.210 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- Flyway Community Edition 9.22.3 by Redgate
+09:27:19.213 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- See release notes here: https://rd.gt/416ObMi
+09:27:19.213 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- 
+09:27:19.218 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+09:27:19.218 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@4f2410ac ...
+09:27:19.218 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+09:27:19.218 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+09:27:19.218 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@4f2410ac ...
+09:27:19.219 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/home/ione/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+09:27:19.226 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+09:27:19.226 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+09:27:19.227 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+09:27:19.227 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+09:27:19.227 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+09:27:19.227 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+09:27:19.232 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+09:27:19.233 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+09:27:19.234 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+09:27:19.235 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+09:27:19.235 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+09:27:19.346 [pool-1-thread-1] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:/home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/metals (H2 2.2)
+09:27:19.346 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+09:27:19.346 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+09:27:19.348 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+09:27:19.348 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+09:27:19.354 [pool-1-thread-1] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+09:27:19.357 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+09:27:19.357 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+09:27:19.367 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+09:27:19.372 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+09:27:19.381 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+09:27:19.381 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+09:27:19.381 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+09:27:19.381 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+09:27:19.381 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+09:27:19.382 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+09:27:19.383 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+09:27:19.383 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+09:27:19.383 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+09:27:19.383 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+09:27:19.399 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.031s)
+09:27:19.402 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+09:27:19.410 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": 4
+09:27:19.415 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Schema "PUBLIC" is up to date. No migration necessary.
+09:27:19.436 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 37 of 100M
+2024.03.13 09:27:19 INFO  Attempting to connect to the build server...[0m
+2024.03.13 09:27:19 INFO  skipping build import with status 'Installed'[0m
+2024.03.13 09:27:19 INFO  Bloop uses /usr/lib/jvm/java-21-openjdk defined at /home/ione/.bloop/bloop.json[0m
+2024.03.13 09:27:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/bsp.trace.json or /home/ione/.cache/metals/bsp.trace.json[0m
+2024.03.13 09:27:24 INFO  Attempting to connect to the build server...[0m
+2024.03.13 09:27:24 INFO  Bloop uses /usr/lib/jvm/java-21-openjdk defined at /home/ione/.bloop/bloop.json[0m
+2024.03.13 09:27:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/project/.metals/bsp.trace.json or /home/ione/.cache/metals/bsp.trace.json[0m
+2024.03.13 09:27:24 INFO  time: Connected to build server in 6.03s[0m
+2024.03.13 09:27:24 INFO  Connected to Build server: Bloop v1.5.15[0m
+2024.03.13 09:27:25 INFO  no build target found for /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/src/main/scala/Main.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2024.03.13 09:27:26 INFO  time: Imported build in 0.4s[0m
+2024.03.13 09:27:31 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk/src.zip, /usr/lib/jvm/java-21-openjdk/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk/src.zip, /usr/lib/jvm/java-21-openjdk/lib/src.zip. Java symbols will not be available.[0m
+2024.03.13 09:27:31 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk/src.zip, /usr/lib/jvm/java-21-openjdk/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk/src.zip, /usr/lib/jvm/java-21-openjdk/lib/src.zip. Java symbols will not be available.[0m
+2024.03.13 09:27:31 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk/src.zip, /usr/lib/jvm/java-21-openjdk/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk/src.zip, /usr/lib/jvm/java-21-openjdk/lib/src.zip. Java symbols will not be available.[0m
+2024.03.13 09:27:31 INFO  time: indexed workspace in 4.81s[0m
+2024.03.13 09:27:41 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 9.58s[0m
+2024.03.13 09:27:45 INFO  time: code lens generation in 4.08s[0m
+2024.03.13 09:27:45 INFO  time: code lens generation in 4.08s[0m
+2024.03.13 09:27:45 INFO  time: code lens generation in 4.08s[0m
+2024.03.13 09:28:24 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 1.81s[0m
+2024.03.13 09:28:29 INFO  Shutting down server[0m
+2024.03.13 09:28:29 INFO  shutting down Metals[0m
+2024.03.13 09:28:29 INFO  Shut down connection with build server.[0m
+2024.03.13 09:28:29 INFO  Shut down connection with build server.[0m
+2024.03.13 09:28:29 INFO  Exiting server[0m
+2024.03.13 09:37:19 INFO  Started: Metals version 1.2.2 in folders '/home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01' for client Visual Studio Code 1.87.1.[0m
+09:37:20.620 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- Flyway Community Edition 9.22.3 by Redgate
+09:37:20.623 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- See release notes here: https://rd.gt/416ObMi
+09:37:20.623 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- 
+09:37:20.626 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+09:37:20.626 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@4f2410ac ...
+09:37:20.627 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+09:37:20.627 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+09:37:20.627 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@4f2410ac ...
+09:37:20.627 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/home/ione/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+09:37:20.632 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+09:37:20.632 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+09:37:20.632 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+09:37:20.632 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+09:37:20.632 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+09:37:20.632 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+09:37:20.637 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+09:37:20.637 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+09:37:20.638 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+09:37:20.638 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+09:37:20.639 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+09:37:20.732 [pool-1-thread-1] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:/home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/metals (H2 2.2)
+09:37:20.732 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+09:37:20.733 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+09:37:20.734 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+09:37:20.734 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+09:37:20.739 [pool-1-thread-1] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+09:37:20.740 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+09:37:20.741 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+09:37:20.749 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+09:37:20.753 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+09:37:20.762 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+09:37:20.762 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+09:37:20.762 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+09:37:20.762 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+09:37:20.763 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+09:37:20.763 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+09:37:20.763 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+09:37:20.763 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+09:37:20.764 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+09:37:20.764 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+09:37:20.776 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.026s)
+09:37:20.779 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+09:37:20.785 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": 4
+09:37:20.791 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Schema "PUBLIC" is up to date. No migration necessary.
+09:37:20.804 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 35 of 100M
+2024.03.13 09:37:21 INFO  skipping build import with status 'Installed'[0m
+2024.03.13 09:37:21 INFO  Attempting to connect to the build server...[0m
+2024.03.13 09:37:21 INFO  Bloop uses /usr/lib/jvm/java-21-openjdk defined at /home/ione/.bloop/bloop.json[0m
+2024.03.13 09:37:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/bsp.trace.json or /home/ione/.cache/metals/bsp.trace.json[0m
+2024.03.13 09:37:25 INFO  Attempting to connect to the build server...[0m
+2024.03.13 09:37:25 INFO  Bloop uses /usr/lib/jvm/java-21-openjdk defined at /home/ione/.bloop/bloop.json[0m
+2024.03.13 09:37:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/project/.metals/bsp.trace.json or /home/ione/.cache/metals/bsp.trace.json[0m
+2024.03.13 09:37:25 INFO  time: Connected to build server in 5.42s[0m
+2024.03.13 09:37:25 INFO  Connected to Build server: Bloop v1.5.15[0m
+2024.03.13 09:37:26 INFO  no build target found for /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/src/main/scala/Main.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2024.03.13 09:37:26 INFO  time: Imported build in 0.28s[0m
+2024.03.13 09:37:29 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk/src.zip, /usr/lib/jvm/java-21-openjdk/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk/src.zip, /usr/lib/jvm/java-21-openjdk/lib/src.zip. Java symbols will not be available.[0m
+2024.03.13 09:37:29 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk/src.zip, /usr/lib/jvm/java-21-openjdk/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk/src.zip, /usr/lib/jvm/java-21-openjdk/lib/src.zip. Java symbols will not be available.[0m
+2024.03.13 09:37:29 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk/src.zip, /usr/lib/jvm/java-21-openjdk/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk/src.zip, /usr/lib/jvm/java-21-openjdk/lib/src.zip. Java symbols will not be available.[0m
+2024.03.13 09:37:29 INFO  time: indexed workspace in 2.85s[0m
+2024.03.13 09:37:43 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 12s[0m
+2024.03.13 09:37:45 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 1.94s[0m
+2024.03.13 09:37:47 INFO  time: code lens generation in 4.61s[0m
+2024.03.13 09:37:47 INFO  time: code lens generation in 4.13s[0m
+2024.03.13 09:37:47 INFO  time: code lens generation in 4.61s[0m
+2024.03.13 09:37:47 INFO  time: code lens generation in 4.61s[0m
+2024.03.13 09:37:47 INFO  time: code lens generation in 4.61s[0m
+2024.03.13 09:37:51 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.88s[0m
+2024.03.13 09:37:55 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.84s[0m
+2024.03.13 09:37:58 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.56s[0m
+2024.03.13 09:38:20 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.27s[0m
+2024.03.13 09:38:24 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.39s[0m
+2024.03.13 09:38:28 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.26s[0m
+2024.03.13 09:38:30 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.23s[0m
+Mar 13, 2024 9:38:32 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.metals/.reports/metals-full/2024-03-13/r_compiler-error_(course_01)_09-38-32-194.md
+2024.03.13 09:38:33 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.24s[0m
+2024.03.13 09:38:35 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.21s[0m
+2024.03.13 09:38:38 INFO  time: evaluated worksheet 'Main.worksheet.sc' in 0.18s[0m
+2024.03.13 09:38:50 INFO  Shutting down server[0m
+2024.03.13 09:38:50 INFO  shutting down Metals[0m
+2024.03.13 09:38:50 INFO  Shut down connection with build server.[0m
+2024.03.13 09:38:50 INFO  Shut down connection with build server.[0m
+2024.03.13 09:38:50 INFO  Exiting server[0m

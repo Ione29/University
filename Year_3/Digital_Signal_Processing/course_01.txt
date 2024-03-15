@@ -1,0 +1,6 @@
+-signals carry information and are continuous in time
+-digital signals are discrete in time and have digital values
+
+sampling:
+-fs = sambple rating (Hz) = 1/dt
+

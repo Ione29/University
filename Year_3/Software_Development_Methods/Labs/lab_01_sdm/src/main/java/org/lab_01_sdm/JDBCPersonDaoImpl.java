@@ -43,15 +43,33 @@ public class JDBCPersonDaoImpl extends CoreJDBCDao implements PersonDAO {
     @Override
     public Set<Person> findByName(String name) {
         Set<Person> persons = new HashSet<>();
+        Address foundAddress = new Address();
         String findByNameSQL = "SELECT * FROM persons WHERE name = ?";
         try(
             PreparedStatement findByName = connection.prepareStatement(findByNameSQL);
         ) {
             findByName.setString(1, name);
-            ResultSet results = findByName.executeQuery();
+            ResultSet personResults = findByName.executeQuery();
             
-            while(results.next()){
-                Person per = new Person(results.getInt("id"), results.getString("name"));
+            while(personResults.next()){
+                String findSpecificAddressSQL = "SELECT * from addresses where id = ?";
+                try(
+                    PreparedStatement findSpecificAddress = connection.prepareStatement(findSpecificAddressSQL);
+                ) {
+                    findSpecificAddress.setInt(1, personResults.getInt("address"));
+                    ResultSet addressResults = findSpecificAddress.executeQuery();
+                    
+                    while(addressResults.next()){
+                        foundAddress = new Address(addressResults.getInt("id"), addressResults.getString("city"), addressResults.getString("street"));
+                    }
+
+                    Person per = new Person(personResults.getInt("id"), personResults.getString("name"), foundAddress);
+                    persons.add(per);
+
+                } catch (SQLException e) {
+                    e.printStackTrace();   
+                }
+                Person per = new Person(personResults.getInt("id"), personResults.getString("name"));
                 persons.add(per);
             }
         } catch (SQLException e){

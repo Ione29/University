@@ -1,0 +1,27 @@
+Hierarchy (least complex to most complex): AI -> ML -> NN -> DL
+ AI = Artificial Intelligence
+ ML = Machine learning
+ANN = Artificial Neural Network
+ NN = Neural Network
+ DL = Deep Learning
+
+ML -> builds mathematical model that can adapt using the inputs
+ANN / NN -> set of structures and algorithms inspired from biological brains and designed to recognize patters
+
+Connectionist approach:
+-individual neurons in a NN are interconnected through synapses
+-the connections allow the neurons to signal each other when information is processed
+-each connection has a weight
+-connection weight = 0 if there is no connection between 2 neurons
+-the connection weight shows the importance of the input comming from that connection
+
+Perceptrons:
+-for the neuron / perceptron having inputs Xi and targets Ti, you can perform learning computing for all the inputs the real output, finding the error and make the update
+
+dW = ex
+n = vector(W) * vector(X)
+y =
+e = T - y
+
+-NN jobs are supervized (with examples)
+-unsupervised learning -> clustering

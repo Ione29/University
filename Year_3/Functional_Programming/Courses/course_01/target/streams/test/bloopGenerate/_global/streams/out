@@ -1,0 +1,4 @@
+[debug] [course_01-test] Classpath dependencies List()
+[debug] [course_01-test] Dependencies from configurations List(course_01)
+[debug] Bloop wrote the configuration of project 'course_01-test' to '/home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_01/.bloop/course_01-test.json'
+[success] Generated .bloop/course_01-test.json

@@ -1,0 +1,94 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.9.8 (N/A Java 21.0.2)
+[debug] Load.defaultLoad until apply took 1035.648234ms
+[debug]                 Load.loadUnit: plugins took 1296.981301ms
+[debug]                 Load.loadUnit: defsScala took 5.4939ms
+[debug] [Loading] Scanning directory /home/ione/Documents/University/Year_3/Functional_Programming/Labs/hello-world/project/project
+[debug]                   Load.loadUnit: mkEval took 66.452123ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/ione/Documents/University/Year_3/Functional_Programming/Labs/hello-world/project/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 90.676825 ms
+[info] loading settings for project hello-world-build-build from metals.sbt ...
+[debug]                     Load.resolveProject(hello-world-build-build) took 352.664457ms
+[debug]                   Load.loadTransitive: finalizeProject(Project(id hello-world-build-build, base: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/hello-world/project/project, plugins: List(<none>))) took 478.81046ms
+[debug] [Loading] Done in /home/ione/Documents/University/Year_3/Functional_Programming/Labs/hello-world/project/project, returning: (hello-world-build-build)
+[debug]                 Load.loadUnit: loadedProjectsRaw took 18824.278898ms
+[debug]                 Load.loadUnit: cleanEvalClasses took 45.202911ms
+[debug]               Load.loadUnit(file:/home/ione/Documents/University/Year_3/Functional_Programming/Labs/hello-world/project/project/, ...) took 20282.240301ms
+[debug]             Load.apply: load took 21542.100448ms
+[debug]             Load.apply: resolveProjects took 48.597706ms
+[debug]             Load.apply: finalTransforms took 472.909776ms
+[debug]             Load.apply: config.delegates took 52.95222ms
+[debug]             Load.apply: Def.make(settings)... took 2728.769664ms
+[debug]             Load.apply: structureIndex took 802.909547ms
+[debug]             Load.apply: mkStreams took 11.30673ms
+[info] loading project definition from /home/ione/Documents/University/Year_3/Functional_Programming/Labs/hello-world/project/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]           Load.loadUnit: plugins took 40311.525866ms
+[debug]           Load.loadUnit: defsScala took 0.02066ms
+[debug] [Loading] Scanning directory /home/ione/Documents/University/Year_3/Functional_Programming/Labs/hello-world/project
+[debug]             Load.loadUnit: mkEval took 0.433647ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/ione/Documents/University/Year_3/Functional_Programming/Labs/hello-world/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(bloop.integrations.sbt.BloopPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(bloop.integrations.sbt.BloopPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,bloop.integrations.sbt.BloopPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 32.485995 ms
+[info] loading settings for project hello-world-build from metals.sbt ...
+[debug]               Load.resolveProject(hello-world-build) took 184.655646ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id hello-world-build, base: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/hello-world/project, plugins: List(<none>))) took 238.654083ms
+[debug] [Loading] Done in /home/ione/Documents/University/Year_3/Functional_Programming/Labs/hello-world/project, returning: (hello-world-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 5657.843543ms
+[debug]           Load.loadUnit: cleanEvalClasses took 8.400426ms
+[debug]         Load.loadUnit(file:/home/ione/Documents/University/Year_3/Functional_Programming/Labs/hello-world/project/, ...) took 45991.83235ms
+[debug]       Load.apply: load took 46021.710223ms
+[debug]       Load.apply: resolveProjects took 0.332193ms
+[debug]       Load.apply: finalTransforms took 370.670106ms
+[debug]       Load.apply: config.delegates took 5.838906ms
+[debug]       Load.apply: Def.make(settings)... took 945.21654ms
+[debug]       Load.apply: structureIndex took 289.315714ms
+[debug]       Load.apply: mkStreams took 0.007479ms
+[info] loading project definition from /home/ione/Documents/University/Year_3/Functional_Programming/Labs/hello-world/project
+[debug] Evaluating tasks: bloopInstall
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Generated .bloop/hello-world-build.json
+[success] Total time: 26 s, completed Mar 8, 2024, 2:39:35 PM
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 77588.234754ms
+[debug]     Load.loadUnit: defsScala took 0.026755ms
+[debug] [Loading] Scanning directory /home/ione/Documents/University/Year_3/Functional_Programming/Labs/hello-world
+[debug]       Load.loadUnit: mkEval took 2.865851ms

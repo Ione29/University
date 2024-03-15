@@ -1,0 +1,25 @@
+CREATE TABLE addresses (
+id INT NOT NULL AUTO_INCREMENT,
+city VARCHAR(45) NOT NULL,
+street VARCHAR(45) NULL,
+PRIMARY KEY (id));
+
+CREATE TABLE persons(
+id INT NOT NULL AUTO_INCREMENT,
+name VARCHAR(45) NOT NULL,
+address INT NULL,
+PRIMARY KEY (id),
+CONSTRAINT fk_address
+FOREIGN KEY (address)
+REFERENCES addresses (id));
+
+INSERT INTO addresses (city, street) VALUES ('Bucuresti', 'Politehnicii');
+INSERT INTO addresses (city, street) VALUES ('Ploiesti', 'Independetei');
+INSERT INTO persons (name, address) VALUES ('Vasile', 1);
+INSERT INTO persons (name, address) VALUES ('John', 1);
+INSERT INTO persons (name, address) VALUES ('Emily', 2);
+
+SELECT * FROM addresses;
+SELECT * FROM persons;
+
+
