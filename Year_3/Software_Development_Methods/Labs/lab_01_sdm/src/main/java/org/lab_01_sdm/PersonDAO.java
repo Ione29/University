@@ -1,6 +1,5 @@
 package org.lab_01_sdm;
 
-import java.util.Optional;
 import java.util.Set;
 
 public interface PersonDAO {

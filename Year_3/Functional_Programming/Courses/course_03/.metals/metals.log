@@ -1,0 +1,725 @@
+2024.03.19 14:15:26 INFO  Started: Metals version 1.2.2 in folders '/home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03' for client Visual Studio Code 1.87.2.[0m
+14:15:28.183 [pool-1-thread-4] INFO org.flywaydb.core.internal.license.VersionPrinter -- Flyway Community Edition 9.22.3 by Redgate
+14:15:28.190 [pool-1-thread-4] INFO org.flywaydb.core.internal.license.VersionPrinter -- See release notes here: https://rd.gt/416ObMi
+14:15:28.191 [pool-1-thread-4] INFO org.flywaydb.core.internal.license.VersionPrinter -- 
+14:15:28.200 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+14:15:28.200 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@4f2410ac ...
+14:15:28.200 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+14:15:28.201 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+14:15:28.201 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@4f2410ac ...
+14:15:28.203 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/home/ione/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+14:15:28.215 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+14:15:28.216 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+14:15:28.216 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+14:15:28.216 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+14:15:28.217 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+14:15:28.217 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+14:15:28.227 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+14:15:28.228 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+14:15:28.231 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+14:15:28.232 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+14:15:28.232 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+14:15:28.423 [pool-1-thread-4] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:/home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/.metals/metals (H2 2.2)
+14:15:28.424 [pool-1-thread-4] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+14:15:28.425 [pool-1-thread-4] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+14:15:28.436 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+14:15:28.438 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+14:15:28.464 [pool-1-thread-4] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+14:15:28.467 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+14:15:28.468 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+14:15:28.490 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+14:15:28.499 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+14:15:28.517 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+14:15:28.518 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+14:15:28.518 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+14:15:28.518 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+14:15:28.518 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+14:15:28.519 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+14:15:28.520 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+14:15:28.520 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+14:15:28.520 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+14:15:28.520 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+14:15:28.523 [pool-1-thread-4] INFO org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+14:15:28.529 [pool-1-thread-4] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.037s)
+14:15:28.533 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+14:15:28.540 [pool-1-thread-4] INFO org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+14:15:28.550 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing  ...
+14:15:28.567 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 1: CREATE TABLE IF NOT EXISTS "PUBLIC"."flyway_schema_history" (
+    "installed_rank" INT NOT NULL,
+    "version" VARCHAR(50),
+    "description" VARCHAR(200) NOT NULL,
+    "type" VARCHAR(20) NOT NULL,
+    "script" VARCHAR(1000) NOT NULL,
+    "checksum" INT,
+    "installed_by" VARCHAR(100) NOT NULL,
+    "installed_on" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "execution_time" INT NOT NULL,
+    "success" BOOLEAN NOT NULL,
+    CONSTRAINT "flyway_schema_history_pk" PRIMARY KEY ("installed_rank")
+) AS SELECT -1, NULL, '<< Flyway Schema History table created >>', 'TABLE', '', NULL, 'SA', CURRENT_TIMESTAMP, 0, TRUE
+14:15:28.568 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 14: CREATE INDEX "PUBLIC"."flyway_schema_history_s_idx" ON "PUBLIC"."flyway_schema_history" ("success")
+14:15:28.569 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE TABLE IF NOT EXISTS "PUBLIC"."flyway_schema_history" (
+    "installed_rank" INT NOT NULL,
+    "version" VARCHAR(50),
+    "description" VARCHAR(200) NOT NULL,
+    "type" VARCHAR(20) NOT NULL,
+    "script" VARCHAR(1000) NOT NULL,
+    "checksum" INT,
+    "installed_by" VARCHAR(100) NOT NULL,
+    "installed_on" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "execution_time" INT NOT NULL,
+    "success" BOOLEAN NOT NULL,
+    CONSTRAINT "flyway_schema_history_pk" PRIMARY KEY ("installed_rank")
+) AS SELECT -1, NULL, '<< Flyway Schema History table created >>', 'TABLE', '', NULL, 'SA', CURRENT_TIMESTAMP, 0, TRUE
+14:15:28.578 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:15:28.578 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE INDEX "PUBLIC"."flyway_schema_history_s_idx" ON "PUBLIC"."flyway_schema_history" ("success")
+14:15:28.584 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:15:28.585 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Created Schema History table "PUBLIC"."flyway_schema_history"
+14:15:28.599 [pool-1-thread-4] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": << Empty Schema >>
+14:15:28.600 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V1__Create_tables.sql ...
+14:15:28.604 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 4: -- The relationship between library dependency sources under .metals/readonly/**
+-- and build targets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table dependency_source(
+  text_document_uri varchar primary key,
+  build_target_uri varchar not null
+)
+14:15:28.606 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 12: -- The relationship between library dependency sources under .metals/readonly/**
+-- and worksheets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table worksheet_dependency_source(
+  text_document_uri varchar primary key,
+  worksheet_uri varchar not null
+)
+14:15:28.608 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 19: -- The relationship between what library dependency sources under .metals/readonly/**
+-- map to which build targets.
+create table sbt_digest(
+  md5 varchar,
+  status tinyint not null,
+  when_recorded timestamp
+)
+14:15:28.611 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 27: -- Which window/showMessage and window/showMessageRequest dialogues have been dismissed
+-- by the user via "Don't show again" or closed by clicking on "x".
+create table dismissed_notification(
+  id int,
+  when_dismissed timestamp,
+  when_expires timestamp
+)
+14:15:28.612 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 34: -- The choice of build tool when multiple build tool files are found in a workspace
+create table chosen_build_tool(
+  build_tool varchar primary key
+)
+14:15:28.615 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "1 - Create tables" ...
+14:15:28.617 [pool-1-thread-4] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "1 - Create tables"
+14:15:28.619 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The relationship between library dependency sources under .metals/readonly/**
+-- and build targets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table dependency_source(
+  text_document_uri varchar primary key,
+  build_target_uri varchar not null
+)
+14:15:28.622 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:15:28.622 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The relationship between library dependency sources under .metals/readonly/**
+-- and worksheets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table worksheet_dependency_source(
+  text_document_uri varchar primary key,
+  worksheet_uri varchar not null
+)
+14:15:28.626 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:15:28.626 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The relationship between what library dependency sources under .metals/readonly/**
+-- map to which build targets.
+create table sbt_digest(
+  md5 varchar,
+  status tinyint not null,
+  when_recorded timestamp
+)
+14:15:28.627 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:15:28.628 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Which window/showMessage and window/showMessageRequest dialogues have been dismissed
+-- by the user via "Don't show again" or closed by clicking on "x".
+create table dismissed_notification(
+  id int,
+  when_dismissed timestamp,
+  when_expires timestamp
+)
+14:15:28.629 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:15:28.629 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The choice of build tool when multiple build tool files are found in a workspace
+create table chosen_build_tool(
+  build_tool varchar primary key
+)
+14:15:28.631 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:15:28.632 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "1 - Create tables"
+14:15:28.637 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+14:15:28.648 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V2__Server_discovery.sql ...
+14:15:28.652 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 4: -- For each unique combination of installed build servers we select one server.
+-- The md5 checksum is computed from the names of the installed build servers, and
+-- the selected server is the server which the user chose for this workspace.
+create table chosen_build_server(
+  md5 varchar primary key,
+  selected_server varchar,
+  when_recorded timestamp
+)
+14:15:28.653 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "2 - Server discovery" ...
+14:15:28.654 [pool-1-thread-4] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "2 - Server discovery"
+14:15:28.655 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- For each unique combination of installed build servers we select one server.
+-- The md5 checksum is computed from the names of the installed build servers, and
+-- the selected server is the server which the user chose for this workspace.
+create table chosen_build_server(
+  md5 varchar primary key,
+  selected_server varchar,
+  when_recorded timestamp
+)
+14:15:28.657 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:15:28.657 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "2 - Server discovery"
+14:15:28.660 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+14:15:28.665 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V3__Jar_symbols.sql ...
+14:15:28.667 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 2: -- Indexed jars, the MD5 digest of path, modified time and size as key
+create table indexed_jar(
+  id int auto_increment unique,
+  md5 varchar primary key
+)
+14:15:28.668 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 7: -- Top Level Symbols per jar, allow for multiple jars with same symbols and paths
+create table toplevel_symbol(
+  symbol varchar not null,
+  path varchar not null,
+  jar int,
+  foreign key (jar) references indexed_jar (id) on delete cascade,
+  primary key (jar, path, symbol)
+)
+14:15:28.671 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 15: -- Create index to speedup lookup of jar symbols
+create index toplevel_symbol_jar on toplevel_symbol(jar)
+14:15:28.671 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "3 - Jar symbols" ...
+14:15:28.672 [pool-1-thread-4] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "3 - Jar symbols"
+14:15:28.673 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Indexed jars, the MD5 digest of path, modified time and size as key
+create table indexed_jar(
+  id int auto_increment unique,
+  md5 varchar primary key
+)
+14:15:28.683 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:15:28.683 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Top Level Symbols per jar, allow for multiple jars with same symbols and paths
+create table toplevel_symbol(
+  symbol varchar not null,
+  path varchar not null,
+  jar int,
+  foreign key (jar) references indexed_jar (id) on delete cascade,
+  primary key (jar, path, symbol)
+)
+14:15:28.693 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:15:28.693 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Create index to speedup lookup of jar symbols
+create index toplevel_symbol_jar on toplevel_symbol(jar)
+14:15:28.695 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:15:28.696 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "3 - Jar symbols"
+14:15:28.700 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+14:15:28.706 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V4__Fingerprints.sql ...
+14:15:28.708 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 2: -- Fingerprints saved between invocations
+create table fingerprints(
+  path varchar not null,
+  text varchar not null,
+  md5 varchar not null,
+  id int auto_increment unique
+)
+14:15:28.709 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "4 - Fingerprints" ...
+14:15:28.710 [pool-1-thread-4] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "4 - Fingerprints"
+14:15:28.711 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Fingerprints saved between invocations
+create table fingerprints(
+  path varchar not null,
+  text varchar not null,
+  md5 varchar not null,
+  id int auto_increment unique
+)
+14:15:28.715 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:15:28.715 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "4 - Fingerprints"
+14:15:28.719 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+14:15:28.730 [pool-1-thread-4] INFO org.flywaydb.core.internal.command.DbMigrate -- Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.051s)
+14:15:28.750 [pool-1-thread-4] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 82 of 120M
+2024.03.19 14:15:28 WARN  no build tool detected in workspace '/home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+2024.03.19 14:15:28 WARN  Build server is not auto-connectable.[0m
+2024.03.19 14:15:41 INFO  [0m
+2024.03.19 14:15:41 INFO  Template applied in /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/./course_03[0m
+2024.03.19 14:15:41 INFO  [0m
+2024.03.19 14:15:41 INFO  time: ran 'giter8.Giter8' in 3.84s[0m
+2024.03.19 14:16:06 INFO  [0m
+2024.03.19 14:16:06 INFO  Template applied in /home/ione/Documents/University/Year_3/Functional_Programming/Courses/./course_03[0m
+2024.03.19 14:16:06 INFO  [0m
+2024.03.19 14:16:06 INFO  time: ran 'giter8.Giter8' in 7.83s[0m
+2024.03.19 14:16:06 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/build.sbt[0m
+2024.03.19 14:16:06 INFO  Detected new build tool in /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03[0m
+2024.03.19 14:16:06 WARN  Build server is not auto-connectable.[0m
+2024.03.19 14:16:15 INFO  no build target found for /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/build.sbt. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2024.03.19 14:16:33 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/scala.worksheet.sc[0m
+2024.03.19 14:16:34 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/scala.worksheet.sc[0m
+2024.03.19 14:16:40 INFO  time: evaluated worksheet 'scala.worksheet.sc' in 6.12s[0m
+2024.03.19 14:16:42 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc[0m
+2024.03.19 14:16:43 INFO  time: evaluated worksheet 'course_03.worksheet.sc' in 1.26s[0m
+2024.03.19 14:16:43 INFO  no build target found for /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/scala.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2024.03.19 14:16:45 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc[0m
+2024.03.19 14:16:45 INFO  time: evaluated worksheet 'course_03.worksheet.sc' in 0.78s[0m
+2024.03.19 14:16:47 INFO  no build target found for /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2024.03.19 14:16:48 INFO  time: code lens generation in 2.11s[0m
+Mar 19, 2024 2:17:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 331
+2024.03.19 14:17:36 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc[0m
+[31merror[39m: src/main/scala/course_03.worksheet.sc:6:1: 
+Found:    Unit
+Required: Int
+}
+^
+2024.03.19 14:17:37 INFO  time: evaluated worksheet 'course_03.worksheet.sc' in 1.39s[0m
+2024.03.19 14:17:48 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc[0m
+[31merror[39m: src/main/scala/course_03.worksheet.sc:6:1: 
+Found:    Unit
+Required: Int
+}
+^
+2024.03.19 14:17:48 INFO  time: evaluated worksheet 'course_03.worksheet.sc' in 0.47s[0m
+2024.03.19 14:18:16 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc[0m
+2024.03.19 14:18:17 INFO  time: evaluated worksheet 'course_03.worksheet.sc' in 0.99s[0m
+2024.03.19 14:18:29 ERROR Failed to tokenize input for semantic tokens for /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:11: error: unclosed comment
+  /*
+  ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+[0m
+2024.03.19 14:18:47 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc[0m
+[31merror[39m: src/main/scala/course_03.worksheet.sc:14:5: identifier expected but end of file found
+def 
+    ^
+2024.03.19 14:18:47 INFO  time: evaluated worksheet 'course_03.worksheet.sc' in 0.51s[0m
+2024.03.19 14:18:49 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc[0m
+[31merror[39m: src/main/scala/course_03.worksheet.sc:14:5: identifier expected but end of file found
+def 
+    ^
+2024.03.19 14:18:50 INFO  time: evaluated worksheet 'course_03.worksheet.sc' in 0.65s[0m
+Mar 19, 2024 2:19:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 691
+2024.03.19 14:19:52 ERROR Failed to tokenize input for semantic tokens for /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:11: error: unclosed comment
+  /* 
+  ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+[0m
+2024.03.19 14:20:00 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc[0m
+[31merror[39m: src/main/scala/course_03.worksheet.sc:20:1: 
+Found:    Unit
+Required: Int
+}
+^
+2024.03.19 14:20:02 INFO  time: evaluated worksheet 'course_03.worksheet.sc' in 1.38s[0m
+2024.03.19 14:20:07 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc[0m
+2024.03.19 14:20:08 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc[0m
+2024.03.19 14:20:08 INFO  time: evaluated worksheet 'course_03.worksheet.sc' in 1.32s[0m
+2024.03.19 14:20:09 INFO  time: evaluated worksheet 'course_03.worksheet.sc' in 0.73s[0m
+Mar 19, 2024 2:25:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1229
+2024.03.19 14:26:58 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc[0m
+[31merror[39m: src/main/scala/course_03.worksheet.sc:24:21: 
+Not found: type =?
+def sumWithF(f: Int =? Int, start: Int, stop: Int): Int = {
+                    ^^
+2024.03.19 14:26:59 INFO  time: evaluated worksheet 'course_03.worksheet.sc' in 1.14s[0m
+Mar 19, 2024 2:27:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1869
+Mar 19, 2024 2:27:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1901
+2024.03.19 14:27:24 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc[0m
+[31merror[39m: src/main/scala/course_03.worksheet.sc:24:21: 
+Not found: type =?
+def sumWithF(f: Int =? Int, start: Int, stop: Int): Int = {
+                    ^^
+2024.03.19 14:27:25 INFO  time: evaluated worksheet 'course_03.worksheet.sc' in 0.5s[0m
+2024.03.19 14:27:42 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc[0m
+[31merror[39m: src/main/scala/course_03.worksheet.sc:24:21: 
+Not found: type =?
+def sumWithF(f: Int =? Int, start: Int, stop: Int): Int = {
+                    ^^
+[31merror[39m: src/main/scala/course_03.worksheet.sc:34:5: 
+Double definition:
+def sumInt(start: Int, stop: Int): Int in class MdocApp at line 7 and
+def sumInt(start: Int, stop: Int): Int in class MdocApp at line 41
+have the same type after erasure.
+
+Consider adding a @targetName annotation to one of the conflicting definitions
+for disambiguation.
+def sumInt(start:Int, stop: Int): Int = sumWithF(id, start, stop)
+    ^
+2024.03.19 14:27:43 INFO  time: evaluated worksheet 'course_03.worksheet.sc' in 0.54s[0m
+2024.03.19 14:28:07 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc[0m
+[31merror[39m: src/main/scala/course_03.worksheet.sc:24:21: 
+Not found: type =?
+def sumWithF(f: Int =? Int, start: Int, stop: Int): Int = {
+                    ^^
+[31merror[39m: src/main/scala/course_03.worksheet.sc:34:5: 
+Double definition:
+def sumInt(start: Int, stop: Int): Int in class MdocApp at line 7 and
+def sumInt(start: Int, stop: Int): Int in class MdocApp at line 41
+have the same type after erasure.
+
+Consider adding a @targetName annotation to one of the conflicting definitions
+for disambiguation.
+def sumInt(start:Int, stop: Int): Int = sumWithF(id, start, stop)
+    ^
+[31merror[39m: src/main/scala/course_03.worksheet.sc:35:5: 
+Double definition:
+def sumSquares(start: Int, stop: Int): Int in class MdocApp at line 17 and
+def sumSquares(start: Int, stop: Int): Int in class MdocApp at line 44
+have the same type after erasure.
+
+Consider adding a @targetName annotation to one of the conflicting definitions
+for disambiguation.
+def sumSquares(start: Int, stop: Int): Int = sumWithF(square, start, stop)
+    ^
+2024.03.19 14:28:07 INFO  time: evaluated worksheet 'course_03.worksheet.sc' in 0.38s[0m
+2024.03.19 14:28:31 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc[0m
+[31merror[39m: src/main/scala/course_03.worksheet.sc:35:69: illegal start of simple expression
+def sumSquares(start: Int, stop: Int): Int = sumWithF(square, start,)
+                                                                    ^
+2024.03.19 14:28:32 INFO  time: evaluated worksheet 'course_03.worksheet.sc' in 0.86s[0m
+2024.03.19 14:28:45 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc[0m
+[31merror[39m: src/main/scala/course_03.worksheet.sc:35:69: illegal start of simple expression
+def sumSquares(start: Int, stop: Int): Int = sumWithF(square, start,)
+                                                                    ^
+2024.03.19 14:28:46 INFO  time: evaluated worksheet 'course_03.worksheet.sc' in 0.52s[0m
+2024.03.19 14:28:49 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc[0m
+2024.03.19 14:28:50 INFO  time: evaluated worksheet 'course_03.worksheet.sc' in 0.65s[0m
+2024.03.19 14:28:50 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc[0m
+2024.03.19 14:28:50 INFO  time: evaluated worksheet 'course_03.worksheet.sc' in 0.37s[0m
+2024.03.19 14:30:10 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc[0m
+2024.03.19 14:30:11 INFO  time: evaluated worksheet 'course_03.worksheet.sc' in 0.56s[0m
+2024.03.19 14:32:01 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc[0m
+[31merror[39m: src/main/scala/course_03.worksheet.sc:32:50: 
+Not found: id
+def sumInt(start:Int, stop: Int): Int = sumWithF(id, start, stop)
+                                                 ^^
+[31merror[39m: src/main/scala/course_03.worksheet.sc:33:55: 
+Not found: square
+def sumSquares(start: Int, stop: Int): Int = sumWithF(square, start, stop)
+                                                      ^^^^^^
+2024.03.19 14:32:01 INFO  time: evaluated worksheet 'course_03.worksheet.sc' in 0.15s[0m
+Mar 19, 2024 2:32:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2581
+Mar 19, 2024 2:32:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2582
+Mar 19, 2024 2:32:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2585
+2024.03.19 14:32:14 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc[0m
+2024.03.19 14:32:15 INFO  time: evaluated worksheet 'course_03.worksheet.sc' in 0.38s[0m
+2024.03.19 14:32:16 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc[0m
+2024.03.19 14:32:16 INFO  time: evaluated worksheet 'course_03.worksheet.sc' in 0.31s[0m
+2024.03.19 14:54:53 INFO  Shutting down server[0m
+2024.03.19 14:54:53 INFO  shutting down Metals[0m
+2024.03.19 14:54:53 INFO  Exiting server[0m
+2024.03.19 15:29:42 INFO  Started: Metals version 1.2.2 in folders '/home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03' for client Visual Studio Code 1.87.2.[0m
+15:29:43.141 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- Flyway Community Edition 9.22.3 by Redgate
+15:29:43.143 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- See release notes here: https://rd.gt/416ObMi
+15:29:43.144 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- 
+15:29:43.147 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+15:29:43.147 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@4f2410ac ...
+15:29:43.147 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+15:29:43.147 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+15:29:43.148 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@4f2410ac ...
+15:29:43.148 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/home/ione/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+15:29:43.153 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+15:29:43.153 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+15:29:43.154 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+15:29:43.154 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+15:29:43.154 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+15:29:43.154 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+15:29:43.158 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+15:29:43.158 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+15:29:43.159 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+15:29:43.160 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+15:29:43.160 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+15:29:43.251 [pool-1-thread-1] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:/home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/.metals/metals (H2 2.2)
+15:29:43.252 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+15:29:43.252 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+15:29:43.253 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+15:29:43.254 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+15:29:43.258 [pool-1-thread-1] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+15:29:43.260 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+15:29:43.260 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+15:29:43.268 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+15:29:43.272 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+15:29:43.282 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+15:29:43.282 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+15:29:43.282 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+15:29:43.282 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+15:29:43.282 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+15:29:43.283 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+15:29:43.283 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+15:29:43.283 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+15:29:43.283 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+15:29:43.283 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+15:29:43.294 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.025s)
+15:29:43.296 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+15:29:43.302 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": 4
+15:29:43.305 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Schema "PUBLIC" is up to date. No migration necessary.
+15:29:43.521 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 38 of 100M
+2024.03.19 15:29:47 INFO  no build target found for /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2024.03.19 15:29:48 WARN  Build server is not auto-connectable.[0m
+2024.03.19 15:29:48 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc[0m
+Mar 19, 2024 3:29:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Mar 19, 2024 3:29:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 33
+Mar 19, 2024 3:29:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 34
+Mar 19, 2024 3:29:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 35
+Mar 19, 2024 3:29:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 37
+[31merror[39m: src/main/scala/course_03.worksheet.sc:35:36: illegal start of simple expression
+def compose(f: Int => Int, g: Int =)
+                                   ^
+2024.03.19 15:29:55 INFO  time: code lens generation in 2.92s[0m
+2024.03.19 15:29:55 INFO  time: code lens generation in 4.43s[0m
+2024.03.19 15:29:57 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc[0m
+2024.03.19 15:29:57 INFO  time: code lens generation in 7.73s[0m
+2024.03.19 15:29:57 INFO  time: code lens generation in 8.07s[0m
+2024.03.19 15:29:57 INFO  time: code lens generation in 8.15s[0m
+2024.03.19 15:29:57 INFO  time: code lens generation in 8.38s[0m
+2024.03.19 15:29:57 INFO  time: code lens generation in 2.77s[0m
+2024.03.19 15:29:57 INFO  time: code lens generation in 8.83s[0m
+2024.03.19 15:30:00 INFO  time: evaluated worksheet 'course_03.worksheet.sc' in 11s[0m
+[31merror[39m: src/main/scala/course_03.worksheet.sc:35:44: 
+Not found: type INt
+def compose(f: Int => Int, g: Int => Int): INt => INt ={
+                                           ^^^
+[31merror[39m: src/main/scala/course_03.worksheet.sc:35:51: 
+Not found: type INt
+def compose(f: Int => Int, g: Int => Int): INt => INt ={
+                                                  ^^^
+[31merror[39m: src/main/scala/course_03.worksheet.sc:35:56: 
+Found:    Unit
+Required: <error Not found: type INt> => <error Not found: type INt>
+def compose(f: Int => Int, g: Int => Int): INt => INt ={
+                                                       ^
+2024.03.19 15:30:01 INFO  time: evaluated worksheet 'course_03.worksheet.sc' in 0.97s[0m
+2024.03.19 15:30:02 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc[0m
+Mar 19, 2024 3:30:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 130
+[31merror[39m: src/main/scala/course_03.worksheet.sc:35:56: 
+Found:    Unit
+Required: Int => Int
+def compose(f: Int => Int, g: Int => Int): Int => Int ={
+                                                       ^
+2024.03.19 15:30:03 INFO  time: evaluated worksheet 'course_03.worksheet.sc' in 1.04s[0m
+2024.03.19 15:30:05 INFO  no build target found for /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2024.03.19 15:30:12 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc[0m
+[31merror[39m: src/main/scala/course_03.worksheet.sc:35:56: 
+Found:    Unit
+Required: Int => Int
+def compose(f: Int => Int, g: Int => Int): Int => Int ={
+                                                       ^
+2024.03.19 15:30:12 INFO  time: evaluated worksheet 'course_03.worksheet.sc' in 0.45s[0m
+2024.03.19 15:30:21 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc[0m
+[31merror[39m: src/main/scala/course_03.worksheet.sc:36:9: 
+Not found: x
+    f(g(x))
+        ^
+2024.03.19 15:30:21 INFO  time: evaluated worksheet 'course_03.worksheet.sc' in 0.2s[0m
+2024.03.19 15:30:24 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc[0m
+[31merror[39m: src/main/scala/course_03.worksheet.sc:36:7: 
+missing argument for parameter v1 of method apply in trait Function1: (v1: Int): Int
+    f(g())
+      ^^^
+2024.03.19 15:30:25 INFO  time: evaluated worksheet 'course_03.worksheet.sc' in 0.4s[0m
+2024.03.19 15:30:36 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc[0m
+[31merror[39m: src/main/scala/course_03.worksheet.sc:37:56: 
+Found:    Unit
+Required: Int => Int
+def compose(f: Int => Int, g: Int => Int): Int => Int ={
+                                                       ^
+2024.03.19 15:30:36 INFO  time: evaluated worksheet 'course_03.worksheet.sc' in 0.34s[0m
+2024.03.19 15:30:57 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc[0m
+[31merror[39m: src/main/scala/course_03.worksheet.sc:35:56: 
+Found:    Unit
+Required: Int => Int
+def compose(f: Int => Int, g: Int => Int): Int => Int ={
+                                                       ^
+2024.03.19 15:30:57 INFO  time: evaluated worksheet 'course_03.worksheet.sc' in 0.27s[0m
+2024.03.19 15:31:04 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc[0m
+2024.03.19 15:31:04 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc[0m
+2024.03.19 15:31:04 INFO  time: evaluated worksheet 'course_03.worksheet.sc' in 0.79s[0m
+2024.03.19 15:31:05 INFO  time: evaluated worksheet 'course_03.worksheet.sc' in 0.53s[0m
+2024.03.19 15:31:06 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc[0m
+2024.03.19 15:31:06 INFO  time: evaluated worksheet 'course_03.worksheet.sc' in 0.69s[0m
+2024.03.19 19:39:22 INFO  Shutting down server[0m
+2024.03.19 19:39:22 INFO  shutting down Metals[0m
+2024.03.19 19:39:22 INFO  Exiting server[0m
+2024.03.21 16:28:04 INFO  Started: Metals version 1.2.2 in folders '/home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03' for client Visual Studio Code 1.87.2.[0m
+16:28:04.805 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- Flyway Community Edition 9.22.3 by Redgate
+16:28:04.806 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- See release notes here: https://rd.gt/416ObMi
+16:28:04.806 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- 
+16:28:04.807 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+16:28:04.807 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@4f2410ac ...
+16:28:04.807 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+16:28:04.807 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+16:28:04.807 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@4f2410ac ...
+16:28:04.807 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/home/ione/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+16:28:04.809 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+16:28:04.809 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+16:28:04.809 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+16:28:04.809 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+16:28:04.809 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+16:28:04.809 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+16:28:04.811 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+16:28:04.811 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+16:28:04.811 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+16:28:04.811 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+16:28:04.811 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+16:28:04.861 [pool-1-thread-1] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:/home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/.metals/metals (H2 2.2)
+16:28:04.861 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+16:28:04.861 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+16:28:04.862 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+16:28:04.862 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+16:28:04.864 [pool-1-thread-1] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+16:28:04.864 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+16:28:04.864 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+16:28:04.867 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+16:28:04.869 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+16:28:04.872 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+16:28:04.872 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+16:28:04.872 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+16:28:04.872 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+16:28:04.872 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+16:28:04.873 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+16:28:04.873 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+16:28:04.873 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+16:28:04.873 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+16:28:04.873 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+16:28:04.878 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.010s)
+16:28:04.879 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+16:28:04.881 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": 4
+16:28:04.883 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Schema "PUBLIC" is up to date. No migration necessary.
+16:28:05.101 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 38 of 100M
+2024.03.21 16:28:05 WARN  Build server is not auto-connectable.[0m
+2024.03.21 16:28:05 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc[0m
+Mar 21, 2024 4:28:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2024.03.21 16:28:08 INFO  no build target found for /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2024.03.21 16:28:08 INFO  time: evaluated worksheet 'course_03.worksheet.sc' in 3.69s[0m
+2024.03.21 16:28:09 INFO  time: code lens generation in 4.05s[0m
+2024.03.21 16:28:10 INFO  no build target found for /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2024.03.21 16:28:13 INFO  Shutting down server[0m
+2024.03.21 16:28:13 INFO  shutting down Metals[0m
+2024.03.21 16:28:13 INFO  Exiting server[0m
+2024.03.21 16:28:13 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+[0m
+2024.03.22 12:04:41 INFO  Started: Metals version 1.2.2 in folders '/home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03' for client Visual Studio Code 1.87.2.[0m
+12:04:43.532 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- Flyway Community Edition 9.22.3 by Redgate
+12:04:43.537 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- See release notes here: https://rd.gt/416ObMi
+12:04:43.538 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- 
+12:04:43.546 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+12:04:43.547 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@4f2410ac ...
+12:04:43.547 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+12:04:43.547 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+12:04:43.548 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@4f2410ac ...
+12:04:43.550 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/home/ione/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+12:04:43.564 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+12:04:43.564 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+12:04:43.564 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+12:04:43.565 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+12:04:43.565 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+12:04:43.565 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+12:04:43.575 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+12:04:43.576 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+12:04:43.579 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+12:04:43.580 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+12:04:43.581 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+12:04:43.742 [pool-1-thread-1] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:/home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/.metals/metals (H2 2.2)
+12:04:43.742 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+12:04:43.742 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+12:04:43.744 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+12:04:43.744 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+12:04:43.752 [pool-1-thread-1] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+12:04:43.755 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+12:04:43.756 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+12:04:43.771 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+12:04:43.777 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+12:04:43.795 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+12:04:43.796 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+12:04:43.796 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+12:04:43.796 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+12:04:43.796 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+12:04:43.798 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+12:04:43.798 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+12:04:43.798 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+12:04:43.798 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+12:04:43.798 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+12:04:43.818 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.045s)
+12:04:43.822 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+12:04:43.833 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": 4
+12:04:43.842 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Schema "PUBLIC" is up to date. No migration necessary.
+12:04:44.069 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 36 of 100M
+2024.03.22 12:04:44 WARN  Build server is not auto-connectable.[0m
+2024.03.22 12:04:44 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc[0m
+2024.03.22 12:04:55 INFO  no build target found for /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2024.03.22 12:05:00 INFO  time: evaluated worksheet 'course_03.worksheet.sc' in 15s[0m
+2024.03.22 12:05:00 INFO  time: code lens generation in 14s[0m
+2024.03.22 12:05:04 INFO  no build target found for /home/ione/Documents/University/Year_3/Functional_Programming/Courses/course_03/src/main/scala/course_03.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2024.03.22 12:07:24 INFO  [0m
+2024.03.22 12:07:24 INFO  Template applied in /home/ione/Documents/University/Year_3/Functional_Programming/Labs/./lab_03[0m
+2024.03.22 12:07:24 INFO  [0m
+2024.03.22 12:07:24 INFO  time: ran 'giter8.Giter8' in 3.45s[0m
+2024.03.22 12:07:34 INFO  Shutting down server[0m
+2024.03.22 12:07:34 INFO  shutting down Metals[0m
+2024.03.22 12:07:34 INFO  Exiting server[0m

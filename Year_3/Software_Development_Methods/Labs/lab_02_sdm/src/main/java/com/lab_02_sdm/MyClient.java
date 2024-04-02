@@ -27,5 +27,7 @@ public class MyClient {
 				e.printStackTrace();
 			}
 		}
+
+		scanner.close();
 	}
 }

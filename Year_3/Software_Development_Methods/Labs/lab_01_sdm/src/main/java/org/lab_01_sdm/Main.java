@@ -1,6 +1,5 @@
 package org.lab_01_sdm;
 
-import java.sql.Connection;
 import java.util.Set;
 
 public class Main {

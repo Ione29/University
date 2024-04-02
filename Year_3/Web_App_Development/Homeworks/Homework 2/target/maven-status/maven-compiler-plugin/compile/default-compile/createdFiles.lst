@@ -1,0 +1,6 @@
+com/wad/firstmvc/controllers/ProductController.class
+com/wad/firstmvc/domain/Product.class
+com/wad/firstmvc/services/ProductServiceImpl.class
+com/wad/firstmvc/services/ProductService.class
+com/wad/firstmvc/controllers/HomeController.class
+com/wad/firstmvc/FirstMvcApplication.class

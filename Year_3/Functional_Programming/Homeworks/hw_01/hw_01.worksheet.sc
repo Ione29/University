@@ -1,0 +1,2 @@
+type Set = Int => Boolean
+

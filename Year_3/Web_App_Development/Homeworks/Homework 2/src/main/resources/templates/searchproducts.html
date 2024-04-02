@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>View Products</title>
+</head>
+<body>
+<form method="post">
+    <input type="text" name="category" placeholder="Category">
+    <input type="number" name="minPrice" placeholder="Min Price">
+    <input type="number" name="maxPrice" placeholder="Max Price">
+    <input type="submit" value="Search">
+</form>
+<div th:each="product : ${products}">
+    <span th:text="${product.id}">id</span>
+    <span th:text="${product.name}">name</span>
+    <span th:text="${product.price}">price</span>
+    <span th:text="${product.category}">category</span>
+</div>
+</body>
+</html>

@@ -27,7 +27,7 @@ public class JDBCAddressDaoImpl extends CoreJDBCDao implements AddressDAO{
     @Override
     public Set<Address> findByCity(String city) {
         Set<Address> addresses = new HashSet<>();
-        String findByCitySQL = "SELECT * FROM addresses WHERE city = ?";
+        String findByCitySQL = "SELECT * FROM addresses WHERE city Address= ?";
         try(
             PreparedStatement findByCity = connection.prepareStatement(findByCitySQL);
         ) {
