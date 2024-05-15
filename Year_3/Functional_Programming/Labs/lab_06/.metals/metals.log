@@ -1,0 +1,1201 @@
+2024.04.12 14:26:17 INFO  Started: Metals version 1.2.2 in folders '/home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06' for client Visual Studio Code 1.88.0.[0m
+14:26:19.380 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- Flyway Community Edition 9.22.3 by Redgate
+14:26:19.393 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- See release notes here: https://rd.gt/416ObMi
+14:26:19.393 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- 
+14:26:19.405 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+14:26:19.406 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@5cb0d902 ...
+14:26:19.407 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+14:26:19.407 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+14:26:19.407 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@5cb0d902 ...
+14:26:19.410 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/home/ione/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+14:26:19.422 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+14:26:19.423 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+14:26:19.424 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+14:26:19.424 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+14:26:19.425 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+14:26:19.425 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+14:26:19.444 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+14:26:19.446 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+14:26:19.451 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+14:26:19.453 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+14:26:19.454 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+14:26:19.721 [pool-1-thread-1] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:/home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/.metals/metals (H2 2.2)
+14:26:19.722 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+14:26:19.722 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+14:26:19.727 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+14:26:19.728 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+14:26:19.748 [pool-1-thread-1] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+14:26:19.754 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+14:26:19.755 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+14:26:19.786 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+14:26:19.798 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+14:26:19.826 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+14:26:19.827 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+14:26:19.827 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+14:26:19.828 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+14:26:19.828 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+14:26:19.830 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+14:26:19.831 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+14:26:19.833 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+14:26:19.834 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+14:26:19.835 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+14:26:19.846 [pool-1-thread-1] INFO org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+14:26:19.865 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.075s)
+14:26:19.879 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+14:26:19.903 [pool-1-thread-1] INFO org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+14:26:19.917 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing  ...
+14:26:19.956 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 1: CREATE TABLE IF NOT EXISTS "PUBLIC"."flyway_schema_history" (
+    "installed_rank" INT NOT NULL,
+    "version" VARCHAR(50),
+    "description" VARCHAR(200) NOT NULL,
+    "type" VARCHAR(20) NOT NULL,
+    "script" VARCHAR(1000) NOT NULL,
+    "checksum" INT,
+    "installed_by" VARCHAR(100) NOT NULL,
+    "installed_on" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "execution_time" INT NOT NULL,
+    "success" BOOLEAN NOT NULL,
+    CONSTRAINT "flyway_schema_history_pk" PRIMARY KEY ("installed_rank")
+) AS SELECT -1, NULL, '<< Flyway Schema History table created >>', 'TABLE', '', NULL, 'SA', CURRENT_TIMESTAMP, 0, TRUE
+14:26:19.958 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 14: CREATE INDEX "PUBLIC"."flyway_schema_history_s_idx" ON "PUBLIC"."flyway_schema_history" ("success")
+14:26:19.959 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE TABLE IF NOT EXISTS "PUBLIC"."flyway_schema_history" (
+    "installed_rank" INT NOT NULL,
+    "version" VARCHAR(50),
+    "description" VARCHAR(200) NOT NULL,
+    "type" VARCHAR(20) NOT NULL,
+    "script" VARCHAR(1000) NOT NULL,
+    "checksum" INT,
+    "installed_by" VARCHAR(100) NOT NULL,
+    "installed_on" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "execution_time" INT NOT NULL,
+    "success" BOOLEAN NOT NULL,
+    CONSTRAINT "flyway_schema_history_pk" PRIMARY KEY ("installed_rank")
+) AS SELECT -1, NULL, '<< Flyway Schema History table created >>', 'TABLE', '', NULL, 'SA', CURRENT_TIMESTAMP, 0, TRUE
+14:26:20.004 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:26:20.005 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE INDEX "PUBLIC"."flyway_schema_history_s_idx" ON "PUBLIC"."flyway_schema_history" ("success")
+14:26:20.016 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:26:20.017 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Created Schema History table "PUBLIC"."flyway_schema_history"
+14:26:20.040 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": << Empty Schema >>
+14:26:20.041 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V1__Create_tables.sql ...
+14:26:20.049 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 4: -- The relationship between library dependency sources under .metals/readonly/**
+-- and build targets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table dependency_source(
+  text_document_uri varchar primary key,
+  build_target_uri varchar not null
+)
+14:26:20.053 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 12: -- The relationship between library dependency sources under .metals/readonly/**
+-- and worksheets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table worksheet_dependency_source(
+  text_document_uri varchar primary key,
+  worksheet_uri varchar not null
+)
+14:26:20.057 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 19: -- The relationship between what library dependency sources under .metals/readonly/**
+-- map to which build targets.
+create table sbt_digest(
+  md5 varchar,
+  status tinyint not null,
+  when_recorded timestamp
+)
+14:26:20.063 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 27: -- Which window/showMessage and window/showMessageRequest dialogues have been dismissed
+-- by the user via "Don't show again" or closed by clicking on "x".
+create table dismissed_notification(
+  id int,
+  when_dismissed timestamp,
+  when_expires timestamp
+)
+14:26:20.064 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 34: -- The choice of build tool when multiple build tool files are found in a workspace
+create table chosen_build_tool(
+  build_tool varchar primary key
+)
+14:26:20.072 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "1 - Create tables" ...
+14:26:20.076 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "1 - Create tables"
+14:26:20.080 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The relationship between library dependency sources under .metals/readonly/**
+-- and build targets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table dependency_source(
+  text_document_uri varchar primary key,
+  build_target_uri varchar not null
+)
+14:26:20.090 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:26:20.091 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The relationship between library dependency sources under .metals/readonly/**
+-- and worksheets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table worksheet_dependency_source(
+  text_document_uri varchar primary key,
+  worksheet_uri varchar not null
+)
+14:26:20.097 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:26:20.098 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The relationship between what library dependency sources under .metals/readonly/**
+-- map to which build targets.
+create table sbt_digest(
+  md5 varchar,
+  status tinyint not null,
+  when_recorded timestamp
+)
+14:26:20.103 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:26:20.104 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Which window/showMessage and window/showMessageRequest dialogues have been dismissed
+-- by the user via "Don't show again" or closed by clicking on "x".
+create table dismissed_notification(
+  id int,
+  when_dismissed timestamp,
+  when_expires timestamp
+)
+14:26:20.107 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:26:20.108 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The choice of build tool when multiple build tool files are found in a workspace
+create table chosen_build_tool(
+  build_tool varchar primary key
+)
+14:26:20.112 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:26:20.113 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "1 - Create tables"
+14:26:20.128 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+14:26:20.152 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V2__Server_discovery.sql ...
+14:26:20.164 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 4: -- For each unique combination of installed build servers we select one server.
+-- The md5 checksum is computed from the names of the installed build servers, and
+-- the selected server is the server which the user chose for this workspace.
+create table chosen_build_server(
+  md5 varchar primary key,
+  selected_server varchar,
+  when_recorded timestamp
+)
+14:26:20.165 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "2 - Server discovery" ...
+14:26:20.169 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "2 - Server discovery"
+14:26:20.170 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- For each unique combination of installed build servers we select one server.
+-- The md5 checksum is computed from the names of the installed build servers, and
+-- the selected server is the server which the user chose for this workspace.
+create table chosen_build_server(
+  md5 varchar primary key,
+  selected_server varchar,
+  when_recorded timestamp
+)
+14:26:20.180 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:26:20.181 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "2 - Server discovery"
+14:26:20.193 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+14:26:20.203 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V3__Jar_symbols.sql ...
+14:26:20.207 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 2: -- Indexed jars, the MD5 digest of path, modified time and size as key
+create table indexed_jar(
+  id int auto_increment unique,
+  md5 varchar primary key
+)
+14:26:20.210 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 7: -- Top Level Symbols per jar, allow for multiple jars with same symbols and paths
+create table toplevel_symbol(
+  symbol varchar not null,
+  path varchar not null,
+  jar int,
+  foreign key (jar) references indexed_jar (id) on delete cascade,
+  primary key (jar, path, symbol)
+)
+14:26:20.217 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 15: -- Create index to speedup lookup of jar symbols
+create index toplevel_symbol_jar on toplevel_symbol(jar)
+14:26:20.218 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "3 - Jar symbols" ...
+14:26:20.221 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "3 - Jar symbols"
+14:26:20.221 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Indexed jars, the MD5 digest of path, modified time and size as key
+create table indexed_jar(
+  id int auto_increment unique,
+  md5 varchar primary key
+)
+14:26:20.240 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:26:20.241 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Top Level Symbols per jar, allow for multiple jars with same symbols and paths
+create table toplevel_symbol(
+  symbol varchar not null,
+  path varchar not null,
+  jar int,
+  foreign key (jar) references indexed_jar (id) on delete cascade,
+  primary key (jar, path, symbol)
+)
+14:26:20.262 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:26:20.263 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Create index to speedup lookup of jar symbols
+create index toplevel_symbol_jar on toplevel_symbol(jar)
+14:26:20.265 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:26:20.266 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "3 - Jar symbols"
+14:26:20.271 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+14:26:20.281 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V4__Fingerprints.sql ...
+14:26:20.286 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 2: -- Fingerprints saved between invocations
+create table fingerprints(
+  path varchar not null,
+  text varchar not null,
+  md5 varchar not null,
+  id int auto_increment unique
+)
+14:26:20.287 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "4 - Fingerprints" ...
+14:26:20.290 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "4 - Fingerprints"
+14:26:20.291 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Fingerprints saved between invocations
+create table fingerprints(
+  path varchar not null,
+  text varchar not null,
+  md5 varchar not null,
+  id int auto_increment unique
+)
+14:26:20.296 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:26:20.297 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "4 - Fingerprints"
+14:26:20.301 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+14:26:20.316 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.116s)
+14:26:20.350 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 35 of 100M
+2024.04.12 14:26:20 WARN  Build server is not auto-connectable.[0m
+Apr 12, 2024 2:26:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Apr 12, 2024 2:26:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Apr 12, 2024 2:26:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2024.04.12 14:26:21 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+Apr 12, 2024 2:26:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Apr 12, 2024 2:26:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+Apr 12, 2024 2:26:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+2024.04.12 14:26:27 INFO  running '/home/ione/.jabba/jdk/openjdk@1.17.0/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals12265328499908763825/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2024.04.12 14:26:27 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/project/metals.sbt[0m
+2024.04.12 14:26:27 INFO  skipping build import with status 'Started'[0m
+2024.04.12 14:26:28 WARN  thread interrupt: Evaluating Worksheet lab_06.worksheet.sc[0m
+2024.04.12 14:26:28 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 6.95s[0m
+2024.04.12 14:26:30 INFO  user cancelled sbt bloopInstall[0m
+2024.04.12 14:26:31 INFO  time: ran 'sbt bloopInstall' in 4.1s[0m
+2024.04.12 14:26:36 INFO  no build target found for /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2024.04.12 14:26:39 INFO  time: code lens generation in 7.82s[0m
+2024.04.12 14:26:39 INFO  time: code lens generation in 9.94s[0m
+2024.04.12 14:26:39 INFO  time: code lens generation in 17s[0m
+2024.04.12 14:26:39 INFO  time: code lens generation in 17s[0m
+2024.04.12 14:26:39 INFO  time: code lens generation in 17s[0m
+Apr 12, 2024 2:28:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 90
+2024.04.12 14:29:11 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+2024.04.12 14:29:12 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+2024.04.12 14:29:13 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+2024.04.12 14:29:15 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 4.27s[0m
+2024.04.12 14:29:15 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+2024.04.12 14:29:17 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 1.62s[0m
+2024.04.12 14:29:18 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 1.07s[0m
+2024.04.12 14:29:19 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 1.17s[0m
+2024.04.12 14:29:21 INFO  no build target found for /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1[0m
+Apr 12, 2024 2:32:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/.metals/.reports/metals-full/2024-04-12/r_compiler-error_14-32-00-587.md
+2024.04.12 14:32:00 WARN  Could not find semantic tokens for: file:///home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+Apr 12, 2024 2:32:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/.metals/.reports/metals-full/2024-04-12/r_compiler-error_14-32-01-210.md
+2024.04.12 14:32:00 WARN  Could not find semantic tokens for: file:///home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+Apr 12, 2024 2:32:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/.metals/.reports/metals-full/2024-04-12/r_compiler-error_14-32-01-732.md
+2024.04.12 14:32:01 WARN  Could not find semantic tokens for: file:///home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+Apr 12, 2024 2:32:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/.metals/.reports/metals-full/2024-04-12/r_compiler-error_14-32-01-949.md
+Apr 12, 2024 2:32:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/.metals/.reports/metals-full/2024-04-12/r_compiler-error_14-32-03-394.md
+2024.04.12 14:32:03 WARN  Could not find semantic tokens for: file:///home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+Apr 12, 2024 2:32:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/.metals/.reports/metals-full/2024-04-12/r_compiler-error_14-32-03-470.md
+Apr 12, 2024 2:32:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/.metals/.reports/metals-full/2024-04-12/r_compiler-error_14-32-04-433.md
+2024.04.12 14:32:04 WARN  Could not find semantic tokens for: file:///home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+Apr 12, 2024 2:32:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/.metals/.reports/metals-full/2024-04-12/r_compiler-error_14-32-04-895.md
+2024.04.12 14:32:04 WARN  Could not find semantic tokens for: file:///home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+Apr 12, 2024 2:32:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/.metals/.reports/metals-full/2024-04-12/r_compiler-error_14-32-05-359.md
+Apr 12, 2024 2:32:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/.metals/.reports/metals-full/2024-04-12/r_compiler-error_14-32-05-431.md
+2024.04.12 14:32:05 WARN  Could not find semantic tokens for: file:///home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+Apr 12, 2024 2:32:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/.metals/.reports/metals-full/2024-04-12/r_compiler-error_14-32-06-478.md
+2024.04.12 14:32:06 WARN  Could not find semantic tokens for: file:///home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+Apr 12, 2024 2:32:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/.metals/.reports/metals-full/2024-04-12/r_compiler-error_14-32-06-722.md
+Apr 12, 2024 2:32:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/.metals/.reports/metals-full/2024-04-12/r_compiler-error_14-32-07-537.md
+2024.04.12 14:32:07 WARN  Could not find semantic tokens for: file:///home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+Apr 12, 2024 2:32:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/.metals/.reports/metals-full/2024-04-12/r_compiler-error_14-32-07-623.md
+Apr 12, 2024 2:32:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/.metals/.reports/metals-full/2024-04-12/r_compiler-error_14-32-08-677.md
+2024.04.12 14:32:08 WARN  Could not find semantic tokens for: file:///home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+Apr 12, 2024 2:32:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/.metals/.reports/metals-full/2024-04-12/r_compiler-error_14-32-08-742.md
+Apr 12, 2024 2:32:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/.metals/.reports/metals-full/2024-04-12/r_compiler-error_14-32-09-200.md
+2024.04.12 14:32:09 WARN  Could not find semantic tokens for: file:///home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+Apr 12, 2024 2:32:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/.metals/.reports/metals-full/2024-04-12/r_compiler-error_14-32-09-844.md
+2024.04.12 14:32:09 WARN  Could not find semantic tokens for: file:///home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+Apr 12, 2024 2:32:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/.metals/.reports/metals-full/2024-04-12/r_compiler-error_14-32-10-117.md
+Apr 12, 2024 2:32:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/.metals/.reports/metals-full/2024-04-12/r_compiler-error_14-32-10-484.md
+Apr 12, 2024 2:32:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/.metals/.reports/metals-full/2024-04-12/r_compiler-error_14-32-10-961.md
+Apr 12, 2024 2:32:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/.metals/.reports/metals-full/2024-04-12/r_compiler-error_14-32-11-406.md
+2024.04.12 14:32:17 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: 
+lab_06.worksheet.sc:15 (mdoc generated code) 
+ Found:    Unit
+Required: MdocApp.this.Gradebook
+    $doc.endStatement();
+
+
+2024.04.12 14:32:17 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.4s[0m
+Apr 12, 2024 2:33:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 566
+2024.04.12 14:34:45 INFO  time: code lens generation in 1.11s[0m
+2024.04.12 14:35:27 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:6:9: => expected but case found
+        case (student, grade) (student, grade)
+        ^^^^
+2024.04.12 14:35:27 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.4s[0m
+2024.04.12 14:35:54 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:6:31: => expected but ( found
+        case (student, grade) (student, grade)
+                              ^
+2024.04.12 14:35:55 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.51s[0m
+2024.04.12 14:35:55 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:6:31: => expected but ( found
+        case (student, grade) (student, grade)
+                              ^
+2024.04.12 14:35:56 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.42s[0m
+2024.04.12 14:36:03 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+2024.04.12 14:36:04 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.62s[0m
+2024.04.12 14:36:06 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+2024.04.12 14:36:07 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.77s[0m
+Apr 12, 2024 2:36:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1046
+Apr 12, 2024 2:36:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1083
+2024.04.12 14:36:31 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+2024.04.12 14:36:31 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.78s[0m
+Apr 12, 2024 2:36:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1149
+2024.04.12 14:37:05 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:6:22: 
+duplicate pattern variable: grade
+        case (grade, grade) if grade <= 5 => (student, grade)
+                     ^^^^^
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:6:41: 
+Found:    (5 : Int)
+Required: String
+        case (grade, grade) if grade <= 5 => (student, grade)
+                                        ^
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:6:47: 
+Not found: student
+        case (grade, grade) if grade <= 5 => (student, grade)
+                                              ^^^^^^^
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:6:56: 
+Found:    (grade : String)
+Required: Int
+        case (grade, grade) if grade <= 5 => (student, grade)
+                                                       ^^^^^
+2024.04.12 14:37:06 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.5s[0m
+2024.04.12 14:37:07 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:6:22: 
+duplicate pattern variable: grade
+        case (grade, grade) if grade <= 5 => (student, grade)
+                     ^^^^^
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:6:41: 
+Found:    (5 : Int)
+Required: String
+        case (grade, grade) if grade <= 5 => (student, grade)
+                                        ^
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:6:47: 
+Not found: student
+        case (grade, grade) if grade <= 5 => (student, grade)
+                                              ^^^^^^^
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:6:56: 
+Found:    (grade : String)
+Required: Int
+        case (grade, grade) if grade <= 5 => (student, grade)
+                                                       ^^^^^
+2024.04.12 14:37:08 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.28s[0m
+2024.04.12 14:37:34 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:6:29: ; expected but else found
+                            else (student, grade)
+                            ^^^^
+2024.04.12 14:37:34 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.37s[0m
+2024.04.12 14:37:53 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:6:29: illegal start of statement
+                            else (student, grade);
+                            ^^^^
+2024.04.12 14:37:53 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.25s[0m
+2024.04.12 14:38:00 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+2024.04.12 14:38:01 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.53s[0m
+2024.04.12 14:38:09 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+2024.04.12 14:38:10 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.72s[0m
+2024.04.12 14:38:13 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:6:24: 
+Not found: student
+        case grade => (student, grade)
+                       ^^^^^^^
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:6:33: 
+Found:    (grade : (String, Int))
+Required: Int
+        case grade => (student, grade)
+                                ^^^^^
+2024.04.12 14:38:13 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.29s[0m
+2024.04.12 14:38:25 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+2024.04.12 14:38:25 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.64s[0m
+2024.04.12 14:38:26 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+2024.04.12 14:38:27 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.57s[0m
+2024.04.12 14:39:45 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: 
+lab_06.worksheet.sc:15 (mdoc generated code) 
+ Found:    Unit
+Required: MdocApp.this.Gradebook
+    $doc.endStatement();
+
+
+2024.04.12 14:39:45 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.16s[0m
+Apr 12, 2024 2:40:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1706
+Apr 12, 2024 2:40:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1709
+Apr 12, 2024 2:42:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2009
+2024.04.12 14:42:50 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: 
+lab_06.worksheet.sc:15 (mdoc generated code) 
+ Found:    Unit
+Required: MdocApp.this.Gradebook
+    $doc.endStatement();
+
+
+2024.04.12 14:42:50 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.18s[0m
+2024.04.12 14:48:23 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:4:21: 
+Not found: student
+    g.map(g.filter((student, grade) >= 5) + 1)
+                    ^^^^^^^
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:4:30: 
+Not found: grade
+    g.map(g.filter((student, grade) >= 5) + 1)
+                             ^^^^^
+2024.04.12 14:48:23 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.15s[0m
+2024.04.12 14:48:31 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:4:20: 
+value >= is not a member of (String, Int) - did you mean _$1.!=?
+    g.map(g.filter(_ >= 5) + 1)
+                   ^^^^
+2024.04.12 14:48:31 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.19s[0m
+2024.04.12 14:48:31 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:4:20: 
+value >= is not a member of (String, Int) - did you mean _$1.!=?
+    g.map(g.filter(_ >= 5) + 1)
+                   ^^^^
+2024.04.12 14:48:31 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.16s[0m
+Apr 12, 2024 2:49:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2652
+Apr 12, 2024 2:53:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2882
+2024.04.12 14:53:37 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+2024.04.12 14:53:38 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.5s[0m
+2024.04.12 14:53:38 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+2024.04.12 14:53:38 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+2024.04.12 14:53:39 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.48s[0m
+2024.04.12 14:53:39 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.4s[0m
+2024.04.12 14:53:47 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+2024.04.12 14:53:47 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.44s[0m
+Apr 12, 2024 2:57:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3368
+2024.04.12 14:57:20 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:13:65: 
+expression expected but ')' found
+        case ((_, grade), (acc, count)) => (acc + grade, count++)
+                                                                ^
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:14:6: 
+Found:    Unit
+Required: Double
+    }
+     ^
+2024.04.12 14:57:20 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.2s[0m
+2024.04.12 14:57:59 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:18:1: end of file expected but } found
+}
+^
+2024.04.12 14:57:59 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.24s[0m
+2024.04.12 14:58:00 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:18:1: end of file expected but } found
+}
+^
+2024.04.12 14:58:00 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.18s[0m
+2024.04.12 14:58:09 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+2024.04.12 14:58:10 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.55s[0m
+2024.04.12 14:58:10 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+2024.04.12 14:58:10 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.56s[0m
+2024.04.12 14:58:14 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+2024.04.12 14:58:14 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.55s[0m
+2024.04.12 14:58:15 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+2024.04.12 14:58:16 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.52s[0m
+2024.04.12 14:58:27 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+2024.04.12 14:58:27 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.45s[0m
+2024.04.12 14:58:33 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+2024.04.12 14:58:33 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.46s[0m
+Apr 12, 2024 2:59:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4022
+2024.04.12 14:59:58 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:22:50: 
+Found:    Unit
+Required: (Double, Double)
+def percentage(g: Gradebook): (Double, Double) = {
+                                                 ^
+2024.04.12 14:59:58 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.3s[0m
+Apr 12, 2024 3:04:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4678
+Apr 12, 2024 3:04:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4830
+2024.04.12 15:05:29 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:25:24: 
+Not found: acc1
+        case other => (acc1, acc2 + 1)
+                       ^^^^
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:25:30: 
+Not found: acc2
+        case other => (acc1, acc2 + 1)
+                             ^^^^
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:28:30: 
+Found:    (0 : Int)
+Required: (Double, Double)
+    if(passed + failed == 0) 0
+                             ^
+2024.04.12 15:05:30 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.47s[0m
+2024.04.12 15:05:31 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:25:24: 
+Not found: acc1
+        case other => (acc1, acc2 + 1)
+                       ^^^^
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:25:30: 
+Not found: acc2
+        case other => (acc1, acc2 + 1)
+                             ^^^^
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:28:30: 
+Found:    (0 : Int)
+Required: (Double, Double)
+    if(passed + failed == 0) 0
+                             ^
+2024.04.12 15:05:31 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.24s[0m
+2024.04.12 15:06:51 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:31:38: ) expected but if found
+    val passed = g.filter((_, grade) if grade => 5 true else false)
+                                     ^^
+2024.04.12 15:06:51 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.21s[0m
+2024.04.12 15:06:55 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:31:55: then expected but true found
+    val passed = g.filter((_, grade) => if grade => 5 true else false)
+                                                      ^^^^
+2024.04.12 15:06:55 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.21s[0m
+2024.04.12 15:07:22 ERROR Failed to tokenize input for semantic tokens for /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:32: error: Invalid literal number
+      val passed = g.filter((name, grade) => if grade >= 5true else false)
+                                                         ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.checkNoLetter(LegacyScanner.scala:820)
+	at scala.meta.internal.tokenizers.LegacyScanner.restOfUncertainToken$1(LegacyScanner.scala:864)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:872)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:335)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.04.12 15:07:23 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:31:58: then expected but true found
+    val passed = g.filter((name, grade) => if grade >= 5 true else false)
+                                                         ^^^^
+2024.04.12 15:07:23 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.21s[0m
+2024.04.12 15:07:26 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:31:41: ) expected but if found
+    val passed = g.filter((name, grade) if grade >= 5 true else false)
+                                        ^^
+2024.04.12 15:07:26 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.17s[0m
+2024.04.12 15:07:31 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:31:41: ) expected but if found
+    val passed = g.filter((name, grade) if grade >= 5 true else false)
+                                        ^^
+2024.04.12 15:07:31 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.21s[0m
+2024.04.12 15:07:56 ERROR Failed to tokenize input for semantic tokens for /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:32: error: unclosed quoted identifier
+      val passed = g.filter((name, grade) => if(grade >= 5)` true else false)
+                                                           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getBackquotedIdent(LegacyScanner.scala:489)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:337)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+Apr 12, 2024 3:08:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5579
+Apr 12, 2024 3:08:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5580
+2024.04.12 15:08:50 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:32:22: 
+value * is not a member of (((String, Int)) => Boolean) => Int
+    val passedPerc = passedCount.count * 100 / g.count
+                     ^^^^^^^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:33:1: 
+Found:    Unit
+Required: (Double, Double)
+}
+^
+2024.04.12 15:08:50 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.25s[0m
+2024.04.12 15:09:00 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:32:22: 
+None of the overloaded alternatives of method / in class Int with types
+ (x: Double): Double
+ (x: Float): Float
+ (x: Long): Long
+ (x: Int): Int
+ (x: Char): Int
+ (x: Short): Int
+ (x: Byte): Int
+match arguments ((((String, Int)) => Boolean) => Int)
+    val passedPerc = passedCount.size * 100 / g.count
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:33:1: 
+Found:    Unit
+Required: (Double, Double)
+}
+^
+2024.04.12 15:09:00 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.37s[0m
+2024.04.12 15:09:44 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:33:1: 
+Found:    Unit
+Required: (Double, Double)
+}
+^
+2024.04.12 15:09:45 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.24s[0m
+2024.04.12 15:09:47 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:33:1: 
+Found:    Unit
+Required: (Double, Double)
+}
+^
+2024.04.12 15:09:47 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.21s[0m
+2024.04.12 15:10:47 ERROR Failed to tokenize input for semantic tokens for /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:24: error: unclosed comment
+  /*     val (passed, failed) = g.foldRight((0, 0)) {
+  ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.04.12 15:10:47 ERROR Failed to tokenize input for semantic tokens for /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:24: error: unclosed comment
+  /*     val (passed, failed) = g.foldRight((0, 0)) {
+  ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+Apr 12, 2024 3:11:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/.metals/.reports/metals-full/2024-04-12/r_compiler-error_15-11-07-986.md
+2024.04.12 15:11:19 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:24:73: => expected but else found
+        case ((_, grade), (acc1, acc2)) if(grade >= 5) (acc1 + 1, acc2) else 
+                                                                        ^^^^
+2024.04.12 15:11:20 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.22s[0m
+2024.04.12 15:11:25 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:25:9: illegal start of simple expression
+        case  => (acc1, acc2 + 1)
+        ^^^^
+2024.04.12 15:11:25 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.22s[0m
+2024.04.12 15:11:43 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:28:64: 
+expression expected but '}' found
+    else (passed / passed + failed, failed / passed + failed)*/
+                                                               ^
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:27:30: 
+Found:    (0 : Int)
+Required: (Double, Double)
+    if(passed + failed == 0) 0
+                             ^
+[33mwarning[39m: 
+lab_06.worksheet.sc:46 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        if(passed + failed == 0) 0
+
+
+2024.04.12 15:11:43 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.31s[0m
+2024.04.12 15:11:51 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:28:64: 
+expression expected but '}' found
+    else (passed / passed + failed, failed / passed + failed)*/
+                                                               ^
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:27:30: 
+Found:    (0 : Int)
+Required: (Double, Double)
+    if(passed + failed == 0) 0
+                             ^
+[33mwarning[39m: 
+lab_06.worksheet.sc:46 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        if(passed + failed == 0) 0
+
+
+2024.04.12 15:11:51 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.25s[0m
+2024.04.12 15:11:53 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:28:64: 
+expression expected but '}' found
+    else (passed / passed + failed, failed / passed + failed)*/
+                                                               ^
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:27:30: 
+Found:    (0 : Int)
+Required: (Double, Double)
+    if(passed + failed == 0) 0
+                             ^
+[33mwarning[39m: 
+lab_06.worksheet.sc:46 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        if(passed + failed == 0) 0
+
+
+2024.04.12 15:11:53 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.22s[0m
+2024.04.12 15:11:55 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:27:30: 
+Found:    (0 : Int)
+Required: (Double, Double)
+    if(passed + failed == 0) 0
+                             ^
+[33mwarning[39m: 
+lab_06.worksheet.sc:46 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        if(passed + failed == 0) 0
+
+
+2024.04.12 15:11:56 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.42s[0m
+2024.04.12 15:11:57 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:27:30: 
+Found:    (0 : Int)
+Required: (Double, Double)
+    if(passed + failed == 0) 0
+                             ^
+[33mwarning[39m: 
+lab_06.worksheet.sc:46 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        if(passed + failed == 0) 0
+
+
+2024.04.12 15:11:57 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.23s[0m
+2024.04.12 15:12:03 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[33mwarning[39m: 
+lab_06.worksheet.sc:46 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        if(passed + failed == 0) (0, 0)
+
+
+2024.04.12 15:12:04 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.56s[0m
+2024.04.12 15:12:26 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[33mwarning[39m: 
+lab_06.worksheet.sc:46 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        if(passed + failed == 0) (0, 0)
+
+
+2024.04.12 15:12:26 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.51s[0m
+2024.04.12 15:12:44 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+2024.04.12 15:12:44 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.43s[0m
+2024.04.12 15:13:08 ERROR Failed to tokenize input for semantic tokens for /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:24: error: unclosed comment
+      /* val (passed, failed) = g.foldRight((0, 0)) {
+      ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.04.12 15:13:13 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:34:2: 
+Found:    Unit
+Required: (Double, Double)
+}
+ ^
+2024.04.12 15:13:13 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.18s[0m
+2024.04.12 15:13:50 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:35:2: 
+Found:    Unit
+Required: (Double, Double)
+}
+ ^
+2024.04.12 15:13:50 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.21s[0m
+2024.04.12 15:13:58 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+2024.04.12 15:13:58 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.42s[0m
+2024.04.12 15:14:00 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+2024.04.12 15:14:00 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.44s[0m
+2024.04.12 15:14:15 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+2024.04.12 15:14:15 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.48s[0m
+Apr 12, 2024 3:15:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6775
+Apr 12, 2024 3:15:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/.metals/.reports/metals-full/2024-04-12/r_compiler-error_15-15-55-548.md
+2024.04.12 15:16:25 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:45:5: => expected but } found
+    }
+    ^
+2024.04.12 15:16:25 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.2s[0m
+2024.04.12 15:16:25 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:45:5: illegal start of simple pattern
+    }
+    ^
+2024.04.12 15:16:25 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.22s[0m
+2024.04.12 15:17:48 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:43:35: 
+Not found: names
+    val passedNames = g.foldRight(names) {
+                                  ^^^^^
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:46:1: 
+Found:    Unit
+Required: List[String]
+}
+^
+2024.04.12 15:17:48 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.23s[0m
+2024.04.12 15:17:49 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:43:35: 
+Not found: names
+    val passedNames = g.foldRight(names) {
+                                  ^^^^^
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:46:1: 
+Found:    Unit
+Required: List[String]
+}
+^
+2024.04.12 15:17:49 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.3s[0m
+Apr 12, 2024 3:19:13 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/.metals/.reports/metals-full/2024-04-12/r_compiler-error_15-19-13-269.md
+Apr 12, 2024 3:19:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7276
+Apr 12, 2024 3:19:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7444
+2024.04.12 15:21:13 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:44:15: 
+expression expected but '}' found
+    namesList\
+              ^
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:43:61: 
+Found:    Unit
+Required: Boolean
+Maybe you are missing an else part for the conditional?
+    val namesList: List[String] = g.filter((name, grade) => if(grade >= 5) name)
+                                                            ^^^^^^^^^^^^^^^^^^^
+2024.04.12 15:21:13 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.21s[0m
+2024.04.12 15:21:14 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:43:61: 
+Found:    Unit
+Required: Boolean
+Maybe you are missing an else part for the conditional?
+    val namesList: List[String] = g.filter((name, grade) => if(grade >= 5) name)
+                                                            ^^^^^^^^^^^^^^^^^^^
+2024.04.12 15:21:14 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.22s[0m
+2024.04.12 15:21:29 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:43:61: 
+Found:    Unit
+Required: Boolean
+Maybe you are missing an else part for the conditional?
+    val namesList: List[String] = g.filter((name, grade) => if(grade >= 5) name)
+                                                            ^^^^^^^^^^^^^^^^^^^
+2024.04.12 15:21:29 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.3s[0m
+Apr 12, 2024 3:21:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7939
+Apr 12, 2024 3:21:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7940
+Apr 12, 2024 3:22:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7996
+Apr 12, 2024 3:22:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8101
+Apr 12, 2024 3:22:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8115
+2024.04.12 15:23:26 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:44:31: 
+Found:    Unit
+Required: String
+Maybe you are missing an else part for the conditional?
+        case (name, grade) => if (grade >= 5) name
+                              ^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:45:23: 
+Found:    (other : (String, Int))
+Required: String
+        case other => other
+                      ^^^^^
+2024.04.12 15:23:26 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.23s[0m
+Apr 12, 2024 3:23:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8366
+2024.04.12 15:23:37 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:44:31: 
+Found:    Unit
+Required: String
+Maybe you are missing an else part for the conditional?
+        case (name, grade) => if (grade >= 5) name
+                              ^^^^^^^^^^^^^^^^^^^^
+2024.04.12 15:23:37 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.2s[0m
+Apr 12, 2024 3:24:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8463
+Apr 12, 2024 3:24:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8470
+2024.04.12 15:24:38 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:43:9: 
+Declaration of value namesList not allowed here: only classes can have declared but undefined members
+    val namesList: List[String]
+        ^
+2024.04.12 15:24:38 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.21s[0m
+2024.04.12 15:24:40 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:43:9: 
+Declaration of value namesList not allowed here: only classes can have declared but undefined members
+    val namesList: List[String]
+        ^
+2024.04.12 15:24:41 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.2s[0m
+2024.04.12 15:24:53 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:44:31: 
+Found:    Unit
+Required: String
+Maybe you are missing an else part for the conditional?
+        case (name, grade) => if (grade >= 5) namesList.appended(name)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024.04.12 15:24:53 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.2s[0m
+Apr 12, 2024 3:24:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8709
+2024.04.12 15:25:01 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+2024.04.12 15:25:01 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:43:9: 
+Declaration of value namesList not allowed here: only classes can have declared but undefined members
+    val namesList: List[String]
+        ^
+2024.04.12 15:25:02 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.27s[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:43:9: 
+Declaration of value namesList not allowed here: only classes can have declared but undefined members
+    val namesList: List[String]
+        ^
+2024.04.12 15:25:01 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.28s[0m
+2024.04.12 15:25:03 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:43:9: 
+Declaration of variable namesList not allowed here: only classes can have declared but undefined members
+    var namesList: List[String]
+        ^
+2024.04.12 15:25:03 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.23s[0m
+2024.04.12 15:25:04 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:43:9: 
+Declaration of variable namesList not allowed here: only classes can have declared but undefined members
+    var namesList: List[String]
+        ^
+2024.04.12 15:25:04 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.18s[0m
+2024.04.12 15:26:56 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+2024.04.12 15:26:56 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.5s[0m
+Apr 12, 2024 3:28:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9291
+2024.04.12 15:30:50 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+2024.04.12 15:30:50 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.44s[0m
+2024.04.12 15:30:58 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+2024.04.12 15:30:58 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.47s[0m
+2024.04.12 15:34:04 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+2024.04.12 15:34:04 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.63s[0m
+2024.04.12 15:38:00 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+2024.04.12 15:38:00 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.42s[0m
+2024.04.12 15:38:30 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:55:26: 
+value unary_- is not a member of String
+    filteredNames.sortBy(-_._1).map(_._1)
+                         ^^^^^
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:55:32: 
+Ambiguous given instances: both object String in object Ordering and object Byte in object Ordering match type Ordering[Any] of parameter ord of method sortBy in trait SeqOps
+    filteredNames.sortBy(-_._1).map(_._1)
+                               ^
+2024.04.12 15:38:31 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.26s[0m
+2024.04.12 15:38:35 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+2024.04.12 15:38:36 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.49s[0m
+2024.04.12 15:38:36 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+2024.04.12 15:38:37 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.46s[0m
+Apr 12, 2024 3:39:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9950
+Apr 12, 2024 3:39:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9958
+2024.04.12 15:44:59 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:71:5: 
+Found:    List[(MdocApp.this.Name, MdocApp.this.Lecture, Int)]
+Required: List[MdocApp.this.Name]
+    filteredFails.distinct
+    ^^^^^^^^^^^^^^^^^^^^^^
+2024.04.12 15:44:59 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.29s[0m
+2024.04.12 15:45:19 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:71:5: 
+Found:    List[(MdocApp.this.Name, MdocApp.this.Lecture, Int)]
+Required: List[MdocApp.this.Name]
+    filteredFails.distinct
+    ^^^^^^^^^^^^^^^^^^^^^^
+2024.04.12 15:45:19 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.45s[0m
+2024.04.12 15:45:53 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:71:5: 
+Not found: filterednames
+    filterednames.distinct
+    ^^^^^^^^^^^^^
+2024.04.12 15:45:53 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.3s[0m
+2024.04.12 15:45:58 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+2024.04.12 15:45:58 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.48s[0m
+2024.04.12 15:46:25 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:67:43: illegal start of simple expression
+    val filteredNames = filteredFails.map(case(name, course, grade) => name)
+                                          ^^^^
+2024.04.12 15:46:25 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.28s[0m
+2024.04.12 15:46:31 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+[31merror[39m: src/main/scala/lab_06.worksheet.sc:71:5: 
+Not found: filteredames
+    filteredames.distinct
+    ^^^^^^^^^^^^
+2024.04.12 15:46:31 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.23s[0m
+2024.04.12 15:46:32 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+2024.04.12 15:46:32 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.59s[0m
+2024.04.12 15:46:41 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+2024.04.12 15:46:41 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.52s[0m
+2024.04.13 21:45:44 INFO  Started: Metals version 1.2.2 in folders '/home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06' for client Visual Studio Code 1.88.0.[0m
+21:45:45.576 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- Flyway Community Edition 9.22.3 by Redgate
+21:45:45.579 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- See release notes here: https://rd.gt/416ObMi
+21:45:45.580 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- 
+21:45:45.583 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+21:45:45.583 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@5cb0d902 ...
+21:45:45.583 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+21:45:45.583 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+21:45:45.583 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@5cb0d902 ...
+21:45:45.584 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/home/ione/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+21:45:45.586 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+21:45:45.586 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+21:45:45.587 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+21:45:45.587 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+21:45:45.587 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+21:45:45.587 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+21:45:45.589 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+21:45:45.589 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+21:45:45.590 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+21:45:45.590 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+21:45:45.590 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+21:45:45.639 [pool-1-thread-1] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:/home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/.metals/metals (H2 2.2)
+21:45:45.639 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+21:45:45.639 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+21:45:45.639 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+21:45:45.639 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+21:45:45.642 [pool-1-thread-1] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+21:45:45.642 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+21:45:45.642 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+21:45:45.646 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+21:45:45.647 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+21:45:45.651 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+21:45:45.651 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+21:45:45.651 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+21:45:45.651 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+21:45:45.651 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+21:45:45.652 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+21:45:45.652 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+21:45:45.652 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+21:45:45.652 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+21:45:45.652 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+21:45:45.657 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.011s)
+21:45:45.659 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+21:45:45.661 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": 4
+21:45:45.664 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Schema "PUBLIC" is up to date. No migration necessary.
+21:45:45.875 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 36 of 100M
+2024.04.13 21:45:46 WARN  Build server is not auto-connectable.[0m
+2024.04.13 21:45:46 INFO  skipping build import with status 'Cancelled'[0m
+2024.04.13 21:45:46 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+2024.04.13 21:45:50 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 4.41s[0m
+2024.04.13 21:45:51 INFO  no build target found for /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2024.04.13 21:45:52 INFO  time: code lens generation in 6.12s[0m
+2024.04.13 21:45:52 INFO  time: code lens generation in 6.02s[0m
+2024.04.13 21:45:54 INFO  no build target found for /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2024.04.13 21:47:13 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Labs/lab_06/src/main/scala/lab_06.worksheet.sc[0m
+2024.04.13 21:47:13 INFO  time: evaluated worksheet 'lab_06.worksheet.sc' in 0.69s[0m
+2024.04.13 21:51:54 INFO  Shutting down server[0m
+2024.04.13 21:51:54 INFO  shutting down Metals[0m
+2024.04.13 21:51:54 INFO  Exiting server[0m

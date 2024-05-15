@@ -1,6 +1,5 @@
 package com.wad.firstmvc.repositories;
 import com.wad.firstmvc.domain.Product;
-import com.wad.firstmvc.domain.User;
 import org.springframework.stereotype.Repository;
 import org.springframework.data.repository.CrudRepository;
 

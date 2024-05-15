@@ -1,0 +1,6 @@
+{
+    "sketch": "ntp.ino",
+    "board": "arduino:samd:mkrwifi1010",
+    "port": "/dev/ttyACM0",
+    "programmer": "atmel_ice"
+}

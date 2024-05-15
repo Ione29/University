@@ -1,0 +1,617 @@
+2024.04.30 10:39:02 INFO  Started: Metals version 1.3.0 in folders '/home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree' for client Visual Studio Code 1.88.1.[0m
+SLF4J: Class path contains multiple SLF4J providers.
+SLF4J: Found provider [scribe.slf4j.ScribeServiceProvider@7b76a0f9]
+SLF4J: Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@1f11efd5]
+SLF4J: See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual provider is of type [scribe.slf4j.ScribeServiceProvider@7b76a0f9]
+2024.04.30 10:39:02 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+Apr 30, 2024 10:39:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Apr 30, 2024 10:39:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Apr 30, 2024 10:39:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2024.04.30 10:39:08 INFO  running '/home/ione/.jabba/jdk/openjdk@1.17.0/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals7935007984184715642/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2024.04.30 10:39:08 ERROR [info] [launcher] getting org.scala-sbt sbt 1.6.2  (this may take some time)...[0m
+2024.04.30 10:39:08 WARN  no build target for: /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/project/metals.sbt[0m
+2024.04.30 10:39:12 ERROR [info] [launcher] getting Scala 2.12.15 (for sbt)...[0m
+2024.04.30 10:39:13 INFO  [info] welcome to sbt 1.6.2 (Oracle Corporation Java 17)[0m
+Apr 30, 2024 10:39:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+2024.04.30 10:39:16 INFO  [info] loading settings for project h2-word-tree-build-build from metals.sbt ...[0m
+2024.04.30 10:39:16 INFO  [info] loading project definition from /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/project/project[0m
+2024.04.30 10:39:18 INFO  [info] loading settings for project h2-word-tree-build from metals.sbt ...[0m
+2024.04.30 10:39:18 INFO  [info] loading project definition from /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/project[0m
+2024.04.30 10:39:20 INFO  no build target found for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.04.30 10:39:20 INFO  [success] Generated .bloop/h2-word-tree-build.json[0m
+2024.04.30 10:39:20 INFO  [success] Total time: 2 s, completed Apr 30, 2024, 10:39:20 AM[0m
+2024.04.30 10:39:22 INFO  [info] loading settings for project root from build.sbt ...[0m
+2024.04.30 10:39:22 INFO  [info] set current project to WordTree (in build file:/home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/)[0m
+2024.04.30 10:39:23 INFO  [warn] scala-library-2.13.8-sources.jar no longer exists at /Users/mateipopovici/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8-sources.jar[0m
+2024.04.30 10:39:23 INFO  [success] Generated .bloop/root-test.json[0m
+2024.04.30 10:39:23 INFO  [success] Generated .bloop/root.json[0m
+2024.04.30 10:39:23 INFO  [success] Total time: 1 s, completed Apr 30, 2024, 10:39:23 AM[0m
+2024.04.30 10:39:23 INFO  time: ran 'sbt bloopInstall' in 15s[0m
+2024.04.30 10:39:23 INFO  Attempting to connect to the build server...[0m
+2024.04.30 10:39:23 INFO  Replacing bloop java home /usr/lib/jvm/java-21-openjdk with java home at /home/ione/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%252B9/OpenJDK17U-jdk_x64_linux_hotspot_17.0.11_9.tar.gz/jdk-17.0.11+9.[0m
+2024.04.30 10:39:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/.metals/bsp.trace.json or /home/ione/.cache/metals/bsp.trace.json[0m
+2024.04.30 10:39:29 INFO  Attempting to connect to the build server...[0m
+2024.04.30 10:39:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/project/.metals/bsp.trace.json or /home/ione/.cache/metals/bsp.trace.json[0m
+2024.04.30 10:39:29 INFO  time: Connected to build server in 6.68s[0m
+2024.04.30 10:39:29 INFO  Connected to Build server: Bloop v1.5.17[0m
+2024.04.30 10:39:35 INFO  time: indexed workspace in 4.95s[0m
+2024.04.30 10:39:38 INFO  compiling root (3 scala sources)[0m
+2024.04.30 10:39:48 INFO  compiling root-test (1 scala source)[0m
+2024.04.30 10:39:48 INFO  time: compiled root in 10s[0m
+2024.04.30 10:39:48 INFO  time: compiled root-test in 0.76s[0m
+2024.04.30 10:45:54 INFO  compiling root (1 scala source)[0m
+2024.04.30 10:45:55 INFO  time: compiled root in 1.09s[0m
+2024.04.30 12:26:56 INFO  Started: Metals version 1.3.0 in folders '/home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree' for client Visual Studio Code 1.88.1.[0m
+SLF4J: Class path contains multiple SLF4J providers.
+SLF4J: Found provider [scribe.slf4j.ScribeServiceProvider@72fff22d]
+SLF4J: Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@2226da1b]
+SLF4J: See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual provider is of type [scribe.slf4j.ScribeServiceProvider@72fff22d]
+2024.04.30 12:27:00 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.04.30 12:27:00 INFO  Attempting to connect to the build server...[0m
+Apr 30, 2024 12:27:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Apr 30, 2024 12:27:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+2024.04.30 12:27:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/.metals/bsp.trace.json or /home/ione/.cache/metals/bsp.trace.json[0m
+2024.04.30 12:27:03 INFO  Attempting to connect to the build server...[0m
+2024.04.30 12:27:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/project/.metals/bsp.trace.json or /home/ione/.cache/metals/bsp.trace.json[0m
+2024.04.30 12:27:03 INFO  time: Connected to build server in 3.84s[0m
+2024.04.30 12:27:03 INFO  Connected to Build server: Bloop v1.5.17[0m
+2024.04.30 12:27:08 INFO  no build target found for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Apr 30, 2024 12:27:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+Apr 30, 2024 12:27:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+2024.04.30 12:27:10 INFO  time: indexed workspace in 1.97s[0m
+2024.04.30 12:27:38 INFO  compiling root (3 scala sources)[0m
+2024.04.30 12:27:40 INFO  compiling root-test (1 scala source)[0m
+2024.04.30 12:27:40 INFO  time: compiled root in 2.39s[0m
+2024.04.30 12:27:40 INFO  time: compiled root-test in 0.72s[0m
+2024.04.30 12:28:35 WARN  no build target for: /home/ione/Gits/scala/homework2.worksheet.sc[0m
+2024.04.30 12:28:38 WARN  no build target for: /home/ione/Gits/scala/homework2.worksheet.sc[0m
+Apr 30, 2024 12:28:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 69
+2024.04.30 12:28:39 INFO  time: code lens generation in 3.56s[0m
+2024.04.30 12:28:48 INFO  time: evaluated worksheet 'homework2.worksheet.sc' in 12s[0m
+2024.04.30 12:28:49 INFO  time: evaluated worksheet 'homework2.worksheet.sc' in 1.56s[0m
+2024.04.30 12:28:54 INFO  no build target found for /home/ione/Gits/scala/homework2.worksheet.sc. Using presentation compiler with project's scala-library version: 2.13.8[0m
+2024.04.30 12:45:17 WARN  no build target for: /home/ione/Gits/scala/homework2.worksheet.sc[0m
+2024.04.30 12:45:18 INFO  time: evaluated worksheet 'homework2.worksheet.sc' in 0.99s[0m
+2024.04.30 12:56:04 WARN  no build target for: /home/ione/Gits/scala/homework2.worksheet.sc[0m
+2024.04.30 12:56:05 INFO  time: evaluated worksheet 'homework2.worksheet.sc' in 0.69s[0m
+2024.04.30 12:56:08 INFO  compiling root (1 scala source)[0m
+2024.04.30 12:56:09 INFO  time: compiled root in 1.04s[0m
+2024.04.30 12:56:16 INFO  compiling root (1 scala source)[0m
+2024.04.30 12:56:16 INFO  time: compiled root in 0.66s[0m
+2024.04.30 12:56:24 INFO  compiling root (1 scala source)[0m
+2024.04.30 12:56:24 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 12:56:24 INFO  time: compiled root in 0.56s[0m
+2024.04.30 12:56:28 INFO  compiling root (1 scala source)[0m
+2024.04.30 12:56:28 INFO  time: compiled root in 0.64s[0m
+2024.04.30 12:57:31 INFO  compiling root (1 scala source)[0m
+2024.04.30 12:57:31 INFO  time: compiled root in 0.49s[0m
+2024.04.30 12:57:33 INFO  compiling root (1 scala source)[0m
+2024.04.30 12:57:33 INFO  time: compiled root in 0.47s[0m
+2024.04.30 12:58:07 INFO  compiling root (1 scala source)[0m
+2024.04.30 12:58:07 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 12:58:07 INFO  time: compiled root in 0.45s[0m
+Apr 30, 2024 12:59:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1172
+2024.04.30 13:00:04 ERROR Failed to tokenize input for semantic tokens for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:72: error: unclosed character literal
+        if(text(ind - 1) == '')
+                            ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:414)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:419)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.04.30 13:00:26 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:00:26 INFO  time: compiled root in 0.12s[0m
+Apr 30, 2024 1:00:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1394
+2024.04.30 13:00:29 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:00:29 INFO  time: compiled root in 0.1s[0m
+2024.04.30 13:00:31 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:00:31 INFO  time: compiled root in 0.1s[0m
+2024.04.30 13:00:34 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:00:34 INFO  time: compiled root in 0.11s[0m
+2024.04.30 13:00:34 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:00:34 INFO  time: compiled root in 72ms[0m
+something's wrong: no file:///home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala in List[<error>]RangePosition(file:///home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala, 3636, 3636, 3650)
+something's wrong: no file:///home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala in List[<error>]RangePosition(file:///home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala, 3636, 3636, 3643)
+something's wrong: no file:///home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala in List[<error>]RangePosition(file:///home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala, 3636, 3636, 3650)
+something's wrong: no file:///home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala in List[<error>]RangePosition(file:///home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala, 3636, 3636, 3643)
+something's wrong: no file:///home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala in List[<error>]RangePosition(file:///home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala, 3636, 3636, 3644)
+2024.04.30 13:01:47 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:01:47 INFO  time: compiled root in 94ms[0m
+2024.04.30 13:02:00 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:02:00 INFO  time: compiled root in 84ms[0m
+2024.04.30 13:02:14 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:02:14 INFO  time: compiled root in 82ms[0m
+2024.04.30 13:03:03 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:03:03 INFO  time: compiled root in 81ms[0m
+2024.04.30 13:03:21 ERROR Failed to tokenize input for semantic tokens for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:80: error: Non-zero integral values may not have a leading zero.
+          if(nextNonSpace == 01)
+                             ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInt$1(LegacyScanner.scala:847)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInteger$1(LegacyScanner.scala:858)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:875)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:336)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:339)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.04.30 13:05:01 WARN  no build target for: /home/ione/Gits/scala/homework2.worksheet.sc[0m
+2024.04.30 13:05:02 INFO  time: evaluated worksheet 'homework2.worksheet.sc' in 0.49s[0m
+2024.04.30 13:05:54 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:05:54 INFO  time: compiled root in 89ms[0m
+2024.04.30 13:05:55 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:05:55 INFO  time: compiled root in 89ms[0m
+2024.04.30 13:06:01 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:06:01 INFO  time: compiled root in 85ms[0m
+2024.04.30 13:06:15 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:06:15 INFO  time: compiled root in 0.49s[0m
+2024.04.30 13:06:35 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:06:35 INFO  time: compiled root in 86ms[0m
+2024.04.30 13:06:35 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:06:36 INFO  time: compiled root in 72ms[0m
+2024.04.30 13:06:53 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:06:53 INFO  time: compiled root in 57ms[0m
+2024.04.30 13:06:53 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:06:53 INFO  time: compiled root in 31ms[0m
+2024.04.30 13:06:55 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:06:55 INFO  time: compiled root in 40ms[0m
+2024.04.30 13:06:57 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:06:57 INFO  time: compiled root in 41ms[0m
+2024.04.30 13:06:58 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:06:58 INFO  time: compiled root in 43ms[0m
+2024.04.30 13:07:02 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:07:02 INFO  time: compiled root in 40ms[0m
+2024.04.30 13:07:08 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:07:08 INFO  time: compiled root in 44ms[0m
+2024.04.30 13:08:42 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:08:42 INFO  time: compiled root in 53ms[0m
+2024.04.30 13:10:17 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:10:17 INFO  time: compiled root in 56ms[0m
+2024.04.30 13:10:23 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:10:23 INFO  time: compiled root in 49ms[0m
+2024.04.30 13:11:16 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:11:16 INFO  time: compiled root in 51ms[0m
+2024.04.30 13:11:38 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:11:38 INFO  time: compiled root in 47ms[0m
+2024.04.30 13:11:39 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:11:39 INFO  time: compiled root in 39ms[0m
+2024.04.30 13:12:08 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:12:08 INFO  time: compiled root in 44ms[0m
+2024.04.30 13:12:40 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:12:40 INFO  time: compiled root in 51ms[0m
+2024.04.30 13:13:45 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:13:45 INFO  time: compiled root in 47ms[0m
+2024.04.30 13:13:50 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:13:50 INFO  time: compiled root in 49ms[0m
+2024.04.30 13:13:55 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:13:55 INFO  time: compiled root in 42ms[0m
+2024.04.30 13:15:37 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:15:37 INFO  time: compiled root in 47ms[0m
+2024.04.30 13:15:57 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:15:57 INFO  time: compiled root in 46ms[0m
+2024.04.30 13:15:58 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:15:58 INFO  time: compiled root in 45ms[0m
+2024.04.30 13:16:01 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:16:01 INFO  time: compiled root in 47ms[0m
+2024.04.30 13:16:24 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:16:24 INFO  time: compiled root in 46ms[0m
+Apr 30, 2024 1:17:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4136
+2024.04.30 13:17:43 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:17:43 INFO  time: compiled root in 88ms[0m
+2024.04.30 13:17:45 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:17:45 INFO  time: compiled root in 74ms[0m
+2024.04.30 13:18:26 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:18:26 INFO  time: compiled root in 0.59s[0m
+Apr 30, 2024 1:18:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4654
+Apr 30, 2024 1:18:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4676
+Apr 30, 2024 1:20:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5044
+2024.04.30 13:20:39 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:20:40 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:20:40 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:20:39 INFO  time: compiled root in 0.45s[0m
+2024.04.30 13:20:40 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:20:40 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:20:42 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:20:42 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:20:42 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:20:43 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:20:44 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:20:44 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:20:44 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:20:48 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:20:49 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:20:49 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:20:49 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:20:51 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:20:51 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:20:51 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:20:54 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:20:55 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:20:55 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:20:55 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:20:59 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:20:59 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+Apr 30, 2024 1:21:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5309
+2024.04.30 13:21:01 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:21:01 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:21:03 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:21:03 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:21:03 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:21:09 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:21:09 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:21:10 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:21:10 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:21:10 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:21:12 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:21:12 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:21:12 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:21:13 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:21:12 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:21:14 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:21:15 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:21:15 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:21:15 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:21:18 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:21:19 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:21:19 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:21:19 INFO  time: compiled root in 0.49s[0m
+Apr 30, 2024 1:21:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5574
+2024.04.30 13:22:56 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:22:56 INFO  time: compiled root in 0.48s[0m
+something's wrong: no file:///home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala in List[<error>]RangePosition(file:///home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala, 6059, 6059, 6073)
+something's wrong: no file:///home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala in List[<error>]RangePosition(file:///home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala, 6059, 6059, 6066)
+something's wrong: no file:///home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala in List[Char]RangePosition(file:///home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala, 6059, 6059, 6069)
+2024.04.30 13:24:42 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:24:42 INFO  time: compiled root in 85ms[0m
+2024.04.30 13:24:51 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:24:51 INFO  time: compiled root in 0.52s[0m
+2024.04.30 13:25:18 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:25:18 INFO  time: compiled root in 0.51s[0m
+2024.04.30 13:25:22 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:25:22 INFO  time: compiled root in 86ms[0m
+2024.04.30 13:25:33 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:25:33 INFO  time: compiled root in 77ms[0m
+2024.04.30 13:25:34 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:25:34 INFO  time: compiled root in 82ms[0m
+Apr 30, 2024 1:25:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7011
+Apr 30, 2024 1:25:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7106
+2024.04.30 13:26:00 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:26:00 INFO  time: compiled root in 81ms[0m
+2024.04.30 13:26:48 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:26:48 INFO  time: compiled root in 49ms[0m
+2024.04.30 13:26:52 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:26:52 INFO  time: compiled root in 86ms[0m
+2024.04.30 13:26:58 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:26:58 INFO  time: compiled root in 0.61s[0m
+Apr 30, 2024 1:27:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7464
+2024.04.30 13:28:07 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:28:07 INFO  time: compiled root in 84ms[0m
+Apr 30, 2024 1:28:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7741
+2024.04.30 13:28:14 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:28:14 INFO  time: compiled root in 0.49s[0m
+2024.04.30 13:28:44 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:28:44 INFO  time: compiled root in 82ms[0m
+2024.04.30 13:32:55 ERROR Failed to tokenize input for semantic tokens for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:175: error: unclosed quoted identifier
+    val filtered = `
+                   ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getBackquotedIdent(LegacyScanner.scala:496)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:344)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+Apr 30, 2024 1:33:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8143
+2024.04.30 13:33:35 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:33:35 INFO  time: compiled root in 78ms[0m
+Apr 30, 2024 1:33:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8374
+2024.04.30 13:33:42 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:33:42 INFO  time: compiled root in 77ms[0m
+2024.04.30 13:33:44 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:33:44 INFO  time: compiled root in 72ms[0m
+2024.04.30 13:33:54 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:33:54 INFO  time: compiled root in 0.5s[0m
+2024.04.30 13:34:26 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:34:26 INFO  time: compiled root in 0.48s[0m
+2024.04.30 13:37:02 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:37:02 INFO  time: compiled root in 77ms[0m
+2024.04.30 13:37:03 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:37:03 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:37:03 INFO  time: compiled root in 0.54s[0m
+2024.04.30 13:37:21 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:37:21 INFO  time: compiled root in 0.48s[0m
+Apr 30, 2024 1:44:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9283
+2024.04.30 13:44:33 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:44:33 INFO  time: compiled root in 0.35s[0m
+2024.04.30 13:44:38 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:44:38 INFO  time: compiled root in 0.12s[0m
+2024.04.30 13:45:12 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:45:12 INFO  time: compiled root in 0.75s[0m
+2024.04.30 13:45:20 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:45:20 INFO  time: compiled root in 51ms[0m
+2024.04.30 13:45:21 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:45:21 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+Apr 30, 2024 1:45:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9662
+2024.04.30 13:45:26 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:45:26 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:45:28 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:45:28 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:45:29 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:45:30 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:45:33 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:45:34 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:45:39 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:45:40 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:45:41 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:45:42 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:45:43 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:45:43 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 13:45:43 INFO  time: compiled root in 0.51s[0m
+2024.04.30 13:45:49 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:45:49 INFO  time: compiled root in 0.91s[0m
+Apr 30, 2024 1:46:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9886
+Apr 30, 2024 1:46:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9900
+Apr 30, 2024 1:46:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10007
+2024.04.30 13:46:35 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:46:35 INFO  time: compiled root in 0.49s[0m
+2024.04.30 13:47:28 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:47:28 INFO  time: compiled root in 0.47s[0m
+2024.04.30 13:49:02 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:49:02 INFO  time: compiled root in 0.47s[0m
+2024.04.30 13:51:59 WARN  no build target for: /home/ione/Gits/scala/homework2.worksheet.sc[0m
+2024.04.30 13:52:00 INFO  time: evaluated worksheet 'homework2.worksheet.sc' in 0.8s[0m
+Apr 30, 2024 1:52:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10371
+Apr 30, 2024 1:52:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10373
+2024.04.30 13:52:29 WARN  no build target for: /home/ione/Gits/scala/homework2.worksheet.sc[0m
+2024.04.30 13:52:29 INFO  time: evaluated worksheet 'homework2.worksheet.sc' in 0.45s[0m
+2024.04.30 13:52:36 WARN  no build target for: /home/ione/Gits/scala/homework2.worksheet.sc[0m
+2024.04.30 13:52:36 INFO  time: evaluated worksheet 'homework2.worksheet.sc' in 0.41s[0m
+2024.04.30 13:52:40 WARN  no build target for: /home/ione/Gits/scala/homework2.worksheet.sc[0m
+2024.04.30 13:52:40 INFO  time: evaluated worksheet 'homework2.worksheet.sc' in 0.42s[0m
+2024.04.30 13:53:44 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:53:44 INFO  time: compiled root in 95ms[0m
+2024.04.30 13:53:49 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:53:49 INFO  time: compiled root in 84ms[0m
+2024.04.30 13:53:50 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:53:50 INFO  time: compiled root in 78ms[0m
+2024.04.30 13:54:04 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:54:04 INFO  time: compiled root in 78ms[0m
+Apr 30, 2024 1:54:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11018
+2024.04.30 13:55:21 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:55:21 INFO  time: compiled root in 94ms[0m
+2024.04.30 13:55:21 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:55:21 INFO  time: compiled root in 57ms[0m
+2024.04.30 13:55:27 INFO  compiling root (1 scala source)[0m
+2024.04.30 13:55:27 INFO  time: compiled root in 77ms[0m
+2024.04.30 13:57:40 WARN  no build target for: /home/ione/Gits/scala/homework2.worksheet.sc[0m
+2024.04.30 13:57:41 INFO  time: evaluated worksheet 'homework2.worksheet.sc' in 0.4s[0m
+2024.04.30 13:58:07 WARN  no build target for: /home/ione/Gits/scala/homework2.worksheet.sc[0m
+2024.04.30 13:58:07 INFO  time: evaluated worksheet 'homework2.worksheet.sc' in 0.42s[0m
+2024.04.30 13:58:15 WARN  no build target for: /home/ione/Gits/scala/homework2.worksheet.sc[0m
+2024.04.30 13:58:15 INFO  time: evaluated worksheet 'homework2.worksheet.sc' in 0.38s[0m
+Apr 30, 2024 1:58:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11730
+Apr 30, 2024 1:59:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11987
+Apr 30, 2024 1:59:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12223
+2024.04.30 14:01:04 INFO  compiling root (1 scala source)[0m
+2024.04.30 14:01:04 INFO  time: compiled root in 91ms[0m
+2024.04.30 14:01:11 INFO  compiling root (1 scala source)[0m
+2024.04.30 14:01:11 INFO  time: compiled root in 0.47s[0m
+2024.04.30 14:01:43 INFO  compiling root (1 scala source)[0m
+2024.04.30 14:01:43 INFO  time: compiled root in 0.47s[0m
+2024.04.30 14:01:49 INFO  compiling root (1 scala source)[0m
+2024.04.30 14:01:49 INFO  time: compiled root in 0.53s[0m
+2024.04.30 14:01:54 INFO  compiling root (1 scala source)[0m
+2024.04.30 14:01:54 INFO  time: compiled root in 0.5s[0m
+2024.04.30 14:01:56 INFO  compiling root (1 scala source)[0m
+2024.04.30 14:01:56 INFO  time: compiled root in 0.66s[0m
+2024.04.30 14:02:12 INFO  compiling root (1 scala source)[0m
+2024.04.30 14:02:12 INFO  time: compiled root in 0.48s[0m
+Apr 30, 2024 2:02:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12931
+2024.04.30 14:04:02 INFO  compiling root (1 scala source)[0m
+2024.04.30 14:04:02 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 14:04:02 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 14:04:02 INFO  time: compiled root in 0.5s[0m
+2024.04.30 14:04:44 INFO  compiling root (1 scala source)[0m
+2024.04.30 14:04:44 INFO  time: compiled root in 0.47s[0m
+Apr 30, 2024 2:05:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13186
+2024.04.30 14:05:27 INFO  compiling root (1 scala source)[0m
+2024.04.30 14:05:27 INFO  time: compiled root in 0.48s[0m
+2024.04.30 14:07:46 INFO  compiling root (1 scala source)[0m
+2024.04.30 14:07:46 INFO  time: compiled root in 0.47s[0m
+2024.04.30 14:09:01 INFO  compiling root (1 scala source)[0m
+2024.04.30 14:09:01 INFO  time: compiled root in 0.46s[0m
+Apr 30, 2024 2:11:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13637
+2024.04.30 14:11:21 INFO  compiling root (1 scala source)[0m
+2024.04.30 14:11:21 INFO  time: compiled root in 69ms[0m
+2024.04.30 14:11:21 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 14:11:32 INFO  compiling root (1 scala source)[0m
+2024.04.30 14:11:32 INFO  time: compiled root in 57ms[0m
+2024.04.30 14:11:32 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 14:11:39 INFO  compiling root (1 scala source)[0m
+2024.04.30 14:11:39 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 14:11:39 INFO  time: compiled root in 55ms[0m
+2024.04.30 14:11:39 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 14:11:39 INFO  compiling root (1 scala source)[0m
+2024.04.30 14:11:40 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 14:11:39 INFO  time: compiled root in 35ms[0m
+2024.04.30 14:11:40 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 14:11:48 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 14:11:48 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 14:11:49 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 14:11:50 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 14:11:51 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 14:11:52 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 14:11:52 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 14:11:52 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 14:11:53 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 14:11:53 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 14:11:59 INFO  compiling root (1 scala source)[0m
+2024.04.30 14:11:59 INFO  time: compiled root in 0.54s[0m
+2024.04.30 14:12:01 INFO  compiling root (1 scala source)[0m
+2024.04.30 14:12:01 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 14:12:01 INFO  time: compiled root in 0.63s[0m
+2024.04.30 14:12:09 INFO  compiling root (1 scala source)[0m
+2024.04.30 14:12:09 INFO  time: compiled root in 0.45s[0m
+2024.04.30 14:12:19 INFO  compiling root (1 scala source)[0m
+2024.04.30 14:12:19 WARN  Could not load snapshot text for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala[0m
+2024.04.30 14:12:19 INFO  time: compiled root in 0.47s[0m
+2024.04.30 14:12:33 INFO  compiling root (1 scala source)[0m
+2024.04.30 14:12:33 INFO  time: compiled root in 0.46s[0m
+2024.04.30 14:16:50 INFO  Shutting down server[0m
+2024.04.30 14:16:50 INFO  shutting down Metals[0m
+2024.04.30 14:16:50 INFO  Shut down connection with build server.[0m
+2024.04.30 14:16:50 INFO  Shut down connection with build server.[0m
+2024.04.30 14:16:50 INFO  Exiting server[0m
+2024.05.10 19:04:15 INFO  Started: Metals version 1.3.0 in folders '/home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree' for client Visual Studio Code 1.88.1.[0m
+SLF4J: Class path contains multiple SLF4J providers.
+SLF4J: Found provider [scribe.slf4j.ScribeServiceProvider@35fce20c]
+SLF4J: Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@1ad40fb4]
+SLF4J: See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual provider is of type [scribe.slf4j.ScribeServiceProvider@35fce20c]
+2024.05.10 19:04:15 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.05.10 19:04:16 INFO  Attempting to connect to the build server...[0m
+May 10, 2024 7:04:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+May 10, 2024 7:04:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+May 10, 2024 7:04:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+2024.05.10 19:04:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/.metals/bsp.trace.json or /home/ione/.cache/metals/bsp.trace.json[0m
+2024.05.10 19:04:20 INFO  Attempting to connect to the build server...[0m
+2024.05.10 19:04:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/project/.metals/bsp.trace.json or /home/ione/.cache/metals/bsp.trace.json[0m
+2024.05.10 19:04:20 INFO  time: Connected to build server in 4.83s[0m
+2024.05.10 19:04:20 INFO  Connected to Build server: Bloop v1.5.17[0m
+2024.05.10 19:04:20 INFO  time: Imported build in 0.1s[0m
+2024.05.10 19:04:25 INFO  no build target found for /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.10 19:04:27 INFO  time: indexed workspace in 2s[0m
+2024.05.12 15:29:25 INFO  Started: Metals version 1.3.0 in folders '/home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree' for client Visual Studio Code 1.89.1.[0m
+SLF4J: Class path contains multiple SLF4J providers.
+SLF4J: Found provider [scribe.slf4j.ScribeServiceProvider@2270176]
+SLF4J: Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@7a19648a]
+SLF4J: See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual provider is of type [scribe.slf4j.ScribeServiceProvider@2270176]
+2024.05.12 15:29:28 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.05.12 15:29:28 INFO  Attempting to connect to the build server...[0m
+2024.05.12 15:29:28 INFO  Replacing bloop java home /home/ione/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%252B9/OpenJDK17U-jdk_x64_linux_hotspot_17.0.11_9.tar.gz/jdk-17.0.11+9 with java home at /usr/lib/jvm/java-22-openjdk.[0m
+2024.05.12 15:29:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/.metals/bsp.trace.json or /home/ione/.cache/metals/bsp.trace.json[0m
+2024.05.12 15:29:32 INFO  Attempting to connect to the build server...[0m
+2024.05.12 15:29:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/project/.metals/bsp.trace.json or /home/ione/.cache/metals/bsp.trace.json[0m
+2024.05.12 15:29:32 INFO  time: Connected to build server in 3.8s[0m
+2024.05.12 15:29:32 INFO  Connected to Build server: Bloop v1.5.17[0m
+2024.05.12 15:29:35 INFO  time: indexed workspace in 2.55s[0m
+2024.05.12 15:29:35 INFO  compiling root (3 scala sources)[0m
+2024.05.12 15:29:41 INFO  time: compiled root in 5.5s[0m
+2024.05.12 15:29:41 INFO  compiling root (3 scala sources)[0m
+2024.05.12 15:29:41 INFO  time: compiled root in 55ms[0m
+May 12, 2024 3:29:41 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 12, 2024 3:29:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/.metals/.reports/metals-full/2024-05-12/r_compiler-error_15-29-41-570.md
+May 12, 2024 3:29:42 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 12, 2024 3:29:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/H2-word-tree/.metals/.reports/metals-full/2024-05-12/r_compiler-error_15-29-42-074.md
+2024.05.12 15:30:11 INFO  Shutting down server[0m
+2024.05.12 15:30:11 INFO  shutting down Metals[0m
+2024.05.12 15:30:11 INFO  Shut down connection with build server.[0m
+2024.05.12 15:30:11 INFO  Shut down connection with build server.[0m
+2024.05.12 15:30:11 INFO  Exiting server[0m

@@ -1,0 +1,6 @@
+{
+    "board": "arduino:samd:mkr1000",
+    "port": "/dev/ttyACM0",
+    "programmer": "edbg",
+    "sketch": "lab_04.ino"
+}
