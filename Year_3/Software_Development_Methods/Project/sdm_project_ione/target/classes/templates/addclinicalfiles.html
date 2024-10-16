@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>Add new file</title>
+    </head>
+    <body>
+        <h1>Add a new clinical file</h1>
+
+        <form th:object="${clinicalfile}" method="post">
+            <input th:field="*{owner}" placeholder = "Owner ID">
+            <input th:field="*{diagnostic}" placeholder = "Patient's diagnostic">
+            <input type="submit">
+        </form>
+    </body>
+</html>

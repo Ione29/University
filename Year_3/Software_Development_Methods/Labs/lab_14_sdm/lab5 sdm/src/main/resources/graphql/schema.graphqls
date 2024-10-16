@@ -1,0 +1,56 @@
+type Book {
+    id: ID!
+    title: String!
+    isbn: String!
+    author: Author
+    publisher: Publisher
+    ratings: [Rating]
+}
+
+type Author {
+    id: ID!
+    name: String!
+    books: [Book]
+}
+
+type Publisher {
+    id: ID!
+    name: String!
+    books: [Book]
+}
+
+enum Grade {
+    ONE , TWO, THREE, FOUR, FIVE
+}
+
+type Rating {
+    id: ID!
+    grade: Grade!
+    book: Book
+    buyer: Buyer
+}
+
+type Buyer {
+    id: ID!
+    name: String!
+    ratings: [Rating]
+    friends: [Buyer]
+}
+
+type Query {
+    allBooks: [Book]
+    bookById(id: ID!): Book
+    allAuthors: [Author]
+    authorById(id: ID!): Author
+    allRatings: [Rating]
+    ratingById(id: ID!): Rating
+    allBuyers: [Buyer]
+    buyerById(id: ID!): Buyer
+    booksRecommendations(buyerId: ID!): [Book]
+}
+
+type Mutation {
+    addBook(title: String!, isbn: String!, authorId: ID!, publisherId: ID!): Book
+    updateBook(id: ID!, title: String, isbn: String): Book
+    deleteBook(id: ID!): Boolean
+}

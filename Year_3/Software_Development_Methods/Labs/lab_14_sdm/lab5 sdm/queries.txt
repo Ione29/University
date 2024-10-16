@@ -1,0 +1,50 @@
+{
+  allBuyers {
+    id
+    name
+    ratings {
+      grade
+      book {
+        title
+      }
+    }
+    friends {
+      id
+      name
+    }
+  }
+}
+
+{
+  allRatings {
+    id
+    grade
+    book {
+      id
+      title
+    }
+    buyer {
+      id
+      name
+    }
+  }
+}
+
+{
+  allBuyers {
+    ratings {
+      grade
+      book {
+        title
+      }
+    }
+    friends {
+      ratings {
+        grade
+        book {
+          title
+        }
+      }
+    }
+  }
+}

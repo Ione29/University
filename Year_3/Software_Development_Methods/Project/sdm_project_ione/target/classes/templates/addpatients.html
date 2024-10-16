@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>Add patient</title>
+    </head>
+    <body>
+        <h1>Add a new patient:</h1>
+        
+        <form th:object="${patient}" method="post">
+            <input th:field="*{name}" placeholder = "Patient's Name">
+            <input th:field="*{email}" placeholder = "Patient's Email">
+            <input type="submit">
+        </form>
+    </body>
+</html>

@@ -837,3 +837,7 @@ SLF4J: Actual provider is of type [scribe.slf4j.ScribeServiceProvider@7954415e]
 2024.05.15 08:38:16 INFO  Scala CLI started for /home/ione/Documents/University/Year_3/Internet_of_Things/Labs/lab_05[0m
 2024.05.15 08:38:16 WARN  no build tool detected in workspace '/home/ione/Documents/University/Year_3/Internet_of_Things/Labs/lab_05'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
 2024.05.15 08:38:16 WARN  Build server is not auto-connectable.[0m
+2024.05.15 11:23:32 INFO  Shutting down server[0m
+2024.05.15 11:23:32 INFO  shutting down Metals[0m
+2024.05.15 11:23:32 INFO  Shut down connection with build server.[0m
+2024.05.15 11:23:32 INFO  Exiting server[0m

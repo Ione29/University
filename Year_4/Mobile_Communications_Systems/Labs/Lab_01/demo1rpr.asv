@@ -1,0 +1,107 @@
+
+
+function demo1rpr(x);
+
+
+crlf = sprintf('\r\n');
+disp(crlf)
+disp('Simularea pierderilor de propagare in spatiul liber')
+disp(crlf)
+
+if (nargin==0)
+    dMinDistance = input('Introduceti valoarea minima a distantei intre emitator si receptor [m] = ')
+    dMaxDistance = input('Introduceti valoarea maxima a distantei intre emitator si receptor [m] = ')
+    dGainT = input('Introduceti valoarea castigului in putere a antenei emitatorului = ')
+    dGainR = input('Introduceti valoarea castigului in putere a antenei receptorului = ')
+else
+    dMinDistance=10
+    dMaxDistance=10000
+    %dMaxDistance=60;
+    dGainT = 1
+    dGainR = 1
+end
+
+%dFrequency = input('Introduceti valorile frecventelor la care se doreste estimarea pierderilor de propagare')
+dFrequency=[10^6 4*10^6 12*10^6 10^8 9*10^8 10^9];
+dDistance=[1 10 100 1000 10000];
+Resolution=200;
+
+% ========================================================================================
+disp(crlf)
+disp(' Programul utilizeaza pentru determinari functia FrSpcLss ce determina ')
+disp(' pierderile de propagare in spatiul liber. ')
+disp(' Modul de utilizare a functiei FrSpcLss:')
+help FrSpcLss
+disp(crlf)
+
+% =========================== FREE SPACE PROPAGATION LOSS ================================
+% Calcul atenuare in spatiul liber
+for i=1:Resolution
+    dx(i)=dMaxDistance*i/Resolution;
+    dxlog(i)=dMinDistance*(dMaxDistance/dMinDistance)^(i/Resolution);
+end
+for i=1:Resolution
+   for j=1:5
+      FreeSpaceLoss(i,j)=FrSpcLss(dx(i), dFrequency(j), dGainT, dGainR);
+      LogFreeSpaceLoss(i,j)=FrSpcLss(dxlog(i), dFrequency(j), dGainT, dGainR);
+   end
+end
+
+disp(crlf)
+disp('Apasa ENTER pentru a afisa pierderile de propagare in spatiul liber')
+
+disp(' functie de distanta cu frecventa parametru. Pentru afisare pe axa Ox')
+disp(' s-a ales o reprezentare liniara.')
+disp(crlf)
+pause;
+
+figure
+subplot(111), plot(dx,FreeSpaceLoss(1:Resolution,1),'magenta',dx,FreeSpaceLoss(1:Resolution,2),'blue',dx,FreeSpaceLoss(1:Resolution,3),'red',dx,FreeSpaceLoss(1:Resolution,4),'green',dx,FreeSpaceLoss(1:Resolution,5),'yellow');
+ylabel('Free Space Loss [dB]')
+xlabel('Distance [m]')
+title('Pierderile de propagare in spatiul liber functie de distanta cu frecventa parametru');
+legend('f=1 MHz','f=4 MHz','f=12 MHz','f=100 MHz','f=900 MHz','f=1 GHz')
+grid on
+zoom on
+
+disp(crlf)
+disp(' Acelasi grafic, dar cu o reprezentare logaritmica pe axa Ox. Apasa ENTER.')
+disp(crlf)
+pause;
+
+figure
+subplot(111), semilogx( dxlog, LogFreeSpaceLoss(1:Resolution,1),'magenta', dxlog, LogFreeSpaceLoss(1:Resolution,2),'blue', dxlog, LogFreeSpaceLoss(1:Resolution,3),'red', dxlog, LogFreeSpaceLoss(1:Resolution,4),'green', dxlog, LogFreeSpaceLoss(1:Resolution,5),'yellow');
+ylabel('Free Space Loss [dB]')
+xlabel('Distance [m]')
+title('Pierderile de propagare in spatiul liber functie de distanta cu frecventa parametru');
+legend('f=1 MHz','f=4 MHz','f=12 MHz','f=100 MHz','f=900 MHz','f=1 GHz')
+grid on
+zoom on
+
+for i=1:Resolution
+    df(i)=dFrequency(1)*(dFrequency(5)/dFrequency(1))^(i/Resolution);
+end
+for i=1:Resolution
+   for j=1:5
+      LogFreeSpaceLossFreq(i,j)=FrSpcLss(dDistance(j), df(i), dGainT, dGainR);
+   end
+end
+
+disp(crlf)
+disp(' Apasa ENTER pentru a afisa pierderile de propagare in spatiul liber')
+disp(' functie de frecventa cu distanta parametru. Pentru afisare pe axa Ox')
+disp(' s-a ales o reprezentare logaritmica.')
+disp(crlf)
+pause;
+
+figure
+subplot(111), semilogx( df, LogFreeSpaceLossFreq(1:Resolution,1),'magenta', df, LogFreeSpaceLossFreq(1:Resolution,2),'blue', df, LogFreeSpaceLossFreq(1:Resolution,3),'red', df, LogFreeSpaceLossFreq(1:Resolution,4),'green', df, LogFreeSpaceLossFreq(1:Resolution,5),'yellow');
+ylabel('Free Space Loss [dB]')
+xlabel('Frequency [Hz]')
+title('Pierderile de propagare in spatiul liber functie de frecventa cu distanta parametru');
+legend('d=1 m','d=10 m','d=100 m','d=1 km','d=10 km')
+grid on
+zoom on
+
+clear all;
+ 

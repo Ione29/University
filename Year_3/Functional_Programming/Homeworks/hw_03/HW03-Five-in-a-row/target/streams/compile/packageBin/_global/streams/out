@@ -1,0 +1,21 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/hw_03/HW03-Five-in-a-row/target/scala-2.13/hw03-five-in-a-row_2.13-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Board.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/hw_03/HW03-Five-in-a-row/target/scala-2.13/classes/Board.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Board$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/hw_03/HW03-Five-in-a-row/target/scala-2.13/classes/Board$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Player.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/hw_03/HW03-Five-in-a-row/target/scala-2.13/classes/Player.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	One$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/hw_03/HW03-Five-in-a-row/target/scala-2.13/classes/One$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	One.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/hw_03/HW03-Five-in-a-row/target/scala-2.13/classes/One.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Two$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/hw_03/HW03-Five-in-a-row/target/scala-2.13/classes/Two$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Two.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/hw_03/HW03-Five-in-a-row/target/scala-2.13/classes/Two.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Empty$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/hw_03/HW03-Five-in-a-row/target/scala-2.13/classes/Empty$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Empty.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ione/Documents/University/Year_3/Functional_Programming/Homeworks/hw_03/HW03-Five-in-a-row/target/scala-2.13/classes/Empty.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

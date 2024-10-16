@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(Tests, CustomFingerprint{suite='munit.Suite'}, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mSummary for munit not available.[0m
+[0m[[0m[31merror[0m] [0m[0mFailed: Total 11, Failed 3, Errors 0, Passed 8[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	Tests[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m

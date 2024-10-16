@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="ione" name="Tests" tests="11" errors="0" failures="3" skipped="0" time="0.128" timestamp="2024-06-14T15:24:32">
+          <properties>
+      <property name="java.specification.version" value="17"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="https://openjdk.java.net/"/><property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk/lib"/><property name="sun.java.command" value="/usr/share/sbt/bin/sbt-launch.jar test"/><property name="jdk.debug" value="release"/><property name="sun.stderr.encoding" value="UTF-8"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2024-04-16"/><property name="java.home" value="/usr/lib/jvm/java-17-openjdk"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="32-bit"/><property name="line.separator" value="
+"/><property name="sun.stdout.encoding" value="UTF-8"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="17.0.11+9"/><property name="user.name" value="ione"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/home/ione/.cache/JNA/temp/jna12424421775959962373.tmp"/><property name="jna.loaded" value="true"/><property name="java.io.tmpdir" value="/tmp"/><property name="java.version" value="17.0.11"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="native.encoding" value="UTF-8"/><property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/><property name="java.vendor" value="N/A"/><property name="scala.ext.dirs" value="/home/ione/.sbt/1.0/java9-rt-ext-n_a_17_0_11"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="java.class.path" value="/usr/share/sbt/bin/sbt-launch.jar"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="Europe/Bucharest"/><property name="java.vm.specification.version" value="17"/><property name="os.name" value="Linux"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="US"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/home/ione"/><property name="user.language" value="en"/><property name="sbt.script" value="/usr/bin/sbt"/><property name="sbt.ipcsocket.tmpdir" value="/run/user/1000/.sbt90b2eba7/ipcsocket"/><property name="swoval.tmpdir" value="/run/user/1000/.sbt90b2eba7/swoval"/><property name="jline.esc.timeout" value="0"/><property name="path.separator" value=":"/><property name="os.version" value="6.9.4-zen1-1-zen"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="jna.platform.library.path" value="/usr/lib64:/lib64:/usr/lib:/lib:/usr/lib32:/opt/cuda/extras/CUPTI/lib64:/opt/cuda/nvvm/lib64:/opt/cuda/lib64:/usr/lib/libfakeroot"/><property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/><property name="user.dir" value="/home/ione/Desktop/ExamFP2024"/><property name="os.arch" value="amd64"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="java.vm.version" value="17.0.11+9"/><property name="java.class.version" value="61.0"/>
+    </properties>
+          <testcase classname="Tests" name="Valid profile id:294083" time="0.075">
+                      
+                    </testcase><testcase classname="Tests" name="E1 (1p):" time="0.004">
+                      
+                    </testcase><testcase classname="Tests" name="E2 (1p):" time="0.004">
+                      
+                    </testcase><testcase classname="Tests" name="E3 (1p):" time="0.005">
+                      <failure message="an implementation is missing" type="scala.NotImplementedError">scala.NotImplementedError: an implementation is missing
+	at munit.FunSuite.assert(FunSuite.scala:11)
+	at Tests.$anonfun$new$20(Tests.scala:24)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+</failure>
+                    </testcase><testcase classname="Tests" name="E4 (1p):" time="0.004">
+                      
+                    </testcase><testcase classname="Tests" name="E5 (1p):" time="0.001">
+                      <failure message="an implementation is missing" type="scala.NotImplementedError">scala.NotImplementedError: an implementation is missing
+	at munit.FunSuite.assert(FunSuite.scala:11)
+	at Tests.$anonfun$new$38(Tests.scala:39)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+</failure>
+                    </testcase><testcase classname="Tests" name="E6 (1p):" time="0.007">
+                      
+                    </testcase><testcase classname="Tests" name="E7 (1p):" time="0.005">
+                      
+                    </testcase><testcase classname="Tests" name="E8 (1p):" time="0.007">
+                      
+                    </testcase><testcase classname="Tests" name="E9 (1p):" time="0.002">
+                      <failure message="an implementation is missing" type="scala.NotImplementedError">scala.NotImplementedError: an implementation is missing
+	at munit.FunSuite.assert(FunSuite.scala:11)
+	at Tests.$anonfun$new$83(Tests.scala:74)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+</failure>
+                    </testcase><testcase classname="Tests" name="E10 (1p):" time="0.014">
+                      
+                    </testcase>
+          <system-out><![CDATA[]]></system-out>
+          <system-err><![CDATA[]]></system-err>
+        </testsuite>

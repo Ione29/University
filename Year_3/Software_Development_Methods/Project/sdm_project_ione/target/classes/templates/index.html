@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>Main Menu</title>
+    </head>
+    <body>
+        <h1>This is the Main Menu of the E-Hospital System!</h1><br>
+        
+        <h3>Manage the clinical files:</h3>
+        <a th:href="@{'/clinicalfiles'}">View all clinical files</a><br>
+        <a th:href="@{'/clinicalfiles/search'}">Find a clinical file</a><br>
+        <a th:href="@{'/clinicalfiles/new'}">Create a new clinical file</a><br><br>
+        
+        <h3>Manage the patients:</h3>
+        <a th:href="@{'/patients'}">View all users</a><br>
+        <a th:href="@{'/patients/register'}">Register a new patient</a><br>
+    </body>
+</html>

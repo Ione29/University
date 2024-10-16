@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>View Clinical Files</title>
+    </head>
+    <body>
+        <h1>Search for a clinical file:</h1>
+        
+        <form method="post">
+            <input type="number" name="owner" placeholder="Owner ID">
+            <input type="text" name="diagnostic" placeholder="Diagnostic">
+            <input type="submit" value="Search">
+        </form>
+        
+        <br>
+        
+        <table>
+            <tr>
+                <td>File ID</td>
+                <td>Owner ID</td>
+                <td>Diagnosis</td>
+            </tr>
+            <div th:each="clinicalfile : ${clinicalfiles}">
+                <tr>
+                    <td><span th:text="${clinicalfile.id}">id</span></td>
+                    <td><span th:text="${clinicalfile.owner}">owner</span></td>
+                    <td><span th:text="${clinicalfile.diagnostic}">diagnostic</span></td>
+                </tr>
+            </div>
+        </table>
+    
+    </body>
+</html>

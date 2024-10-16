@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WebSocket Auctions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        #loginForm, #addAuction, #auctions {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-top: 20px;
+        }
+        input[type="text"], input[type="number"], input[type="datetime-local"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box; /* Adds padding without affecting the width */
+        }
+        button {
+            background-color: #5c67f2;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #4a54e1;
+        }
+        label {
+            margin-top: 10px;
+        }
+        h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+<div id="loginForm">
+    <input type="text" id="usernameInput" placeholder="Enter your username...">
+    <button id="loginButton">Login</button>
+</div>
+<div id="addAuction" style="display: none">
+    <h2>Create Auction</h2>
+    <input type="text" id="auctionNameInput" placeholder="Enter product name...">
+    <br>
+    <input type="number" id="auctionPriceInput" placeholder="Enter product price...">
+    <br>
+    <label for="auctionEndDateInput">Auction end time:</label>
+    <br>
+    <input type="datetime-local" id="auctionEndDateInput">
+    <br>
+    <button id="createAuctionButton">Create</button>
+</div>
+<div id="auctions" style="display: none;">
+    <h2>Auctions</h2>
+    <div id="auctionsList"></div>
+    <div id="sendBid">
+        <h2>Send Bid</h2>
+        <input type="number" id="bidIDInput" placeholder="Enter auction ID...">
+        <input type="number" id="bidAmountInput" placeholder="Enter bid amount...">
+        <button type="button" id="sendBidButton">Send</button>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.5.1/sockjs.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

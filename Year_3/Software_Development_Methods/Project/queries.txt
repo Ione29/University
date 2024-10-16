@@ -1,0 +1,34 @@
+drop database sdm_project;
+create database sdm_project;
+use sdm_project;
+
+create table patients(
+    id int not null auto_increment primary key,
+    name varchar(100) not null,
+    email varchar(50) not null unique
+);
+
+create table doctors(
+    id int not null auto_increment primary key,
+    name varchar(100) not null,
+    email varchar(50) not null unique
+);
+
+create table clinicalfiles(
+    id int not null auto_increment primary key,
+    owner int not null,
+    diagnostic varchar(50) not null,
+    constraint fk_owner
+    foreign key (owner) references patients(id)
+);
+
+insert into patients (name, email) values ("John Doe", "patient1@example.com");
+insert into patients (name, email) values ("Johnie Doe", "patient2@example.com");
+insert into patients (name, email) values ("John Doer", "patient3@example.com");
+
+insert into clinicalfiles (owner, diagnostic) values (1, "Cancer");
+insert into clinicalfiles (owner, diagnostic) values (2, "Ulcer");
+insert into clinicalfiles (owner, diagnostic) values (3, "Diabetes");
+
+select * from patients;
+select * from clinicalfiles;

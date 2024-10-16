@@ -1,0 +1,21 @@
+#chat {
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#messageForm {
+    margin-top: 10px;
+}
+
+#messageInput {
+    width: 200px;
+}
+
+button {
+    margin-left: 10px;
+}
+#addAuction {
+    margin-top: 10px;
+}

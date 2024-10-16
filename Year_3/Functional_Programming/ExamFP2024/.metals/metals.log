@@ -1,0 +1,1020 @@
+2024.06.14 14:12:36 INFO  Started: Metals version 1.3.1 in folders '/home/ione/Desktop/ExamFP2024' for client Visual Studio Code 1.90.0.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@1b4ecf7d]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@3611a284]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@1b4ecf7d]
+2024.06.14 14:12:38 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.06.14 14:12:39 INFO  Shutting down server[0m
+2024.06.14 14:12:39 INFO  shutting down Metals[0m
+2024.06.14 14:12:39 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/test/scala/Tests.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:12:39 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:12:41 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.06.14 14:12:49 INFO  Started: Metals version 1.3.1 in folders '/home/ione/Desktop/ExamFP2024' for client Visual Studio Code 1.90.0.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@282c8d8d]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@6e7c176e]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@282c8d8d]
+2024.06.14 14:12:50 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+Jun 14, 2024 2:12:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Jun 14, 2024 2:12:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2024.06.14 14:12:52 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/test/scala/Tests.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:12:52 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 14, 2024 2:12:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+Jun 14, 2024 2:12:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+2024.06.14 14:12:53 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:12:55 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:12:55 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:12:55 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:12:55 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:12:55 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:12:55 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:12:55 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 14, 2024 2:12:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 34
+2024.06.14 14:12:55 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 14, 2024 2:12:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 44
+Jun 14, 2024 2:12:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 46
+Jun 14, 2024 2:12:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48
+2024.06.14 14:12:57 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:12:57 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:12:57 INFO  running '/usr/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2024.06.14 14:12:57 WARN  no build target for: /home/ione/Desktop/ExamFP2024/project/metals.sbt[0m
+2024.06.14 14:12:57 INFO  no build target found for /home/ione/Desktop/ExamFP2024/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:12:58 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 14, 2024 2:12:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 62
+Jun 14, 2024 2:12:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 63
+2024.06.14 14:13:00 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:13:01 INFO  [info] welcome to sbt 1.10.0 (Oracle Corporation Java 17)[0m
+2024.06.14 14:13:01 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:13:01 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:13:03 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/test/scala/Tests.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:13:04 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:13:04 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:13:07 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:13:07 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:13:07 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:13:08 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:13:08 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:13:08 INFO  [info] loading settings for project examfp2024-build-build from metals.sbt ...[0m
+2024.06.14 14:13:10 INFO  [info] loading project definition from /home/ione/Desktop/ExamFP2024/project/project[0m
+2024.06.14 14:13:10 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:13:11 WARN  no build target for: /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala[0m
+2024.06.14 14:13:11 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:13:11 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:13:11 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/test/scala/Tests.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:13:12 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:13:14 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:13:14 INFO  [info] loading settings for project examfp2024-build from metals.sbt ...[0m
+2024.06.14 14:13:14 INFO  [info] loading project definition from /home/ione/Desktop/ExamFP2024/project[0m
+2024.06.14 14:13:16 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:13:18 INFO  [success] Generated .bloop/examfp2024-build.json[0m
+2024.06.14 14:13:18 INFO  [success] Total time: 4 s, completed Jun 14, 2024, 2:13:19 PM[0m
+2024.06.14 14:13:20 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/test/scala/Tests.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:13:21 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:13:21 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:13:23 INFO  [info] loading settings for project root from build.sbt ...[0m
+2024.06.14 14:13:23 INFO  [info] set current project to ExamFP2024 (in build file:/home/ione/Desktop/ExamFP2024/)[0m
+2024.06.14 14:13:23 INFO  [warn] scala-library-2.13.14-sources.jar no longer exists at /Users/mateipopovici/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.14/scala-library-2.13.14-sources.jar[0m
+2024.06.14 14:13:23 INFO  [success] Generated .bloop/root.json[0m
+2024.06.14 14:13:23 INFO  [success] Generated .bloop/root-test.json[0m
+2024.06.14 14:13:23 INFO  [success] Total time: 0 s, completed Jun 14, 2024, 2:13:24 PM[0m
+2024.06.14 14:13:24 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:13:24 INFO  time: ran 'sbt bloopInstall' in 27s[0m
+2024.06.14 14:13:25 INFO  Attempting to connect to the build server...[0m
+2024.06.14 14:13:25 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:13:26 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:13:26 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:13:26 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:13:26 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:13:26 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:13:26 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:13:27 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:13:28 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:13:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ione/Desktop/ExamFP2024/.metals/bsp.trace.json or /home/ione/.cache/metals/bsp.trace.json[0m
+2024.06.14 14:13:29 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:13:29 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:13:28 INFO  Attempting to connect to the build server...[0m
+2024.06.14 14:13:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ione/Desktop/ExamFP2024/project/.metals/bsp.trace.json or /home/ione/.cache/metals/bsp.trace.json[0m
+2024.06.14 14:13:29 INFO  no build target found for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:13:29 INFO  time: Connected to build server in 4.61s[0m
+2024.06.14 14:13:29 INFO  Connected to Build server: Bloop v1.5.17[0m
+2024.06.14 14:13:30 INFO  time: Imported build in 0.44s[0m
+2024.06.14 14:13:42 INFO  time: indexed workspace in 12s[0m
+2024.06.14 14:13:43 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:13:45 INFO  time: compiled root in 2.1s[0m
+2024.06.14 14:13:45 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:13:45 INFO  time: compiled root in 0.35s[0m
+2024.06.14 14:13:45 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:13:45 INFO  time: compiled root in 0.38s[0m
+Jun 14, 2024 2:13:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 273
+Jun 14, 2024 2:14:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 288
+Jun 14, 2024 2:15:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 417
+Jun 14, 2024 2:15:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 537
+2024.06.14 14:15:16 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:15:17 INFO  time: compiled root in 1.44s[0m
+2024.06.14 14:15:17 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:15:17 INFO  time: compiled root in 0.96s[0m
+2024.06.14 14:15:18 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:15:18 INFO  time: compiled root in 0.75s[0m
+2024.06.14 14:15:18 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:15:19 INFO  time: compiled root in 0.51s[0m
+Jun 14, 2024 2:15:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 610
+Jun 14, 2024 2:15:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 626
+Jun 14, 2024 2:15:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 634
+Jun 14, 2024 2:15:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 671
+2024.06.14 14:15:48 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:15:48 INFO  time: compiled root in 0.47s[0m
+2024.06.14 14:15:48 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:15:48 INFO  time: compiled root in 0.31s[0m
+2024.06.14 14:15:51 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:15:51 INFO  time: compiled root in 0.38s[0m
+2024.06.14 14:15:51 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:15:51 INFO  time: compiled root in 0.57s[0m
+2024.06.14 14:15:52 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:15:52 INFO  time: compiled root in 0.33s[0m
+2024.06.14 14:15:52 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:15:52 INFO  time: compiled root in 0.3s[0m
+2024.06.14 14:16:21 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:16:21 INFO  time: compiled root in 0.42s[0m
+2024.06.14 14:18:26 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:18:26 INFO  time: compiled root in 0.13s[0m
+Jun 14, 2024 2:18:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1086
+2024.06.14 14:19:12 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:19:12 INFO  time: compiled root in 0.13s[0m
+2024.06.14 14:19:17 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:19:17 INFO  time: compiled root in 0.3s[0m
+2024.06.14 14:19:17 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:19:18 INFO  time: compiled root in 0.2s[0m
+2024.06.14 14:19:22 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:19:22 INFO  time: compiled root in 0.17s[0m
+2024.06.14 14:19:22 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:19:23 INFO  time: compiled root in 64ms[0m
+2024.06.14 14:19:31 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:19:31 INFO  time: compiled root in 0.28s[0m
+2024.06.14 14:19:58 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:19:58 INFO  time: compiled root in 0.18s[0m
+2024.06.14 14:20:05 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:20:05 INFO  time: compiled root in 0.13s[0m
+2024.06.14 14:20:05 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:20:05 INFO  time: compiled root in 62ms[0m
+2024.06.14 14:20:09 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:20:09 INFO  time: compiled root in 0.23s[0m
+2024.06.14 14:20:10 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:20:10 INFO  time: compiled root in 0.21s[0m
+Jun 14, 2024 2:20:20 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 579, count -1, length 2392
+2024.06.14 14:20:20 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:20:20 INFO  time: compiled root in 0.28s[0m
+2024.06.14 14:20:20 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:20:21 INFO  time: compiled root in 0.28s[0m
+2024.06.14 14:20:22 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.06.14 14:20:22 INFO  no build target found for /scala/Option.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 14:20:21 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:20:21 INFO  time: compiled root in 0.29s[0m
+2024.06.14 14:22:00 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:22:00 INFO  time: compiled root in 0.2s[0m
+Jun 14, 2024 2:22:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1646
+Jun 14, 2024 2:22:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1664
+Jun 14, 2024 2:22:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ione/Desktop/ExamFP2024/.metals/.reports/metals-full/2024-06-14/r_compiler-error_(root)_14-22-51-030.md
+2024.06.14 14:22:51 WARN  Could not find semantic tokens for: file:///home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala[0m
+Jun 14, 2024 2:22:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1750
+Jun 14, 2024 2:23:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1831
+Jun 14, 2024 2:23:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1883
+Jun 14, 2024 2:23:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1944
+2024.06.14 14:23:33 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:23:33 INFO  time: compiled root in 0.36s[0m
+2024.06.14 14:24:01 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:24:01 INFO  time: compiled root in 0.23s[0m
+Jun 14, 2024 2:24:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2112
+2024.06.14 14:24:11 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:24:11 INFO  time: compiled root in 0.33s[0m
+2024.06.14 14:24:12 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:24:12 INFO  time: compiled root in 0.15s[0m
+2024.06.14 14:24:22 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:24:22 INFO  time: compiled root in 0.19s[0m
+2024.06.14 14:24:22 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:24:22 INFO  time: compiled root in 0.13s[0m
+2024.06.14 14:24:38 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:24:38 INFO  time: compiled root in 0.23s[0m
+Jun 14, 2024 2:24:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2371
+2024.06.14 14:24:56 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:24:56 INFO  time: compiled root in 0.12s[0m
+2024.06.14 14:25:04 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:25:04 INFO  time: compiled root in 0.26s[0m
+2024.06.14 14:25:04 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:25:04 INFO  time: compiled root in 0.14s[0m
+2024.06.14 14:25:08 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:25:08 INFO  time: compiled root in 0.2s[0m
+2024.06.14 14:25:08 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:25:09 INFO  time: compiled root in 0.13s[0m
+2024.06.14 14:25:09 WARN  Using indexes to guess the definition of Int[0m
+2024.06.14 14:25:12 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:25:12 INFO  time: compiled root in 0.27s[0m
+2024.06.14 14:25:18 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:25:18 INFO  time: compiled root in 0.11s[0m
+2024.06.14 14:27:27 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:27:31 INFO  time: compiled root in 3.56s[0m
+2024.06.14 14:28:31 INFO  compiling root-test (1 scala source)[0m
+2024.06.14 14:28:34 INFO  time: compiled root-test in 3.08s[0m
+2024.06.14 14:30:13 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:30:13 INFO  time: compiled root in 0.26s[0m
+2024.06.14 14:30:46 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:30:46 INFO  time: compiled root in 0.2s[0m
+2024.06.14 14:31:13 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:31:13 INFO  time: compiled root in 0.31s[0m
+2024.06.14 14:31:14 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:31:14 INFO  time: compiled root in 0.24s[0m
+2024.06.14 14:31:32 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:31:32 INFO  time: compiled root in 0.27s[0m
+2024.06.14 14:31:32 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:31:32 INFO  time: compiled root in 0.17s[0m
+2024.06.14 14:31:58 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:31:58 INFO  time: compiled root in 0.25s[0m
+2024.06.14 14:31:59 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:31:59 INFO  time: compiled root in 0.17s[0m
+2024.06.14 14:33:24 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:33:24 INFO  time: compiled root in 0.13s[0m
+Jun 14, 2024 2:33:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://a1e21594-2919-44c6-a84b-9b1ec2346097/response_0/0#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22%2Fhome%2Fione%2FDesktop%2FExamFP2024%2Fsrc%2Fmain%2Fscala%2FExamFP.scala%22%2C%22external%22%3A%22file%3A%2F%2F%2Fhome%2Fione%2FDesktop%2FExamFP2024%2Fsrc%2Fmain%2Fscala%2FExamFP.scala%22%2C%22path%22%3A%22%2Fhome%2Fione%2FDesktop%2FExamFP2024%2Fsrc%2Fmain%2Fscala%2FExamFP.scala%22%2C%22scheme%22%3A%22file%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A1%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A41%2C%22endColumn%22%3A82%7D%7D%5D%7D"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:131)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:187)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:741)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:738)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:673)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	... 16 more
+
+2024.06.14 14:34:13 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:34:14 INFO  time: compiled root in 1.65s[0m
+2024.06.14 14:34:16 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:34:16 WARN  Could not load snapshot text for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala[0m
+2024.06.14 14:34:18 INFO  time: compiled root in 1.47s[0m
+2024.06.14 14:35:23 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:35:24 INFO  time: compiled root in 1.55s[0m
+Jun 14, 2024 2:35:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://a1e21594-2919-44c6-a84b-9b1ec2346097/response_0/0#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22%2Fhome%2Fione%2FDesktop%2FExamFP2024%2Fsrc%2Fmain%2Fscala%2FExamFP.scala%22%2C%22external%22%3A%22file%3A%2F%2F%2Fhome%2Fione%2FDesktop%2FExamFP2024%2Fsrc%2Fmain%2Fscala%2FExamFP.scala%22%2C%22path%22%3A%22%2Fhome%2Fione%2FDesktop%2FExamFP2024%2Fsrc%2Fmain%2Fscala%2FExamFP.scala%22%2C%22scheme%22%3A%22file%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A1%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A41%2C%22endColumn%22%3A82%7D%7D%5D%7D"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:131)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:187)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:741)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:738)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:673)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	... 16 more
+
+2024.06.14 14:37:33 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:37:33 INFO  time: compiled root in 0.13s[0m
+2024.06.14 14:38:09 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:38:09 INFO  time: compiled root in 0.13s[0m
+2024.06.14 14:39:17 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:39:17 INFO  time: compiled root in 0.13s[0m
+2024.06.14 14:39:24 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:39:24 INFO  time: compiled root in 0.28s[0m
+2024.06.14 14:39:27 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:39:27 INFO  time: compiled root in 0.13s[0m
+Jun 14, 2024 2:39:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4328
+2024.06.14 14:40:03 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:40:03 INFO  time: compiled root in 0.13s[0m
+Jun 14, 2024 2:42:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4655
+2024.06.14 14:42:01 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:42:01 INFO  time: compiled root in 0.14s[0m
+Jun 14, 2024 2:42:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4701
+Jun 14, 2024 2:42:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4713
+2024.06.14 14:43:02 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:43:02 INFO  time: compiled root in 0.13s[0m
+Jun 14, 2024 2:43:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4767
+2024.06.14 14:43:09 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:43:09 INFO  time: compiled root in 0.14s[0m
+2024.06.14 14:43:14 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:43:14 INFO  time: compiled root in 0.16s[0m
+Jun 14, 2024 2:44:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4980
+2024.06.14 14:44:47 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:44:47 INFO  time: compiled root in 0.15s[0m
+2024.06.14 14:44:47 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:44:47 INFO  time: compiled root in 79ms[0m
+Jun 14, 2024 2:48:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5282
+2024.06.14 14:48:04 ERROR Failed to tokenize input for semantic tokens for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala
+scala.meta.tokenizers.TokenizeException: <input>:56: error: unclosed comment
+  def convert[A](l: List[A]): Set[A] = ???/* {
+                                          ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:55)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:74)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:316)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.06.14 14:48:07 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:48:07 INFO  time: compiled root in 0.15s[0m
+2024.06.14 14:48:46 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:48:46 INFO  time: compiled root in 0.13s[0m
+2024.06.14 14:49:08 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:49:08 INFO  time: compiled root in 0.34s[0m
+Jun 14, 2024 2:49:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:1022)
+	at scala.meta.internal.metals.debug.DebugProvider.ensureNoWorkspaceErrors(DebugProvider.scala:493)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$startTestSuite$4(DebugProvider.scala:791)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 3 more
+
+2024.06.14 14:49:08 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:49:08 INFO  time: compiled root in 0.19s[0m
+2024.06.14 14:49:22 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:49:22 INFO  time: compiled root in 0.42s[0m
+Jun 14, 2024 2:49:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:1022)
+	at scala.meta.internal.metals.debug.DebugProvider.ensureNoWorkspaceErrors(DebugProvider.scala:493)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$startTestSuite$4(DebugProvider.scala:791)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 3 more
+
+2024.06.14 14:50:01 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:50:01 INFO  time: compiled root in 0.12s[0m
+2024.06.14 14:50:02 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:50:02 INFO  time: compiled root in 0.1s[0m
+2024.06.14 14:50:16 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:50:16 INFO  time: compiled root in 0.14s[0m
+2024.06.14 14:50:27 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:50:28 INFO  time: compiled root in 1.64s[0m
+2024.06.14 14:50:45 INFO  compiling root-test (1 scala source)[0m
+2024.06.14 14:50:46 INFO  time: compiled root-test in 1.74s[0m
+2024.06.14 14:51:08 INFO  compiling root-test (1 scala source)[0m
+2024.06.14 14:51:11 INFO  time: compiled root-test in 2.55s[0m
+2024.06.14 14:51:47 ERROR Failed to tokenize input for semantic tokens for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala
+scala.meta.tokenizers.TokenizeException: <input>:56: error: unclosed comment
+  def convert[A](l: List[A]): Set[A] = ???/* {
+                                          ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:55)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:74)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:316)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.06.14 14:51:52 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:51:52 INFO  time: compiled root in 0.28s[0m
+2024.06.14 14:52:09 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:52:09 INFO  time: compiled root in 0.2s[0m
+2024.06.14 14:52:25 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:52:25 INFO  time: compiled root in 0.22s[0m
+2024.06.14 14:53:23 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:53:23 INFO  time: compiled root in 0.18s[0m
+2024.06.14 14:53:26 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:53:26 INFO  time: compiled root in 0.22s[0m
+2024.06.14 14:53:48 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:53:49 INFO  time: compiled root in 1.35s[0m
+2024.06.14 14:54:24 ERROR Failed to tokenize input for semantic tokens for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala
+scala.meta.tokenizers.TokenizeException: <input>:65: error: unclosed comment
+  def count(l: List[String]): Int = ???/* {
+                                       ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:55)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:74)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:316)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.06.14 14:54:27 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:54:27 INFO  time: compiled root in 0.2s[0m
+2024.06.14 14:54:30 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:54:31 INFO  time: compiled root in 1.41s[0m
+2024.06.14 14:54:31 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:54:33 INFO  time: compiled root in 0.69s[0m
+2024.06.14 14:54:58 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:54:59 INFO  time: compiled root in 1.26s[0m
+2024.06.14 14:55:02 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:55:03 INFO  time: compiled root in 1.31s[0m
+2024.06.14 14:56:42 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:56:42 INFO  time: compiled root in 0.14s[0m
+Jun 14, 2024 2:56:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6393
+2024.06.14 14:56:56 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:56:56 INFO  time: compiled root in 0.24s[0m
+2024.06.14 14:57:01 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:57:01 INFO  time: compiled root in 0.24s[0m
+something's wrong: no file:///home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala in ExamFP.Set[<error>]RangePosition(file:///home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala, 1714, 1714, 1727)
+something's wrong: no file:///home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala in ExamFP.Set[<error>]RangePosition(file:///home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala, 1714, 1714, 1720)
+something's wrong: no file:///home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala in ExamFP.Set[<error>]RangePosition(file:///home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala, 1714, 1714, 1727)
+something's wrong: no file:///home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala in ExamFP.Set[A]RangePosition(file:///home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala, 1714, 1714, 1720)
+2024.06.14 14:58:29 INFO  compiling root (1 scala source)[0m
+2024.06.14 14:58:31 INFO  time: compiled root in 1.37s[0m
+2024.06.14 15:00:29 INFO  compiling root (1 scala source)[0m
+2024.06.14 15:00:29 INFO  time: compiled root in 0.24s[0m
+2024.06.14 15:00:53 INFO  compiling root (1 scala source)[0m
+2024.06.14 15:00:53 INFO  time: compiled root in 0.28s[0m
+2024.06.14 15:00:55 INFO  compiling root (1 scala source)[0m
+2024.06.14 15:00:55 INFO  time: compiled root in 0.18s[0m
+2024.06.14 15:01:06 INFO  compiling root (1 scala source)[0m
+2024.06.14 15:01:06 INFO  time: compiled root in 0.18s[0m
+2024.06.14 15:01:47 INFO  compiling root (1 scala source)[0m
+2024.06.14 15:01:47 INFO  time: compiled root in 0.22s[0m
+2024.06.14 15:02:53 INFO  compiling root (1 scala source)[0m
+2024.06.14 15:02:54 INFO  time: compiled root in 1.34s[0m
+2024.06.14 15:04:59 INFO  no build target found for /scala/collection/IterableOnce.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 15:05:34 INFO  compiling root (1 scala source)[0m
+2024.06.14 15:05:36 INFO  time: compiled root in 1.55s[0m
+2024.06.14 15:07:04 INFO  compiling root-test (1 scala source)[0m
+2024.06.14 15:07:06 INFO  time: compiled root-test in 2.21s[0m
+2024.06.14 15:07:31 INFO  compiling root-test (1 scala source)[0m
+2024.06.14 15:07:33 INFO  time: compiled root-test in 1.91s[0m
+2024.06.14 15:08:41 INFO  compiling root (1 scala source)[0m
+2024.06.14 15:08:41 INFO  time: compiled root in 0.2s[0m
+2024.06.14 15:08:52 INFO  compiling root (1 scala source)[0m
+2024.06.14 15:08:52 INFO  time: compiled root in 0.27s[0m
+2024.06.14 15:08:54 INFO  compiling root (1 scala source)[0m
+2024.06.14 15:08:54 INFO  time: compiled root in 0.19s[0m
+2024.06.14 15:09:04 INFO  compiling root (1 scala source)[0m
+2024.06.14 15:09:04 INFO  time: compiled root in 0.14s[0m
+2024.06.14 15:09:04 INFO  compiling root (1 scala source)[0m
+2024.06.14 15:09:04 INFO  time: compiled root in 75ms[0m
+2024.06.14 15:09:06 INFO  compiling root (1 scala source)[0m
+2024.06.14 15:09:06 INFO  time: compiled root in 78ms[0m
+2024.06.14 15:09:08 INFO  compiling root (1 scala source)[0m
+2024.06.14 15:09:08 INFO  time: compiled root in 0.16s[0m
+2024.06.14 15:09:08 INFO  compiling root (1 scala source)[0m
+2024.06.14 15:09:08 INFO  time: compiled root in 76ms[0m
+2024.06.14 15:09:14 WARN  Using indexes to guess the definition of List[0m
+2024.06.14 15:09:14 INFO  compiling root (1 scala source)[0m
+2024.06.14 15:09:14 INFO  time: compiled root in 0.12s[0m
+2024.06.14 15:09:24 INFO  no build target found for /scala/collection/immutable/List.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 15:09:25 INFO  no build target found for /scala/collection/Iterator.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 15:09:30 INFO  compiling root (1 scala source)[0m
+2024.06.14 15:09:31 INFO  time: compiled root in 1.2s[0m
+2024.06.14 15:09:41 INFO  compiling root (1 scala source)[0m
+2024.06.14 15:09:41 INFO  time: compiled root in 0.16s[0m
+2024.06.14 15:10:12 INFO  compiling root (1 scala source)[0m
+2024.06.14 15:10:12 INFO  time: compiled root in 0.22s[0m
+2024.06.14 15:10:12 INFO  compiling root (1 scala source)[0m
+2024.06.14 15:10:12 INFO  time: compiled root in 0.15s[0m
+something's wrong: no file:///home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala in (<error>, -1)RangePosition(file:///home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala, 2605, 2605, 2617)
+something's wrong: no file:///home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala in (<error>, -1)RangePosition(file:///home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala, 2605, 2605, 2617)
+something's wrong: no file:///home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala in (<error>, -1)RangePosition(file:///home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala, 2605, 2605, 2617)
+something's wrong: no file:///home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala in (<error>, -1)RangePosition(file:///home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala, 2605, 2605, 2617)
+2024.06.14 15:10:42 INFO  compiling root (1 scala source)[0m
+2024.06.14 15:10:42 INFO  time: compiled root in 0.61s[0m
+2024.06.14 15:10:42 INFO  compiling root (1 scala source)[0m
+2024.06.14 15:10:43 INFO  time: compiled root in 0.5s[0m
+2024.06.14 15:10:54 INFO  compiling root (1 scala source)[0m
+2024.06.14 15:10:54 INFO  time: compiled root in 0.21s[0m
+2024.06.14 15:11:08 INFO  compiling root (1 scala source)[0m
+2024.06.14 15:11:10 INFO  time: compiled root in 1.34s[0m
+Jun 14, 2024 3:12:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8065
+Jun 14, 2024 3:12:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8069
+Jun 14, 2024 3:12:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8075
+2024.06.14 15:12:49 ERROR Failed to tokenize input for semantic tokens for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala
+scala.meta.tokenizers.TokenizeException: <input>:49: error: unclosed comment
+  /*
+  ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:55)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:74)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:316)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.06.14 15:12:50 ERROR Failed to tokenize input for semantic tokens for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala
+scala.meta.tokenizers.TokenizeException: <input>:49: error: unclosed comment
+  /*
+  ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:55)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:74)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:316)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.06.14 15:12:51 ERROR Failed to tokenize input for semantic tokens for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala
+scala.meta.tokenizers.TokenizeException: <input>:61: error: unclosed comment
+  /* 5. Write a function which checks if there is at least one "Double" container
+  ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:55)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:74)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:316)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.06.14 15:12:53 ERROR Failed to tokenize input for semantic tokens for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala
+scala.meta.tokenizers.TokenizeException: <input>:75: error: unclosed comment
+  /*
+  ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:55)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:74)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:316)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.06.14 15:12:53 ERROR Failed to tokenize input for semantic tokens for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala
+scala.meta.tokenizers.TokenizeException: <input>:75: error: unclosed comment
+  /*  
+  ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:55)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:74)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:316)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.06.14 15:12:53 ERROR Failed to tokenize input for semantic tokens for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala
+scala.meta.tokenizers.TokenizeException: <input>:84: error: unclosed comment
+  /*
+  ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:55)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:74)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:316)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.06.14 15:12:54 ERROR Failed to tokenize input for semantic tokens for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala
+scala.meta.tokenizers.TokenizeException: <input>:91: error: unclosed comment
+  /*
+  ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:55)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:74)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:316)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.06.14 15:12:55 ERROR Failed to tokenize input for semantic tokens for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala
+scala.meta.tokenizers.TokenizeException: <input>:99: error: unclosed comment
+  /*
+  ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:55)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:74)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:316)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.06.14 15:12:56 ERROR Failed to tokenize input for semantic tokens for /home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala
+scala.meta.tokenizers.TokenizeException: <input>:106: error: unclosed comment
+  /*
+  ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:55)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:74)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:316)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+Jun 14, 2024 3:13:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8148
+2024.06.14 15:13:12 INFO  compiling root (1 scala source)[0m
+2024.06.14 15:13:13 INFO  time: compiled root in 1.65s[0m
+2024.06.14 15:14:56 INFO  compiling root-test (1 scala source)[0m
+2024.06.14 15:14:56 INFO  time: compiled root-test in 0.14s[0m
+2024.06.14 15:14:56 WARN  Could not load snapshot text for /home/ione/Desktop/ExamFP2024/src/test/scala/Tests.scala[0m
+2024.06.14 15:14:57 INFO  compiling root-test (1 scala source)[0m
+2024.06.14 15:14:57 INFO  time: compiled root-test in 0.13s[0m
+2024.06.14 15:14:58 WARN  Could not load snapshot text for /home/ione/Desktop/ExamFP2024/src/test/scala/Tests.scala[0m
+2024.06.14 15:14:59 WARN  Could not load snapshot text for /home/ione/Desktop/ExamFP2024/src/test/scala/Tests.scala[0m
+2024.06.14 15:14:59 WARN  Could not load snapshot text for /home/ione/Desktop/ExamFP2024/src/test/scala/Tests.scala[0m
+2024.06.14 15:15:00 WARN  Could not load snapshot text for /home/ione/Desktop/ExamFP2024/src/test/scala/Tests.scala[0m
+2024.06.14 15:15:00 WARN  Could not load snapshot text for /home/ione/Desktop/ExamFP2024/src/test/scala/Tests.scala[0m
+2024.06.14 15:15:01 WARN  Could not load snapshot text for /home/ione/Desktop/ExamFP2024/src/test/scala/Tests.scala[0m
+2024.06.14 15:15:01 WARN  Could not load snapshot text for /home/ione/Desktop/ExamFP2024/src/test/scala/Tests.scala[0m
+2024.06.14 15:17:58 INFO  compiling root-test (1 scala source)[0m
+2024.06.14 15:18:00 INFO  time: compiled root-test in 1.59s[0m
+2024.06.14 15:18:04 INFO  compiling root-test (1 scala source)[0m
+2024.06.14 15:18:06 INFO  time: compiled root-test in 1.66s[0m
+2024.06.14 15:18:53 INFO  compiling root (1 scala source)[0m
+2024.06.14 15:18:54 INFO  time: compiled root in 1.53s[0m
+Jun 14, 2024 3:18:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8617
+2024.06.14 15:19:12 INFO  compiling root (1 scala source)[0m
+2024.06.14 15:19:14 INFO  time: compiled root in 1.38s[0m
+2024.06.14 15:19:52 INFO  compiling root (1 scala source)[0m
+2024.06.14 15:19:54 INFO  time: compiled root in 1.75s[0m
+Jun 14, 2024 3:21:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8879
+2024.06.14 15:21:51 INFO  compiling root (1 scala source)[0m
+2024.06.14 15:21:53 INFO  time: compiled root in 1.66s[0m
+2024.06.14 15:22:11 INFO  compiling root (1 scala source)[0m
+2024.06.14 15:22:13 INFO  time: compiled root in 1.69s[0m
+2024.06.14 15:22:54 INFO  compiling root (1 scala source)[0m
+2024.06.14 15:22:55 INFO  time: compiled root in 1.51s[0m
+2024.06.14 15:23:13 INFO  compiling root (1 scala source)[0m
+2024.06.14 15:23:14 INFO  time: compiled root in 1.35s[0m
+2024.06.14 15:23:26 INFO  compiling root (1 scala source)[0m
+2024.06.14 15:23:28 INFO  time: compiled root in 1.34s[0m
+2024.06.14 15:24:01 INFO  compiling root (1 scala source)[0m
+2024.06.14 15:24:03 INFO  time: compiled root in 1.45s[0m
+Jun 14, 2024 3:24:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9648
+2024.06.14 15:24:42 INFO  compiling root-test (1 scala source)[0m
+2024.06.14 15:24:44 INFO  time: compiled root-test in 2.21s[0m
+2024.06.14 15:24:53 INFO  Shutting down server[0m
+2024.06.14 15:24:53 INFO  shutting down Metals[0m
+2024.06.14 15:24:53 INFO  Shut down connection with build server.[0m
+2024.06.14 15:24:53 INFO  Shut down connection with build server.[0m
+2024.06.14 15:24:53 INFO  Exiting server[0m
+2024.06.14 15:37:49 INFO  Started: Metals version 1.3.1 in folders '/home/ione/Desktop/ExamFP2024' for client Visual Studio Code 1.90.0.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@346fb353]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@28b50d2c]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@346fb353]
+2024.06.14 15:37:49 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.06.14 15:37:51 INFO  Attempting to connect to the build server...[0m
+2024.06.14 15:37:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ione/Desktop/ExamFP2024/.metals/bsp.trace.json or /home/ione/.cache/metals/bsp.trace.json[0m
+2024.06.14 15:37:51 INFO  Attempting to connect to the build server...[0m
+2024.06.14 15:37:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ione/Desktop/ExamFP2024/project/.metals/bsp.trace.json or /home/ione/.cache/metals/bsp.trace.json[0m
+2024.06.14 15:37:52 INFO  time: Connected to build server in 1.03s[0m
+2024.06.14 15:37:52 INFO  Connected to Build server: Bloop v1.5.17[0m
+2024.06.14 15:37:52 INFO  time: Imported build in 0.22s[0m
+Jun 14, 2024 3:37:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+Jun 14, 2024 3:37:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20
+Jun 14, 2024 3:37:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+Jun 14, 2024 3:37:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19
+Jun 14, 2024 3:37:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22
+2024.06.14 15:38:04 INFO  time: indexed workspace in 11s[0m
+2024.06.14 17:08:29 INFO  Shutting down server[0m
+2024.06.14 17:08:29 INFO  shutting down Metals[0m
+2024.06.14 17:08:29 INFO  Shut down connection with build server.[0m
+2024.06.14 17:08:29 INFO  Shut down connection with build server.[0m
+2024.06.14 17:08:29 INFO  Exiting server[0m
+2024.06.14 17:09:12 INFO  Started: Metals version 1.3.1 in folders '/home/ione/Desktop/ExamFP2024' for client Visual Studio Code 1.90.0.[0m
+2024.06.14 17:58:38 INFO  Started: Metals version 1.3.1 in folders '/home/ione/Desktop/ExamFP2024' for client Visual Studio Code 1.90.0.[0m
+2024.06.17 13:02:50 INFO  Started: Metals version 1.3.1 in folders '/home/ione/Desktop/ExamFP2024' for client Visual Studio Code 1.90.0.[0m

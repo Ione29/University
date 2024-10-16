@@ -1,0 +1,5 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/ione/Desktop/ExamFP2024/src/main/scala/ExamFP.scala:98:24: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: List(_), Nil[0m
+[0m[[0m[33mwarn[0m] [0m[0m      l.grouped(2).map { case List(x, y) => (x, y) }.toList[0m
+[0m[[0m[33mwarn[0m] [0m[0m                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
