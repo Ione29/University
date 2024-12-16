@@ -1,0 +1,10 @@
+@startuml ReviewHandler
+class ReviewHandler {
+  - user_id: String
+  - game_id: String
+  - review_text: String
+  - rating: Integer
+  + submitReview(userID: String, gameID: String, text: String, rating: Integer): Boolean
+  + fetchReviews(gameID: String): Array
+}
+@enduml

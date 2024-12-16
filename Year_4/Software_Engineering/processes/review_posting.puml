@@ -1,0 +1,26 @@
+@startuml Review Posting Process
+actor User
+participant "Frontend" as Frontend
+participant "Server" as Server
+database "Reviews Collection" as Reviews
+database "Users Collection" as Users
+database "Games Collection" as Games
+
+User -> Frontend: Submit Review (game_id, review_text, rating)
+Frontend -> Server: POST /submitReview
+Server -> Users: Validate user_id
+Users --> Server: user_id valid/invalid
+alt user_id valid
+    Server -> Games: Validate game_id
+    Games --> Server: game_id valid/invalid
+    alt game_id valid
+        Server -> Reviews: Insert Review
+        Reviews --> Server: Review ID
+        Server -> Frontend: Review Posted (status: SUCCESS, review_id)
+    else game_id invalid
+        Server -> Frontend: Error (status: INVALID_GAME)
+    end
+else user_id invalid
+    Server -> Frontend: Error (status: INVALID_USER)
+end
+@enduml

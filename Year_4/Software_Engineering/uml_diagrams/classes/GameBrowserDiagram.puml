@@ -1,0 +1,10 @@
+@startuml GameBrowser Class
+class GameBrowser {
+  - search_query: String
+  - current_page: Integer
+  - game_list: Array
+  + searchGames(query: String): Array
+  + paginate(page: Integer): Array
+  + displayGames(gameList: Array): void
+}
+@enduml

@@ -1,0 +1,22 @@
+@startuml Apply Promotion to a single product
+actor User
+participant Main
+participant PromotionManager
+participant PromotionFactory
+participant Product
+
+User -> Main: Select "Apply Promotion to Single Product"
+Main -> User: Prompt for promotion type and value
+User -> Main: Enter promotion type and value
+Main -> PromotionFactory: createPromotion(type, value)
+PromotionFactory --> Main: PromotionStrategy
+
+Main -> User: Prompt for product name
+User -> Main: Enter product name
+Main -> PromotionManager: getProducts()
+PromotionManager --> Main: List<Product>
+Main -> Main: findProductByName(products, productName)
+Main -> PromotionManager: addPromotion(product, promotion)
+PromotionManager --> Main: 
+Main -> User: "Promotion added."
+@enduml

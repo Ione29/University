@@ -1,0 +1,16 @@
+@startuml Update Profile Process
+actor User
+participant "Frontend" as Frontend
+participant "Server" as Server
+database "Users Collection" as Users
+
+User -> Frontend: Update Profile (update_fields)
+Frontend -> Server: PUT /updateProfile
+Server -> Users: Update user document (user_id, update_fields)
+Users --> Server: Update success/failure
+alt success
+    Server -> Frontend: Profile Updated (status: SUCCESS)
+else failure
+    Server -> Frontend: Error (status: UPDATE_FAILED)
+end
+@enduml

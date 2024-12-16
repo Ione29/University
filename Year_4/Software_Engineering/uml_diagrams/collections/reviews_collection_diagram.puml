@@ -1,0 +1,9 @@
+@startuml Reviews Collection
+class ReviewsCollection {
+  - review_id: String
+  - user_id: String
+  - game_id: String
+  - review_text: String
+  - rating: Integer
+}
+@enduml

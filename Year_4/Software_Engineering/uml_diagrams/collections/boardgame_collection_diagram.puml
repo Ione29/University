@@ -1,0 +1,15 @@
+@startuml Board Game Collection
+class BoardGamesCollection {
+  - game_id: String
+  - name: String
+  - description: String
+  - min_players: Integer
+  - max_players: Integer
+  - play_time: Integer
+  - age_range: String
+  - genre: String
+  - rating: Float
+  - publisher: String
+  - release_year: Integer
+}
+@enduml

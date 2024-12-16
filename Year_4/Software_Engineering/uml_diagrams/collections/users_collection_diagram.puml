@@ -1,0 +1,9 @@
+@startuml Users Collection
+class UsersCollection {
+  - user_id: String
+  - email: String
+  - password: String
+  - wishlist: Array
+  - owned_games: Array
+}
+@enduml

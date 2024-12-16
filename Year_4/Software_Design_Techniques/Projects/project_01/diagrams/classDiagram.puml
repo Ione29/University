@@ -1,0 +1,87 @@
+@startuml Class Diagram
+class Product {
+  - name: String
+  - originalPrice: double
+  - currentPrice: double
+  - productType: String
+  - saleVolume: int
+  - stock: int
+  + getName(): String
+  + getOriginalPrice(): double
+  + getCurrentPrice(): double
+  + getProductType(): String
+  + getSaleVolume(): int
+  + getStock(): int
+  + setCurrentPrice(double)
+  + toString(): String
+}
+
+class ProductBuilder {
+  - name: String
+  - price: double
+  - productType: String
+  - saleVolume: int
+  - stock: int
+  + setName(String): ProductBuilder
+  + setPrice(double): ProductBuilder
+  + setProductType(String): ProductBuilder
+  + setSaleVolume(int): ProductBuilder
+  + setStock(int): ProductBuilder
+  + build(): Product
+}
+
+class PromotionStrategy {
+  + applyPromotion(Product)
+}
+
+class PercentageDiscountStrategy {
+  - percentage: double
+  + applyPromotion(Product)
+  + getPercentage(): double
+}
+
+class FixedAmountDiscountStrategy {
+  - discountAmount: double
+  + applyPromotion(Product)
+  + getDiscountAmount(): double
+}
+
+class PromotionFactory {
+  + createPromotion(String, double): PromotionStrategy
+}
+
+class PromotionManager {
+  - instance: PromotionManager
+  - activePromotions: Map<Product, PromotionStrategy>
+  - products: List<Product>
+  + getInstance(): PromotionManager
+  + addProduct(Product)
+  + getProducts(): List<Product>
+  + addPromotion(Product, PromotionStrategy)
+  + getPromotion(Product): PromotionStrategy
+  + removePromotion(Product)
+  + applyPromotion(Product)
+  + calculateFinalPrice(Product): double
+  + filterProducts(String, Integer, Integer, Double): List<Product>
+  + applyPromotionToFilteredProducts(PromotionStrategy, String, Integer, Integer, Double)
+}
+
+class Main {
+  + main(String[])
+  + printMenu()
+  + createPromotion(Scanner, PromotionManager)
+  + applyPromotionToFilteredProducts(Scanner, PromotionManager)
+  + deletePromotion(Scanner, PromotionManager)
+  + seeProductDetails(Scanner, PromotionManager)
+  + printProductTypes(List<Product>)
+  + findProductByName(List<Product>, String): Product
+}
+
+Product "1" *-- "1" ProductBuilder
+PromotionStrategy <|-- PercentageDiscountStrategy
+PromotionStrategy <|-- FixedAmountDiscountStrategy
+PromotionFactory --> PromotionStrategy
+PromotionManager --> Product
+PromotionManager --> PromotionStrategy
+Main --> PromotionManager
+@enduml

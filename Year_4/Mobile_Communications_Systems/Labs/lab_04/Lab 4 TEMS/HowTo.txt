@@ -1,0 +1,2 @@
+Pentru a putea rula aplicatia TEMS pe un sistem de operare pe 64 biti, instalati in prealabil aplicatia Otvdm (OtvdmSetup.exe)
+In order tu run the TEMS tool over a 64-bits operating system, install first the Otvdm tool (OtvdmSetup.exe)

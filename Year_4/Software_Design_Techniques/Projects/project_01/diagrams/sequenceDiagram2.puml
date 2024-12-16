@@ -1,0 +1,21 @@
+@startuml Apply Promotion to Filtered Products
+actor User
+participant Main
+participant PromotionManager
+participant PromotionFactory
+participant Product
+
+User -> Main: Select "Apply Promotion to Filtered Products"
+Main -> User: Prompt for promotion type and value
+User -> Main: Enter promotion type and value
+Main -> PromotionFactory: createPromotion(type, value)
+PromotionFactory --> Main: PromotionStrategy
+
+Main -> User: Prompt for filter criteria
+User -> Main: Enter filter criteria
+Main -> PromotionManager: applyPromotionToFilteredProducts(promotion, productType, saleVolume, stock, price)
+PromotionManager -> PromotionManager: filterProducts(productType, saleVolume, stock, price)
+PromotionManager -> Product: applyPromotion(product)
+PromotionManager --> Main: 
+Main -> User: "Promotion applied to filtered products."
+@enduml
