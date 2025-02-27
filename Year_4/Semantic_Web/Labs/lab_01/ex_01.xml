@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE candidates SYSTEM "conditions.dtd">
+<candidates>
+    <candidate>
+        <name>John Doe</name> 
+        <currentJobTitle>Software Engineer</currentJobTitle>
+        <experiences>
+            <experience id="exp1">
+                <jobTitle>Junior Developer</jobTitle>
+                <company>ABC Corp</company>
+                <hiringPeriod>2018-2020</hiringPeriod>
+                <location>New York, NY</location>
+                <jobDescription>Worked on developing web applications using JavaScript and React.</jobDescription>
+            </experience>
+            <experience id="exp2">
+                <jobTitle>Software Engineer</jobTitle>
+                <company>XYZ Inc</company>
+                <hiringPeriod>2020-Present</hiringPeriod>
+                <location>San Francisco, CA</location>
+                <jobDescription>Leading a team of developers in building scalable backend services.</jobDescription>
+            </experience>
+        </experiences>
+        <education>
+            <educationEntry id="edu1">
+                <title>Bachelor of Science in Computer Science</title>
+                <schoolName>University of California, Berkeley</schoolName>
+                <location>Berkeley, CA</location>
+                <period>2014-2018</period>
+            </educationEntry>
+        </education>
+        <skills>
+            <skill>JavaScript</skill>
+            <skill>React</skill>
+            <skill>Node.js</skill>
+            <skill>Python</skill>
+        </skills>
+    </candidate>
+    <candidate>
+        <name>Jane Smith</name>
+        <currentJobTitle>Data Scientist</currentJobTitle>
+        <experiences>
+            <experience id="exp1">
+                <jobTitle>Data Analyst</jobTitle>
+                <company>Data Solutions</company>
+                <hiringPeriod>2017-2019</hiringPeriod>
+                <location>Chicago, IL</location>
+                <jobDescription>Analyzed large datasets to provide insights and recommendations.</jobDescription>
+            </experience>
+            <experience id="exp2">
+                <jobTitle>Data Scientist</jobTitle>
+                <company>Tech Innovations</company>
+                <hiringPeriod>2019-Present</hiringPeriod>
+                <location>Boston, MA</location>
+                <jobDescription>Developing machine learning models to improve product recommendations.</jobDescription>
+            </experience>
+        </experiences>
+        <education>
+            <educationEntry id="edu1">
+                <title>Master of Science in Data Science</title>
+                <schoolName>Massachusetts Institute of Technology</schoolName>
+                <location>Cambridge, MA</location>
+                <period>2015-2017</period>
+            </educationEntry>
+        </education>
+        <skills>
+            <skill>Python</skill>
+            <skill>R</skill>
+            <skill>Machine Learning</skill>
+            <skill>Data Visualization</skill>
+        </skills>
+    </candidate>
+</candidates>

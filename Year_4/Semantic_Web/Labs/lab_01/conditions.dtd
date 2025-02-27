@@ -1,0 +1,20 @@
+<!ELEMENT candidates (candidate+)>
+<!ELEMENT candidate (name, currentJobTitle, experiences, education, skills)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT currentJobTitle (#PCDATA)>
+<!ELEMENT experiences (experience+)>
+<!ELEMENT experience (jobTitle, company, hiringPeriod, location, jobDescription)>
+<!ATTLIST experience id CDATA #REQUIRED>
+<!ELEMENT jobTitle (#PCDATA)>
+<!ELEMENT company (#PCDATA)>
+<!ELEMENT hiringPeriod (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT jobDescription (#PCDATA)>
+<!ELEMENT education (educationEntry+)>
+<!ELEMENT educationEntry (title, schoolName, location, period)>
+<!ATTLIST educationEntry id CDATA #REQUIRED>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT schoolName (#PCDATA)>
+<!ELEMENT period (#PCDATA)>
+<!ELEMENT skills (skill+)>
+<!ELEMENT skill (#PCDATA)>

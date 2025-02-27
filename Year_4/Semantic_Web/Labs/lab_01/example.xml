@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <courses>
+        <course>
+            <name>Calculus</name>
+            <instructor>Olteanu Mircea</instructor>
+            <classroom>AN024</classroom>
+            <studentgroups>
+            <studentgroup code="1211" specialization="computerScience" year="1"
+            stream="English"></studentgroup>
+            </studentgroups>
+            <semester>1</semester>
+            <schedule>
+            <day>Monday</day>
+            <hours>10-12</hours>
+            </schedule>
+        </course>
+        <course>
+            <name>Web Application Development</name>
+            <instructor>Vasilateanu Andrei</instructor>
+            <classroom>CJ201</classroom>
+            <studentgroups>
+                <studentgroup code="1231" specialization="computerScience" year="3"
+                stream="English"></studentgroup>
+            </studentgroups>
+            <semester>2</semester>
+            <schedule>
+            <day>Tuesday</day>
+            <hours>14-16</hours>
+            </schedule>
+        </course>
+        <course>
+            <name>Software Development Methods</name>
+            <instructor>Serbanati Luca</instructor>
+            <classroom>CJ201</classroom>
+            <studentgroups>
+                <studentgroup code="1231" specialization="computerScience" year="3"
+                    stream="English"></studentgroup>
+            </studentgroups>
+            <semester>2</semester>
+            <schedule>
+            <day>Wednesday</day>
+            <hours>16-18</hours>
+            </schedule>
+        </course>
+        <course>
+            <name>Semantic Web</name>
+            <instructor>Maria Dascalu</instructor>
+            <instructor>Popescu Alina</instructor>
+            <instructor>Ionescu Andreea</instructor>
+            <classroom>CJ101</classroom>
+            <studentgroups>
+                <studentgroup code="1241" specialization="computerScience" year="4"
+                stream="English"></studentgroup>
+            </studentgroups>
+            <semester>2</semester>
+            <schedule>
+            <day>Thursday</day>
+            <hours>11-14</hours>
+            </schedule>
+        </course>
+    </courses>
