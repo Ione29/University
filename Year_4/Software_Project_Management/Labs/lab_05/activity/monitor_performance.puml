@@ -1,0 +1,11 @@
+@startuml
+title Monitor Performance Activity Diagram
+start
+:Developer accesses performance dashboard;
+:Dashboard requests performance metrics from Monitoring System;
+:Monitoring System queries database;
+:Database returns performance data;
+:Monitoring System sends metrics to dashboard;
+:Dashboard displays performance metrics;
+stop
+@enduml

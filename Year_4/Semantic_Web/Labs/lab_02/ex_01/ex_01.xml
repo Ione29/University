@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<movies>
+    <movie>
+        <title>Titanic</title>
+        <director>James Cameron</director>
+        <actors>
+            <actor>
+                <name>Leonardo DiCaprio</name>
+            </actor>
+            <actor>
+                <name>Kate Winslet</name>
+            </actor>
+        </actors>
+        <year>1997</year>
+        <cinema_halls>
+            <hall>
+                <id>1</id>
+                <chair_type>Standard</chair_type>
+                <capacity>75</capacity>
+            </hall>
+            <hall>
+                <id>2</id>
+                <chair_type>VIP</chair_type>
+                <capacity>50</capacity>
+            </hall>
+        </cinema_halls>
+        <synopsis>A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.</synopsis>
+        <schedules>
+            <schedule>
+                <date>2025-03-20</date>
+                <hours>
+                    <hour>12:00</hour>
+                    <hour>14:00</hour>
+                </hours>
+            </schedule>
+            <schedule>
+                <date>2025-03-21</date>
+                <hours>
+                    <hour>18:00</hour>
+                    <hour>22:00</hour>
+                </hours>
+            </schedule>
+        </schedules>
+        <genre>Drama</genre>
+    </movie>
+
+    <movie>
+        <title>Baby Driver</title>
+        <director>Edgar Wright</director>
+        <actors>
+            <actor>
+                <name>Ansel Elgort</name>
+            </actor>
+            <actor>
+                <name>Jon Bernthal</name>
+            </actor>
+        </actors>
+        <year>2017</year>
+        <cinema_halls>
+            <hall>
+                <id>3</id>
+                <chair_type>VIP</chair_type>
+                <capacity>100</capacity>
+            </hall>
+        </cinema_halls>
+        <schedules>
+            <schedule>
+                <date>2025-03-20</date>
+                <hours>
+                    <hour>18:00</hour>
+                </hours>
+            </schedule>
+        </schedules>
+        <genre>Action</genre>
+    </movie>
+
+    <movie>
+        <title>Forrest Gump</title>
+        <director>Robert Zemeckis</director>
+        <actors>
+            <actor>
+                <name>Tom Hanks</name>
+            </actor>
+            <actor>
+                <name>Robin Wright</name>
+            </actor>
+        </actors>
+        <year>1994</year>
+        <cinema_halls>
+            <hall>
+                <id>4</id>
+                <chair_type>Mesh Fabric</chair_type>
+                <capacity>100</capacity>
+            </hall>
+        </cinema_halls>
+        <schedules>
+            <schedule>
+                <date>2025-03-22</date>
+                <hours>
+                    <hour>18:00</hour>
+                </hours>
+            </schedule>
+        </schedules>
+        <genre>Drama</genre>
+    </movie>
+</movies>

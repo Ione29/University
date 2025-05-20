@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dvds>
+    <dvd year="1997">
+        <title>Titanic</title>
+        <director>Cameron</director>
+        <productionCompany>Twentieth Century Fox Film Corporation</productionCompany>
+        <price>25.50</price>
+    </dvd>
+    <dvd year="2009">
+        <title>Avatar</title>
+        <director>Cameron</director>
+        <productionCompany>Twentieth Century Fox Film Corporation</productionCompany>
+        <price>35.20</price>
+    </dvd>
+    <dvd year="2002">
+        <title>Die Another Day</title>
+        <director>Tamahori</director>
+        <productionCompany>Eon Productions</productionCompany>
+        <price>15.45</price>
+    </dvd>
+    <dvd year="1999">
+        <title>Gone with the Wind</title>
+        <director>Fleming</director>
+        <director>Cukor</director>
+        <productionCompany>Selznick International Pictures</productionCompany>
+        <price>29.55</price>
+    </dvd>
+    <dvd year="1995">
+        <title>GoldenEye</title>
+        <writer> Fleming <affiliation>WGA</affiliation>
+        </writer>
+        <productionCompany>Eon Productions</productionCompany>
+        <price>19.95</price>
+    </dvd>
+</dvds>

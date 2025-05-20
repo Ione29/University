@@ -1,0 +1,11 @@
+@startuml
+title Join Server Activity Diagram
+start
+:User searches server or uses invite link;
+:System verifies server existence;
+:Database returns server details;
+:User sends join request;
+:Server confirms join;
+:Database updates membership;
+stop
+@enduml

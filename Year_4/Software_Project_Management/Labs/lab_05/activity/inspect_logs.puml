@@ -1,0 +1,10 @@
+@startuml
+title Inspect Logs Activity Diagram
+start
+:Server Admin navigates to log section;
+:Server requests log type from Log Management System;
+:Log Management System queries database;
+:Database returns log data;
+:Logs displayed to Server Admin;
+stop
+@enduml

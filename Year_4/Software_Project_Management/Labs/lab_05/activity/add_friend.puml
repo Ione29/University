@@ -1,0 +1,11 @@
+@startuml
+title Add Friend Activity Diagram
+start
+:User searches for another user;
+:System queries database for user details;
+:Database returns user details;
+:User sends friend request;
+:System stores request in database;
+:Notification System alerts user;
+stop
+@enduml

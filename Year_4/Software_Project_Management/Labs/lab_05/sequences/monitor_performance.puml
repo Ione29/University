@@ -1,0 +1,13 @@
+@startuml Monitor System Performance Sequence Diagram
+actor "Developer" as D
+participant "Performance Dashboard" as PD
+participant "Monitoring System" as MS
+participant "Database" as DB
+
+D -> PD: Access performance dashboard
+PD -> MS: Request performance metrics
+MS -> DB: Query performance data
+DB -> MS: Return performance data
+MS -> PD: Display metrics
+PD -> D: Show performance insights
+@enduml

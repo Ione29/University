@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lab 3 - Cubes</title>
+    <meta name="description" content="Hello, WebVR! - A-Frame">
+    <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+        <a-light type="directional" position="0 5 5" intensity="1"></a-light>
+        <a-light type="ambient" intensity="0.5"></a-light>
+
+        <a-box position="0 0.5 -3" rotation="0 0 0" color="#000000" color-changer></a-box>
+
+        <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+        <a-sky color="#ECECEC"></a-sky>
+    </a-scene>
+
+    <script>
+        // Define a custom component to change the color gradually and loop
+        AFRAME.registerComponent('color-changer', {
+            schema: {
+                step: { type: 'number', default: 0.01 } // Increment step for color change
+            },
+            init: function () {
+                this.colorValue = 0; // Start with black (#000000)
+                this.direction = 1; // 1 for increasing, -1 for decreasing
+            },
+            tick: function () {
+                // Increment or decrement the color value based on direction
+                this.colorValue += this.data.step * this.direction;
+
+                // Reverse direction if limits are reached
+                if (this.colorValue >= 1) {
+                    this.colorValue = 1;
+                    this.direction = -1; // Start decreasing
+                } else if (this.colorValue <= 0) {
+                    this.colorValue = 0;
+                    this.direction = 1; // Start increasing
+                }
+
+                // Convert the color value to a hex string
+                const hexColor = `#${this.toHex(this.colorValue)}${this.toHex(this.colorValue)}${this.toHex(this.colorValue)}`;
+
+                // Set the new color on the entity
+                this.el.setAttribute('color', hexColor);
+            },
+            toHex: function (value) {
+                // Convert a 0-1 value to a 2-digit hex string
+                const hex = Math.floor(value * 255).toString(16);
+                return hex.length === 1 ? '0' + hex : hex;
+            }
+        });
+    </script>
+</body>
+
+</html>

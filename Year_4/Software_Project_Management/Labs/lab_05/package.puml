@@ -1,0 +1,35 @@
+@startuml BlockCord Package Diagram
+skinparam packageStyle rectangle
+
+package "BlockCord System" {
+    package "User Management" {
+        class "Log In"
+        class "Create Account"
+        class "Delete Account"
+    }
+    package "Messaging" {
+        class "Send Message"
+        class "Add Friend"
+        class "Join Server"
+    }
+    package "Server Administration" {
+        class "Inspect Logs"
+        class "Kick Server Member"
+        class "Ban Server Member"
+        class "Create Channel"
+        class "Create Channel Category"
+        class "Modify Server Settings"
+    }
+    package "Developer Tools" {
+        class "Delete Communities"
+        class "Monitor System Performance"
+    }
+}
+
+"Log In" --> "Send Message"
+"Create Account" --> "Add Friend"
+"Join Server" --> "Send Message"
+"Inspect Logs" --> "Kick Server Member"
+"Kick Server Member" --> "Ban Server Member"
+"Create Channel" --> "Create Channel Category"
+@enduml

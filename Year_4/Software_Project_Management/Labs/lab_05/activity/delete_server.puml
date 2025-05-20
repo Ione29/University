@@ -1,0 +1,11 @@
+@startuml
+title Delete Server Activity Diagram
+start
+:Developer identifies community to delete;
+:Community Management System queries community data;
+:Database returns community data;
+:Developer confirms deletion;
+:Community Management System removes community data;
+:Database confirms deletion;
+stop
+@enduml

@@ -1,0 +1,13 @@
+@startuml Send Message Sequence Diagram
+actor "Normal User" as NU
+participant "Chat Interface" as CI
+participant "Server" as S
+participant "Database" as DB
+
+NU -> CI: Select chat or server channel
+NU -> CI: Type message
+CI -> S: Send message
+S -> DB: Store message securely
+S -> CI: Display message in chat interface
+CI -> NU: Message sent confirmation
+@enduml

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lab 2 - Lab Room</title>
+    <meta name="description" content="Hello, WebVR! - A-Frame">
+    <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
+    <script src="resources/human/aframe-extras.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+        <a-assets>
+            <a-asset-item id = "chair" src = "resources/chair/chair.gltf"></a-asset-item>
+            <a-asset-item id = "desk" src = "resources/desk/desk.gltf"></a-asset-item>
+            <a-asset-item id = "computer" src = "resources/computer/computer.gltf"></a-asset-item>
+            <a-asset-item id = "human" src="resources/human/RiggedFigure.gltf"></a-asset-item>
+        </a-assets>
+
+        <a-entity gltf-model ="#chair" position = "0 1 0" scale = "0.05 0.05 0.05s"></a-entity>
+        <a-entity gltf-model ="#desk" position = "-2 0 0" scale = "0.02 0.02 0.02s" rotation = "0 90 0"></a-entity>
+        <a-entity gltf-model ="#computer" position = "-2 1 0" scale = "0.5 0.5 0.5" rotation = "0 90 0"></a-entity>
+        <a-entity gltf-model ="#human" position = "0 1 0" rotation = "0 -90 0" animation-mixer="loop: pingpong"/></a-entity>
+        
+        <a-light type="directional" position="0 5 5" intensity="1"></a-light>
+        <a-light type="ambient" intensity="0.5"></a-light>
+
+        <!-- floor + skybox -->
+        <a-plane position="0 0 0" rotation="-90 0 0" width="20" height="20" color="#7BC8A4" src = "resources/photos/oak_floor.png"></a-plane>
+        <a-sky color="#ECECEC" src = "resources/photos/skybox.jpg"></a-sky>
+    </a-scene>
+  </body>
+</html>

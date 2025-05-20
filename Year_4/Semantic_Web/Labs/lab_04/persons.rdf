@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ex="http://example.org/">
+
+  <rdf:Description rdf:about="http://example.org/StarTrekTNG">
+    <ex:title>Star Trek: The Next Generation</ex:title>
+    <ex:genre>Science Fiction</ex:genre>
+    <ex:actors>
+      <rdf:Bag>
+        <rdf:li rdf:resource="http://example.org/PatrickStewart"/>
+        <rdf:li rdf:resource="http://example.org/JonathanFrakes"/>
+        <rdf:li rdf:resource="http://example.org/LeVarBurton"/>
+      </rdf:Bag>
+    </ex:actors>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/PatrickStewart">
+    <ex:playedRole rdf:resource="http://example.org/JeanLucPicard"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/JonathanFrakes">
+    <ex:playedRole rdf:resource="http://example.org/WilliamRiker"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/LeVarBurton">
+    <ex:playedRole rdf:resource="http://example.org/GeordiLaForge"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/JeanLucPicard">
+    <ex:roleName>Capt. Jean-Luc Picard</ex:roleName>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,45 @@
+@startuml
+entity "Users" {
+    * user_id : UUID
+    * username : String
+    * email : String
+    * password_hash : String
+    * created_at : DateTime
+}
+
+entity "Servers" {
+    * server_id : UUID
+    * server_name : String
+    * created_by : UUID
+    * created_at : DateTime
+}
+
+entity "Messages" {
+    * message_id : UUID
+    * content : Text
+    * sender_id : UUID
+    * server_id : UUID
+    * sent_at : DateTime
+}
+
+entity "Friends" {
+    * user_id : UUID
+    * friend_id : UUID
+    * status : String
+    * created_at : DateTime
+}
+
+entity "Logs" {
+    * log_id : UUID
+    * server_id : UUID
+    * action : String
+    * performed_by : UUID
+    * timestamp : DateTime
+}
+
+Users ||--o{ Servers : "creates"
+Users ||--o{ Messages : "sends"
+Servers ||--o{ Messages : "contains"
+Users ||--o{ Friends : "has"
+Servers ||--o{ Logs : "records"
+@enduml

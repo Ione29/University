@@ -1,0 +1,14 @@
+@startuml Add Friend Sequence Diagram
+actor "Normal User" as NU
+participant "User Search System" as USS
+participant "Notification System" as NS
+participant "Database" as DB
+
+NU -> USS: Search for user by username/ID
+USS -> DB: Query user details
+DB -> USS: Return user details
+NU -> USS: Send friend request
+USS -> NS: Notify recipient of friend request
+NS -> NU: Notify sender of request status (accepted/declined)
+NS -> DB: Update friend list if accepted
+@enduml

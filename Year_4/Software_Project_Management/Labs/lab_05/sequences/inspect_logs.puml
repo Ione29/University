@@ -1,0 +1,13 @@
+@startuml Inspect Logs Sequence Diagram
+actor "Server Admin" as SA
+participant "Server" as S
+participant "Log Management System" as LMS
+participant "Database" as DB
+
+SA -> S: Navigate to log section
+S -> LMS: Request specific log type
+LMS -> DB: Query logs
+DB -> LMS: Return log data
+LMS -> S: Display logs
+S -> SA: Show requested logs
+@enduml

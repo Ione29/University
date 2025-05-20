@@ -1,0 +1,4 @@
+1. for $dvd in //DVD order by $dvd/Price return $dvd/Title
+2. //dvd[director='Cameron']/title/text()
+3. count(//dvd[director='Cameron'])
+4. for $d in distinct-values(//dvd/director) return concat($d, ': ', count(//dvd[director=$d]))

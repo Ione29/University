@@ -1,0 +1,11 @@
+@startuml
+title Send Message Activity Diagram
+start
+:User selects chat or server channel;
+:User types message;
+:Chat Interface sends message to server;
+:Server stores message in database;
+:Server confirms message to interface;
+:Message appears in chat;
+stop
+@enduml

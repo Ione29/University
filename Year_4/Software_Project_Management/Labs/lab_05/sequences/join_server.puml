@@ -1,0 +1,15 @@
+@startuml Join Server Sequence Diagram
+actor "Normal User" as NU
+participant "Server Search System" as SSS
+participant "Server" as S
+participant "Database" as DB
+
+NU -> SSS: Search for server or use invite link
+SSS -> DB: Verify server existence
+DB -> SSS: Return server details
+NU -> S: Request to join server
+S -> DB: Verify permissions (public/invite-only)
+DB -> S: Permission check result
+S -> NU: Add user to server if allowed
+S -> DB: Update server member list
+@enduml

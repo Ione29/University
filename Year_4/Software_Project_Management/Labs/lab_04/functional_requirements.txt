@@ -1,0 +1,77 @@
+Lab4 HW
+A. Normal User Functional Requirements
+    1. User Account Creation
+        ◦ The system must allow a new user to register by creating an account using decentralized blockchain credentials.
+        ◦ User credentials must be securely stored and linked to a unique blockchain identifier.
+    2. User Login
+        ◦ The system must allow registered users to log in securely using blockchain verification.
+        ◦ If credentials are valid, the system should grant access to user-specific data and features.
+    3. Send Message
+        ◦ The system must allow users to send messages to other users or within server channels.
+        ◦ Messages must be delivered in real-time and stored securely.
+        ◦ The user must be logged in and have access to the recipient via friendship or server membership.
+    4. Add Friend
+        ◦ The system must allow users to search for other users using a unique username or ID.
+        ◦ The system must enable sending, receiving, accepting, or declining friend requests.
+        ◦ Upon acceptance, both users are added to each other’s friend list.
+    5. Delete Account
+        ◦ The system must allow users to permanently delete their account.
+        ◦ All associated data including messages, friend lists, and server memberships must be erased securely.
+    6. Join Server
+        ◦ The system must allow users to search for or join servers using invite links or search queries.
+        ◦ Permissions must be verified before allowing a user to join a server (e.g., public vs. invite-only).
+        ◦ Once joined, users must have access to server channels and content.
+
+B. Server Admin Functional Requirements
+    7. Inspect Logs
+        ◦ The system must provide server admins with access to activity logs including message history and member actions.
+        ◦ Logs must be filterable and accessible only by users with appropriate permissions.
+        ◦ No unauthorized access to logs is allowed.
+    8. Kick Server Member
+        ◦ The system must allow admins to remove members from the server temporarily.
+        ◦ The kicked member should lose access but may be re-invited later.
+    9. Ban Server Member
+        ◦ The system must allow admins to permanently ban members from the server.
+        ◦ Banned members must not be able to rejoin the server unless unbanned by the admin.
+    10. Create Channel
+    • The system must allow server admins to create new channels within a server.
+    • Admins must specify channel name, type (e.g., text, voice), and permission levels.
+    11. Create Channel Category
+    • The system must allow admins to create categories to organize channels.
+    • Channels must be assignable to categories after their creation.
+    12. Modify Server Settings
+    • The system must allow server admins to change server-wide settings.
+    • Settings may include server name, user roles, permission levels, and server visibility.
+C. Developer Functional Requirements
+    13. Delete Communities
+    • The system must allow developers to permanently delete communities from the platform.
+    • This action must remove all server data, channels, messages, and user associations.
+    14. Monitor System Performance
+    • The system must provide developers access to a performance monitoring dashboard.
+    • Metrics must include server load, response time, uptime, memory usage, and errors.
+    • Only developers with the right permissions should be able to access this data.
+
+
+Nonfunctional Requirements for BlockCord
+
+1. Security
+Security is a core aspect of BlockCord. The platform must implement strong yet lightweight security protocols that match its small-scale deployment. All communications should be secured using HTTPS (TLS), and user passwords must be hashed using secure algorithms such as bcrypt or Argon2. The decentralized identity verification mechanism, built on blockchain principles, should ensure that each user is uniquely identified in a tamper-proof way. This protects against impersonation and unauthorized access, which is especially important for privacy-conscious users, companies, and activists.
+2. Privacy
+Privacy is a top priority, especially considering that the platform is targeting users such as journalists, activists, and individuals concerned with digital surveillance. BlockCord must avoid collecting sensitive metadata like IP addresses, device fingerprints, or location information unless explicitly required. Users should have full control over their profile visibility, friend requests, and message history. Features like “invisible mode” or limiting discoverability should be considered. This aligns with the project’s values of digital freedom and user empowerment.
+3. Scalability
+While the platform is not expected to serve tens of thousands of users initially, it must still be scalable enough to handle your stated goal of 150 users and allow for moderate growth. The system should support up to 200 concurrent users using a basic cloud-hosted setup, such as a Docker-based deployment on a VPS or entry-level cloud instance. The backend should be modular and lightweight so it can be horizontally scaled if demand increases later.
+4. Availability
+BlockCord should aim for a minimum availability of 95% uptime during its early deployment. Although enterprise-level uptime (e.g., 99.99%) isn't realistic at this stage, the platform must still be dependable for daily use. Scheduled maintenance should be communicated clearly to users, and the app should include basic error handling to manage downtime gracefully. This builds user trust and demonstrates professionalism, even as a small project.
+5. Performance
+System performance must meet everyday usage needs without overloading server resources. Key user actions like login, message sending, and switching channels should respond within two seconds under normal load. Since users may be accessing the platform on a range of devices and internet connections, BlockCord should be optimized for both speed and minimal bandwidth usage. Delays should be minimized, and loading screens or notifications should inform users when actions are processing.
+6. Maintainability
+Given that the platform is being developed by a small team of two or three developers, maintainability is essential. The codebase must follow clean, modular design practices and be fully version-controlled using Git. Functions should be separated logically (e.g., messaging, authentication, server management) to simplify debugging and future feature additions. Documentation should be written as the project progresses to help onboard new developers quickly
+7. Auditability
+To ensure transparency and accountability, all administrative and development-level actions must be logged. This includes operations such as banning users, modifying server settings, or deleting communities. Logs should be stored in a protected file or database, include a timestamp and actor ID, and be accessible only by users with proper permissions. This feature not only aids internal moderation but also strengthens trust among users and potential partners.
+8. Usability
+The interface should be designed to be intuitive, clean, and easy to navigate. Users should be able to learn how to use the platform with little to no instruction. Onboarding tutorials or quick-start guides should be provided upon account creation. Accessibility standards (such as text contrast and keyboard navigation) should be followed, and the interface should be responsive for mobile and desktop use. This is critical for attracting and retaining new users who may be unfamiliar with blockchain-based apps.
+
+9. Interoperability
+Although BlockCord is not yet at the stage of deep third-party integrations, it should be built with future interoperability in mind. The system should follow RESTful API conventions and use data formats like JSON for ease of extension. External storage services (e.g., Firebase, AWS S3) can be used for storing media or logs. Designing the system this way now avoids reengineering later when additional tools or services are integrated.
+10. Compliance Readiness
+Full regulatory compliance (e.g., with GDPR or CCPA) may not be a legal necessity yet, but BlockCord should adopt a compliance-friendly architecture. This includes allowing users to delete their accounts and all associated data, displaying a clear and simple privacy policy, and avoiding the use of cookies or trackers without user consent. These features signal ethical development practices and prepare the system for scale-up in regulated markets.

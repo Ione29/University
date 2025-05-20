@@ -1,0 +1,12 @@
+@startuml Delete SequenceDividerBorderThickness Sequence Diagram
+actor "Developer" as D
+participant "server Management System" as CMS
+participant "Database" as DB
+
+D -> CMS: Identify server to delete
+CMS -> DB: Query server data
+DB -> CMS: Return server data
+D -> CMS: Confirm deletion
+CMS -> DB: Remove server and its data
+CMS -> D: Deletion confirmation
+@enduml

@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+  <h2>{{ book.findtext('title') }}</h2>
+  <p><strong>Themes:</strong>
+    {{ book.find('themes/theme[1]').text }},
+    {{ book.find('themes/theme[2]').text }}
+  </p>
+  <p><strong>Reading Level:</strong>
+    {{ book.findtext('readingLevel') }}
+  </p>
+  <p><strong>ID:</strong> {{ book.get('id') }}</p>
+{% endblock %}

@@ -1,0 +1,17 @@
+<students>
+    <student id="1">
+        <firstName nickname="Aga">Agamemnon</firstName>
+        <lastName>Dandanache</lastName>
+        <location>Romania</location>
+    </student>
+    <student id="2">
+        <firstName nickname="Ferro">Ferrero</firstName>
+        <lastName>Rocher</lastName>
+        <location>Italy</location>
+    </student>
+    <student id="3">
+        <firstName nickname="Leana">Ileana</firstName>
+        <lastName>Cosanzeana</lastName>
+        <location>FairyTaleLand</location>
+    </student>
+</students>

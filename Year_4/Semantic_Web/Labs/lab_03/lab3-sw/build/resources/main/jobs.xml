@@ -1,0 +1,7 @@
+<jobs>
+    <job priority="critical" name="Müll rausbringen" />
+    <job priority="low" name="Möbel säubern" />
+    <job priority="low" name="Teppich reinigen" />
+    <job priority="medium" name="Fenster putzen" />
+    <job priority="high" name="Pflanzen gießen" />
+</jobs>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lab 1 - Stickman</title>
+    <meta name="description" content="Hello, WebVR! - A-Frame">
+    <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+        <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+
+        <!-- LEGS -->
+        <a-cylinder position = "-0.10 1 -4" rotation = "0 0 -15" height="0.5" radius = "0.03" color="#000000"></a-cylinder>
+        <a-cylinder position = "0.10 1 -4" rotation = "0 0 15" height="0.5" radius = "0.03" color="#000000"></a-cylinder>
+      
+        <!-- TRUNK -->
+        <a-cylinder position = "0 1.5 -4" rotation = "0 0 0" height="0.5" radius = "0.03" color="#000000"></a-cylinder>
+        
+        <!-- ARMS -->
+        <a-cylinder position = "-0.10 1.5 -4" rotation = "0 0 -15" height="0.5" radius = "0.03" color="#000000"></a-cylinder>
+        <a-cylinder position = "0.10 1.5 -4" rotation = "0 0 15" height="0.5" radius = "0.03" color="#000000"></a-cylinder>
+
+        <!-- HEAD -->
+        <a-ring position = "0 2 -4" radius-inner="0.25" radius-outer="0.3" color = "black"></a-ring>
+
+
+
+        <a-sky color="#ECECEC"></a-sky>
+    </a-scene>
+  </body>
+</html>

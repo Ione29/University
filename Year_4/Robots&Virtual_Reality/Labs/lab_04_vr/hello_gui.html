@@ -1,0 +1,125 @@
+<html>
+  <head>
+    <title>Lab 4</title>
+
+    <script src="js/aframe.min.js"></script>
+    <script src="js/aframe-extras.min.js"></script>
+    <script src="js/aframe-gui.min.js"></script>
+
+    <script>
+  let colorChangeCount = 0;
+  const maxChanges = 2;
+
+  function changeColor(colorName, colorValue) {
+    if (colorChangeCount >= maxChanges) {
+      console.log("Color change limit reached.");
+      return; // Prevent further changes
+    }
+
+    const label = document.getElementById("color_label");
+    const cube = document.getElementById("primitive");
+
+    // Change the cube's color and update the label
+    cube.setAttribute("material", "color", colorValue);
+    label.setAttribute("text", "value", colorName);
+
+    // Increment the color change count
+    colorChangeCount++;
+
+    // Disable buttons if the limit is reached
+    if (colorChangeCount >= maxChanges) {
+      disableButtons();
+    }
+  }
+
+  function disableButtons() {
+    const buttons = document.querySelectorAll("a-gui-button");
+    buttons.forEach((button) => {
+      button.removeAttribute("onclick"); // Disable the button
+      button.setAttribute("background-color", "#888"); // Change button color to indicate it's disabled
+    });
+  }
+</script>
+  </head>
+
+  <body>
+    <a-scene>
+      <a-entity id="rig" movement-controls>
+        <a-entity camera position="0 1.6 0" look-controls="pointerLockEnabled: true">
+          <a-gui-cursor
+            id="cursor"
+            raycaster="objects: [gui-interactable]"
+            fuse="true"
+            fuse-timeout="2000"
+            design="dot"
+          >
+          </a-gui-cursor>
+        </a-entity>
+      </a-entity>
+
+      <a-assets>
+        <img id="grid" src="images/wood2.jpg" />
+      </a-assets>
+
+      <a-plane src="#grid" rotation="-90 0 0" width="30" height="30" repeat="5 5"></a-plane>
+      <a-sky color="#ABA"></a-sky>
+
+      <!-- White Cube Primitive -->
+      <a-box id="primitive" position="2 1 -2" color="#FFF" depth="1" height="1" width="1"></a-box>
+
+      <a-light type="ambient" color="#445451"></a-light>
+      <a-light type="point" intensity="1" position="-15 9.79 0"></a-light>
+
+      <!-- GUI Panel -->
+      <a-gui-flex-container
+        flex-direction="column"
+        justify-content="center"
+        align-items="normal"
+        component-padding="0.1"
+        opacity="0.7"
+        width="1.2"
+        height="2"
+        position="0 1.6 -2.4"
+        rotation="0 0 0"
+      >
+        <!-- Label -->
+        <a-gui-label
+          id="color_label"
+          width="1"
+          height="0.3"
+          value="Choose a color"
+          font-size="24px"
+          margin="0 0 0.1 0"
+        ></a-gui-label>
+
+        <!-- Buttons -->
+        <a-gui-button
+          width="0.8"
+          height="0.35"
+          value="Red"
+          background-color="red"
+          onclick="changeColor('Red', 'red')"
+          margin="0 0 0.05 0"
+        ></a-gui-button>
+
+        <a-gui-button
+          width="0.8"
+          height="0.35"
+          value="Green"
+          background-color="green"
+          onclick="changeColor('Green', 'green')"
+          margin="0 0 0.05 0"
+        ></a-gui-button>
+
+        <a-gui-button
+          width="0.8"
+          height="0.35"
+          value="Blue"
+          background-color="blue"
+          onclick="changeColor('Blue', 'blue')"
+          margin="0 0 0.05 0"
+        ></a-gui-button>
+      </a-gui-flex-container>
+    </a-scene>
+  </body>
+</html>

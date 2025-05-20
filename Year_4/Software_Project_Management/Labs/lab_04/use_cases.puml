@@ -1,0 +1,41 @@
+@startuml BlockCord Use Cases
+left to right direction
+skinparam packageStyle rectangle
+
+actor "Normal User" as NU
+actor "Server Admin" as SA
+actor "Developer" as D
+
+rectangle "BlockCord System" {
+    usecase "Log In" as UC1
+    usecase "Create Account" as UC2
+    usecase "Send Message" as UC4
+    usecase "Add Friend" as UC5
+    usecase "Delete Account" as UC6
+    usecase "Join Server" as UC7
+    usecase "Inspect Logs" as UC8
+    usecase "Kick Server Member" as UC9
+    usecase "Ban Server Member" as UC10
+    usecase "Create Channel" as UC11
+    usecase "Create Channel Category" as UC12
+    usecase "Modify Server Settings" as UC13
+    usecase "Restrict / Delete Communities" as UC14
+    usecase "Monitor System Performance" as UC15
+}
+
+NU --> UC1
+NU --> UC2
+NU --> UC4
+NU --> UC5
+NU --> UC6
+NU --> UC7
+
+SA --> UC8
+SA --> UC9
+SA --> UC10
+SA --> UC11
+SA --> UC12
+SA --> UC13
+
+D --> UC14
+D --> UC15

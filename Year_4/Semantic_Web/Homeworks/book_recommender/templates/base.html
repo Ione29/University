@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Homework 1</title>
+  <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+</head>
+<body>
+<header>
+  <h1>Book Recommender</h1>
+  <nav>
+    <a href="{{ url_for('display') }}">Home</a> |
+    <a href="{{ url_for('add_book') }}">Add Book</a> |
+    <a href="{{ url_for('add_user') }}">Add User</a> |
+    <a href="{{ url_for('rec_by_level') }}">By Level</a> |
+    <a href="{{ url_for('rec_by_level_theme') }}">Level &amp; Theme</a> |
+    <a href="{{ url_for('filter_theme') }}">By Theme</a>
+  </nav>
+  <hr>
+</header>
+<main>
+  {% block content %}{% endblock %}
+</main>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+  <h2>Books for {{ user.findtext('name') }} by Reading Level ({{ user.findtext('readingLevel') }})</h2>
+  <form method="post">
+    <label>Select user:</label>
+    <select name="user_id">
+      {% for u in users %}
+        <option value="{{ u.get('id') }}" {% if u.get('id') == selected %}selected{% endif %}>
+          {{ u.findtext('name') }} {{ u.findtext('surname') }}
+        </option>
+      {% endfor %}
+    </select>
+    <button>Show</button>
+  </form>
+  <ul>
+    {% for b in books %}
+      <li><a href="{{ url_for('book_detail', bid=b.get('id')) }}">
+         {{ b.findtext('title') }}
+      </a></li>
+    {% endfor %}
+    {% if not books %}<li>No matches.</li>{% endif %}
+  </ul>
+{% endblock %}

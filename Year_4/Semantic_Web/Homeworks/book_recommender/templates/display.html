@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+  <h2>All Books (styled by user’s reading level)</h2>
+  <form method="post">
+    <label>Select user:</label>
+    <select name="user_id">
+      {% for u in users %}
+        <option value="{{u.get('id')}}"
+          {% if u.get('id')==selected %}selected{% endif %}>
+          {{ u.findtext('name') }} {{ u.findtext('surname') }}
+        </option>
+      {% endfor %}
+    </select>
+    <button>Show</button>
+  </form>
+  <div>
+    {{ table_html|safe }}
+  </div>
+{% endblock %}

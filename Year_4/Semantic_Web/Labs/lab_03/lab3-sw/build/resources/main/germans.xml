@@ -1,0 +1,6 @@
+<persons>
+    <person firstName="Hans" lastName="Mustermann" age="28" />
+    <person firstName="Herbert" lastName="Möllemann" age="33" />
+    <person firstName="Peter" lastName="Meier" age="37" />
+    <person firstName="Ulrike" lastName="Albrecht" age="45" />
+</persons>
