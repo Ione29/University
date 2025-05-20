@@ -1,0 +1,6 @@
+1) create new private key:
+openssl genpkey -algorithm RSA -out certs/key.pem -pkeyopt rsa_keygen_bits:2048
+
+2) extract public key: 
+openssl rsa -in certs/key.pem -pubout -out certs/cert.pem
+
