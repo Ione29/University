@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+  <h2>Edit Book</h2>
+  {% if book %}
+    <form method="post">
+      <input type="hidden" name="book_id" value="{{ book.get('id') }}">
+      <p><label>Title: <input name="title" value="{{ book.findtext('title') }}"></label></p>
+      <p>Themes (pick exactly 2):</p>
+      {% for t in themes %}
+        <label>
+          <input type="checkbox" name="themes" value="{{t}}" 
+            {% if t in book_themes %}checked{% endif %}> 
+          {{t}}
+        </label><br>
+      {% endfor %}
+      <p><label>Reading Level:
+        <select name="readingLevel">
+          {% for l in levels %}
+            <option {% if l == book.findtext('readingLevel') %}selected{% endif %}>{{l}}</option>
+          {% endfor %}
+        </select>
+      </label></p>
+      <button>Update Book</button>
+    </form>
+  {% else %}
+    <p>Book not found.</p>
+  {% endif %}
+{% endblock %}

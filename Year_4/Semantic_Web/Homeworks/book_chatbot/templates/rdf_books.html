@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+{% block content %}
+  <h2>Book Management with RDF</h2>
+  
+  <div>
+    <h3>Search Books in RDF</h3>
+    <form method="post">
+      <input type="text" name="search_title" placeholder="Enter book title">
+      <button>Search</button>
+    </form>
+  </div>
+    {% if book %}
+    <div>
+      <h3>Book Details from RDF</h3>
+      <p><strong>Title:</strong> {{ book.title }}</p>
+      <p><strong>Genres:</strong> 
+        {% for genre in book.genres %}
+          {{ genre }}{% if not loop.last %}, {% endif %}
+        {% endfor %}
+      </p>
+      <p><strong>Reading Level:</strong> {{ book.level }}</p>
+      
+      <!-- Edit Book Form -->
+      <div style="margin-top: 20px; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+        <h4>Edit Book</h4>
+        <form method="post">
+          <input type="hidden" name="action" value="update">
+          <input type="hidden" name="book_title" value="{{ book.title }}">
+          
+          <div style="margin-bottom: 10px;">
+            <label><strong>Themes (select exactly 2):</strong></label><br>
+            {% for t in themes %}
+              <label style="margin-right: 10px;">
+                <input type="checkbox" name="themes" value="{{t}}"
+                  {% if t in book.genres %}checked{% endif %}>
+                {{t}}
+              </label>
+            {% endfor %}
+          </div>
+          
+          <div style="margin-bottom: 10px;">
+            <label><strong>Reading Level:</strong>
+              <select name="reading_level">
+                {% for l in levels %}
+                  <option {% if l == book.level %}selected{% endif %}>{{l}}</option>
+                {% endfor %}
+              </select>
+            </label>
+          </div>
+          
+          <button type="submit">Update Book</button>
+        </form>
+      </div>
+    </div>
+    
+    {% if update_success %}
+      <div style="margin-top: 10px; padding: 10px; background-color: #dff0d8; color: #3c763d; border-radius: 5px;">
+        Book updated successfully!
+      </div>
+    {% endif %}
+  {% elif title %}
+    <p>No book found with title "{{ title }}"</p>
+  {% endif %}
+  
+  <div>
+    <h3>Available Books in RDF</h3>
+    {% if titles %}
+      <ul>
+        {% for title in titles %}
+          <li>
+            <form method="post" style="display: inline;">
+              <input type="hidden" name="search_title" value="{{ title }}">
+              <button style="background: none; border: none; color: blue; text-decoration: underline; cursor: pointer;">{{ title }}</button>
+            </form>
+          </li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p>No books found in RDF database.</p>
+    {% endif %}
+  </div>
+    <p>
+    <a href="{{ url_for('add_book_rdf') }}" class="button">Add New Book with RDF</a>
+    <a href="{{ url_for('test_book_operations') }}" class="button">Run Test Operations</a>
+  </p>
+{% endblock %}

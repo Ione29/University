@@ -1,0 +1,46 @@
+PREFIX ex: <http://example.org/ontology#>
+
+SELECT ?book ?genre
+WHERE {
+  ?book a ex:Book .
+  ?book ex:hasGenre ?genre .
+}
+
+PREFIX ex: <http://example.org/ontology#>
+
+SELECT ?book
+WHERE {
+  ?book a ex:Book .
+  ?book ex:hasReadingLevel ex:Beginner .
+}
+
+PREFIX ex: <http://example.org/ontology#>
+
+SELECT ?user ?theme
+WHERE {
+  ?user a ex:User .
+  ?user ex:hasPreferredTheme ?theme .
+}
+
+PREFIX ex: <http://example.org/ontology#>
+
+SELECT ?book
+WHERE {
+  ex:Bob ex:hasPreferredTheme ?theme .
+  ex:Bob ex:userReadingLevel ?level .
+  ?book a ex:Book .
+  ?book ex:hasGenre ?theme .
+  ?book ex:hasReadingLevel ?level .
+}
+
+PREFIX ex: <http://example.org/ontology#>
+
+SELECT ?user
+WHERE {
+  ?user a ex:User .
+  ?user ex:hasPreferredTheme ?theme .
+  ?user ex:userReadingLevel ?level .
+
+  ex:HungerGames ex:hasGenre ?theme .
+  ex:HungerGames ex:hasReadingLevel ?level .
+}

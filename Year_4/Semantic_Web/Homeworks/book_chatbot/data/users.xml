@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<users>
+  <user id="1">
+    <name>Beginner</name>
+    <surname>Science Fiction</surname>
+    <readingLevel>Beginner</readingLevel>
+    <preferredTheme>Science Fiction</preferredTheme>
+  </user>
+  <user id="2">
+    <name>Advanced</name>
+    <surname>Fantasy</surname>
+    <readingLevel>Advanced</readingLevel>
+    <preferredTheme>Fantasy</preferredTheme>
+  </user>
+  <user id="3">
+    <name>Intermediate</name>
+    <surname>Romance</surname>
+    <readingLevel>Intermediate</readingLevel>
+    <preferredTheme>Romance</preferredTheme>
+  </user>
+</users>

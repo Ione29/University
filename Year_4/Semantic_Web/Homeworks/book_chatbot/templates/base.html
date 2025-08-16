@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Homework 1</title>
+  <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+</head>
+
+<body>
+  <header>
+    <h1>Book Recommender</h1>
+    <nav>
+      <a href="{{ url_for('display') }}">Home</a> |
+      <a href="{{ url_for('add_book') }}">Add Book</a> |
+      <a href="{{ url_for('add_user') }}">Add User</a> |
+      <a href="{{ url_for('rec_by_level') }}">By Level</a> |
+      <a href="{{ url_for('rec_by_level_theme') }}">Level &amp; Theme</a> |
+      <a href="{{ url_for('filter_theme') }}">By Theme</a> |
+      <a href="{{ url_for('rdf_visualize') }}">RDF Visualize</a> |
+      <a href="{{ url_for('rdf_books') }}">RDF Books</a>
+    </nav>
+    <hr>
+  </header>
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+  <!-- Floating Chat Widget -->
+  <div id="chatbot-widget" style="position:fixed;bottom:20px;right:20px;width:350px;z-index:9999;">
+    <div id="chat-header" style="background:#333;color:#fff;padding:10px;cursor:pointer;">Book Chatbot</div>
+    <div id="chat-body" style="background:#fff;border:1px solid #333;height:300px;overflow-y:auto;display:none;"></div>
+    <div id="chat-input" style="display:none;">
+      <input type="text" id="chat-message" style="width:80%;">
+      <button onclick="sendChat()">Send</button>
+    </div>
+  </div>
+  <script>
+    // Context for chat starters
+    window.bookChatContext = {
+    {% if book_title %}
+      page: "book_detail",
+      book_title: {{ book_title|tojson }},
+      book_themes: {{ book_themes|tojson }},
+    {% elif is_book_list %}
+      page: "book_list",
+    {% else %}
+      page: "other",
+    {% endif %}
+    {% if selected %}
+      user_id: {{ selected|tojson }},
+    {% endif %}
+    {% if user_level %}
+      user_level: {{ user_level|tojson }},
+    {% endif %}
+    {% if user_theme %}
+      user_theme: {{ user_theme|tojson }},
+    {% endif %}
+    {% if user_name %}
+      user_name: {{ user_name|tojson }},
+    {% endif %}
+  };
+</script>
+<script>
+  document.getElementById('chat-header').onclick = function() {
+    let body = document.getElementById('chat-body');
+    let input = document.getElementById('chat-input');
+    let show = body.style.display === 'none';
+    body.style.display = show ? 'block' : 'none';
+    input.style.display = show ? 'block' : 'none';
+    if (show && body.innerHTML.trim() === '') {
+      // Context-aware starters
+      let starters = [];
+      if (window.bookChatContext && window.bookChatContext.page === "book_detail") {
+        let title = window.bookChatContext.book_title;
+        starters = [
+          `What is the genre of "${title}"?`,
+          `Who is the author of "${title}"?`,
+          `Can you recommend similar books to "${title}"?`
+        ];
+      } else if (window.bookChatContext && window.bookChatContext.page === "book_list") {
+        // Personalized starters based on user preferences
+        if (window.bookChatContext.user_level || window.bookChatContext.user_theme) {
+          const level = window.bookChatContext.user_level || "Intermediate";
+          const theme = window.bookChatContext.user_theme || "Science Fiction";
+          starters = [
+            `Show me ${level} level books in this list`,
+            `What books have the theme ${theme}?`,
+            `Which ${level} book with ${theme} theme would you recommend?`
+          ];
+        } else {
+          starters = [
+            "What is a book that I am most likely to enjoy from this list?",
+            "Which book is best for a beginner?",
+            "Show me a book with the theme Science Fiction."
+          ];
+        }
+      } else {
+        starters = [
+          "Recommend me a book.",
+          "Find a book by theme.",
+          "Who wrote Harry Potter?"
+        ];
+      }
+      body.innerHTML = `<div>Try asking:</div>
+      <ul>
+        ${starters.map(s => `<li><a href="#" onclick="setChat('${s.replace(/'/g, "\\'")}');return false;">${s}</a></li>`).join('')}
+      </ul>`;
+    }
+  };
+
+   function setChat(msg) {
+    const input = document.getElementById('chat-message');
+    if (input) {
+      input.value = msg;
+      input.focus();
+    }
+  }
+
+  function sendChat() {
+    let msg = document.getElementById('chat-message').value;
+    let body = document.getElementById('chat-body');
+    body.innerHTML += `<div><b>You:</b> ${msg}</div>`;
+    
+    // Get user context if available
+    let userContext = {};
+    if (window.bookChatContext) {
+      if (window.bookChatContext.user_id) userContext.user_id = window.bookChatContext.user_id;
+      if (window.bookChatContext.user_level) userContext.user_level = window.bookChatContext.user_level;
+      if (window.bookChatContext.user_theme) userContext.user_theme = window.bookChatContext.user_theme;
+      if (window.bookChatContext.user_name) userContext.user_name = window.bookChatContext.user_name;
+    }
+    
+    fetch('/chat_api', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({
+        message: msg,
+        user_context: userContext
+      })
+    }).then(r=>r.json()).then(data=>{
+      body.innerHTML += `<div><b>Bot:</b> ${data.answer}</div>`;
+      body.scrollTop = body.scrollHeight;
+    });
+    document.getElementById('chat-message').value = '';
+  }
+
+  // New function - handle user selection change
+  document.addEventListener('DOMContentLoaded', function() {
+    const userSelect = document.getElementById('user-selector');
+    if (userSelect) {
+      userSelect.addEventListener('change', function() {
+        // Update bookChatContext when user changes
+        fetch(`/get_user_preferences?user_id=${this.value}`)
+          .then(r => r.json())
+          .then(data => {
+            window.bookChatContext.user_id = this.value;
+            window.bookChatContext.user_level = data.level;
+            window.bookChatContext.user_theme = data.theme;
+            window.bookChatContext.user_name = data.name;
+            
+            // Clear chat body to regenerate starters on next open
+            document.getElementById('chat-body').innerHTML = '';
+          });
+      });
+    }
+  });
+</script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+  <h2>{{ title }}</h2>
+  
+  <div class="results">
+    <h3>Test Results:</h3>
+    <ul>
+      {% for result in results %}
+        <li>{{ result }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  
+  <div class="actions">
+    <h3>Actions:</h3>
+    <ul>
+      <li><a href="{{ url_for('rdf_books') }}" class="button">View All Books in RDF</a></li>
+      <li><a href="{{ url_for('test_book_operations') }}" class="button">Run Tests Again</a></li>
+      <li><a href="{{ url_for('display') }}" class="button">Back to Books List</a></li>
+    </ul>
+  </div>
+{% endblock %}

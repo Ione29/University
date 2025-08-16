@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block title %}RDF Graph Visualization{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <h2>RDF Graph Visualization</h2>
+    
+    <div class="card mb-4">
+        <div class="card-body">
+            <form method="POST" enctype="multipart/form-data">
+                <div class="mb-3">
+                    <label for="rdf_file" class="form-label">Upload RDF/XML File</label>
+                    <input type="file" class="form-control" id="rdf_file" name="rdf_file" accept=".rdf,.xml">
+                    <div class="form-text">Upload an RDF/XML file to visualize its graph structure.</div>
+                </div>
+                <button type="submit" class="btn btn-primary">Visualize</button>
+            </form>
+        </div>
+    </div>
+
+    {% if graph_image %}
+    <div class="card mt-4">
+        <div class="card-header">RDF Graph Visualization</div>
+        <div class="card-body text-center">
+            <img src="data:image/png;base64,{{ graph_image }}" class="img-fluid" alt="RDF Graph Visualization">
+        </div>
+    </div>
+    {% endif %}
+
+    {% if triples %}
+    <div class="card mt-4">
+        <div class="card-header">RDF Triples</div>
+        <div class="card-body">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Predicate</th>
+                        <th>Object</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for s, p, o in triples %}
+                    <tr>
+                        <td>{{ s }}</td>
+                        <td>{{ p }}</td>
+                        <td>{{ o }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    {% endif %}
+
+    {% if error %}
+    <div class="alert alert-danger mt-4">
+        {{ error }}
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

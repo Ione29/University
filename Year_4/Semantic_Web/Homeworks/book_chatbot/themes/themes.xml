@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+  <theme>Adventure</theme>
+  <theme>Allegory</theme>
+  <theme>Classic</theme>
+  <theme>Coming-of-Age</theme>
+  <theme>Dystopian</theme>
+  <theme>Epic</theme>
+  <theme>Fantasy</theme>
+  <theme>Gothic</theme>
+  <theme>Historical Fiction</theme>
+  <theme>Horror</theme>
+  <theme>Legal Drama</theme>
+  <theme>Literary Fiction</theme>
+  <theme>Mystery</theme>
+  <theme>Philosophical</theme>
+  <theme>Political Fiction</theme>
+  <theme>Political Satire</theme>
+  <theme>Psychological Fiction</theme>
+  <theme>Romance</theme>
+  <theme>Science Fiction</theme>
+  <theme>Social Satire</theme>
+  <theme>Tragedy</theme>
+</themes>

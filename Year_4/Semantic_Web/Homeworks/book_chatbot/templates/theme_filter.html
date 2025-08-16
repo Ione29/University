@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+  <h2>Filter by Theme</h2>
+  <form method="post">
+    <select name="theme">
+      {% for t in themes %}
+        <option value="{{t}}"
+          {% if t==selected %}selected{% endif %}>
+          {{t}}
+        </option>
+      {% endfor %}
+    </select>
+    <button>Filter</button>
+  </form>
+  {% if books is not none %}
+    <ul>
+      {% for b in books %}
+        <li><a href="{{ url_for('book_detail', bid=b.get('id')) }}">
+          {{ b.findtext('title') }}
+        </a></li>
+      {% endfor %}
+      {% if not books %}<li>No matches.</li>{% endif %}
+    </ul>
+  {% endif %}
+{% endblock %}

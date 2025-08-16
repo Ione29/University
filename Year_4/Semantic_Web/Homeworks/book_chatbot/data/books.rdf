@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ex="http://example.org/books#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://example.org/books/TestBook">
+    <rdf:type rdf:resource="http://example.org/books#Book"/>
+    <ex:hasTitle>TestBook</ex:hasTitle>
+    <ex:hasGenre>Allegory</ex:hasGenre>
+    <ex:hasGenre>Epic</ex:hasGenre>
+    <ex:hasReadingLevel>Advanced</ex:hasReadingLevel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/books/Testing1">
+    <rdf:type rdf:resource="http://example.org/books#Book"/>
+    <ex:hasTitle>Testing1</ex:hasTitle>
+    <ex:hasGenre>Adventure</ex:hasGenre>
+    <ex:hasGenre>Literary Fiction</ex:hasGenre>
+    <ex:hasReadingLevel>Beginner</ex:hasReadingLevel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/books/Hunger_Games">
+    <ex:hasGenre>Adventure</ex:hasGenre>
+    <ex:hasGenre>Dystopian</ex:hasGenre>
+    <ex:hasReadingLevel>Advanced</ex:hasReadingLevel>
+    <rdf:type rdf:resource="http://example.org/books#Book"/>
+    <ex:hasTitle>Hunger Games</ex:hasTitle>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/books/HungerGames">
+    <rdf:type rdf:resource="http://example.org/books#Book"/>
+    <ex:hasTitle>Hunger Games</ex:hasTitle>
+    <ex:hasGenre>Dystopian</ex:hasGenre>
+    <ex:hasGenre>Adventure</ex:hasGenre>
+    <ex:hasReadingLevel>Beginner</ex:hasReadingLevel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/books/Harry_Potter">
+    <rdf:type rdf:resource="http://example.org/books#Book"/>
+    <ex:hasTitle>Harry Potter</ex:hasTitle>
+    <ex:hasGenre>Fantasy</ex:hasGenre>
+    <ex:hasGenre>Adventure</ex:hasGenre>
+    <ex:hasReadingLevel>Intermediate</ex:hasReadingLevel>
+  </rdf:Description>
+</rdf:RDF>

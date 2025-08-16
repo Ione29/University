@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ex="http://example.org/books#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+  <!-- Users -->
+  <ex:User rdf:about="http://example.org/users/Alice">
+    <ex:hasReadingLevel>Intermediate</ex:hasReadingLevel>
+    <ex:hasPreferredTheme>Science Fiction</ex:hasPreferredTheme>
+  </ex:User>
+
+  <ex:User rdf:about="http://example.org/users/Bob">
+    <ex:hasReadingLevel>Beginner</ex:hasReadingLevel>
+    <ex:hasPreferredTheme>Mystery</ex:hasPreferredTheme>
+  </ex:User>
+
+  <!-- Books -->
+  <ex:Book rdf:about="http://example.org/books/Dune">
+    <ex:hasGenre>Science Fiction</ex:hasGenre>
+    <ex:hasGenre>Fantasy</ex:hasGenre>
+    <ex:hasReadingLevel>Advanced</ex:hasReadingLevel>
+  </ex:Book>
+
+  <ex:Book rdf:about="http://example.org/books/TheSilentPatient">
+    <ex:hasGenre>Mystery</ex:hasGenre>
+    <ex:hasGenre>Murder</ex:hasGenre>
+    <ex:hasReadingLevel>Intermediate</ex:hasReadingLevel>
+  </ex:Book>
+
+  <ex:Book rdf:about="http://example.org/books/HungerGames">
+    <ex:hasGenre>Science Fiction</ex:hasGenre>
+    <ex:hasGenre>Fantasy</ex:hasGenre>
+    <ex:hasReadingLevel>Beginner</ex:hasReadingLevel>
+  </ex:Book>
+
+</rdf:RDF>
